@@ -1,0 +1,75 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "にほんご（＿）　すこし　わかります。",
+      "options": ["1. が", "2. に", "3. を", "4. と"],
+      "answer": "1. が",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～が わかる</strong> - to understand something</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「日本語<strong>が</strong>わかります」 = “I understand Japanese.”</p><ul><li><strong>に</strong> - used for direction, not subject</li><li><strong>を</strong> - object marker (often incorrect with “わかる”)</li><li><strong>と</strong> - “with” or “and,” not used here</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>が</strong>.<ul><li><strong>に</strong> - used for direction, not subject</li><li><strong>を</strong> - object marker (often incorrect with “わかる”)</li><li><strong>と</strong> - “with” or “and,” not used here</li></ul></p>"
+      }
+    },
+    {
+      "question": "まいばん　おふろ（＿）　はいります。",
+      "options": ["1. に", "2. を", "3. が", "4. と"],
+      "answer": "1. に",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～に はいる</strong> - to enter or take (a bath, etc.)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「おふろ<strong>に</strong>はいります」 = “I take a bath.”</p><ul><li><strong>を</strong> - object marker, not used with “はいる”</li><li><strong>が</strong> - subject marker</li><li><strong>と</strong> - “with” or “and”</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>に</strong>.<ul><li><strong>を</strong> - object marker, not used with “はいる”</li><li><strong>が</strong> - subject marker</li><li><strong>と</strong> - “with” or “and”</li></ul></p>"
+      }
+    },
+    {
+      "question": "あした　プール（＿）　およぎます。",
+      "options": ["1. を", "2. に", "3. で", "4. が"],
+      "answer": "3. で",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～で およぐ</strong> - to swim at a location</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「プール<strong>で</strong>およぎます」 = “I will swim at the pool.”</p><ul><li><strong>を</strong> - object marker</li><li><strong>に</strong> - direction, destination</li><li><strong>が</strong> - subject marker</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>で</strong>.<ul><li><strong>を</strong> - object marker</li><li><strong>に</strong> - direction, destination</li><li><strong>が</strong> - subject marker</li></ul></p>"
+      }
+    },
+    {
+      "question": "きょうしつ（＿）　はいってください。",
+      "options": ["1. を", "2. に", "3. が", "4. で"],
+      "answer": "2. に",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～に はいる</strong> - to enter into a place</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「教室<strong>に</strong>入ってください」 = “Please enter the classroom.”</p><ul><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker</li><li><strong>で</strong> - place of action, not used with “はいる”</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>に</strong>.<ul><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker</li><li><strong>で</strong> - place of action, not used with “はいる”</li></ul></p>"
+      }
+    },
+    {
+      "question": "きのう　六時（＿）　おきました。",
+      "options": ["1. が", "2. で", "3. を", "4. に"],
+      "answer": "4. に",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～に おきる</strong> - to wake up at a time</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「六時<strong>に</strong>起きました」 = “I woke up at 6 o'clock.”</p><ul><li><strong>が</strong> - subject marker</li><li><strong>で</strong> - place of action</li><li><strong>を</strong> - object marker</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>に</strong>.<ul><li><strong>が</strong> - subject marker</li><li><strong>で</strong> - place of action</li><li><strong>を</strong> - object marker</li></ul></p>"
+      }
+    },
+    {
+      "question": "としょかん（＿）　ほんを　かりました。",
+      "options": ["1. に", "2. で", "3. を", "4. が"],
+      "answer": "2. で",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～で かりる</strong> - to borrow something at a location</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「図書館<strong>で</strong>借りました」 = “I borrowed it at the library.”</p><ul><li><strong>に</strong> - destination or direction</li><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>で</strong>.<ul><li><strong>に</strong> - destination or direction</li><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker</li></ul></p>"
+      }
+    },
+    {
+      "question": "この しゃしん（＿）　だれが　とりましたか？",
+      "options": ["1. は", "2. を", "3. に", "4. が"],
+      "answer": "1. は",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～は</strong> - topic marker, used for emphasis in questions</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「この写真<strong>は</strong>だれがとりましたか？」 = “Who took this picture?”</p><ul><li><strong>を</strong> - object marker</li><li><strong>に</strong> - direction or recipient</li><li><strong>が</strong> - subject marker for 'who'</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>は</strong>.<ul><li><strong>を</strong> - object marker</li><li><strong>に</strong> - direction or recipient</li><li><strong>が</strong> - subject marker for 'who'</li></ul></p>"
+      }
+    }
+  ]
+}

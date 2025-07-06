@@ -1,0 +1,65 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "授業が終わったら、宿題を（＿）ください。",
+      "options": ["1. 出して", "2. 飛んで", "3. 折って", "4. 歌って"],
+      "answer": "1. 出して",
+      "hint": "<p><ruby>出<rt>だ</rt></ruby>す (dasu) - to submit<br><ruby>宿題<rt>しゅくだい</rt></ruby> (shukudai) - homework</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>出して</strong> (dashite) means 'to submit.' It is commonly used when turning in homework to the teacher.</p><ul><li><ruby>飛<rt>と</rt></ruby>んで – to fly (tonde)</li><li><ruby>折<rt>お</rt></ruby>って – to fold (otte)</li><li><ruby>歌<rt>うた</rt></ruby>って – to sing (utatte)</li></ul><p><strong>Sentence meaning:</strong> Please submit your homework after class.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>出<rt>だ</rt></ruby>して</strong> (dashite), which means 'to turn in or submit something.'</p><ul><li><ruby>飛<rt>と</rt></ruby>んで – to fly (tonde)</li><li><ruby>折<rt>お</rt></ruby>って – to fold (otte)</li><li><ruby>歌<rt>うた</rt></ruby>って – to sing (utatte)</li></ul><p><strong>Sentence meaning:</strong> Please submit your homework after class.</p>"
+      }
+    },
+    {
+      "question": "この料理は塩が（＿）すぎて食べられません。",
+      "options": ["2. 多", "1. 遅く", "3. 高く", "4. 暗く"],
+      "answer": "2. 多",
+      "hint": "<p><ruby>多<rt>おお</rt></ruby>い (ooi) - many, much<br><ruby>塩<rt>しお</rt></ruby> (shio) - salt</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>多</strong> (oo) means 'too much.' When a dish has too much salt, it can be hard to eat.</p><ul><li><ruby>遅<rt>おそ</rt></ruby>く – slow/late (osoku)</li><li><ruby>高<rt>たか</rt></ruby>く – expensive/high (takaku)</li><li><ruby>暗<rt>くら</rt></ruby>く – dark (kuraku)</li></ul><p><strong>Sentence meaning:</strong> This dish has too much salt, so I can't eat it.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>2. <ruby>多<rt>おお</rt></ruby></strong> (oo), which means 'too much.'</p><ul><li><ruby>遅<rt>おそ</rt></ruby>く – slow/late (osoku)</li><li><ruby>高<rt>たか</rt></ruby>く – expensive/high (takaku)</li><li><ruby>暗<rt>くら</rt></ruby>く – dark (kuraku)</li></ul><p><strong>Sentence meaning:</strong> This dish has too much salt, so I can't eat it.</p>"
+      }
+    },
+    {
+      "question": "弟の誕生日にケーキを（＿）あげました。",
+      "options": ["3. 作って", "4. 呼んで", "1. 折って", "2. 開けて"],
+      "answer": "3. 作って",
+      "hint": "<p><ruby>作<rt>つく</rt></ruby>る (tsukuru) - to make<br><ruby>誕生日<rt>たんじょうび</rt></ruby> (tanjoubi) - birthday</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>作って</strong> (tsukutte) means 'to make.' This sentence means the speaker made a cake for their younger brother's birthday.</p><ul><li><ruby>折<rt>お</rt></ruby>って – to fold (otte)</li><li><ruby>開<rt>あ</rt></ruby>けて – to open (akete)</li><li><ruby>呼<rt>よ</rt></ruby>んで – to call (yonde)</li></ul><p><strong>Sentence meaning:</strong> I made a cake for my younger brother's birthday.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>3. <ruby>作<rt>つく</rt></ruby>って</strong> (tsukutte), meaning 'to make something.'</p><ul><li><ruby>折<rt>お</rt></ruby>って – to fold (otte)</li><li><ruby>開<rt>あ</rt></ruby>けて – to open (akete)</li><li><ruby>呼<rt>よ</rt></ruby>んで – to call (yonde)</li></ul><p><strong>Sentence meaning:</strong> I made a cake for my younger brother's birthday.</p>"
+      }
+    },
+    {
+      "question": "この店はよく昼の時間に（＿）います。",
+      "options": ["3. 混んで", "1. 泳いで", "2. 太って", "4. 開けて"],
+      "answer": "3. 混んで",
+      "hint": "<p><ruby>込<rt>こ</rt></ruby>む (komu) - to be crowded<br><ruby>店<rt>みせ</rt></ruby> (mise) - shop<br><ruby>昼<rt>ひる</rt></ruby> (hiru) - noon/lunchtime</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>込んで</strong> (konde) means 'crowded.' It is often used when referring to busy restaurants or public places.</p><ul><li><ruby>泳<rt>およ</rt></ruby>いで – to swim (oyoide)</li><li><ruby>太<rt>ふと</rt></ruby>って – to gain weight (futotte)</li><li><ruby>開<rt>あ</rt></ruby>けて – to open (akete)</li></ul><p><strong>Sentence meaning:</strong> This shop is often crowded at lunchtime.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>3. <ruby>込<rt>こ</rt></ruby>んで</strong> (konde), meaning 'to be crowded.'</p><ul><li><ruby>泳<rt>およ</rt></ruby>いで – to swim (oyoide)</li><li><ruby>太<rt>ふと</rt></ruby>って – to gain weight (futotte)</li><li><ruby>開<rt>あ</rt></ruby>けて – to open (akete)</li></ul><p><strong>Sentence meaning:</strong> This shop is often crowded at lunchtime.</p>"
+      }
+    },
+    {
+      "question": "昨日はとても寒かったので、暖房を（＿）まま寝ました。",
+      "options": ["4. つけた", "2. 抜いた", "3. 押した", "1. 書いた"],
+      "answer": "4. つけた",
+      "hint": "<p><ruby>暖房<rt>だんぼう</rt></ruby> (danbou) - heater<br><ruby>つける</ruby> (tsukeru) - to turn on (electric device)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>つけた</strong> (tsuketa) means 'turned on.' In this context, it refers to leaving the heater on while sleeping.</p><ul><li><ruby>書<rt>か</rt></ruby>いた – wrote (kaita)</li><li><ruby>抜<rt>ぬ</rt></ruby>いた – pulled out (nuita)</li><li><ruby>押<rt>お</rt></ruby>した – pushed (oshita)</li></ul><p><strong>Sentence meaning:</strong> Yesterday was so cold that I slept with the heater turned on.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>4. <ruby>つけた</ruby></strong> (tsuketa), which means 'turned on.'</p><ul><li><ruby>書<rt>か</rt></ruby>いた – wrote (kaita)</li><li><ruby>抜<rt>ぬ</rt></ruby>いた – pulled out (nuita)</li><li><ruby>押<rt>お</rt></ruby>した – pushed (oshita)</li></ul><p><strong>Sentence meaning:</strong> Yesterday was so cold that I slept with the heater turned on.</p>"
+      }
+    },
+    {
+      "question": "明日の試験のために、早く（＿）つもりです。",
+      "options": ["1. 寝る", "2. 飲む", "3. 泳ぐ", "4. 読む"],
+      "answer": "1. 寝る",
+      "hint": "<p><ruby>寝<rt>ね</rt></ruby>る (neru) - to sleep<br><ruby>試験<rt>しけん</rt></ruby> (shiken) - exam</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>寝る</strong> (neru) means 'to sleep.' It's common to sleep early before an important event like an exam.</p><ul><li><ruby>飲<rt>の</rt></ruby>む – to drink (nomu)</li><li><ruby>泳<rt>およ</rt></ruby>ぐ – to swim (oyogu)</li><li><ruby>読<rt>よ</rt></ruby>む – to read (yomu)</li></ul><p><strong>Sentence meaning:</strong> I plan to go to bed early for tomorrow’s exam.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>寝<rt>ね</rt></ruby>る</strong> (neru), which means 'to sleep.'</p><ul><li><ruby>飲<rt>の</rt></ruby>む – to drink (nomu)</li><li><ruby>泳<rt>およ</rt></ruby>ぐ – to swim (oyogu)</li><li><ruby>読<rt>よ</rt></ruby>む – to read (yomu)</li></ul><p><strong>Sentence meaning:</strong> I plan to go to bed early for tomorrow’s exam.</p>"
+      }
+    }
+  ]
+}

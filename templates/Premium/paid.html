@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Membership — Totally FREE!</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+    body {
+      margin: 0;
+      padding: 0;
+      background-attachment: fixed;
+      background: 
+    linear-gradient(rgba(255, 247, 230, 0.7), rgba(255, 247, 230, 0.7)),
+    url('static/images/manga_bg.png') center/cover no-repeat;
+      font-family: 'Permanent Marker', cursive;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      overflow-x: hidden;
+    }
+    h1 {
+      font-size: 2.5rem;
+      text-shadow: 2px 2px #fff;
+      margin: 10px 0;
+      background: #fff8;
+      padding: 10px 20px;
+      border-radius: 12px;
+    }
+    .surprise {
+      font-size: 2rem;
+      color: #ff4081;
+      margin: 20px 0;
+      opacity: 0;
+      animation: popSurprise 1s ease-out forwards;
+      animation-fill-mode: forwards;
+    }
+    @keyframes popSurprise {
+      0% { transform: scale(0.5); opacity: 0; }
+      60% { transform: scale(1.2); opacity: 1; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+    .section {
+      width: 100%;
+      max-width: 800px;
+      background: rgba(255,255,255,0.95);
+      border: 3px solid #ff4081;
+      border-radius: 16px;
+      padding: 20px;
+      margin: 20px 0;
+      position: relative;
+      text-align: center;
+      overflow: hidden;
+    }
+    .section h2 {
+      font-size: 2rem;
+      color: #ff4081;
+      margin-bottom: 12px;
+    }
+    .content-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+      gap: 20px;
+    }
+    .discount-container {
+      flex: 1;
+      min-width: 300px;
+    }
+    .discount-list {
+      text-align: left;
+      font-size: 1.3rem;
+      line-height: 1.8;
+    }
+
+    .discount-item {
+      text-decoration: line-through;
+      color: gray;
+      margin-bottom: 5px;
+    }
+
+    .highlight {
+      color: #4caf50;
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .section p {
+      font-size: 1.2rem;
+      margin: 8px 0;
+    }
+    .btn-free, .btn-donate {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 12px;
+      text-decoration: none;
+      box-shadow: 2px 2px #888;
+    }
+    .btn-free {
+      margin-top: 30px;
+      background: #4caf50;
+      color: white;
+      padding: 12px 24px;
+      font-size: 1.3rem;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 2px 2px #888;
+    }
+    .btn-donate {
+      background: #ff4081;
+      color: #fff;
+    }
+    .penguin {
+      width: 250px;
+      max-width: 100%;
+      animation: popIn 1s ease-out forwards;
+    }
+    @keyframes popIn {
+      0% { transform: translateY(200%) scale(0.2); opacity: 0; }
+      60% { transform: translateY(-10%) scale(1.1); opacity: 1; }
+      100% { transform: translateY(0) scale(1); }
+    }
+    #free-study .penguin { animation-delay: 0.5s; }
+    #donate .penguin { animation-delay: 1s; }
+    
+    .touka-penguin {
+      width: 300px;
+      max-width: 100%;
+      transform: rotate(30deg);
+      animation: popIn 1s ease-out forwards;
+    }
+    
+    .penguin-container {
+      flex: 1;
+      min-width: 300px;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 2rem; }
+      .section { padding: 16px; }
+      .section h2 { font-size: 1.6rem; }
+      .discount-list { text-align: center; }
+      .btn-free { font-size: 1.1rem; padding: 10px 20px; }
+      .content-wrapper {
+        flex-direction: column;
+      }
+      .discount-container, .penguin-container {
+        min-width: 100%;
+      }
+    }
+    .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  </style>
+</head>
+<body>
+
+  <h1 class="fade-in">✨ Premium Membership?</h1>
+  <div class="surprise fade-in">Wait... It's actually ALL FREE!!!! 🎉🎉🎉</div>
+
+  <div class="section fade-in" id="free-study">
+    <h2>🎓 Learn Japanese for Free!</h2>
+    <p>All premium lessons, quizzes, and resources are <strong>100% FREE</strong>!</p>
+    <div class="content-wrapper">
+      <div class="discount-container">
+        <div class="discount-list">
+          <div><span class="discount-item">Private Lessons $52</span> → <strong>$0</strong></div>
+          <div><span class="discount-item">Book Materials $45</span> → <strong>$0</strong></div>
+          <div><span class="discount-item">Monthly Subscription $15</span> → <strong>$0</strong></div>
+          <div class="highlight">Total Monthly Savings: $112!! 🎉</div>
+        </div>
+        <a href="{{ url_for('unlock_features') }}" class="btn-free">Start Learning</a>
+      </div>
+      <div class="penguin-container">
+        <img src="{{ url_for('static', filename='images/touka.png') }}" alt="Surprised Penguin" class="touka-penguin">
+      </div>
+    </div>
+  </div>
+
+  <div class="section fade-in" id="donate">
+    <h2>💖 Help Us Keep It Free!</h2>
+    <p>If you love it, consider supporting us!✨</p>
+    <a href="{{ url_for('donation_home') }}" class="btn-donate">Become a Donor</a>
+    <img src="{{ url_for('static', filename='images/penimp.png') }}"alt="Cute Penguin" class="penguin">
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const fadeElements = document.querySelectorAll('.fade-in');
+    
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, {
+        threshold: 0.2 // 要素が20%見えたら発火
+      });
+    
+      fadeElements.forEach(el => observer.observe(el));
+    });
+    </script>
+</body>
+</html>
+
+

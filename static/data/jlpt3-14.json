@@ -1,0 +1,55 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "この道をまっすぐ行くと、左にコンビニが（　　　）。",
+      "options": ["1. 見えます", "2. 聞こえます", "3. 作ります", "4. 入れます"],
+      "answer": "1. 見えます",
+      "hint": "<p><ruby>道<rt>みち</rt></ruby> (michi) – road<br><ruby>まっすぐ</ruby> (massugu) – straight<br><ruby>見えます<rt>みえます</rt></ruby> (miemasu) – can be seen</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『見えます』 means 'can be seen' and fits naturally when describing something visible along the way.</p><ul><li>1. 見えます – can be seen (見えます, miemasu)</li><li>2. 聞こえます – can be heard (聞こえます, kikoemasu)</li><li>3. 作ります – to make (作ります, tsukurimasu)</li><li>4. 入れます – to put in (入れます, iremasu)</li></ul><p><strong>English Translation:</strong> If you go straight along this road, you can see a convenience store on the left.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 1. 見えます (miemasu) – can be seen<br>The other choices do not fit the context of visually noticing a building ahead.</p>"
+      }
+    },
+    {
+      "question": "友だちにプレゼントを（　　　）、とてもよろこばれました。",
+      "options": ["1. あげたら", "2. もらったら", "3. ならったら", "4. おくれたら"],
+      "answer": "1. あげたら",
+      "hint": "<p><ruby>友だち<rt>ともだち</rt></ruby> (tomodachi) – friend<br><ruby>喜ばれました<rt>よろこばれました</rt></ruby> (yorokobaremashita) – was pleased</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『あげたら』 means 'if I gave'. It explains why the friend was happy.</p><ul><li>1. あげたら – if I gave (あげる, ageru)</li><li>2. もらったら – if I received (もらう, morau)</li><li>3. ならったら – if I learned (ならう, narau)</li><li>4. おくれたら – if I was late (おくれる, okureru)</li></ul><p><strong>English Translation:</strong> When I gave my friend a gift, they were very happy.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 1. あげたら (ageru) – if I gave<br>Only this makes sense with someone else being pleased.</p>"
+      }
+    },
+    {
+      "question": "パーティーの前に、部屋を（　　　）おきます。",
+      "options": ["1. そうじして", "2. ならべて", "3. つけて", "4. たべて"],
+      "answer": "1. そうじして",
+      "hint": "<p><ruby>部屋<rt>へや</rt></ruby> (heya) – room<br><ruby>掃除<rt>そうじ</rt></ruby> (souji) – cleaning<br><ruby>おきます</ruby> (okimasu) – to prepare in advance</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『そうじして』 means 'clean (the room)'. It makes sense before a party as preparation.</p><ul><li>1. そうじして – cleaning (掃除して, souji shite)</li><li>2. ならべて – arranging (並べて, narabete)</li><li>3. つけて – turning on (付けて, tsukete)</li><li>4. たべて – eating (食べて, tabete)</li></ul><p><strong>English Translation:</strong> I will clean the room before the party.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 1. そうじして (souji shite) – cleaning<br>Other actions may occur before a party, but cleaning is the most essential and logical.</p>"
+      }
+    },
+    {
+      "question": "道にまよったときは、地図で（　　　）みましょう。",
+      "options": ["1. たしかめて", "2. おどろいて", "3. しんじて", "4. わすれて"],
+      "answer": "1. たしかめて",
+      "hint": "<p><ruby>道<rt>みち</rt></ruby> (michi) – road<br><ruby>地図<rt>ちず</rt></ruby> (chizu) – map<br><ruby>確かめて<rt>たしかめて</rt></ruby> (tashikamete) – to confirm</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『たしかめて』 means 'confirm/check'. Checking a map is a good action when lost.</p><ul><li>1. たしかめて – to confirm (確かめて, tashikamete)</li><li>2. おどろいて – to be surprised (驚いて, odoroite)</li><li>3. しんじて – to believe (信じて, shinjite)</li><li>4. わすれて – to forget (忘れて, wasurete)</li></ul><p><strong>English Translation:</strong> If you're lost, let’s check the map.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 1. たしかめて (tashikamete) – to confirm<br>The other options don’t offer helpful actions in a lost situation.</p>"
+      }
+    },
+    {
+      "question": "このパソコンは古いけど、まだ（　　　）。",
+      "options": ["1. 使え", "2. 使って", "3. 使われて", "4. 使えます"],
+      "answer": "4. 使えます",
+      "hint": "<p><ruby>使えます<rt>つかえます</rt></ruby> (tsukaemasu) – can be used<br><ruby>古い<rt>ふるい</rt></ruby> (furui) – old</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『使えます』 means 'can still be used'. It fits naturally with an old computer that still works.</p><ul><li>1. 使え – imperative form (使え, tsukae)</li><li>2. 使って – te-form (使って, tsukatte)</li><li>3. 使われて – passive form (使われて, tsukawarete)</li><li>4. 使えます – can be used (使えます, tsukaemasu)</li></ul><p><strong>English Translation:</strong> This computer is old, but it still can be used.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 4. 使えます (tsukaemasu) – can be used<br>Other forms are grammatically incorrect or change the nuance completely.</p>"
+      }
+    }
+  ]
+}

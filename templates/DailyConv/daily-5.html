@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital</title>
+    <style>
+        body {
+            font-family: 'Noto Sans JP', Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f9f5f0;
+            background-image: url("{{ url_for('static', filename='images/docbg.png') }}");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+        }
+        .quiz-container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        .question-section {
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px dashed #8e6c88;
+        }
+        .question-section:last-child {
+            border-bottom: none;
+        }
+        .question-number {
+            font-weight: bold;
+            color: #8e6c88;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .english-sentence {
+            font-size: 1.1em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .dialect-image {
+            max-width: 100%;
+            height: auto;
+            max-height: 300px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border: 3px solid #8e6c88;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .option {
+            display: block;
+            margin: 12px auto;
+            padding: 12px;
+            width: 90%;
+            cursor: pointer;
+            background-color: #f1f1f1;
+            border: none;
+            border-radius: 5px;
+            transition: all 0.3s;
+            text-align: left;
+            font-size: 1em;
+        }
+        .option:hover {
+            background-color: #e0e0e0;
+            transform: translateX(5px);
+        }
+        .correct { 
+            background-color: #8e6c88;
+            color: white;
+            font-weight: bold;
+        }
+        .incorrect { 
+            background-color: #f44336;
+            color: white;
+        }
+        .feedback {
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            display: none;
+            animation: fadeIn 0.5s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .correct-feedback {
+            background-color: rgba(142, 108, 136, 0.1);
+            border-left: 4px solid #8e6c88;
+        }
+        .incorrect-feedback {
+            background-color: rgba(244, 67, 54, 0.1);
+            border-left: 4px solid #f44336;
+        }
+        .explanation {
+            font-size: 0.9em;
+            margin-top: 10px;
+            color: #555;
+            font-style: italic;
+        }
+        .final-button {
+            display: block;
+            margin: 30px auto 10px;
+            padding: 15px 30px;
+            background-color: #ff6b6b;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .final-button:hover {
+            background-color: #ff5252;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        }
+        .translation {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        .menu-btn {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            background-color: #6c7b8b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            z-index: 100;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button class="menu-btn" onclick="window.location.href='/dailyconv'">← Main Menu</button>
+    <div class="quiz-container">
+
+      <!-- Question 1 -->
+<div class="question-section">
+    <div class="question-number">Question 1 of 10</div>
+    <div class="english-sentence">"Do you have an appointment?"</div>
+    <img src="{{ url_for('static', filename='images/appoint.png') }}" alt="Appointment" class="dialect-image">
+    <div class="options">
+      <button class="option" onclick="checkAnswer(this, '1. <ruby>注射<rt>ちゅうしゃ</rt></ruby>はしますか？', 1)">1. <ruby>注射<rt>ちゅうしゃ</rt></ruby>はしますか？</button>
+      <button class="option" onclick="checkAnswer(this, '2. <ruby>診察券<rt>しんさつけん</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れました。', 1)">2. <ruby>診察券<rt>しんさつけん</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れました。</button>
+      <button class="option" onclick="checkAnswer(this, '3. <ruby>予約<rt>よやく</rt></ruby>はありますか？', 1)">3. <ruby>予約<rt>よやく</rt></ruby>はありますか？</button>
+      <button class="option" onclick="checkAnswer(this, '4. <ruby>体温<rt>たいおん</rt></ruby>を<ruby>測<rt>はか</rt></ruby>ってください。', 1)">4. <ruby>体温<rt>たいおん</rt></ruby>を<ruby>測<rt>はか</rt></ruby>ってください。</button>
+    </div>
+    <div class="feedback correct-feedback" id="correct-feedback-1">
+      Correct! <strong>「<ruby>予約<rt>よやく</rt></ruby>はありますか？」</strong> means "Do you have an appointment?"
+      <div class="explanation">This is a standard question at clinics or hospitals to check if the patient booked a time slot in advance.</div>
+    </div>
+    <div class="feedback incorrect-feedback" id="incorrect-feedback-1">
+      Incorrect! The correct answer is <strong>「<ruby>予約<rt>よやく</rt></ruby>はありますか？」</strong>.
+      <div class="explanation">「予約」 means appointment/reservation, and this is a polite way to confirm it.</div>
+    </div>
+  </div>
+  <!-- Question 2 -->
+<div class="question-section">
+    <div class="question-number">Question 2 of 10</div>
+    <div class="english-sentence">"Please wait in the waiting room."</div>
+    <img src="{{ url_for('static', filename='images/waiting.png') }}" alt="Waiting room" class="dialect-image">
+    <div class="options">
+      <button class="option" onclick="checkAnswer(this, '1. <ruby>注射<rt>ちゅうしゃ</rt></ruby>をします。', 2)">1. <ruby>注射<rt>ちゅうしゃ</rt></ruby>をします。</button>
+      <button class="option" onclick="checkAnswer(this, '2. <ruby>待合室<rt>まちあいしつ</rt></ruby>でお<ruby>待<rt>ま</rt></ruby>ちください。', 2)">2. <ruby>待合室<rt>まちあいしつ</rt></ruby>でお<ruby>待<rt>ま</rt></ruby>ちください。</button>
+      <button class="option" onclick="checkAnswer(this, '3. <ruby>会計<rt>かいけい</rt></ruby>をしてください。', 2)">3. <ruby>会計<rt>かいけい</rt></ruby>をしてください。</button>
+      <button class="option" onclick="checkAnswer(this, '4. <ruby>外<rt>そと</rt></ruby>で<ruby>待<rt>ま</rt></ruby>ってください。', 2)">4. <ruby>外<rt>そと</rt></ruby>で<ruby>待<rt>ま</rt></ruby>ってください。</button>
+    </div>
+    <div class="feedback correct-feedback" id="correct-feedback-2">
+      Correct! <strong>「<ruby>待合室<rt>まちあいしつ</rt></ruby>でお<ruby>待<rt>ま</rt></ruby>ちください。」</strong>
+      <div class="explanation">This is a standard polite instruction used in hospitals and clinics.</div>
+    </div>
+    <div class="feedback incorrect-feedback" id="incorrect-feedback-2">
+      Incorrect! The correct answer is <strong>「<ruby>待合室<rt>まちあいしつ</rt></ruby>でお<ruby>待<rt>ま</rt></ruby>ちください。」</strong>.
+      <div class="explanation">「待合室」 means "waiting room", and this is a polite way to ask someone to wait there.</div>
+    </div>
+  </div>
+  <!-- Question 3 -->
+<div class="question-section">
+    <div class="question-number">Question 3 of 10</div>
+    <div class="english-sentence">"Where does it hurt?"</div>
+    <img src="{{ url_for('static', filename='images/flu.png') }}" alt="Where does it hurt" class="dialect-image">
+    <div class="options">
+      <button class="option" onclick="checkAnswer(this, '1. <ruby>どこ<rt>どこ</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>いですか？', 3)">1. <ruby>どこ<rt>どこ</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>いですか？</button>
+      <button class="option" onclick="checkAnswer(this, '2. <ruby>寒<rt>さむ</rt></ruby>いですか？', 3)">2. <ruby>寒<rt>さむ</rt></ruby>いですか？</button>
+      <button class="option" onclick="checkAnswer(this, '3. <ruby>何時<rt>なんじ</rt></ruby>ですか？', 3)">3. <ruby>何時<rt>なんじ</rt></ruby>ですか？</button>
+      <button class="option" onclick="checkAnswer(this, '4. <ruby>食<rt>た</rt></ruby>べましたか？', 3)">4. <ruby>食<rt>た</rt></ruby>べましたか？</button>
+    </div>
+    <div class="feedback correct-feedback" id="correct-feedback-3">
+      Correct! <strong>「<ruby>どこ<rt>どこ</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>いですか？」</strong>
+      <div class="explanation">A simple and commonly used question by doctors and nurses to identify symptoms.</div>
+    </div>
+    <div class="feedback incorrect-feedback" id="incorrect-feedback-3">
+      Incorrect! The correct answer is <strong>「<ruby>どこ<rt>どこ</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>いですか？」</strong>.
+      <div class="explanation">「痛い」 means “hurt,” and this phrase is used to ask where it hurts.</div>
+    </div>
+  </div>
+    <!-- Question 4 -->
+<div class="question-section">
+    <div class="question-number">Question 4 of 10</div>
+    <div class="english-sentence">"Take this medicine after meals."</div>
+    <img src="{{ url_for('static', filename='images/rest.png') }}" alt="Medicine instruction" class="dialect-image">
+    <div class="options">
+      <button class="option" onclick="checkAnswer(this, '1. <ruby>朝<rt>あさ</rt></ruby>にこの<ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んでください。', 4)">1. <ruby>朝<rt>あさ</rt></ruby>にこの<ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んでください。</button>
+      <button class="option" onclick="checkAnswer(this, '2. <ruby>食後<rt>しょくご</rt></ruby>にこの<ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んでください。', 4)">2. <ruby>食後<rt>しょくご</rt></ruby>にこの<ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んでください。</button>
+      <button class="option" onclick="checkAnswer(this, '3. <ruby>今夜<rt>こんや</rt></ruby><ruby>注射<rt>ちゅうしゃ</rt></ruby>します。', 4)">3. <ruby>今夜<rt>こんや</rt></ruby><ruby>注射<rt>ちゅうしゃ</rt></ruby>します。</button>
+      <button class="option" onclick="checkAnswer(this, '4. <ruby>昼<rt>ひる</rt></ruby>は<ruby>食<rt>た</rt></ruby>べないでください。', 4)">4. <ruby>昼<rt>ひる</rt></ruby>は<ruby>食<rt>た</rt></ruby>べないでください。</button>
+    </div>
+    <div class="feedback correct-feedback" id="correct-feedback-4">
+      Correct! <strong>「<ruby>食後<rt>しょくご</rt></ruby>にこの<ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んでください。」</strong>
+      <div class="explanation">「食後」 means "after meals." This phrase is a standard way to give medication instructions.</div>
+    </div>
+    <div class="feedback incorrect-feedback" id="incorrect-feedback-4">
+      Incorrect! The correct answer is <strong>「<ruby>食後<rt>しょくご</rt></ruby>にこの<ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んでください。」</strong>.
+      <div class="explanation">Doctors and pharmacists use this to tell you when to take medicine. 「薬」 means medicine.</div>
+    </div>
+  </div>
+  
+  <!-- Question 5 -->
+  <div class="question-section">
+    <div class="question-number">Question 5 of 10</div>
+    <div class="english-sentence">"Let's take your temperature."</div>
+    <img src="{{ url_for('static', filename='images/tem.png') }}" alt="Temperature check" class="dialect-image">
+    <div class="options">
+      <button class="option" onclick="checkAnswer(this, '1. <ruby>体重<rt>たいじゅう</rt></ruby>を<ruby>測<rt>はか</rt></ruby>りましょう。', 5)">1. <ruby>体重<rt>たいじゅう</rt></ruby>を<ruby>測<rt>はか</rt></ruby>りましょう。</button>
+      <button class="option" onclick="checkAnswer(this, '2. <ruby>注射<rt>ちゅうしゃ</rt></ruby>を<ruby>打<rt>う</rt></ruby>ちます。', 5)">2. <ruby>注射<rt>ちゅうしゃ</rt></ruby>を<ruby>打<rt>う</rt></ruby>ちます。</button>
+      <button class="option" onclick="checkAnswer(this, '3. <ruby>体温<rt>たいおん</rt></ruby>を<ruby>測<rt>はか</rt></ruby>りましょう。', 5)">3. <ruby>体温<rt>たいおん</rt></ruby>を<ruby>測<rt>はか</rt></ruby>りましょう。</button>
+      <button class="option" onclick="checkAnswer(this, '4. <ruby>診察<rt>しんさつ</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>めます。', 5)">4. <ruby>診察<rt>しんさつ</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>めます。</button>
+    </div>
+    <div class="feedback correct-feedback" id="correct-feedback-5">
+      Correct! <strong>「<ruby>体温<rt>たいおん</rt></ruby>を<ruby>測<rt>はか</rt></ruby>りましょう。」</strong> means "Let's take your temperature."
+      <div class="explanation">This is a common phrase at the start of a check-up. 「体温」 means body temperature.</div>
+    </div>
+    <div class="feedback incorrect-feedback" id="incorrect-feedback-5">
+      Incorrect! The correct answer is <strong>「<ruby>体温<rt>たいおん</rt></ruby>を<ruby>測<rt>はか</rt></ruby>りましょう。」</strong>.
+      <div class="explanation">Doctors or nurses say this before using a thermometer. 「測る」 = to measure.</div>
+    </div>
+  </div>
+  
+  <!-- Question 6 -->
+  <div class="question-section">
+    <div class="question-number">Question 6 of 10</div>
+    <div class="english-sentence">"Do you have a fever?"</div>
+    <img src="{{ url_for('static', filename='images/waiting.png') }}" alt="Fever" class="dialect-image">
+    <div class="options">
+      <button class="option" onclick="checkAnswer(this, '1. <ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みましたか？', 6)">1. <ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みましたか？</button>
+      <button class="option" onclick="checkAnswer(this, '2. <ruby>熱<rt>ねつ</rt></ruby>はありますか？', 6)">2. <ruby>熱<rt>ねつ</rt></ruby>はありますか？</button>
+      <button class="option" onclick="checkAnswer(this, '3. <ruby>今日<rt>きょう</rt></ruby>は<ruby>何日<rt>なんにち</rt></ruby>ですか？', 6)">3. <ruby>今日<rt>きょう</rt></ruby>は<ruby>何日<rt>なんにち</rt></ruby>ですか？</button>
+      <button class="option" onclick="checkAnswer(this, '4. <ruby>何歳<rt>なんさい</rt></ruby>ですか？', 6)">4. <ruby>何歳<rt>なんさい</rt></ruby>ですか？</button>
+    </div>
+    <div class="feedback correct-feedback" id="correct-feedback-6">
+      Correct! <strong>「<ruby>熱<rt>ねつ</rt></ruby>はありますか？」</strong> means "Do you have a fever?"
+      <div class="explanation">「熱」 means fever. Doctors check this to see if you're fighting infection or virus.</div>
+    </div>
+    <div class="feedback incorrect-feedback" id="incorrect-feedback-6">
+      Incorrect! The correct answer is <strong>「<ruby>熱<rt>ねつ</rt></ruby>はありますか？」</strong>.
+      <div class="explanation">Useful and simple phrase to check your symptoms quickly at a hospital or clinic.</div>
+    </div>
+  </div>
+  <!-- Question 7 -->
+<div class="question-section">
+    <div class="question-number">Question 7 of 10</div>
+    <div class="english-sentence">"This might be the flu."</div>
+    <img src="{{ url_for('static', filename='images/flu.png') }}" alt="Flu diagnosis" class="dialect-image">
+    <div class="options">
+      <button class="option" onclick="checkAnswer(this, '1. <ruby>花粉症<rt>かふんしょう</rt></ruby>でしょう。', 7)">1. <ruby>花粉症<rt>かふんしょう</rt></ruby>でしょう。</button>
+      <button class="option" onclick="checkAnswer(this, '2. <ruby>元気<rt>げんき</rt></ruby>ですね。', 7)">2. <ruby>元気<rt>げんき</rt></ruby>ですね。</button>
+      <button class="option" onclick="checkAnswer(this, '3. <ruby>注射<rt>ちゅうしゃ</rt></ruby>しましょう。', 7)">3. <ruby>注射<rt>ちゅうしゃ</rt></ruby>しましょう。</button>
+      <button class="option" onclick="checkAnswer(this, '4. <ruby>インフルエンザ</ruby>かもしれません。', 7)">4. <ruby>インフルエンザ</ruby>かもしれません。</button>
+    </div>
+    <div class="feedback correct-feedback" id="correct-feedback-7">
+      Correct! <strong>「<ruby>インフルエンザ</ruby>かもしれません。」</strong> means "It might be the flu."
+      <div class="explanation">A polite way for doctors to express a possible diagnosis without full certainty.</div>
+    </div>
+    <div class="feedback incorrect-feedback" id="incorrect-feedback-7">
+      Incorrect! The correct answer is <strong>「<ruby>インフルエンザ</ruby>かもしれません。」</strong>.
+      <div class="explanation">Used when the symptoms suggest the flu, but test confirmation is pending.</div>
+    </div>
+  </div>
+  
+  <!-- Question 8 -->
+  <div class="question-section">
+    <div class="question-number">Question 8 of 10</div>
+    <div class="english-sentence">"Please show your insurance card."</div>
+    <img src="{{ url_for('static', filename='images/ins.png') }}" alt="Insurance card" class="dialect-image">
+    <div class="options">
+      <button class="option" onclick="checkAnswer(this, '1. <ruby>保険証<rt>ほけんしょう</rt></ruby>を<ruby>見<rt>み</rt></ruby>せてください。', 8)">1. <ruby>保険証<rt>ほけんしょう</rt></ruby>を<ruby>見<rt>み</rt></ruby>せてください。</button>
+      <button class="option" onclick="checkAnswer(this, '2. <ruby>財布<rt>さいふ</rt></ruby>を<ruby>見<rt>み</rt></ruby>せてください。', 8)">2. <ruby>財布<rt>さいふ</rt></ruby>を<ruby>見<rt>み</rt></ruby>せてください。</button>
+      <button class="option" onclick="checkAnswer(this, '3. <ruby>名前<rt>なまえ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いてください。', 8)">3. <ruby>名前<rt>なまえ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いてください。</button>
+      <button class="option" onclick="checkAnswer(this, '4. <ruby>カード<rt></rt></ruby>で<ruby>払<rt>はら</rt></ruby>います。', 8)">4. <ruby>カード</ruby>で<ruby>払<rt>はら</rt></ruby>います。</button>
+    </div>
+    <div class="feedback correct-feedback" id="correct-feedback-8">
+      Correct! <strong>「<ruby>保険証<rt>ほけんしょう</rt></ruby>を<ruby>見<rt>み</rt></ruby>せてください。」</strong>
+      <div class="explanation">Patients in Japan must present their national health insurance card at reception.</div>
+    </div>
+    <div class="feedback incorrect-feedback" id="incorrect-feedback-8">
+      Incorrect! The correct answer is <strong>「<ruby>保険証<rt>ほけんしょう</rt></ruby>を<ruby>見<rt>み</rt></ruby>せてください。」</strong>.
+      <div class="explanation">「保険証」 is the insurance card. Showing it is part of the check-in process.</div>
+    </div>
+  </div>
+  <!-- Question 9 -->
+<div class="question-section">
+    <div class="question-number">Question 9 of 10</div>
+    <div class="english-sentence">"Let's do a blood test."</div>
+    <img src="{{ url_for('static', filename='images/blood.png') }}" alt="Blood test" class="dialect-image">
+    <div class="options">
+      <button class="option" onclick="checkAnswer(this, '1. <ruby>注射<rt>ちゅうしゃ</rt></ruby>を<ruby>打<rt>う</rt></ruby>ちましょう。', 9)">1. <ruby>注射<rt>ちゅうしゃ</rt></ruby>を<ruby>打<rt>う</rt></ruby>ちましょう。</button>
+      <button class="option" onclick="checkAnswer(this, '2. <ruby>血液検査<rt>けつえきけんさ</rt></ruby>をしましょう。', 9)">2. <ruby>血液検査<rt>けつえきけんさ</rt></ruby>をしましょう。</button>
+      <button class="option" onclick="checkAnswer(this, '3. <ruby>点滴<rt>てんてき</rt></ruby>をしましょう。', 9)">3. <ruby>点滴<rt>てんてき</rt></ruby>をしましょう。</button>
+      <button class="option" onclick="checkAnswer(this, '4. <ruby>心電図<rt>しんでんず</rt></ruby>を<ruby>取<rt>と</rt></ruby>りましょう。', 9)">4. <ruby>心電図<rt>しんでんず</rt></ruby>を<ruby>取<rt>と</rt></ruby>りましょう。</button>
+    </div>
+    <div class="feedback correct-feedback" id="correct-feedback-9">
+      Correct! <strong>「<ruby>血液検査<rt>けつえきけんさ</rt></ruby>をしましょう。」</strong> means "Let's do a blood test."
+      <div class="explanation">Often used in regular checkups or diagnostics.</div>
+    </div>
+    <div class="feedback incorrect-feedback" id="incorrect-feedback-9">
+      Incorrect! The correct answer is <strong>「<ruby>血液検査<rt>けつえきけんさ</rt></ruby>をしましょう。」</strong>.
+      <div class="explanation">「血液検査」 = blood test. It’s a common procedure for health evaluation.</div>
+    </div>
+  </div>
+  
+  <!-- Question 10 -->
+  <div class="question-section">
+    <div class="question-number">Question 10 of 10</div>
+    <div class="english-sentence">"You need to rest."</div>
+    <img src="{{ url_for('static', filename='images/rest.png') }}" alt="Rest" class="dialect-image">
+    <div class="options">
+      <button class="option" onclick="checkAnswer(this, '1. <ruby>出勤<rt>しゅっきん</rt></ruby>してください。', 10)">1. <ruby>出勤<rt>しゅっきん</rt></ruby>してください。</button>
+      <button class="option" onclick="checkAnswer(this, '2. <ruby>運動<rt>うんどう</rt></ruby>してください。', 10)">2. <ruby>運動<rt>うんどう</rt></ruby>してください。</button>
+      <button class="option" onclick="checkAnswer(this, '3. <ruby>休<rt>やす</rt></ruby>んでください。', 10)">3. <ruby>休<rt>やす</rt></ruby>んでください。</button>
+      <button class="option" onclick="checkAnswer(this, '4. <ruby>食事<rt>しょくじ</rt></ruby>を<ruby>減<rt>へ</rt></ruby>らしてください。', 10)">4. <ruby>食事<rt>しょくじ</rt></ruby>を<ruby>減<rt>へ</rt></ruby>らしてください。</button>
+    </div>
+    <div class="feedback correct-feedback" id="correct-feedback-10">
+      Correct! <strong>「<ruby>休<rt>やす</rt></ruby>んでください。」</strong> means "Please rest."
+      <div class="explanation">A standard instruction from a doctor when someone is sick or recovering.</div>
+    </div>
+    <div class="feedback incorrect-feedback" id="incorrect-feedback-10">
+      Incorrect! The correct answer is <strong>「<ruby>休<rt>やす</rt></ruby>んでください。」</strong>.
+      <div class="explanation">「休む」 means to rest. Doctors often say this at the end of a consultation.</div>
+    </div>
+  </div>
+    <script>
+        let answeredQuestions = 0;
+        const totalQuestions = 10;
+
+        function checkAnswer(btn, selectedOption, questionNum) {
+            const correctAnswers = [
+                "3. <ruby>予約<rt>よやく</rt></ruby>はありますか？",
+                "2. <ruby>待合室<rt>まちあいしつ</rt></ruby>でお<ruby>待<rt>ま</rt></ruby>ちください。",
+                "1. <ruby>どこ<rt>どこ</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>いですか？",
+                "2. <ruby>食後<rt>しょくご</rt></ruby>にこの<ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んでください。",
+                "3. <ruby>体温<rt>たいおん</rt></ruby>を<ruby>測<rt>はか</rt></ruby>りましょう。",
+                "2. <ruby>熱<rt>ねつ</rt></ruby>はありますか？",
+                "4. <ruby>インフルエンザ</ruby>かもしれません。",
+                "1. <ruby>保険証<rt>ほけんしょう</rt></ruby>を<ruby>見<rt>み</rt></ruby>せてください。",
+                "2. <ruby>血液検査<rt>けつえきけんさ</rt></ruby>をしましょう。",
+                "3. <ruby>休<rt>やす</rt></ruby>んでください。"
+
+            ];
+            
+            const isCorrect = (selectedOption === correctAnswers[questionNum - 1]);
+            
+            // Disable all options in this question
+            const questionSection = btn.closest('.question-section');
+            questionSection.querySelectorAll('.option').forEach(option => {
+                option.disabled = true;
+            });
+            
+            if (isCorrect) {
+               btn.classList.add("correct");
+               questionSection.querySelector(`#correct-feedback-${questionNum}`).style.display = 'block';
+               triggerConfetti();  
+            } else {
+                btn.classList.add("incorrect");
+                // Highlight correct answer
+                questionSection.querySelectorAll('.option').forEach(option => {
+                    if (option.textContent.includes(correctAnswers[questionNum - 1])) {
+                        option.classList.add("correct");
+                    }
+                });
+                questionSection.querySelector(`#incorrect-feedback-${questionNum}`).style.display = 'block';
+            }
+            
+            answeredQuestions++;
+            if (answeredQuestions === totalQuestions) {
+                setTimeout(() => {
+                    document.getElementById('final-section').style.display = 'block';
+                    // Smooth scroll to the button
+                    document.getElementById('final-section').scrollIntoView({ behavior: 'smooth' });
+                }, 500);
+            }
+        }
+        function triggerConfetti() {
+    // Use a unique instance or multiple bursts for stronger effect
+    confetti({
+        particleCount: 80,
+        spread: 100,
+        origin: { y: 0.5 },
+        zIndex: 9999
+    });
+    
+    // Optional: multiple bursts for a more lively effect
+    setTimeout(() => {
+        confetti({
+            particleCount: 60,
+            spread: 80,
+            origin: { y: 0.6 },
+            zIndex: 9999
+        });
+    }, 150);
+}
+
+    </script>
+</body>
+</html>

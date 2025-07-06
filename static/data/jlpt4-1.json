@@ -1,0 +1,56 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "毎朝７時に（＿）。",
+        "options": ["1. おきます", "2. ねます", "3. やすみます", "4. おわります"],
+        "answer": "1. おきます",
+        "hint": "<p><strong>Time + に</strong> - indicates specific time<br><strong>毎朝（まいあさ）</strong> - every morning</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「まいあさ７時に<strong>おきます</strong>」 means \"I wake up at 7 every morning.\"</p><ul><li>ねます - sleep</li><li>やすみます - rest</li><li>おわります - finish</li></ul>",
+          "incorrect": "<p><strong>Incorrect</strong><br>Only <strong>おきます</strong> makes sense as the action for \"every morning at 7.\"</p>"
+        }
+      },
+      {
+        "question": "きのうデパートでシャツを（＿）。",
+        "options": ["3. 買いました", "2. 作りました", "1. 歩きました", "4. 飲みました"],
+        "answer": "3. 買いました",
+        "hint": "<p><strong>Place + で</strong> - action location<br><strong>Object + を</strong> - direct object marker</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「シャツを買いました」 means \"I bought a shirt.\"</p><ul><li>作りました - made</li><li>歩きました - walked</li><li>飲みました - drank</li></ul>",
+          "incorrect": "<p><strong>Incorrect</strong><br>「買いました」 is the only logical action for shopping.</p>"
+        }
+      },
+      {
+        "question": "駅（＿）電車にのります。",
+        "options": ["1. で", "2. に", "3. を", "4. の"],
+        "answer": "1. で",
+        "hint": "<p><strong>Place + で</strong> - where the action takes place<br>電車にのる - board a train</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「駅で電車にのります」 means \"I board the train at the station.\"</p><ul><li>に - destination marker</li><li>を - object marker</li><li>の - possessive \"of\"</li></ul>",
+          "incorrect": "<p><strong>Incorrect</strong><br>「で」 is used to show where the action happens, in this case, boarding at the station.</p>"
+        }
+      },
+      {
+        "question": "この本は（＿）です。",
+        "options": ["1. 重い", "2. 遠い", "3. 低い", "4. 近い"],
+        "answer": "1. 重い",
+        "hint": "<p>Noun + は + Adjective<br>Books are often described by weight or thickness.</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「重い（おもい）」 means \"heavy\" — a natural adjective for books.</p><ul><li>遠い - far</li><li>低い - low</li><li>近い - near</li></ul>",
+          "incorrect": "<p><strong>Incorrect</strong><br>「重い」 fits the context best for describing a book’s physical feature.</p>"
+        }
+      },
+      {
+        "question": "友達とレストラン（＿）ご飯を食べます。",
+        "options": ["1. で", "2. に", "3. へ", "4. を"],
+        "answer": "1. で",
+        "hint": "<p><strong>Place + で</strong> - action location<br>Person + と - \"with\"</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「レストランで」 means \"at the restaurant\" — where the action occurs.</p><ul><li>に - destination</li><li>へ - direction</li><li>を - object marker</li></ul>",
+          "incorrect": "<p><strong>Incorrect</strong><br>「で」 correctly marks the place where the eating happens.</p>"
+        }
+      }
+    ]
+  }
+  

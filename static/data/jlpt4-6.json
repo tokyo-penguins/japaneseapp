@@ -1,0 +1,55 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "この書類を部長に提出する前に、その機械で（＿）を取ってください。",
+      "options": ["1. 確認", "2. コピー", "3. 修正", "4. 破棄"],
+      "answer": "2. コピー",
+      "hint": "<p>書類（しょるい, shorui） - document<br>提出（ていしゅつ, teishutsu） - submission<br>部長（ぶちょう, buchou） - department head</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「コピーを取って」 means \"make a copy.\"<ul><li>確認 - check</li><li>修正 - correction</li><li>破棄 - discard</li></ul><p><strong>Sentence meaning:</strong> Please make a copy using that machine before submitting the document to the department head.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>コピー</strong> - making a copy before submission.<br><strong>Sentence meaning:</strong> Please make a copy using that machine before submitting the document to the department head.</p>"
+      }
+    },
+    {
+      "question": "会議室の予約を1時間（＿）したいのですが、可能ですか？",
+      "options": ["1. 変える", "2. 短縮", "3. 延長", "4. 中止"],
+      "answer": "3. 延長",
+      "hint": "<p>会議室（かいぎしつ, kaigishitsu） - meeting room<br>予約（よやく, yoyaku） - reservation<br>延長（えんちょう, enchou） - extension</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「延長」 means \"extension.\"<ul><li>変える - change</li><li>短縮 - shorten</li><li>中止 - cancel</li></ul><p><strong>Sentence meaning:</strong> I'd like to extend the meeting room reservation by one hour. Is that possible?</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>延長</strong> - appropriate for lengthening reservation time.<br><strong>Sentence meaning:</strong> I'd like to extend the meeting room reservation by one hour. Is that possible?</p>"
+      }
+    },
+    {
+      "question": "この機械の使い方が分からないので、（＿）を読んでいます。",
+      "options": ["1. 修理", "2. 説明書", "3. 設置", "4. 点検"],
+      "answer": "2. 説明書",
+      "hint": "<p>機械（きかい, kikai） - machine<br>説明書（せつめいしょ, setsumeisho） - manual</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「説明書」 means \"manual.\"<ul><li>修理 - repair</li><li>設置 - installation</li><li>点検 - inspection</li></ul><p><strong>Sentence meaning:</strong> I don't know how to use this machine, so I'm reading the manual.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>説明書</strong> - appropriate for learning operation method.<br><strong>Sentence meaning:</strong> I don't know how to use this machine, so I'm reading the manual.</p>"
+      }
+    },
+    {
+      "question": "明日の出張に必要な書類はすべて（＿）できましたか？",
+      "options": ["1. 整理", "2. 準備", "3. 確認", "4. 定時"],
+      "answer": "2. 準備",
+      "hint": "<p>出張（しゅっちょう, shutchou） - business trip<br>必要（ひつよう, hitsuyou） - necessary<br>書類（しょるい, shorui） - documents</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「準備」 means \"preparation.\"<ul><li>整理 - organize</li><li>確認 - check</li><li>定時 - fixed time</li></ul><p><strong>Sentence meaning:</strong> Have you finished preparing all the necessary documents for tomorrow's business trip?</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>準備</strong> - meaning getting things ready.<br><strong>Sentence meaning:</strong> Have you finished preparing all the necessary documents for tomorrow's business trip?</p>"
+      }
+    },
+    {
+      "question": "反応が遅くなってきたので、パソコンを（＿）してください。",
+      "options": ["1. 更新", "2. 再起動", "3. 接続", "4. 削除"],
+      "answer": "2. 再起動",
+      "hint": "<p>反応（はんのう, hannou） - response<br>再起動（さいきどう, saikidou） - restart</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「再起動」 means \"restart.\"<ul><li>更新 - update</li><li>接続 - connect</li><li>削除 - delete</li></ul><p><strong>Sentence meaning:</strong> The response has become slow, so please restart the computer.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>再起動</strong> - most appropriate for slow PC.<br><strong>Sentence meaning:</strong> The response has become slow, so please restart the computer.</p>"
+      }
+    }
+  ]
+}

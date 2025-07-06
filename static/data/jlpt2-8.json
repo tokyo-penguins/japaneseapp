@@ -1,0 +1,45 @@
+{
+    "type": "type2",
+    "title": "JLPT N2 Word Reordering Quiz",
+    "questions": [
+        {
+            "options": [
+              { "word": "急ぎました", "furigana": "", "romaji": "isogimashita", "meaning": "hurried" },
+              { "word": "かなり", "furigana": "", "romaji": "kanari", "meaning": "very, so" },
+              { "word": "私は", "furigana": "", "romaji": "watashi wa", "meaning": "I" },
+              { "word": "遅れそうだったので", "furigana": "", "romaji": "okuresou datta node", "meaning": "because I was about to be late" }
+            ],
+            "answer": ["私は", "遅れそうだったので","かなり", "急ぎました"],
+            "fixedPart": "仕事に",
+            "full": "私は仕事に遅れそうだったのでかなり急ぎました。",
+            "translation": "I was in a hurry since I was almost late for work.",
+            "possiblePositions": [2]
+          },
+          {
+            "options": [
+              { "word": "がんばっています。", "furigana": "", "romaji": "ganbatteimasu", "meaning": "doing one's best" },
+              { "word": "夢を", "furigana": "", "romaji": "yume wo", "meaning": "dream" },
+              { "word": "実現するために", "furigana": "", "romaji": "jitsugen suru tame ni", "meaning": "to make it come true" },
+              { "word": "彼は", "furigana": "", "romaji": "kare wa", "meaning": "he" }
+            ],
+            "answer": ["彼は","夢を", "実現するために", "がんばっています。"],
+            "fixedPart": "将来の",
+            "full": "彼は将来の夢を実現するためにがんばっています。",
+            "translation": "He is doing his best every day to realize his dream.",
+            "possiblePositions": [2]
+          },
+          {
+            "options": [
+              { "word": "考えています", "furigana": "", "romaji": "kangaete imasu", "meaning": "is considering" },
+              { "word": "転職を", "furigana": "", "romaji": "tenshoku wo", "meaning": "changing jobs" },
+              { "word": "彼は", "furigana": "", "romaji": "kare wa", "meaning": "he" },
+              { "word": "真剣に", "furigana": "", "romaji": "shinken ni", "meaning": "seriously" }
+            ],
+            "answer": ["彼は", "真剣に", "転職を", "考えています"],
+            "fixedPart": "将来の不安から",
+            "full": "彼は将来の不安から真剣に転職を考えています。",
+            "translation": "He is seriously considering changing jobs recently due to worries about his future.",
+            "possiblePositions": [2]
+          }
+    ]
+}

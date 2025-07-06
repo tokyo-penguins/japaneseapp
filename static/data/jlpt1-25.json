@@ -1,0 +1,55 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "森林伐採は多くの動物の（＿）を奪うことになる。",
+      "options": ["2. 生息地", "3. 食料庫", "1. 生産物", "4. 運動場"],
+      "answer": "2. 生息地",
+      "hint": "<p><ruby>生息地<rt>せいそくち</rt></ruby> (seisokuchi) – habitat<br><ruby>伐採<rt>ばっさい</rt></ruby> (bassai) – deforestation</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong> <br><ruby>生息地<rt>せいそくち</rt></ruby> (seisokuchi) means 'habitat'. Deforestation removes the living environment of many animals.</p><ul><li><ruby>生産物<rt>せいさんぶつ</rt></ruby> (seisanbutsu) – products</li><li><ruby>食料庫<rt>しょくりょうこ</rt></ruby> (shokuryouko) – food storage</li><li><ruby>運動場<rt>うんどうじょう</rt></ruby> (undoujou) – playground</li></ul><p><strong>Sentence meaning:</strong> Deforestation deprives many animals of their habitat.</p>",
+        "incorrect": "<p><strong>Incorrect.</strong> The correct answer is <ruby>生息地<rt>せいそくち</rt></ruby> (seisokuchi), meaning 'habitat'.</p><ul><li><ruby>生産物<rt>せいさんぶつ</rt></ruby> – product</li><li><ruby>食料庫<rt>しょくりょうこ</rt></ruby> – food storage</li><li><ruby>運動場<rt>うんどうじょう</rt></ruby> – playground</li></ul>"
+      }
+    },
+    {
+      "question": "持続可能な開発は（＿）保護と密接に関係している。",
+      "options": ["4. 環境", "2. 法律", "3. 経済", "1. 教育"],
+      "answer": "4. 環境",
+      "hint": "<p><ruby>環境<rt>かんきょう</rt></ruby> (kankyou) – environment<br><ruby>持続可能<rt>じぞくかのう</rt></ruby> (jizoku kanou) – sustainable</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong><br><ruby>環境<rt>かんきょう</rt></ruby> (kankyou) means 'environment'. Sustainable development is closely linked with environmental protection.</p><ul><li><ruby>法律<rt>ほうりつ</rt></ruby> (houritsu) – law</li><li><ruby>経済<rt>けいざい</rt></ruby> (keizai) – economy</li><li><ruby>教育<rt>きょういく</rt></ruby> (kyouiku) – education</li></ul><p><strong>Sentence meaning:</strong> Sustainable development is closely connected to environmental protection.</p>",
+        "incorrect": "<p><strong>Incorrect.</strong> The correct answer is <ruby>環境<rt>かんきょう</rt></ruby> (kankyou), meaning 'environment'.</p><ul><li><ruby>法律<rt>ほうりつ</rt></ruby> – law</li><li><ruby>経済<rt>けいざい</rt></ruby> – economy</li><li><ruby>教育<rt>きょういく</rt></ruby> – education</li></ul>"
+      }
+    },
+    {
+      "question": "この公園では（＿）植物の採取が禁止されている。",
+      "options": ["1. 希少", "3. 洋風", "2. 成熟", "4. 明快"],
+      "answer": "1. 希少",
+      "hint": "<p><ruby>希少<rt>きしょう</rt></ruby> (kishou) – rare<br><ruby>採取<rt>さいしゅ</rt></ruby> (saishu) – collection</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong><br><ruby>希少<rt>きしょう</rt></ruby> (kishou) means 'rare'. Rare plants are protected and cannot be collected.</p><ul><li><ruby>成熟<rt>せいじゅく</rt></ruby> (seijuku) – mature</li><li><ruby>洋風<rt>ようふう</rt></ruby> (youfuu) – Western style</li><li><ruby>明快<rt>めいかい</rt></ruby> (meikai) – clear</li></ul><p><strong>Sentence meaning:</strong> Collecting rare plants is prohibited in this park.</p>",
+        "incorrect": "<p><strong>Incorrect.</strong> The correct answer is <ruby>希少<rt>きしょう</rt></ruby> (kishou), meaning 'rare'.</p><ul><li><ruby>成熟<rt>せいじゅく</rt></ruby> – mature</li><li><ruby>洋風<rt>ようふう</rt></ruby> – Western style</li><li><ruby>明快<rt>めいかい</rt></ruby> – clear</li></ul>"
+      }
+    },
+    {
+      "question": "地球の（＿）の変化は農業にも影響を与える。",
+      "options": ["3. 気候", "1. 資源", "4. 金融", "2. 通信"],
+      "answer": "3. 気候",
+      "hint": "<p><ruby>気候<rt>きこう</rt></ruby> (kikou) – climate</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong><br><ruby>気候<rt>きこう</rt></ruby> (kikou) means 'climate'. Changes in climate have a strong impact on agriculture.</p><ul><li><ruby>資源<rt>しげん</rt></ruby> (shigen) – resources</li><li><ruby>通信<rt>つうしん</rt></ruby> (tsuushin) – communication</li><li><ruby>金融<rt>きんゆう</rt></ruby> (kinyuu) – finance</li></ul><p><strong>Sentence meaning:</strong> Changes in Earth's climate affect agriculture.</p>",
+        "incorrect": "<p><strong>Incorrect.</strong> The correct answer is <ruby>気候<rt>きこう</rt></ruby> (kikou), meaning 'climate'.</p><ul><li><ruby>資源<rt>しげん</rt></ruby> – resources</li><li><ruby>通信<rt>つうしん</rt></ruby> – communication</li><li><ruby>金融<rt>きんゆう</rt></ruby> – finance</li></ul>"
+      }
+    },
+    {
+      "question": "地震に備えて、地域の（＿）体制を見直す必要がある。",
+      "options": ["2. 防災", "3. 商業", "4. 経理", "1. 医療"],
+      "answer": "2. 防災",
+      "hint": "<p><ruby>防災<rt>ぼうさい</rt></ruby> (bousai) – disaster prevention<br><ruby>体制<rt>たいせい</rt></ruby> (taisei) – system</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong><br><ruby>防災<rt>ぼうさい</rt></ruby> (bousai) means 'disaster prevention'. Reviewing the disaster response system is important for earthquake preparedness.</p><ul><li><ruby>医療<rt>いりょう</rt></ruby> (iryou) – medical care</li><li><ruby>商業<rt>しょうぎょう</rt></ruby> (shougyou) – commerce</li><li><ruby>経理<rt>けいり</rt></ruby> (keiri) – accounting</li></ul><p><strong>Sentence meaning:</strong> In preparation for earthquakes, the region's disaster prevention system must be reviewed.</p>",
+        "incorrect": "<p><strong>Incorrect.</strong> The correct answer is <ruby>防災<rt>ぼうさい</rt></ruby> (bousai), meaning 'disaster prevention'.</p><ul><li><ruby>医療<rt>いりょう</rt></ruby> – medical</li><li><ruby>商業<rt>しょうぎょう</rt></ruby> – commerce</li><li><ruby>経理<rt>けいり</rt></ruby> – accounting</li></ul>"
+      }
+    }
+ ]
+}    

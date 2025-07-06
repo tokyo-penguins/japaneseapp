@@ -1,0 +1,55 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "彼は約束を（　　　）しまいました。",
+      "options": ["1. やぶって", "2. つかって", "3. のこして", "4. まもって"],
+      "answer": "1. やぶって",
+      "hint": "<p><ruby>約束<rt>やくそく</rt></ruby> (yakusoku) - promise<br><ruby>やぶって</ruby> (破って, yabutte) - to break</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『やぶって』 (yabutte) means 'to break (a promise).' It matches the context where someone failed to keep their word.</p><ul><li>やぶって – to break (破って, yabutte)</li><li>つかって – to use (使って, tsukatte)</li><li>のこして – to leave behind (残して, nokoshite)</li><li>まもって – to keep/protect (守って, mamotte)</li></ul><p><strong>Sentence meaning:</strong> He broke his promise.</p>",
+        "incorrect": "<p><strong>Answer:</strong> やぶって (破って, yabutte) - to break<br><ul><li>やぶって – broke the promise</li><li>つかって – used something, unrelated</li><li>のこして – left something behind, illogical</li><li>まもって – kept the promise (opposite meaning)</li></ul><p><strong>Sentence meaning:</strong> He broke his promise.</p>"
+      }
+    },
+    {
+      "question": "最近、運動する（　　　）がない。",
+      "options": ["1. きかい", "2. じしん", "3. けっか", "4. ばしょ"],
+      "answer": "1. きかい",
+      "hint": "<p><ruby>機会<rt>きかい</rt></ruby> (kikai) - opportunity<br><ruby>運動<rt>うんどう</rt></ruby> (undou) - exercise</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『きかい』 (kikai) means 'opportunity,' which fits with the verb 'to do exercise.'</p><ul><li>きかい – opportunity (機会, kikai)</li><li>じしん – confidence (自信, jishin)</li><li>けっか – result (結果, kekka)</li><li>ばしょ – place (場所, basho)</li></ul><p><strong>Sentence meaning:</strong> Recently, I haven't had the opportunity to exercise.</p>",
+        "incorrect": "<p><strong>Answer:</strong> きかい (機会, kikai) - opportunity<br><ul><li>きかい – appropriate word to describe 'not having a chance'</li><li>じしん – confidence, not related</li><li>けっか – result, doesn’t match the sentence</li><li>ばしょ – place, grammatically unnatural here</li></ul><p><strong>Sentence meaning:</strong> Recently, I haven't had the opportunity to exercise.</p>"
+      }
+    },
+    {
+      "question": "この部屋はいつも（　　　）です。",
+      "options": ["1. せいけつ", "2. ふべん", "3. ふくざつ", "4. へんぴ"],
+      "answer": "1. せいけつ",
+      "hint": "<p><ruby>清潔<rt>せいけつ</rt></ruby> (seiketsu) - clean/neat<br><ruby>部屋<rt>へや</rt></ruby> (heya) - room</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『せいけつ』 (seiketsu) means 'clean' or 'neat,' suitable for describing a room.</p><ul><li>せいけつ – clean (清潔, seiketsu)</li><li>ふべん – inconvenient (不便, fuben)</li><li>ふくざつ – complicated (複雑, fukuzatsu)</li><li>へんぴ – remote (辺鄙, henpi)</li></ul><p><strong>Sentence meaning:</strong> This room is always clean.</p>",
+        "incorrect": "<p><strong>Answer:</strong> せいけつ (清潔, seiketsu) - clean<br><ul><li>せいけつ – matches the context</li><li>ふべん – means inconvenient, unrelated</li><li>ふくざつ – complicated, not used for rooms</li><li>へんぴ – remote, more about location</li></ul><p><strong>Sentence meaning:</strong> This room is always clean.</p>"
+      }
+    },
+    {
+      "question": "彼の説明はとても（　　　）でわかりやすい。",
+      "options": ["1. ていねい", "2. あいまい", "3. きゅう", "4. ざつ"],
+      "answer": "1. ていねい",
+      "hint": "<p><ruby>丁寧<rt>ていねい</rt></ruby> (teinei) - polite/detailed<br><ruby>説明<rt>せつめい</rt></ruby> (setsumei) - explanation</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『ていねい』 (teinei) means 'polite' or 'careful,' making the explanation easy to understand.</p><ul><li>ていねい – polite/detailed (丁寧, teinei)</li><li>あいまい – vague (曖昧, aimai)</li><li>きゅう – sudden (急, kyuu)</li><li>ざつ – rough/careless (雑, zatsu)</li></ul><p><strong>Sentence meaning:</strong> His explanation is very polite and easy to understand.</p>",
+        "incorrect": "<p><strong>Answer:</strong> ていねい (丁寧, teinei) - polite<br><ul><li>ていねい – means polite/detailed</li><li>あいまい – vague, opposite meaning</li><li>きゅう – sudden, not fitting</li><li>ざつ – rough, unclear explanation</li></ul><p><strong>Sentence meaning:</strong> His explanation is very polite and easy to understand.</p>"
+      }
+    },
+    {
+      "question": "電車の中では携帯電話を（　　　）ください。",
+      "options": ["1. しずかにして", "2. けして", "3. つかって", "4. はなして"],
+      "answer": "2. けして",
+      "hint": "<p><ruby>消<rt>け</rt></ruby>す (kesu) - to turn off<br><ruby>携帯電話<rt>けいたいでんわ</rt></ruby> (keitai denwa) - cell phone</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『けして』 (keshite) means 'turn off.' It's polite to turn off your phone on the train.</p><ul><li>しずかにして – be quiet (静かにして, shizuka ni shite)</li><li>けして – turn off (消して, keshite)</li><li>つかって – use (使って, tsukatte)</li><li>はなして – talk (話して, hanashite)</li></ul><p><strong>Sentence meaning:</strong> Please turn off your mobile phone on the train.</p>",
+        "incorrect": "<p><strong>Answer:</strong> けして (消して, keshite) - turn off<br><ul><li>けして – correct form to request turning off a phone</li><li>しずかにして – be quiet, not specific to phones</li><li>つかって – use, not appropriate here</li><li>はなして – talk, not about power usage</li></ul><p><strong>Sentence meaning:</strong> Please turn off your mobile phone on the train.</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "その条約は、両国の関係をさらに（＿）させることを目的としている。",
+      "options": ["1. 強化", "2. 無視", "3. 分裂", "4. 消費"],
+      "answer": "1. 強化",
+      "hint": "<p><ruby>条約<rt>じょうやく</rt></ruby> (jouyaku) – treaty<br><ruby>関係<rt>かんけい</rt></ruby> (kankei) – relationship</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> The correct answer is <strong>1. 強化 (きょうか)</strong> – strengthening.<br><br><strong>Option Explanations:</strong><br>1. <ruby>強化<rt>きょうか</rt></ruby> (kyouka): ✅ to strengthen<br>2. <ruby>無視<rt>むし</rt></ruby> (mushi): to ignore<br>3. <ruby>分裂<rt>ぶんれつ</rt></ruby> (bunretsu): to divide or split<br>4. <ruby>消費<rt>しょうひ</rt></ruby> (shouhi): to consume<br><br><strong>Full Sentence Meaning:</strong> The treaty aims to further strengthen the relationship between the two countries.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong> The correct answer is <strong>1. 強化 (きょうか)</strong> – strengthening.<br><br><strong>Option Explanations:</strong><br>1. <ruby>強化<rt>きょうか</rt></ruby> (kyouka): ✅ to strengthen<br>2. <ruby>無視<rt>むし</rt></ruby> (mushi): to ignore<br>3. <ruby>分裂<rt>ぶんれつ</rt></ruby> (bunretsu): to divide or split<br>4. <ruby>消費<rt>しょうひ</rt></ruby> (shouhi): to consume</p>"
+      }
+    },
+    {
+      "question": "政府は難民の受け入れについて、国際的な（＿）を求められている。",
+      "options": ["2. 協力", "1. 批判", "3. 投資", "4. 開発"],
+      "answer": "2. 協力",
+      "hint": "<p><ruby>難民<rt>なんみん</rt></ruby> (nanmin) – refugee<br><ruby>受け入れ<rt>うけいれ</rt></ruby> (ukeire) – acceptance</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> The correct answer is <strong>2. 協力 (きょうりょく)</strong> – cooperation.<br><br><strong>Option Explanations:</strong><br>1. <ruby>批判<rt>ひはん</rt></ruby> (hihan): criticism<br>2. <ruby>協力<rt>きょうりょく</rt></ruby> (kyouryoku): ✅ cooperation<br>3. <ruby>投資<rt>とうし</rt></ruby> (toushi): investment<br>4. <ruby>開発<rt>かいはつ</rt></ruby> (kaihatsu): development<br><br><strong>Full Sentence Meaning:</strong> The government is being asked for international cooperation regarding the acceptance of refugees.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong> The correct answer is <strong>2. 協力 (きょうりょく)</strong> – cooperation.<br><br><strong>Option Explanations:</strong><br>1. <ruby>批判<rt>ひはん</rt></ruby> (hihan): criticism<br>2. <ruby>協力<rt>きょうりょく</rt></ruby> (kyouryoku): ✅ cooperation<br>3. <ruby>投資<rt>とうし</rt></ruby> (toushi): investment<br>4. <ruby>開発<rt>かいはつ</rt></ruby> (kaihatsu): development</p>"
+      }
+    },
+    {
+      "question": "この問題は、一国だけではなく、（＿）の課題として考えるべきだ。",
+      "options": ["3. 世界", "2. 地域", "1. 家庭", "4. 店舗"],
+      "answer": "3. 世界",
+      "hint": "<p><ruby>課題<rt>かだい</rt></ruby> (kadai) – issue/problem<br><ruby>一国<rt>いっこく</rt></ruby> (ikkoku) – one nation</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> The correct answer is <strong>3. 世界 (せかい)</strong> – the world.<br><br><strong>Option Explanations:</strong><br>1. <ruby>家庭<rt>かてい</rt></ruby> (katei): household<br>2. <ruby>地域<rt>ちいき</rt></ruby> (chiiki): region<br>3. <ruby>世界<rt>せかい</rt></ruby> (sekai): ✅ the world<br>4. <ruby>店舗<rt>てんぽ</rt></ruby> (tenpo): shop/store<br><br><strong>Full Sentence Meaning:</strong> This issue should be addressed as a global challenge, not just a national one.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong> The correct answer is <strong>3. 世界 (せかい)</strong> – the world.<br><br><strong>Option Explanations:</strong><br>1. <ruby>家庭<rt>かてい</rt></ruby> (katei): household<br>2. <ruby>地域<rt>ちいき</rt></ruby> (chiiki): region<br>3. <ruby>世界<rt>せかい</rt></ruby> (sekai): ✅ the world<br>4. <ruby>店舗<rt>てんぽ</rt></ruby> (tenpo): shop/store</p>"
+      }
+    },
+    {
+      "question": "国際会議では、環境問題に対する各国の（＿）が求められた。",
+      "options": ["4. 姿勢", "3. 言葉", "2. 習慣", "1. 景色"],
+      "answer": "4. 姿勢",
+      "hint": "<p><ruby>環境問題<rt>かんきょうもんだい</rt></ruby> (kankyou mondai) – environmental issue<br><ruby>各国<rt>かっこく</rt></ruby> (kakkoku) – each country</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> The correct answer is <strong>4. 姿勢 (しせい)</strong> – attitude or stance.<br><br><strong>Option Explanations:</strong><br>1. <ruby>景色<rt>けしき</rt></ruby> (keshiki): scenery<br>2. <ruby>習慣<rt>しゅうかん</rt></ruby> (shuukan): custom<br>3. <ruby>言葉<rt>ことば</rt></ruby> (kotoba): language/words<br>4. <ruby>姿勢<rt>しせい</rt></ruby> (shisei): ✅ attitude, stance<br><br><strong>Full Sentence Meaning:</strong> At the international conference, the stance of each country on environmental issues was called for.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong> The correct answer is <strong>4. 姿勢 (しせい)</strong> – attitude.<br><br><strong>Option Explanations:</strong><br>1. <ruby>景色<rt>けしき</rt></ruby> (keshiki): scenery<br>2. <ruby>習慣<rt>しゅうかん</rt></ruby> (shuukan): custom<br>3. <ruby>言葉<rt>ことば</rt></ruby> (kotoba): language/words<br>4. <ruby>姿勢<rt>しせい</rt></ruby> (shisei): ✅ attitude, stance</p>"
+      }
+    }
+  ]
+}

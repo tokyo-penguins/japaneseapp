@@ -1,0 +1,55 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "観光地で（＿）を借りれば、自由に移動できます。",
+      "options": ["1. レンタカー", "2. 傘", "3. 携帯電話", "4. ノート"],
+      "answer": "1. レンタカー",
+      "hint": "<p><ruby>観光地<rt>かんこうち</rt></ruby> (kankouchi) - tourist spot<br><ruby>移動<rt>いどう</rt></ruby> (idou) - movement</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong><br>『レンタカー』 (rentakaa) means 'rental car,' which is the most logical item to help you move around freely in a tourist area.</p><ul><li>1. レンタカー – rental car (レンタカー, rentakaa)</li><li>2. 傘 – umbrella (かさ, kasa)</li><li>3. 携帯電話 – mobile phone (けいたいでんわ, keitaidenwa)</li><li>4. ノート – notebook (ノート, nooto)</li></ul><p><strong>English Sentence:</strong> If you rent a car in a tourist area, you can move around freely.</p>",
+        "incorrect": "<p><strong>Answer:</strong> レンタカー (rentakaa) - rental car<br>Other options don't help with 'movement' or 'travel'.</p>"
+      }
+    },
+    {
+      "question": "ホテルの部屋から（＿）が見えるので、朝日がきれいです。",
+      "options": ["1. 空港", "2. 海", "3. 駅", "4. スーパー"],
+      "answer": "2. 海",
+      "hint": "<p><ruby>海<rt>うみ</rt></ruby> (umi) - ocean<br><ruby>朝日<rt>あさひ</rt></ruby> (asahi) - morning sun</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong><br>『海』 (うみ, umi) means 'ocean', which provides a beautiful view for watching the sunrise.</p><ul><li>1. 空港 – airport (くうこう, kuukou)</li><li>2. 海 – ocean (うみ, umi)</li><li>3. 駅 – station (えき, eki)</li><li>4. スーパー – supermarket (suupaa)</li></ul><p><strong>English Sentence:</strong> The ocean can be seen from the hotel room, so the sunrise is beautiful.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 海 (うみ, umi) - ocean<br>Only 'ocean' fits the context of a scenic view with sunrise.</p>"
+      }
+    },
+    {
+      "question": "両替所で日本円を（＿）に替えました。",
+      "options": ["1. 現地通貨", "2. 切手", "3. 商品券", "4. 電子マネー"],
+      "answer": "1. 現地通貨",
+      "hint": "<p><ruby>現地通貨<rt>げんちつうか</rt></ruby> (genchi tsuuka) - local currency<br><ruby>両替所<rt>りょうがえじょ</rt></ruby> (ryougaejo) - currency exchange</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong><br>『現地通貨』 (げんちつうか, genchi tsuuka) means 'local currency,' which is the usual purpose at a currency exchange.</p><ul><li>1. 現地通貨 – local currency (げんちつうか, genchi tsuuka)</li><li>2. 切手 – postage stamp (きって, kitte)</li><li>3. 商品券 – gift certificate (しょうひんけん, shouhinken)</li><li>4. 電子マネー – e-money (でんしまねー, denshi manee)</li></ul><p><strong>English Sentence:</strong> I exchanged Japanese yen for local currency at the currency exchange.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 現地通貨 (げんちつうか, genchi tsuuka) - local currency<br>This is the standard item exchanged at a foreign exchange booth.</p>"
+      }
+    },
+    {
+      "question": "先生：レポートは来週の月曜日（＿）出してください。",
+      "options": ["1. まで", "2. までに", "3. から", "4. しか"],
+      "answer": "2. までに",
+      "hint": "<p><ruby>提出<rt>ていしゅつ</rt></ruby> (teishutsu) - submission<br><ruby>月曜日<rt>げつようび</rt></ruby> (getsuyoubi) - Monday</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong><br>『までに』 (made ni) means 'by (a certain time),' indicating a deadline.</p><ul><li>1. まで – until (まで, made)</li><li>2. までに – by (a deadline) (までに, made ni)</li><li>3. から – from (から, kara)</li><li>4. しか – only (しか, shika – requires negative)</li></ul><p><strong>English Sentence:</strong> Teacher: Please submit your report by next Monday.</p>",
+        "incorrect": "<p><strong>Answer:</strong> までに (までに, made ni) - by a deadline<br>This is the only option that correctly indicates when something must be submitted.</p>"
+      }
+    },
+    {
+      "question": "先輩：アルバイトと勉強を（＿）のは大変でしょう？",
+      "options": ["1. 両立する", "2. 反対する", "3. 混乱する", "4. 中止する"],
+      "answer": "1. 両立する",
+      "hint": "<p><ruby>両立<rt>りょうりつ</rt></ruby> (ryouritsu) - to balance both<br><ruby>大変<rt>たいへん</rt></ruby> (taihen) - tough</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong><br>『両立する』 (りょうりつする, ryouritsu suru) means 'to balance or manage both.' It fits the context of juggling work and study.</p><ul><li>1. 両立する – to balance (りょうりつする, ryouritsu suru)</li><li>2. 反対する – to oppose (はんたいする, hantai suru)</li><li>3. 混乱する – to be confused (こんらんする, konran suru)</li><li>4. 中止する – to cancel (ちゅうしする, chuushi suru)</li></ul><p><strong>English Sentence:</strong> Senior: Isn’t it tough to balance part-time work and studying?</p>",
+        "incorrect": "<p><strong>Answer:</strong> 両立する (りょうりつする, ryouritsu suru) - to balance<br>This is the only option expressing the idea of managing two tasks together.</p>"
+      }
+    }
+  ]
+}

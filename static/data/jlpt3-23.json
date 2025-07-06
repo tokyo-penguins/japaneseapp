@@ -1,0 +1,59 @@
+{
+  "type": "type2",
+  "title": "JLPT N3 Word Reordering Quiz - Part-time Jobs & Friendship",
+  "questions": [
+    {
+      "options": [
+        { "word": "一緒に", "furigana": "いっしょ", "romaji": "issho ni", "meaning": "together" },
+        { "word": "映画", "furigana": "えいが", "romaji": "eiga", "meaning": "a movie" },
+        { "word": "観に", "furigana": "み", "romaji": "mi ni", "meaning": "to watch" },
+        { "word": "友達と", "furigana": "ともだち", "romaji": "tomodachi to", "meaning": "with a friend" },
+        { "word": "行きました", "furigana": "い", "romaji": "ikimashita", "meaning": "went" }
+      ],
+      "answer": ["友達と","一緒に", "映画", "観に", "行きました"],
+      "fixedPart": "を",
+      "full": "友達と一緒に映画を観に行きました。",
+      "translation": "I went to see a movie with my friends.",
+      "possiblePositions": [4]
+    },
+    {
+      "options": [
+        { "word": "友人が", "furigana": "ゆうじん", "romaji": "yuujin ga", "meaning": "a friend" },
+        { "word": "バイト先で", "furigana": "", "romaji": "baito saki de", "meaning": "at my part-time job" },
+        { "word": "新しい", "furigana": "", "romaji": "atarashii", "meaning": "new" },
+        { "word": "できた", "furigana": "", "romaji": "dekita", "meaning": "made" }
+      ],
+      "answer": ["バイト先で", "新しい", "友人が", "できた"],
+      "fixedPart":"先週",
+      "full": "先週バイト先で新しい友人ができた。",
+      "translation": "Last week at my part-time job, I made a new friend.",
+      "possiblePositions": [1]
+    },
+    {
+      "options": [
+         { "word": "渡したら", "furigana": "わた", "romaji": "watashitara", "meaning": "when I gave" },
+        { "word": "友達に", "furigana": "ともだち", "romaji": "tomodachi ni", "meaning": "to a friend" },
+        { "word": "喜んでくれた", "furigana": "よろこ", "romaji": "yorokonde kureta", "meaning": "was happy" },
+        { "word": "プレゼントを", "furigana": "", "romaji": "purezento wo", "meaning": "a gift" }
+      ],
+      "answer": [ "友達に", "プレゼントを", "渡したら", "喜んでくれた"],
+      "fixedPart": "アルバイトで稼いだお金で、",
+      "full": "アルバイトで稼いだお金で、友達にプレゼントを渡したら喜んでくれた。",
+      "translation": "I gave a gift to my friend on their birthday with the money I earned from my part-time job. They were happy.",
+      "possiblePositions": [1]
+    },
+    {
+      "options": [
+        { "word": "バイトの", "furigana": "", "romaji": "baito no", "meaning": "my part-time job's" },
+        { "word": "時給が", "furigana": "じきゅう", "romaji": "jikyuu ga", "meaning": "the hourly wage" },
+        { "word": "上がった", "furigana": "あ", "romaji": "agatta", "meaning": "increased" },
+        { "word": "店長に", "furigana": "てんちょう", "romaji": "tenchou ni", "meaning": "by the manager" }
+      ],
+      "answer": ["店長に", "バイトの", "時給が", "上がった"],
+      "fixedPart": "努力を評価されて、",
+      "full": "店長にバイトの努力を評価されて、時給が上がった。",
+      "translation": "My hourly wage increased as the manager recognized my effort.",
+      "possiblePositions": [2]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "この地域では、近年（＿）災害が頻発している。",
+      "options": ["1. 自然", "2. 人為", "3. 技術", "4. 都市"],
+      "answer": "1. 自然",
+      "hint": "<p><ruby>自然<rt>しぜん</rt></ruby> (shizen): nature<br><ruby>災害<rt>さいがい</rt></ruby> (saigai): disaster</p>",
+      "explanation": {
+        "correct": "<p><strong>✅ Correct!</strong> <ruby>自然<rt>しぜん</rt></ruby> (shizen) means 'natural.' Natural disasters are commonly reported in the news, especially related to weather or earthquakes.</p><ul><li><ruby>自然<rt>しぜん</rt></ruby> (shizen): natural</li><li><ruby>人為<rt>じんい</rt></ruby> (jin'i): artificial, man-made</li><li><ruby>技術<rt>ぎじゅつ</rt></ruby> (gijutsu): technology</li><li><ruby>都市<rt>とし</rt></ruby> (toshi): city</li></ul><p><strong>Sentence meaning:</strong> In this region, natural disasters have been occurring frequently in recent years.</p>",
+        "incorrect": "<p><strong>❌ Incorrect.</strong> The correct answer is <ruby>自然<rt>しぜん</rt></ruby> (shizen).</p><ul><li><ruby>自然<rt>しぜん</rt></ruby>: natural</li><li><ruby>人為<rt>じんい</rt></ruby>: artificial</li><li><ruby>技術<rt>ぎじゅつ</rt></ruby>: technology</li><li><ruby>都市<rt>とし</rt></ruby>: city</li></ul>"
+      }
+    },
+    {
+      "question": "地球温暖化は（＿）のバランスを崩す恐れがある。",
+      "options": ["2. 生態系", "3. 金融界", "1. 商業地", "4. 教育界"],
+      "answer": "2. 生態系",
+      "hint": "<p><ruby>生態系<rt>せいたいけい</rt></ruby> (seitaikei): ecosystem<br><ruby>温暖化<rt>おんだんか</rt></ruby> (ondanka): global warming</p>",
+      "explanation": {
+        "correct": "<p><strong>✅ Correct!</strong> <ruby>生態系<rt>せいたいけい</rt></ruby> (seitaikei) means 'ecosystem.' Global warming disrupts natural ecosystems and biodiversity.</p><ul><li><ruby>生態系<rt>せいたいけい</rt></ruby>: ecosystem</li><li><ruby>金融界<rt>きんゆうかい</rt></ruby>: financial world</li><li><ruby>商業地<rt>しょうぎょうち</rt></ruby>: commercial area</li><li><ruby>教育界<rt>きょういくかい</rt></ruby>: education sector</li></ul><p><strong>Sentence meaning:</strong> Global warming could disrupt the balance of ecosystems.</p>",
+        "incorrect": "<p><strong>❌ Incorrect.</strong> The correct answer is <ruby>生態系<rt>せいたいけい</rt></ruby> (seitaikei).</p><ul><li><ruby>生態系<rt>せいたいけい</rt></ruby>: ecosystem</li><li><ruby>金融界<rt>きんゆうかい</rt></ruby>: financial world</li><li><ruby>商業地<rt>しょうぎょうち</rt></ruby>: commercial district</li><li><ruby>教育界<rt>きょういくかい</rt></ruby>: education sector</li></ul>"
+      }
+    },
+    {
+      "question": "その植物は、極めて（＿）な環境でしか育たない。",
+      "options": ["4. 特殊", "3. 普遍", "1. 明快", "2. 平凡"],
+      "answer": "4. 特殊",
+      "hint": "<p><ruby>特殊<rt>とくしゅ</rt></ruby> (tokushu): special, unique<br><ruby>環境<rt>かんきょう</rt></ruby> (kankyō): environment</p>",
+      "explanation": {
+        "correct": "<p><strong>✅ Correct!</strong> <ruby>特殊<rt>とくしゅ</rt></ruby> (tokushu) means 'unique' or 'unusual.' The sentence refers to a plant needing a rare environment to grow.</p><ul><li><ruby>特殊<rt>とくしゅ</rt></ruby>: special</li><li><ruby>普遍<rt>ふへん</rt></ruby>: universal</li><li><ruby>明快<rt>めいかい</rt></ruby>: clear</li><li><ruby>平凡<rt>へいぼん</rt></ruby>: ordinary</li></ul><p><strong>Sentence meaning:</strong> That plant only grows in very special environments.</p>",
+        "incorrect": "<p><strong>❌ Incorrect.</strong> The correct answer is <ruby>特殊<rt>とくしゅ</rt></ruby> (tokushu).</p><ul><li><ruby>特殊<rt>とくしゅ</rt></ruby>: special</li><li><ruby>普遍<rt>ふへん</rt></ruby>: universal</li><li><ruby>明快<rt>めいかい</rt></ruby>: clear</li><li><ruby>平凡<rt>へいぼん</rt></ruby>: ordinary</li></ul>"
+      }
+    },
+    {
+      "question": "火山の噴火は地域の（＿）を一変させた。",
+      "options": ["2. 地形", "1. 風速", "3. 湿度", "4. 気圧"],
+      "answer": "2. 地形",
+      "hint": "<p><ruby>地形<rt>ちけい</rt></ruby> (chikei): terrain<br><ruby>噴火<rt>ふんか</rt></ruby> (funka): volcanic eruption</p>",
+      "explanation": {
+        "correct": "<p><strong>✅ Correct!</strong> <ruby>地形<rt>ちけい</rt></ruby> (chikei) means 'terrain' or 'landform,' which can change drastically due to a volcanic eruption.</p><ul><li><ruby>地形<rt>ちけい</rt></ruby>: terrain</li><li><ruby>風速<rt>ふうそく</rt></ruby>: wind speed</li><li><ruby>湿度<rt>しつど</rt></ruby>: humidity</li><li><ruby>気圧<rt>きあつ</rt></ruby>: air pressure</li></ul><p><strong>Sentence meaning:</strong> The volcanic eruption drastically altered the terrain of the region.</p>",
+        "incorrect": "<p><strong>❌ Incorrect.</strong> The correct answer is <ruby>地形<rt>ちけい</rt></ruby> (chikei).</p><ul><li><ruby>地形<rt>ちけい</rt></ruby>: terrain</li><li><ruby>風速<rt>ふうそく</rt></ruby>: wind speed</li><li><ruby>湿度<rt>しつど</rt></ruby>: humidity</li><li><ruby>気圧<rt>きあつ</rt></ruby>: air pressure</li></ul>"
+      }
+    },
+    {
+      "question": "海洋の汚染は多くの（＿）生物に影響を与えている。",
+      "options": ["3. 海棲", "1. 地上", "4. 気候", "2. 乾燥"],
+      "answer": "3. 海棲",
+      "hint": "<p><ruby>海棲<rt>かいせい</rt></ruby> (kaisei): marine dwelling<br><ruby>汚染<rt>おせん</rt></ruby> (osen): pollution</p>",
+      "explanation": {
+        "correct": "<p><strong>✅ Correct!</strong> <ruby>海棲<rt>かいせい</rt></ruby> (kaisei) refers to creatures that live in the ocean. Pollution affects marine organisms directly.</p><ul><li><ruby>海棲<rt>かいせい</rt></ruby>: marine</li><li><ruby>地上<rt>ちじょう</rt></ruby>: land-based</li><li><ruby>気候<rt>きこう</rt></ruby>: climate</li><li><ruby>乾燥<rt>かんそう</rt></ruby>: dryness</li></ul><p><strong>Sentence meaning:</strong> Marine pollution is affecting many ocean-dwelling species.</p>",
+        "incorrect": "<p><strong>❌ Incorrect.</strong> The correct answer is <ruby>海棲<rt>かいせい</rt></ruby> (kaisei).</p><ul><li><ruby>海棲<rt>かいせい</rt></ruby>: marine</li><li><ruby>地上<rt>ちじょう</rt></ruby>: land-based</li><li><ruby>気候<rt>きこう</rt></ruby>: climate</li><li><ruby>乾燥<rt>かんそう</rt></ruby>: dryness</li></ul>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+    "type": "type2",
+    "title": "JLPT N4 Word Reordering Quiz",
+    "questions": [
+        {
+            "options": [
+            { "word": "ことがある", "furigana": "", "romaji": "koto ga aru", "meaning": "have done" },
+              { "word": "この", "furigana": "", "romaji": "kono", "meaning": "this" },
+              { "word": "映画は", "furigana": "えいがは", "romaji": "eiga wa", "meaning": "movie" },
+              { "word": "見た", "furigana": "みた", "romaji": "mita", "meaning": "watched" }
+              
+            ],
+            "answer": ["この", "映画は", "見た", "ことがある"],
+            "full": "この映画は前に見たことがあります。",
+            "translation": "I have seen this movie before.",
+            "fixedPart": "前に",
+            "possiblePositions": [3]
+          },
+          {
+          
+            "options": [
+            { "word": "桜が", "furigana": "さくらが", "romaji": "sakura ga", "meaning": "cherry blossoms" },
+              { "word": "春に", "furigana": "はるに", "romaji": "haru ni", "meaning": "in spring" },
+              { "word": "なると", "furigana": "", "romaji": "naru to", "meaning": "when it becomes" },
+              { "word": "咲きます", "furigana": "さきます", "romaji": "sakimasu", "meaning": "bloom" }
+            ],
+            "answer": ["春に", "なると", "桜が", "咲きます"],
+            "full": "春になると日本の桜が咲きます。",
+            "translation": "When spring comes, cherry blossoms bloom in Japan.",
+            "fixedPart": "日本の",
+            "possiblePositions": [3]
+          },
+          {
+            "options": [
+            { "word": "手紙", "furigana": "てがみ", "romaji": "tegami", "meaning": "letter" },
+            { "word": "書く", "furigana": "かく", "romaji": "kaku", "meaning": "write" },
+              { "word": "日本語で", "furigana": "にほんごで", "romaji": "nihongo de", "meaning": "in Japanese" },
+              { "word": "のは難しい。", "furigana": "", "romaji": "no wa muzukashii", "meaning": "is difficult" }
+            ],
+            "answer": ["日本語で", "手紙", "書く", "のは難しい。"],
+            "full": "日本語で手紙を書くのは難しい。",
+            "translation": "Writing letters in Japanese is still difficult for me.",
+            "fixedPart": "を",
+            "possiblePositions": [3]
+          },
+          {
+            "options": [
+            { "word": "ために", "furigana": "", "romaji": "tame ni", "meaning": "in order to" },
+              { "word": "試験に", "furigana": "しけん", "romaji": "shiken ni", "meaning": "exam" },
+              { "word": "合格する", "furigana": "ごうかく", "romaji": "goukaku suru", "meaning": "pass" },
+              { "word": "勉強しています", "furigana": "べんきょう", "romaji": "benkyou shite imasu", "meaning": "study" }
+            ],
+            "answer": ["試験に", "合格する", "ために", "勉強しています"],
+            "full": "試験に合格するために毎日勉強しています。",
+            "translation": "I study every day in order to pass the exam.",
+            "fixedPart": "毎日",
+            "possiblePositions": [4]
+          },
+          {
+            "options": [
+            { "word": "パンは", "furigana": "", "romaji": "pan wa", "meaning": "bread" },
+            { "word": "店の", "furigana": "みせの", "romaji": "mise no", "meaning": "shop's" },
+              { "word": "この", "furigana": "", "romaji": "kono", "meaning": "this" },
+              { "word": "有名です", "furigana": "ゆうめい", "romaji": "yuumei desu", "meaning": "famous" }
+            ],
+            "answer": ["この", "店の", "パンは", "有名です"],
+            "full": "この店のパンはこの地域で有名です。",
+            "translation": "This shop's bread is famous in the area.",
+            "fixedPart": "この地域で",
+            "possiblePositions": [4]
+          }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "事件の真相は（  ）闇の中だ。",
+      "options": [
+        "1. いまだに",
+        "2. やたらに",
+        "3. いやに",
+        "4. すんなり"
+      ],
+      "answer": "1. いまだに",
+      "hint": "<p>事件（じけん, jiken）- incident<br>真相（しんそう, shinsou）- truth</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> いまだに（いまだに, imadani）- still; even now</p><ul><li>やたらに（やたらに, yatarani）- excessively; randomly</li><li>いやに（いやに, iyani）- awfully; unusually</li><li>すんなり（すんなり, sunnari）- smoothly; without resistance</li></ul><p><strong>English Translation:</strong> The truth of the incident is still shrouded in darkness.</p>",
+        "incorrect": "<p><strong>Answer:</strong> いまだに（いまだに, imadani）- still; even now</p><ul><li>やたらに（やたらに, yatarani）- excessively; randomly</li><li>いやに（いやに, iyani）- awfully; unusually</li><li>すんなり（すんなり, sunnari）- smoothly; without resistance</li></ul><p><strong>English Translation:</strong> The truth of the incident is still shrouded in darkness.</p>"
+      }
+    },
+    {
+      "question": "彼女は自分の感情をわかりやすく、（  ）表現する。",
+      "options": [
+        "4. ありありと",
+        "2. ぼそぼそと",
+        "3. いやいや",
+        "1. だらだら"
+      ],
+      "answer": "4. ありありと",
+      "hint": "<p>感情（かんじょう, kanjou）- emotion<br>表現（ひょうげん, hyougen）- expression</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> ありありと（ありありと, ariari to）- clearly; vividly</p><ul><li>ぼそぼそと（ぼそぼそと, bosoboso to）- in a low voice; mumbling</li><li>いやいや（いやいや, iyaiya）- unwillingly</li><li>だらだら（だらだら, daradara）- sluggishly; lazily</li></ul><p><strong>English Translation:</strong> She expresses her emotions clearly and vividly.</p>",
+        "incorrect": "<p><strong>Answer:</strong> ありありと（ありありと, ariari to）- clearly; vividly</p><ul><li>ぼそぼそと（ぼそぼそと, bosoboso to）- in a low voice; mumbling</li><li>いやいや（いやいや, iyaiya）- unwillingly</li><li>だらだら（だらだら, daradara）- sluggishly; lazily</li></ul><p><strong>English Translation:</strong> She expresses her emotions clearly and vividly.</p>"
+      }
+    },
+    {
+      "question": "彼は（  ）結果を出し、チームを驚かせた。",
+      "options": [
+        "4. 類を見ない",
+        "2. 目を背ける",
+        "3. 声を潜める",
+        "1. 先を越す"
+      ],
+      "answer": "4. 類を見ない",
+      "hint": "<p>結果（けっか, kekka）- result<br>驚かせる（おどろかせる, odorokaseru）- to surprise</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 類を見ない（るいをみない, rui wo minai）- unparalleled; unprecedented</p><ul><li>目を背ける（めをそむける, me wo somukeru）- to turn one's eyes away</li><li>声を潜める（こえをひそめる, koe wo hisomeru）- to lower one's voice</li><li>先を越す（さきをこす, saki wo kosu）- to beat someone to it</li></ul><p><strong>English Translation:</strong> He produced an unparalleled result and surprised the team.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 類を見ない（るいをみない, rui wo minai）- unparalleled; unprecedented</p><ul><li>目を背ける（めをそむける, me wo somukeru）- to turn one's eyes away</li><li>声を潜める（こえをひそめる, koe wo hisomeru）- to lower one's voice</li><li>先を越す（さきをこす, saki wo kosu）- to beat someone to it</li></ul><p><strong>English Translation:</strong> He produced an unparalleled result and surprised the team.</p>"
+      }
+    },
+    {
+      "question": "天候の変化に（  ）行動することが求められる。",
+      "options": [
+        "1. 応じて",
+        "2. 押されて",
+        "3. 振り切って",
+        "4. 乗り越えて"
+      ],
+      "answer": "1. 応じて",
+      "hint": "<p>天候（てんこう, tenkou）- weather<br>変化（へんか, henka）- change</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 応じて（おうじて, oujite）- in response to; according to</p><ul><li>押されて（おされて, osarete）- to be pushed</li><li>振り切って（ふりきって, furikitte）- to shake off</li><li>乗り越えて（のりこえて, norikoete）- to overcome</li></ul><p><strong>English Translation:</strong> It is required to act according to changes in the weather.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 応じて（おうじて, oujite）- in response to; according to</p><ul><li>押されて（おされて, osarete）- to be pushed</li><li>振り切って（ふりきって, furikitte）- to shake off</li><li>乗り越えて（のりこえて, norikoete）- to overcome</li></ul><p><strong>English Translation:</strong> It is required to act according to changes in the weather.</p>"
+      }
+    },
+    {
+      "question": "彼は経験不足を（  ）努力している。",
+      "options": [
+        "2. 埋めようと",
+        "1. こじらせようと",
+        "3. ふるまおうと",
+        "4. 乗っ取ろうと"
+      ],
+      "answer": "2. 埋めようと",
+      "hint": "<p>経験（けいけん, keiken）- experience<br>不足（ふそく, fusoku）- lack</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 埋めようと（うめようと, ume you to）- to try to fill up</p><ul><li>こじらせようと（こじらせようと, kojirase you to）- to complicate (things)</li><li>ふるまおうと（ふるまおうと, furumao to）- to behave</li><li>乗っ取ろうと（のっとろうと, nottoro to）- to try to take over</li></ul><p><strong>English Translation:</strong> He is trying to make up for his lack of experience through hard work.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 埋めようと（うめようと, ume you to）- to try to fill up</p><ul><li>こじらせようと（こじらせようと, kojirase you to）- to complicate (things)</li><li>ふるまおうと（ふるまおうと, furumao to）- to behave</li><li>乗っ取ろうと（のっとろうと, nottoro to）- to try to take over</li></ul><p><strong>English Translation:</strong> He is trying to make up for his lack of experience through hard work.</p>"
+      }
+    }
+  ]
+}

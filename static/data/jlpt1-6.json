@@ -1,0 +1,50 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "彼の提案には多くの問題が（  ）。",
+      "options": [
+        "2. つきものだ",
+        "1. かたわら",
+        "3. しのぎを削る",
+        "4. いかんせん"
+      ],
+      "answer": "2. つきものだ",
+      "hint": "<p>提案（ていあん, teian）- proposal<br>問題（もんだい, mondai）- problem</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> つきものだ（つきものだ, tsukimono da）- inseparable; inevitable companion</p><ul><li>かたわら（かたわら, katawara）- beside, while doing something else</li><li>しのぎを削る（しのぎをけずる, shinogi wo kezuru）- to compete fiercely</li><li>いかんせん（いかんせん, ikansen）- unfortunately; regrettably</li></ul><p><strong>English Translation:</strong> Many problems are inevitable with his proposal.</p>",
+        "incorrect": "<p><strong>Answer:</strong> つきものだ（つきものだ, tsukimono da）- inseparable; inevitable companion</p><ul><li>かたわら（かたわら, katawara）- beside, while doing something else</li><li>しのぎを削る（しのぎをけずる, shinogi wo kezuru）- to compete fiercely</li><li>いかんせん（いかんせん, ikansen）- unfortunately; regrettably</li></ul><p><strong>English Translation:</strong> Many problems are inevitable with his proposal.</p>"
+      }
+    },
+    {
+      "question": "彼は失敗を恐れず、常に新しいことに（  ）。",
+      "options": [
+        "3. 挑んでいる",
+        "2. こらえている",
+        "1. たどっている",
+        "4. ねばっている"
+      ],
+      "answer": "3. 挑んでいる",
+      "hint": "<p>失敗（しっぱい, shippai）- failure<br>恐れる（おそれる, osoreru）- to fear</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 挑んでいる（いどんでいる, idondeiru）- to challenge</p><ul><li>こらえている（こらえている, koraeteiru）- to endure</li><li>たどっている（たどっている, tadotteiru）- to follow (a path)</li><li>ねばっている（ねばっている, nebatteiru）- to persist stubbornly</li></ul><p><strong>English Translation:</strong> He is always challenging himself to new things without fearing failure.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 挑んでいる（いどんでいる, idondeiru）- to challenge</p><ul><li>こらえている（こらえている, koraeteiru）- to endure</li><li>たどっている（たどっている, tadotteiru）- to follow (a path)</li><li>ねばっている（ねばっている, nebatteiru）- to persist stubbornly</li></ul><p><strong>English Translation:</strong> He is always challenging himself to new things without fearing failure.</p>"
+      }
+    },
+    {
+      "question": "結果は努力（  ）ものである。",
+      "options": [
+        "1. による",
+        "2. ばかり",
+        "3. ばかりに",
+        "4. にあたる"
+      ],
+      "answer": "1. による",
+      "hint": "<p>結果（けっか, kekka）- result<br>努力（どりょく, doryoku）- effort</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> による（による, ni yoru）- due to; because of</p><ul><li>ばかり（ばかり, bakari）- just; only</li><li>ばかりに（ばかりに, bakari ni）- simply because</li><li>にあたる（にあたる, ni ataru）- to correspond to</li></ul><p><strong>English Translation:</strong> The result is due to the effort.</p>",
+        "incorrect": "<p><strong>Answer:</strong> による（による, ni yoru）- due to; because of</p><ul><li>ばかり（ばかり, bakari）- just; only</li><li>ばかりに（ばかりに, bakari ni）- simply because</li><li>にあたる（にあたる, ni ataru）- to correspond to</li></ul><p><strong>English Translation:</strong> The result is due to the effort.</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "この薬を飲めば、頭痛は（＿）はずです。",
+      "options": ["1. 治る", "2. 止める", "3. 絶滅する", "4. 減る"],
+      "answer": "1. 治る",
+      "hint": "<p><ruby>薬<rt>くすり</rt></ruby> – medicine (kusuri)<br><ruby>頭痛<rt>ずつう</rt></ruby> – headache (zutsuu)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> The correct answer is <strong>1. 治る (なおる)</strong> – to be cured.<br><br><strong>Option Explanations:</strong><br>1. <ruby>治る<rt>なおる</rt></ruby> (naoru): ✅ to be cured<br>2. <ruby>止める<rt>とめる</rt></ruby> (tomeru): to stop (an action)<br>3. <ruby>絶滅する<rt>ぜつめつする</rt></ruby> (zetsumetsu suru): to become extinct<br>4. <ruby>減る<rt>へる</rt></ruby> (heru): to decrease<br><br><strong>Sentence meaning:</strong> If you take this medicine, your headache should be cured.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong> The correct answer is <strong>1. 治る (なおる)</strong> – to be cured.<br><br><strong>Option Explanations:</strong><br>1. <ruby>治る<rt>なおる</rt></ruby> (naoru): ✅ to be cured<br>2. <ruby>止める<rt>とめる</rt></ruby> (tomeru): to stop (an action)<br>3. <ruby>絶滅する<rt>ぜつめつする</rt></ruby> (zetsumetsu suru): to become extinct<br>4. <ruby>減る<rt>へる</rt></ruby> (heru): to decrease<br><br><strong>Sentence meaning:</strong> If you take this medicine, your headache should be cured.</p>"
+      }
+    },
+    {
+      "question": "社長は出張中ですので、明日（＿）会議に出席できません。",
+      "options": ["1. に", "2. で", "3. は", "4. が"],
+      "answer": "3. は",
+      "hint": "<p><ruby>社長<rt>しゃちょう</rt></ruby> – company president (shachou)<br><ruby>出張中<rt>しゅっちょうちゅう</rt></ruby> – on a business trip (shutchou chuu)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> The correct answer is <strong>3. は</strong> – topic particle.<br><br><strong>Option Explanations:</strong><br>1. に (ni): destination, time marker<br>2. で (de): place of action<br>3. ✅ は (wa): topic particle<br>4. が (ga): subject particle<br><br><strong>Sentence meaning:</strong> The president is on a business trip, so he cannot attend the meeting tomorrow.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong> The correct answer is <strong>3. は</strong> – topic particle.<br><br><strong>Option Explanations:</strong><br>1. に (ni): destination, time marker<br>2. で (de): place of action<br>3. ✅ は (wa): topic particle<br>4. が (ga): subject particle<br><br><strong>Sentence meaning:</strong> The president is on a business trip, so he cannot attend the meeting tomorrow.</p>"
+      }
+    },
+    {
+      "question": "彼の無責任な態度に、上司は（＿）を煮やした。",
+      "options": ["1. 腹", "2. 頭", "3. 足", "4. 背中"],
+      "answer": "1. 腹",
+      "hint": "<p><ruby>無責任<rt>むせきにん</rt></ruby> – irresponsible (musekinin)<br><ruby>上司<rt>じょうし</rt></ruby> – boss (joushi)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> The correct answer is <strong>1. 腹 (はら)</strong> – belly. The idiom “<ruby>腹<rt>はら</rt></ruby>を煮やす” means to be extremely angry.<br><br><strong>Option Explanations:</strong><br>1. ✅ <ruby>腹<rt>はら</rt></ruby> (hara): belly, used in the idiom<br>2. <ruby>頭<rt>あたま</rt></ruby> (atama): head<br>3. <ruby>足<rt>あし</rt></ruby> (ashi): foot<br>4. <ruby>背中<rt>せなか</rt></ruby> (senaka): back<br><br><strong>Sentence meaning:</strong> The boss lost his temper over his irresponsible attitude.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong> The correct answer is <strong>1. 腹 (はら)</strong> – belly. The idiom “<ruby>腹<rt>はら</rt></ruby>を煮やす” means to be extremely angry.<br><br><strong>Option Explanations:</strong><br>1. ✅ <ruby>腹<rt>はら</rt></ruby> (hara): belly, used idiomatically<br>2. <ruby>頭<rt>あたま</rt></ruby> (atama): head<br>3. <ruby>足<rt>あし</rt></ruby> (ashi): foot<br>4. <ruby>背中<rt>せなか</rt></ruby> (senaka): back<br><br><strong>Sentence meaning:</strong> The boss lost his temper over his irresponsible attitude.</p>"
+      }
+    },
+    {
+      "question": "彼女の成功は、長年の努力の（＿）だ。",
+      "options": ["1. 結果", "2. 原因", "3. 要素", "4. 状況"],
+      "answer": "1. 結果",
+      "hint": "<p><ruby>成功<rt>せいこう</rt></ruby> – success (seikou)<br><ruby>努力<rt>どりょく</rt></ruby> – effort (doryoku)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> The correct answer is <strong>1. 結果 (けっか)</strong> – result.<br><br><strong>Option Explanations:</strong><br>1. ✅ <ruby>結果<rt>けっか</rt></ruby> (kekka): result<br>2. <ruby>原因<rt>げんいん</rt></ruby> (gen'in): cause<br>3. <ruby>要素<rt>ようそ</rt></ruby> (youso): element<br>4. <ruby>状況<rt>じょうきょう</rt></ruby> (joukyou): situation<br><br><strong>Sentence meaning:</strong> Her success is the result of years of effort.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong> The correct answer is <strong>1. 結果 (けっか)</strong> – result.<br><br><strong>Option Explanations:</strong><br>1. ✅ <ruby>結果<rt>けっか</rt></ruby> (kekka): result<br>2. <ruby>原因<rt>げんいん</rt></ruby> (gen'in): cause<br>3. <ruby>要素<rt>ようそ</rt></ruby> (youso): element<br>4. <ruby>状況<rt>じょうきょう</rt></ruby> (joukyou): situation<br><br><strong>Sentence meaning:</strong> Her success is the result of years of effort.</p>"
+      }
+    },
+    {
+      "question": "友達が急に訪ねてきて、私は（＿）をつかれた。",
+      "options": ["1. 不意", "2. 無事", "3. 故意", "4. 自然"],
+      "answer": "1. 不意",
+      "hint": "<p><ruby>訪ねる<rt>たずねる</rt></ruby> – to visit (tazuneru)<br><ruby>急に<rt>きゅうに</rt></ruby> – suddenly (kyuu ni)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> The correct answer is <strong>1. 不意 (ふい)</strong> – unexpectedness. The phrase “<ruby>不意<rt>ふい</rt></ruby>をつかれる” means to be caught off guard.<br><br><strong>Option Explanations:</strong><br>1. ✅ <ruby>不意<rt>ふい</rt></ruby> (fui): unexpected<br>2. <ruby>無事<rt>ぶじ</rt></ruby> (buji): safe<br>3. <ruby>故意<rt>こい</rt></ruby> (koi): intentional<br>4. <ruby>自然<rt>しぜん</rt></ruby> (shizen): natural<br><br><strong>Sentence meaning:</strong> My friend suddenly visited, and I was caught off guard.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong> The correct answer is <strong>1. 不意 (ふい)</strong> – unexpectedness.<br><br><strong>Option Explanations:</strong><br>1. ✅ <ruby>不意<rt>ふい</rt></ruby> (fui): unexpected<br>2. <ruby>無事<rt>ぶじ</rt></ruby> (buji): safe<br>3. <ruby>故意<rt>こい</rt></ruby> (koi): intentional<br>4. <ruby>自然<rt>しぜん</rt></ruby> (shizen): natural<br><br><strong>Sentence meaning:</strong> My friend suddenly visited, and I was caught off guard.</p>"
+      }
+    }
+  ]
+}

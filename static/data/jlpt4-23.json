@@ -1,0 +1,75 @@
+{
+  "type": "type2",
+  "title": "JLPT N4 Word Reordering Quiz - Custom Sentences",
+  "questions": [
+   {
+      "options": [
+        { "word": "私は", "furigana": "", "romaji": "watashi wa", "meaning": "I" },
+        { "word": "話すのが", "furigana": "", "romaji": "hanasu no ga", "meaning": "talking" },
+        { "word": "人と", "furigana": "", "romaji": "hito to", "meaning": "with people" },
+        { "word": "あまり", "furigana": "", "romaji": "amari", "meaning": "not really" },
+        { "word": "好きではない", "furigana": "", "romaji": "suki de wa nai", "meaning": "do not like" }
+      ],
+      "answer": ["私は", "人と", "話すのが", "あまり", "好きではない"],
+      "fixedPart": "恥ずかしがりやなので、",
+      "full": "私は恥ずかしがりやなので、人と話すのがあまり好きではない。",
+      "translation": "I don’t really like talking to people because I’m shy.",
+      "possiblePositions": [2]
+    },
+    {
+      "options": [
+        { "word": "私は", "furigana": "", "romaji": "watashi wa", "meaning": "I" },
+        { "word": "日本語を", "furigana": "", "romaji": "nihongo wo", "meaning": "Japanese" },
+        { "word": "上手に", "furigana": "", "romaji": "jouzu ni", "meaning": "well" },
+        { "word": "なりたい", "furigana": "", "romaji": "naritai", "meaning": "want to become" },
+        { "word": "いつか", "furigana": "", "romaji": "itsuka", "meaning": "someday" }
+      ],
+      "answer": ["私は", "日本語を", "いつか", "上手に", "なりたい"],
+      "fixedPart": "たくさん勉強して、",
+      "full": "私は日本語をたくさん勉強して、いつか上手になりたい。",
+      "translation": "I want to become good at Japanese someday by studying hard.",
+      "possiblePositions": [3]
+    },
+    {
+      "options": [
+        { "word": "私は", "furigana": "", "romaji": "watashi wa", "meaning": "I" },
+        { "word": "ストレスを", "furigana": "", "romaji": "sutoresu wo", "meaning": "stress" },
+        { "word": "忘れるために", "furigana": "", "romaji": "wasureru tame ni", "meaning": "to forget" },
+        { "word": "いっぱい", "furigana": "", "romaji": "ippai", "meaning": "a lot" },
+        { "word": "食べます", "furigana": "", "romaji": "tabemasu", "meaning": "eat" }
+      ],
+      "answer": ["私は", "ストレスを", "忘れるために", "いっぱい", "食べます"],
+      "fixedPart": "元気がないとき、",
+      "full": "私はストレスを忘れるために元気がないとき、いっぱい食べます。",
+      "translation": "I eat a lot to forget stress when I feel down.",
+      "possiblePositions": [4]
+    },
+    {
+      "options": [
+        { "word": "父と", "furigana": "", "romaji": "chichi to", "meaning": "with my father" },
+        { "word": "よく", "furigana": "", "romaji": "yoku", "meaning": "often" },
+        { "word": "海へ", "furigana": "", "romaji": "umi e", "meaning": "to the sea" },
+        { "word": "行きます", "furigana": "", "romaji": "ikimasu", "meaning": "go" }
+      ],
+      "answer": ["父と", "よく", "海へ", "行きます"],
+      "fixedPart": "週末の楽しみとして、",
+      "full": "父とよく週末の楽しみとして、海へ行きます。",
+      "translation": "I often go fishing with my father at the sea as a weekend hobby.",
+      "possiblePositions": [3]
+    },
+    {
+      "options": [
+        { "word": "母の", "furigana": "", "romaji": "haha no", "meaning": "my mother's" },
+        { "word": "料理は", "furigana": "", "romaji": "ryouri wa", "meaning": "cooking" },
+        { "word": "一番", "furigana": "", "romaji": "ichiban", "meaning": "the best" },
+        { "word": "美味しい", "furigana": "", "romaji": "oishii", "meaning": "delicious" }
+      ],
+      "answer": ["母の", "料理は", "一番", "美味しい"],
+      "fixedPart": "世界で",
+      "full": "母の料理は世界で一番美味しい。",
+      "translation": "My mother’s cooking is the most delicious in the world, more than any restaurant.",
+      "possiblePositions": [3]
+    }
+  ]
+}
+

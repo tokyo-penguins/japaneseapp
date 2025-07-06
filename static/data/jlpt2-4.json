@@ -1,0 +1,65 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "この計画にはいくつかの問題点が（  ）。",
+      "options": ["1. 含まれている", "2. 終わられている", "3. 除かれている", "4. 避けられている"],
+      "answer": "1. 含まれている",
+      "hint": "<p><ruby>計画<rt>けいかく</rt></ruby> – plan<br><ruby>問題点<rt>もんだいてん</rt></ruby> – problematic point</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong><ruby>含<rt>ふく</rt></ruby>まれている</strong> means 'to be included.'<br><br><strong>Option Explanations:</strong><br>1. <ruby>含<rt>ふく</rt></ruby>まれている – ✅ to be included<br>2. <ruby>終<rt>お</rt></ruby>わられている – to have been finished<br>3. <ruby>除<rt>のぞ</rt></ruby>かれている – to have been removed<br>4. <ruby>避<rt>さ</rt></ruby>けられている – to have been avoided<br><br><strong>Sentence meaning:</strong> Some problems are included in this plan.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>含<rt>ふく</rt></ruby>まれている</strong> – to be included.<br><br><strong>Option Explanations:</strong><br>1. <ruby>含<rt>ふく</rt></ruby>まれている – ✅ to be included<br>2. <ruby>終<rt>お</rt></ruby>わられている – to have been finished<br>3. <ruby>除<rt>のぞ</rt></ruby>かれている – to have been removed<br>4. <ruby>避<rt>さ</rt></ruby>けられている – to have been avoided</p>"
+      }
+    },
+    {
+      "question": "彼の説明はいつも（  ）、理解しにくい。",
+      "options": ["1. 回りくどくて", "2. 丁寧で", "3. 率直で", "4. 明確で"],
+      "answer": "1. 回りくどくて",
+      "hint": "<p><ruby>回<rt>まわ</rt></ruby>りくどい – indirect, roundabout</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong><ruby>回<rt>まわ</rt></ruby>りくどくて</strong> means roundabout or indirect, often making understanding difficult.<br><br><strong>Option Explanations:</strong><br>1. <ruby>回<rt>まわ</rt></ruby>りくどくて – ✅ roundabout<br>2. <ruby>丁寧<rt>ていねい</rt></ruby>で – polite<br>3. <ruby>率直<rt>そっちょく</rt></ruby>で – honest, direct<br>4. <ruby>明確<rt>めいかく</rt></ruby>で – clear<br><br><strong>Sentence meaning:</strong> His explanation is always roundabout and hard to understand.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>回<rt>まわ</rt></ruby>りくどくて</strong> – roundabout.<br><br><strong>Option Explanations:</strong><br>1. <ruby>回<rt>まわ</rt></ruby>りくどくて – ✅ roundabout<br>2. <ruby>丁寧<rt>ていねい</rt></ruby>で – polite<br>3. <ruby>率直<rt>そっちょく</rt></ruby>で – direct<br>4. <ruby>明確<rt>めいかく</rt></ruby>で – clear</p>"
+      }
+    },
+    {
+      "question": "たとえ忙しくても、食事は（  ）ようにしてください。",
+      "options": ["1. 抜かない", "2. 飛ばす", "3. 取り替える", "4. 減らす"],
+      "answer": "1. 抜かない",
+      "hint": "<p><ruby>抜<rt>ぬ</rt></ruby>く – to skip<br>たとえ～ても – even if</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong><ruby>抜<rt>ぬ</rt></ruby>かない</strong> means 'do not skip.' This form is used to advise regular behavior.<br><br><strong>Option Explanations:</strong><br>1. <ruby>抜<rt>ぬ</rt></ruby>かない – ✅ do not skip<br>2. <ruby>飛<rt>と</rt></ruby>ばす – to jump over<br>3. <ruby>取<rt>と</rt></ruby>り<ruby>替<rt>か</rt></ruby>える – to replace<br>4. <ruby>減<rt>へ</rt></ruby>らす – to reduce<br><br><strong>Sentence meaning:</strong> Even if you're busy, try not to skip meals.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>抜<rt>ぬ</rt></ruby>かない</strong> – do not skip.<br><br><strong>Option Explanations:</strong><br>1. <ruby>抜<rt>ぬ</rt></ruby>かない – ✅ do not skip<br>2. <ruby>飛<rt>と</rt></ruby>ばす – to skip over<br>3. <ruby>取<rt>と</rt></ruby>り<ruby>替<rt>か</rt></ruby>える – to replace<br>4. <ruby>減<rt>へ</rt></ruby>らす – to reduce</p>"
+      }
+    },
+    {
+      "question": "彼は大事な場面で（  ）やすい。",
+      "options": ["1. 緊張し", "2. 喜び", "3. 遅刻し", "4. 落ち着き"],
+      "answer": "1. 緊張し",
+      "hint": "<p><ruby>緊張<rt>きんちょう</rt></ruby>する – to get nervous<br><ruby>場面<rt>ばめん</rt></ruby> – situation, scene</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong><ruby>緊張<rt>きんちょう</rt></ruby>し</strong> means 'to become nervous.'<br><br><strong>Option Explanations:</strong><br>1. <ruby>緊張<rt>きんちょう</rt></ruby>し – ✅ to get nervous<br>2. <ruby>喜<rt>よろこ</rt></ruby>び – joy (noun)<br>3. <ruby>遅刻<rt>ちこく</rt></ruby>し – to be late<br>4. <ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>き – calmness (noun)<br><br><strong>Sentence meaning:</strong> He gets nervous easily in important moments.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>緊張<rt>きんちょう</rt></ruby>し</strong> – to get nervous.<br><br><strong>Option Explanations:</strong><br>1. <ruby>緊張<rt>きんちょう</rt></ruby>し – ✅ to get nervous<br>2. <ruby>喜<rt>よろこ</rt></ruby>び – joy<br>3. <ruby>遅刻<rt>ちこく</rt></ruby>し – to be late<br>4. <ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>き – calmness</p>"
+      }
+    },
+    {
+      "question": "この件については、社長に（  ）ください。",
+      "options": ["1. お伺いして", "2. お越しして", "3. お借りして", "4. お遊びして"],
+      "answer": "1. お伺いして",
+      "hint": "<p><ruby>伺<rt>うかが</rt></ruby>う – to ask (humble form)<br><ruby>件<rt>けん</rt></ruby> – matter</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>お<ruby>伺<rt>うかが</rt></ruby>いして</strong> is the humble form of 'to ask/inquire.'<br><br><strong>Option Explanations:</strong><br>1. お<ruby>伺<rt>うかが</rt></ruby>いして – ✅ to ask humbly<br>2. お<ruby>越<rt>こ</rt></ruby>しして – to come (honorific)<br>3. お<ruby>借<rt>か</rt></ruby>りして – to borrow<br>4. お<ruby>遊<rt>あそ</rt></ruby>びして – to play (too casual)<br><br><strong>Sentence meaning:</strong> Please ask the president about this matter.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. お<ruby>伺<rt>うかが</rt></ruby>いして</strong> – to ask humbly.<br><br><strong>Option Explanations:</strong><br>1. お<ruby>伺<rt>うかが</rt></ruby>いして – ✅ to ask humbly<br>2. お<ruby>越<rt>こ</rt></ruby>しして – to come<br>3. お<ruby>借<rt>か</rt></ruby>りして – to borrow<br>4. お<ruby>遊<rt>あそ</rt></ruby>びして – to play</p>"
+      }
+    },
+    {
+      "question": "この問題は専門家でなければ（  ）ことはできない。",
+      "options": ["1. 解決する", "2. 解答する", "3. 検討する", "4. 理解する"],
+      "answer": "1. 解決する",
+      "hint": "<p><ruby>専門家<rt>せんもんか</rt></ruby> – expert<br><ruby>解決<rt>かいけつ</rt></ruby>する – to solve</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong><ruby>解決<rt>かいけつ</rt></ruby>する</strong> means 'to solve' a problem.<br><br><strong>Option Explanations:</strong><br>1. <ruby>解決<rt>かいけつ</rt></ruby>する – ✅ to solve<br>2. <ruby>解答<rt>かいとう</rt></ruby>する – to answer (a question)<br>3. <ruby>検討<rt>けんとう</rt></ruby>する – to consider/examine<br>4. <ruby>理解<rt>りかい</rt></ruby>する – to understand<br><br><strong>Sentence meaning:</strong> This problem can't be solved unless you're an expert.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>解決<rt>かいけつ</rt></ruby>する</strong> – to solve.<br><br><strong>Option Explanations:</strong><br>1. <ruby>解決<rt>かいけつ</rt></ruby>する – ✅ to solve<br>2. <ruby>解答<rt>かいとう</rt></ruby>する – to answer<br>3. <ruby>検討<rt>けんとう</rt></ruby>する – to consider<br>4. <ruby>理解<rt>りかい</rt></ruby>する – to understand</p>"
+      }
+    }
+  ]
+}

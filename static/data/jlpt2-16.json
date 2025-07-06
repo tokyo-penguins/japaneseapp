@@ -1,0 +1,45 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "彼は努力家で、どんな困難にも（＿）進んでいく。",
+      "options": ["1. おどおど", "2. ぐったり", "3. ずかずか", "4. ひるまず"],
+      "answer": "4. ひるまず",
+      "hint": "<p><ruby>努力家<rt>どりょくか</rt></ruby> (doryokuka) - hard worker<br><ruby>困難<rt>こんなん</rt></ruby> (konnan) - difficulty<br><ruby>進<rt>すす</rt></ruby>む (susumu) - to go forward</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong> : ひるまず (hirumazu) - without hesitation or fear</p><ul><li><ruby>おどおど</ruby> (odoodo) - nervously</li><li><ruby>ぐったり</ruby> (guttari) - exhaustedly</li><li><ruby>ずかずか</ruby> (zukazuka) - rudely, boldly (walking in)</li><li><ruby>ひるまず</ruby> (hirumazu) - without hesitation or fear</li></ul><p><strong>Sentence meaning:</strong> He is a hard worker and keeps moving forward without fear, no matter the difficulty.</p>",
+        "incorrect": "<p><strong>Answer:</strong> ひるまず (hirumazu) - without hesitation or fear</p><ul><li><ruby>おどおど</ruby> (odoodo) - nervously</li><li><ruby>ぐったり</ruby> (guttari) - exhaustedly</li><li><ruby>ずかずか</ruby> (zukazuka) - rudely, boldly</li><li><ruby>ひるまず</ruby> (hirumazu) - fearlessly, without flinching</li></ul><p><strong>Sentence meaning:</strong> He continues forward bravely no matter the hardships.</p>"
+      }
+    },
+    {
+      "question": "この映画は、前作と比べて（＿）つまらなかった。",
+      "options": ["1. とことん", "2. きっぱり", "3. そっくり", "4. すっきり"],
+      "answer": "1. とことん",
+      "hint": "<p><ruby>前作<rt>ぜんさく</rt></ruby> (zensaku) - previous work<br><ruby>比<rt>くら</rt></ruby>べて (kurabete) - compared to</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong> : とことん (tokoton) - Thoroughly</p><ul><li><ruby>よっぽど</ruby> (yoppodo) - much more</li><li><ruby>きっぱり</ruby> (kippari) - clearly, firmly</li><li><ruby>そっくり</ruby> (sokkuri) - exactly alike</li><li><ruby>すっきり</ruby> (sukkiri) - refreshed, clear</li></ul><p><strong>Sentence meaning:</strong> This movie was much more boring than the previous one.</p>",
+        "incorrect": "<p><strong>Answer:</strong>　とことん (tokoton) - Thoroughly</p><ul><li><ruby>きっぱり</ruby> (kippari) - firmly</li><li><ruby>そっくり</ruby> (sokkuri) - identical</li><li><ruby>すっきり</ruby> (sukkiri) - refreshed</li><li><ruby>よっぽど</ruby> (yoppodo) - much more</li></ul><p><strong>Sentence meaning:</strong> Compared to the last film, this one was far more boring.</p>"
+      }
+    },
+    {
+      "question": "明日は雨が降る（＿）、傘を持って行ったほうがいいよ。",
+      "options": ["1. せいで", "2. くせに", "3. そうだから", "4. にしては"],
+      "answer": "3. そうだから",
+      "hint": "<p><ruby>傘<rt>かさ</rt></ruby> (kasa) - umbrella<br><ruby>持<rt>も</rt></ruby>って<ruby>行<rt>い</rt></ruby>く (motte iku) - to bring</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong> : そうだから (sou dakara) - because it seems so</p><ul><li><ruby>せいで</ruby> (sei de) - because of (blaming)</li><li><ruby>くせに</ruby> (kuseni) - even though (with blame)</li><li><ruby>そうだから</ruby> (sou dakara) - because it seems so</li><li><ruby>にしては</ruby> (nishitewa) - considering</li></ul><p><strong>Sentence meaning:</strong> Since it seems like it will rain tomorrow, you should take an umbrella.</p>",
+        "incorrect": "<p><strong>Answer:</strong> そうだから (sou dakara) - because it seems so</p><ul><li><ruby>せいで</ruby> (sei de) - due to</li><li><ruby>くせに</ruby> (kuseni) - although</li><li><ruby>にしては</ruby> (nishitewa) - for (someone/something)</li><li><ruby>そうだから</ruby> (sou dakara) - because (of that)</li></ul><p><strong>Sentence meaning:</strong> You’d better take an umbrella because it’s likely to rain tomorrow.</p>"
+      }
+    },
+    {
+      "question": "彼の話はいつも大げさで、（＿）ですらない。",
+      "options": ["1. 真面目", "2. 冗談", "3. 話題", "4. 本気"],
+      "answer": "2. 冗談",
+      "hint": "<p><ruby>大<rt>おお</rt></ruby>げさ (oogesa) - exaggerated<br><ruby>冗談<rt>じょうだん</rt></ruby> (joudan) - joke</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong> : 冗談 (じょうだん, joudan) - joke</p><ul><li><ruby>真面目<rt>まじめ</rt></ruby> (majime) - serious</li><li><ruby>冗談<rt>じょうだん</rt></ruby> (joudan) - joke</li><li><ruby>話題<rt>わだい</rt></ruby> (wadai) - topic</li><li><ruby>本気<rt>ほんき</rt></ruby> (honki) - seriousness</li></ul><p><strong>Sentence meaning:</strong> His stories are always so exaggerated, they’re not even jokes.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 冗談 (じょうだん, joudan) - joke</p><ul><li><ruby>真面目</ruby> (majime) - serious</li><li><ruby>話題</ruby> (wadai) - topic</li><li><ruby>本気</ruby> (honki) - earnest</li><li><ruby>冗談</ruby> (joudan) - joke</li></ul><p><strong>Sentence meaning:</strong> His stories are overly exaggerated and not even funny.</p>"
+      }
+    }
+  ]
+}

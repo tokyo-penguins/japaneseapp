@@ -1,0 +1,61 @@
+{
+  "type": "type2",
+  "title": "JLPT N4 Word Reordering Quiz - Daily Life Theme",
+  "questions": [
+    {
+      "options": [
+        { "word": "私は", "furigana": "", "romaji": "watashi wa", "meaning": "I" },
+        { "word": "朝ごはんを", "furigana": "", "romaji": "asagohan wo", "meaning": "breakfast" },
+        { "word": "食べて", "furigana": "", "romaji": "tabete", "meaning": "ate" },
+        { "word": "学校に", "furigana": "", "romaji": "gakkou ni", "meaning": "to school" },
+        { "word": "行きました", "furigana": "", "romaji": "ikimashita", "meaning": "went" }
+      ],
+      "answer": ["私は", "朝ごはんを", "食べて", "学校に", "行きました"],
+      "fixedPart": "いつものように、",
+      "full": "私は朝ごはんを食べていつものように、学校に行きました。",
+      "translation": "I ate breakfast and went to school as usual.",
+      "possiblePositions": [4]
+    },
+    {
+      "options": [
+        { "word": "父は", "furigana": "", "romaji": "chichi wa", "meaning": "my father" },
+        { "word": "新聞を", "furigana": "", "romaji": "shinbun wo", "meaning": "the newspaper" },
+        { "word": "読みます", "furigana": "", "romaji": "yomimasu", "meaning": "reads" },
+        { "word": "朝ごはんのあとの", "furigana": "", "romaji": "asagohan no ato no", "meaning": "after breakfast" }
+      ],
+      "answer": ["父は","朝ごはんのあとの", "新聞を", "読みます"],
+      "fixedPart": "ゆっくりした時間に、",
+      "full": "父は朝ごはんのあとのゆっくりした時間に、新聞を読みます。",
+      "translation": "Every day after breakfast, my father reads the newspaper in his relaxed time.",
+      "possiblePositions": [3]
+    },
+    {
+  "options": [
+    { "word": "私の弟は", "furigana": "", "romaji": "watashi no otouto wa", "meaning": "my younger brother" },
+    { "word": "アニメを", "furigana": "", "romaji": "anime wo", "meaning": "anime" },
+    { "word": "毎晩", "furigana": "", "romaji": "maiban", "meaning": "every night" },
+    { "word": "見ています", "furigana": "", "romaji": "miteimasu", "meaning": "watches" },
+    { "word": "テレビで", "furigana": "", "romaji": "terebi de", "meaning": "on TV" }
+  ],
+  "answer": ["私の弟は", "毎晩", "テレビで", "アニメを", "見ています"],
+  "fixedPart": "宿題が終わったあと、",
+  "full": "私の弟は毎晩宿題が終わったあと、テレビでアニメを見ています。",
+  "translation": "My younger brother watches anime on TV every night after finishing his homework.",
+  "possiblePositions": [2]
+},
+    {
+      "options": [
+        { "word": "買い物に", "furigana": "", "romaji": "kaimono ni", "meaning": "shopping" },
+        { "word": "行きました", "furigana": "", "romaji": "ikimashita", "meaning": "went" },
+        { "word": "母と", "furigana": "", "romaji": "haha to", "meaning": "with my mother" },
+        { "word": "駅の近くの", "furigana": "", "romaji": "eki no chikaku no", "meaning": "near the station" },
+        { "word": "スーパーへ", "furigana": "", "romaji": "suupaa e", "meaning": "to the supermarket" }
+      ],
+      "answer": ["母と", "駅の近くの", "スーパーへ", "買い物に", "行きました"],
+      "fixedPart": "日曜日の午後に、",
+      "full": "母と駅の近くのスーパーへ日曜日の午後に、買い物に行きました。",
+      "translation": "I went shopping with my mother to the supermarket near the station on Sunday afternoon.",
+      "possiblePositions": [4]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "会議で使う資料を10部（＿）おきました。",
+        "options": ["1. コピーして", "2. 書いて", "3. 消して", "4. 折って"],
+        "answer": "1. コピーして",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～ておく</strong> - \"do in advance\"</p><p>Vocabulary: 資料(しりょう)、部(ぶ)</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「コピーして」 means \"photocopied.\"</p><ul><li>書いて(かいて) - wrote</li><li>消して(けして) - erased</li><li>折って(おって) - folded</li></ul><p><strong>English Translation:</strong> I photocopied 10 sets of the materials for the meeting in advance.</p>",
+          "incorrect": "<p><strong>Answer:</strong> コピーして</p><p>「コピーして」 means \"photocopied.\"</p><ul><li>書いて - wrote</li><li>消して - erased</li><li>折って - folded</li></ul><p><strong>English Translation:</strong> I photocopied 10 sets of the materials for the meeting in advance.</p>"
+        }
+      },
+      {
+        "question": "取引先からクレームがあった場合、まず（＿）を確認します。",
+        "options": ["1. 内容", "2. 天気", "3. 給料", "4. 休暇"],
+        "answer": "1. 内容",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～場合</strong> - \"in case of\"</p><p>Vocabulary: 取引先(とりひきさき)、クレーム</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「内容」 means \"details/content.\"</p><ul><li>天気(てんき) - weather</li><li>給料(きゅうりょう) - salary</li><li>休暇(きゅうか) - vacation</li></ul><p><strong>English Translation:</strong> When receiving complaints from clients, first verify the details.</p>",
+          "incorrect": "<p><strong>Answer:</strong> 内容</p><p>「内容」 means \"details/content.\"</p><ul><li>天気 - weather</li><li>給料 - salary</li><li>休暇 - vacation</li></ul><p><strong>English Translation:</strong> When receiving complaints from clients, first verify the details.</p>"
+        }
+      },
+      {
+        "question": "佐藤さんと鈴木さんがデパートで（＿）ところを見かけました。二人は付き合っているのでしょうか？",
+        "options": ["1. けんかして", "2. 手をつないで", "3. 仕事して", "4. 勉強して"],
+        "answer": "2. 手をつないで",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～ところを見る</strong> - \"witness someone doing\"</p><p>Vocabulary: 付き合う(つきあう)、見かける(みかける)</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「手をつないで」 means \"holding hands.\"</p><ul><li>けんかして - fighting</li><li>仕事して - working</li><li>勉強して - studying</li></ul><p><strong>English Translation:</strong> I saw Sato and Suzuki holding hands at the department store. Are they dating?</p>",
+          "incorrect": "<p><strong>Answer:</strong> 手をつないで</p><p>「手をつないで」 means \"holding hands.\"</p><ul><li>けんかして - fighting</li><li>仕事して - working</li><li>勉強して - studying</li></ul><p><strong>English Translation:</strong> I saw Sato and Suzuki holding hands at the department store. Are they dating?</p>"
+        }
+      }
+    ]
+  }
+  

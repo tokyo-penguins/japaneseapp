@@ -1,0 +1,46 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "A: にほんごは（＿）ですか？\nB: とてもおもしろいです。",
+        "options": ["1. どう", "2. なに", "3. どこ", "4. どれ"],
+        "answer": "1. どう",
+        "hint": "<p>「〜はどうですか？」 = How is ~?</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「にほんごはどうですか？」 = How is Japanese?</p>",
+          "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>どう</strong>. Others are used for different types of questions.</p>"
+        }
+      },
+      {
+        "question": "A: あの店のラーメンはどう？\nB: めずらしい味だけど、けっこう（＿）よ。",
+        "options": ["1. おいし", "2. おいしい", "3. おいしく", "4. おいしかった"],
+        "answer": "2. おいしい",
+        "hint": "<p>「けっこう〜よ」The present tense of い-adjectives is used。</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「けっこうおいしいよ」= It's surprisingly tasty. 形容詞は文末で現在形になります。</p>",
+          "incorrect": "<p><strong>Incorrect 😢</strong><br>「おいしい」形容詞はそのまま文末に使えます。他は不自然です。</p>"
+        }
+      },
+      {
+        "question": "A: どうして学校を休んだんですか？\nB: 頭が（＿）からです。",
+        "options": ["1. いたい", "2. いたかった", "3. いたく", "4. いたくて"],
+        "answer": "2. いたかった",
+        "hint": "<p>「〜からです」には普通形（過去形）のい形容詞が入ります。</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「頭がいたかったからです」= because I had a headache. 正しい過去形です。</p>",
+          "incorrect": "<p><strong>Incorrect 😢</strong><br>理由を説明するには過去の普通形が必要です。正解は <strong>いたかった</strong>。</p>"
+        }
+      },
+      {
+        "question": "A: このくつはちょっと（＿）ですね。\nB: そうですね。もっと大きいのがいいです。",
+        "options": ["1. ちいさい", "2. ちいさく", "3. ちいさな", "4. ちいさすぎ"],
+        "answer": "1. ちいさい",
+        "hint": "<p>「ちょっと〜ですね」The present tense of い-adjectives is used。</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「ちょっと小さいですね」= They’re a bit small. Natural expression using い形容詞。</p>",
+          "incorrect": "<p><strong>Incorrect 😢</strong><br>文末に使うのは「ちいさい」が自然です。他の形は修飾や接続に使われます。</p>"
+        }
+      }
+    ]
+  }
+  

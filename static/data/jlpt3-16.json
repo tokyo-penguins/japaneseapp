@@ -1,0 +1,56 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "夏休みに友達と海で（＿）をしました。",
+      "options": ["3. 水泳", "1. 掃除", "2. 計算", "4. 発表"],
+      "answer": "3. 水泳",
+      "hint": "<p><ruby>水泳<rt>すいえい</rt></ruby> (swimming), <ruby>海<rt>うみ</rt></ruby> (sea)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>水泳</strong>（すいえい, suiei）means swimming. It’s a common activity at the beach during summer vacation.<br>掃除（そうじ, cleaning） – not something you do at the sea.<br> 計算（けいさん, calculation） – unrelated to summer fun.<br> 発表（はっぴょう, presentation） – not done at the beach.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>水泳</strong>（すいえい, suiei）. It refers to swimming, which is a typical summer activity at the beach.<br> 掃除 – cleaning, not relevant.<br> 計算 – math-related, not fitting.<br> 発表 – means presentation, doesn't match the context.</p>"
+      }
+    },
+    {
+      "question": "毎朝、駅まで自転車で（＿）います。",
+      "options": ["2. 通って", "3. 泳いで", "4. 飾って", "1. 掃除して"],
+      "answer": "2. 通って",
+      "hint": "<p><ruby>通<rt>かよ</rt></ruby>う (to commute), <ruby>駅<rt>えき</rt></ruby> (station)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>通って</strong>（かよって, kayotte）means to commute regularly. It fits the daily routine of biking to the station.<br> 掃除して（そうじして, cleaning） – not related to movement.<br>泳いで（およいで, swimming） – not logical for going to the station.<br> 飾って（かざって, decorating） – unrelated to commuting.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>通って</strong>（かよって, kayotte）. It means regularly commuting to a place like a station.<br> 掃除して – means cleaning.<br>泳いで – swimming is not appropriate in this case.<br> 飾って – decorating doesn’t make sense here.</p>"
+      }
+    },
+    {
+      "question": "台風のため、飛行機が（＿）になりました。",
+      "options": ["1. 欠航", "4. 開店", "3. 出発", "2. 到着"],
+      "answer": "1. 欠航",
+      "hint": "<p><ruby>欠航<rt>けっこう</rt></ruby> (flight cancellation), <ruby>台風<rt>たいふう</rt></ruby> (typhoon)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>欠航</strong>（けっこう, kekkou）means flight cancellation, often due to bad weather like typhoons.<br> 到着（とうちゃく, arrival） – opposite of cancellation.<br>出発（しゅっぱつ, departure） – not fitting with 'cancellation'.<br> 開店（かいてん, store opening） – unrelated to flights.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>欠航</strong>（けっこう, kekkou）. It means cancellation of a flight, often due to typhoons.<br> 到着 – arrival is not logical if the flight was canceled.<br>出発 – departure is the opposite.<br> 開店 – about shops, not flights.</p>"
+      }
+    },
+    {
+      "question": "図書館では大きな声で（＿）はいけません。",
+      "options": ["3. 話して", "1. 書いて", "2. 読んで", "4. 聞いて"],
+      "answer": "3. 話して",
+      "hint": "<p><ruby>話<rt>はな</rt></ruby>す (to speak), <ruby>図書館<rt>としょかん</rt></ruby> (library)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>話して</strong>（はなして, hanashite）means to speak. Speaking loudly is not allowed in a quiet place like a library.<br> 書いて（かいて, writing） – is allowed in libraries.<br> 読んで（よんで, reading） – also acceptable.<br> 聞いて（きいて, listening） – not disruptive.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>話して</strong>（はなして, hanashite）. Libraries require silence, so speaking loudly is inappropriate.<br> 書いて – writing is fine in libraries.<br> 読んで – reading is expected in libraries.<br> 聞いて – listening is quiet and acceptable.</p>"
+      }
+    },
+    {
+      "question": "試験の結果が（＿）されたので、掲示板を見ました。",
+      "options": ["2. 発表", "4. 説明", "1. 変更", "3. 開始"],
+      "answer": "2. 発表",
+      "hint": "<p><ruby>発表<rt>はっぴょう</rt></ruby> (announcement), <ruby>結果<rt>けっか</rt></ruby> (result)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>発表</strong>（はっぴょう, happyou）means announcement. Test results are often posted publicly.<br> 変更（へんこう, change） – means change, not suitable here.<br>開始（かいし, start） – not related to showing results.<br> 説明（せつめい, explanation） – doesn’t match 'result posted'.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>発表</strong>（はっぴょう, happyou）. It refers to the announcement of test results.<br> 変更 – change, not about announcements.<br>開始 – means 'start', not relevant.<br> 説明 – means explanation, not a result announcement.</p>"
+      }
+    }
+  ]
+}
+

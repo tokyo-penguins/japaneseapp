@@ -1,0 +1,61 @@
+{
+  "type": "type2",
+  "title": "JLPT N1 Word Reordering Quiz - Extended (5-word sentences)",
+  "questions": [
+    {
+      "options": [
+        { "word": "研究に", "furigana": "", "romaji": "kenkyuu ni", "meaning": "in research" },
+        { "word": "事業の", "furigana": "", "romaji": "jigyou no", "meaning": "of his business" },
+        { "word": "彼は", "furigana": "", "romaji": "kare wa", "meaning": "he" },
+        { "word": "没頭している", "furigana": "", "romaji": "bottou shite iru", "meaning": "is immersed" }
+      ],
+      "answer": ["彼は", "事業の", "研究に", "没頭している"],
+      "fixedPart": "成功を目指して、",
+      "full": "彼は事業の研究に成功を目指して、没頭している。",
+      "translation": "He is now immersed in researching his business in pursuit of success.",
+      "possiblePositions": [3]
+    },
+    {
+      "options": [
+        { "word": "証拠に", "furigana": "", "romaji": "shouko ni", "meaning": "on evidence" },
+        { "word": "ただの", "furigana": "", "romaji": "tada no", "meaning": "mere" },
+        { "word": "私の意見は", "furigana": "", "romaji": "watashi no iken wa", "meaning": "my opinion" },
+        { "word": "希望的観測ではなく", "furigana": "", "romaji": "kibouteki kansoku de wa naku", "meaning": "not wishful thinking" },
+        { "word": "基づくものだ", "furigana": "", "romaji": "motozuku mono da", "meaning": "is based on" }
+      ],
+      "answer": ["私の意見は", "ただの", "希望的観測ではなく", "証拠に", "基づくものだ"],
+      "fixedPart": "客観的な分析の、",
+      "full": "私の意見はただの希望的観測ではなく客観的な分析の、証拠に基づくものだ。",
+      "translation": "My opinion is not merely wishful thinking but is based on evidence from objective analysis.",
+      "possiblePositions": [4]
+    },
+    {
+      "options": [
+        { "word": "秘密が", "furigana": "", "romaji": "himitsu ga", "meaning": "secrets" },
+        { "word": "1人の", "furigana": "", "romaji": "hitori no", "meaning": "one" },
+        { "word": "社内の", "furigana": "", "romaji": "shanai no", "meaning": "internal" },
+        { "word": "社員", "furigana": "", "romaji": "shain", "meaning": "employee" },
+        { "word": "暴露された", "furigana": "", "romaji": "bakuro sareta", "meaning": "were leaked" }
+      ],
+      "answer": ["1人の", "社員", "社内の", "秘密が", "暴露された"],
+      "fixedPart": "によって",
+      "full": "1人の社員によって社内の秘密が暴露された。",
+      "translation": "Due to security lapses, one employee leaked internal company secrets.",
+      "possiblePositions": [3]
+    },
+    {
+      "options": [
+         { "word": "会社の", "furigana": "", "romaji": "kaisha no", "meaning": "company's" },
+         { "word": "売り上げが", "furigana": "", "romaji": "uriage ga", "meaning": "sales" },
+        { "word": "彼の", "furigana": "", "romaji": "kare no", "meaning": "his" },
+        { "word": "活躍により", "furigana": "", "romaji": "katsuyaku ni yori", "meaning": "due to success" },
+        { "word": "飛躍的に伸びた", "furigana": "", "romaji": "hiyakuteki ni nobita", "meaning": "rose dramatically" }
+      ],
+      "answer": ["彼の", "活躍により", "会社の", "売り上げが", "飛躍的に伸びた"],
+      "fixedPart": "新商品がヒットし、",
+      "full": "彼の活躍により新商品がヒットし、会社の売り上げが飛躍的に伸びた。",
+      "translation": "Thanks to his success and the new product's popularity, company sales rose dramatically.",
+      "possiblePositions": [4]
+    }
+  ]
+}

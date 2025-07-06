@@ -1,0 +1,35 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "この薬は食後に（＿）してください。",
+      "options": ["2. 服用", "1. 記入", "3. 運動", "4. 掃除"],
+      "answer": "2. 服用",
+      "hint": "<p><ruby>薬<rt>くすり</rt></ruby> – medicine<br><ruby>服用<rt>ふくよう</rt></ruby> – taking medicine<br><ruby>食後<rt>しょくご</rt></ruby> – after meals<br><em>Romaji:</em> kusuri, fukuyou, shokugo</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>服用 (ふくよう)</strong> means to take medicine. This sentence advises taking the medicine after meals.<br><br><strong>Option Explanations:</strong><br>1. <ruby>記入<rt>きにゅう</rt></ruby> (kinyuu): to fill out a form<br>2. <ruby>服用<rt>ふくよう</rt></ruby> (fukuyou): ✅ taking medicine<br>3. <ruby>運動<rt>うんどう</rt></ruby> (undou): exercise<br>4. <ruby>掃除<rt>そうじ</rt></ruby> (souji): cleaning</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>2. 服用 (ふくよう)</strong> – taking medicine.<br><br><strong>Option Explanations:</strong><br>1. <ruby>記入<rt>きにゅう</rt></ruby> (kinyuu): to fill out a form<br>2. <ruby>服用<rt>ふくよう</rt></ruby> (fukuyou): ✅ taking medicine<br>3. <ruby>運動<rt>うんどう</rt></ruby> (undou): exercise<br>4. <ruby>掃除<rt>そうじ</rt></ruby> (souji): cleaning</p>"
+      }
+    },
+    {
+      "question": "イベントは天候の（＿）で中止されることもあります。",
+      "options": ["4. 影響", "2. 実験", "3. 成績", "1. 紹介"],
+      "answer": "4. 影響",
+      "hint": "<p><ruby>天候<rt>てんこう</rt></ruby> – weather<br><ruby>影響<rt>えいきょう</rt></ruby> – influence/effect<br><em>Romaji:</em> tenkou, eikyou</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>影響 (えいきょう)</strong> means influence. Weather can influence the decision to cancel an event.<br><br><strong>Option Explanations:</strong><br>1. <ruby>紹介<rt>しょうかい</rt></ruby> (shoukai): introduction<br>2. <ruby>実験<rt>じっけん</rt></ruby> (jikken): experiment<br>3. <ruby>成績<rt>せいせき</rt></ruby> (seiseki): grades/performance<br>4. <ruby>影響<rt>えいきょう</rt></ruby> (eikyou): ✅ influence</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>4. 影響 (えいきょう)</strong> – influence.<br><br><strong>Option Explanations:</strong><br>1. <ruby>紹介<rt>しょうかい</rt></ruby> (shoukai): introduction<br>2. <ruby>実験<rt>じっけん</rt></ruby> (jikken): experiment<br>3. <ruby>成績<rt>せいせき</rt></ruby> (seiseki): grades/performance<br>4. <ruby>影響<rt>えいきょう</rt></ruby> (eikyou): ✅ influence</p>"
+      }
+    },
+    {
+      "question": "この店のサービスには大変（＿）しました。",
+      "options": ["3. 満足", "2. 移動", "1. 感染", "4. 運営"],
+      "answer": "3. 満足",
+      "hint": "<p><ruby>満足<rt>まんぞく</rt></ruby> – satisfaction<br><ruby>大変<rt>たいへん</rt></ruby> – very<br><em>Romaji:</em> manzoku, taihen</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>満足 (まんぞく)</strong> means satisfaction. The sentence means you were very pleased with the service.<br><br><strong>Option Explanations:</strong><br>1. <ruby>感染<rt>かんせん</rt></ruby> (kansen): infection<br>2. <ruby>移動<rt>いどう</rt></ruby> (idou): movement<br>3. <ruby>満足<rt>まんぞく</rt></ruby> (manzoku): ✅ satisfaction<br>4. <ruby>運営<rt>うんえい</rt></ruby> (un'ei): management</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>3. 満足 (まんぞく)</strong> – satisfaction.<br><br><strong>Option Explanations:</strong><br>1. <ruby>感染<rt>かんせん</rt></ruby> (kansen): infection<br>2. <ruby>移動<rt>いどう</rt></ruby> (idou): movement<br>3. <ruby>満足<rt>まんぞく</rt></ruby> (manzoku): ✅ satisfaction<br>4. <ruby>運営<rt>うんえい</rt></ruby> (un'ei): management</p>"
+      }
+    }
+  ]
+}

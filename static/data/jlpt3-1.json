@@ -1,0 +1,45 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "電車が遅れているので、会社に（＿）をしました。",
+      "options": ["1. 連絡", "2. 修理", "3. 予約", "4. 運転"],
+      "answer": "1. 連絡",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～ので</strong> - reason (neutral)</p><p>Vocabulary: 電車(でんしゃ)、遅れる(おくれる)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong></p><p>「連絡」 means \"contact/inform.\"</p><ul><li>修理(しゅうり) - repair</li><li>予約(よやく) - reservation</li><li>運転(うんてん) - drive</li></ul><p><strong>English Translation:</strong> The train is delayed, so I contacted the company.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 連絡</p><p>「連絡」 means \"contact/inform.\"</p><ul><li>修理(しゅうり) - repair</li><li>予約(よやく) - reservation</li><li>運転(うんてん) - drive</li></ul><p><strong>English Translation:</strong> The train is delayed, so I contacted the company.</p>"
+      }
+    },
+    {
+      "question": "旅行の前に、ホテルの（＿）をキャンセルする必要があります。",
+      "options": ["1. 予約", "2. 修理", "3. 注文", "4. 運転"],
+      "answer": "1. 予約",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～前に</strong> - \"before doing something\"</p><p>Vocabulary: 旅行(りょこう)、ホテル、キャンセル</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong></p><p>「予約」 means \"reservation.\"</p><ul><li>修理(しゅうり) - repair</li><li>注文(ちゅうもん) - order</li><li>運転(うんてん) - driving</li></ul><p><strong>English Translation:</strong> Before the trip, I need to cancel the hotel reservation.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 予約</p><p>「予約」 means \"reservation.\"</p><ul><li>修理(しゅうり) - repair</li><li>注文(ちゅうもん) - order</li><li>運転(うんてん) - driving</li></ul><p><strong>English Translation:</strong> Before the trip, I need to cancel the hotel reservation.</p>"
+      }
+    },
+    {
+      "question": "彼はいつも冗談を言って、みんなを（＿）います。",
+      "options": ["1. 怒らせて", "2. 笑わせて", "3. 泣かせて", "4. 驚かせて"],
+      "answer": "2. 笑わせて",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～て</strong> - te-form for continuous action</p><p>Vocabulary: 冗談(じょうだん)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong></p><p>「笑わせて」 means \"make (someone) laugh.\"</p><ul><li>怒らせて(おこらせて) - make angry</li><li>泣かせて(なかせて) - make cry</li><li>驚かせて(おどろかせて) - surprise</li></ul><p><strong>English Translation:</strong> He always tells jokes and makes everyone laugh.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 笑わせて</p><p>「笑わせて」 means \"make (someone) laugh.\"</p><ul><li>怒らせて(おこらせて) - make angry</li><li>泣かせて(なかせて) - make cry</li><li>驚かせて(おどろかせて) - surprise</li></ul><p><strong>English Translation:</strong> He always tells jokes and makes everyone laugh.</p>"
+      }
+    },
+    {
+      "question": "このケーキは卵を使っていないので、（＿）の人でも食べられます。",
+      "options": ["1. アレルギー", "2. ダイエット", "3. ベジタリアン", "4. 病気"],
+      "answer": "1. アレルギー",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～ので</strong> - reason (neutral)</p><p>Vocabulary: ケーキ、卵(たまご)、使う(つかう)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong></p><p>「アレルギー」 means \"allergy.\"</p><ul><li>ダイエット - diet</li><li>ベジタリアン - vegetarian</li><li>病気(びょうき) - illness</li></ul><p><strong>English Translation:</strong> This cake doesn’t use eggs, so even people with allergies can eat it.</p>",
+        "incorrect": "<p><strong>Answer:</strong> アレルギー</p><p>「アレルギー」 means \"allergy.\"</p><ul><li>ダイエット - diet</li><li>ベジタリアン - vegetarian</li><li>病気(びょうき) - illness</li></ul><p><strong>English Translation:</strong> This cake doesn’t use eggs, so even people with allergies can eat it.</p>"
+      }
+    }
+  ]
+}

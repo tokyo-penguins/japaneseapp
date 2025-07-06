@@ -1,0 +1,35 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "会議室の（＿）を予約しておきました。",
+      "options": ["2. 使用時間", "1. 温度", "3. 明るさ", "4. 湿度"],
+      "answer": "2. 使用時間",
+      "hint": "<p>会議室(かいぎしつ, meeting room)、予約(よやく, reservation)、使用時間(しようじかん, usage time)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>使用時間（しようじかん, shiyou jikan）</strong> means 'usage time'—the actual period you reserve for a meeting room.</p><ul><li>使用時間 – usage time (しようじかん, shiyou jikan)</li><li>温度 – temperature (おんど, ondo)</li><li>明るさ – brightness (あかるさ, akarusa)</li><li>湿度 – humidity (しつど, shitsudo)</li></ul><p><strong>Sentence meaning:</strong> I reserved the meeting room’s usage time.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 使用時間（しようじかん, shiyou jikan） - usage time<br><ul><li>使用時間 – usage time</li><li>温度 – temperature</li><li>明るさ – brightness</li><li>湿度 – humidity</li></ul><p><strong>Sentence meaning:</strong> I reserved the meeting room’s usage time.</p>"
+      }
+    },
+    {
+      "question": "パソコンの（＿）が遅くなったので修理に出します。",
+      "options": ["1. 動作", "2. 色", "3. 重さ", "4. 大きさ"],
+      "answer": "1. 動作",
+      "hint": "<p>動作(どうさ, performance)、修理(しゅうり, repair)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>動作（どうさ, dousa）</strong> means 'operation/performance'—commonly cited when a PC is slow.</p><ul><li>動作 – operation/performance (どうさ, dousa)</li><li>色 – color (いろ, iro)</li><li>重さ – weight (おもさ, omosa)</li><li>大きさ – size (おおきさ, ookisa)</li></ul><p><strong>Sentence meaning:</strong> Since my PC became slow, I’m sending it for repair.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 動作（どうさ, dousa） - operation/performance<br><ul><li>動作 – operation/performance</li><li>色 – color</li><li>重さ – weight</li><li>大きさ – size</li></ul><p><strong>Sentence meaning:</strong> Since my PC became slow, I’m sending it for repair.</p>"
+      }
+    },
+    {
+      "question": "このデータは（＿）に保存してください。",
+      "options": ["1. フォルダ", "2. ゴミ箱", "3. 机", "4. 本棚"],
+      "answer": "1. フォルダ",
+      "hint": "<p>保存(ほぞん, save)、フォルダ(folder)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>フォルダ（ふぉるだ, foruda）</strong> means 'folder'—a proper digital storage location.</p><ul><li>フォルダ – folder (ふぉるだ, foruda)</li><li>ゴミ箱 – trash bin (ごみばこ, gomibako)</li><li>机 – desk (つくえ, tsukue)</li><li>本棚 – bookshelf (ほんだな, hondana)</li></ul><p><strong>Sentence meaning:</strong> Please save this data in a folder.</p>",
+        "incorrect": "<p><strong>Answer:</strong> フォルダ（ふぉるだ, foruda） - folder<br><ul><li>フォルダ – folder</li><li>ゴミ箱 – trash bin</li><li>机 – desk</li><li>本棚 – bookshelf</li></ul><p><strong>Sentence meaning:</strong> Please save this data in a folder.</p>"
+      }
+    }
+  ]
+}

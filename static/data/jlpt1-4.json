@@ -1,0 +1,50 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "問題を解決す（  ）努力した。",
+      "options": [
+        "1. べく",
+        "2. べし",
+        "3. べからず",
+        "4. べしと"
+      ],
+      "answer": "1. べく",
+      "hint": "<p>解決（かいけつ, kaiketsu）- resolution<br>努力（どりょく, doryoku）- effort</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> べく（べく, beku）- in order to</p><ul><li>べし（べし, beshi）- should</li><li>べからず（べからず, bekarazu）- must not</li><li>べしと（べしと, beshi to）- (not a standard form)</li></ul><p><strong>English Translation:</strong> He made efforts in order to solve the problem.</p>",
+        "incorrect": "<p><strong>Answer:</strong> べく（べく, beku）- in order to</p><ul><li>べし（べし, beshi）- should</li><li>べからず（べからず, bekarazu）- must not</li><li>べしと（べしと, beshi to）- (not a standard form)</li></ul><p><strong>English Translation:</strong> He made efforts in order to solve the problem.</p>"
+      }
+    },
+    {
+      "question": "彼の成功は努力（ ）不可能だっただろう。",
+      "options": [
+        "1. の上で",
+        "2. をもって",
+        "3. によって",
+        "4. なしに"
+      ],
+      "answer": "4. なしに",
+      "hint": "<p>成功（せいこう, seikou）- success<br>努力（どりょく, doryoku）- effort<br>不可能（ふかのう, fukanou）- impossible</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> なしに（なしに, nashini）- without</p><ul><li>の上で（のうえで, no uede）- upon, after</li><li>をもって（をもって, womotte）- by means of</li><li>によって（によって, niyotte）- by, depending on</li></ul><p><strong>English Translation:</strong> His success would have been impossible without effort.</p>",
+        "incorrect": "<p><strong>Answer:</strong> なしに（なしに, nashini）- without</p><ul><li>の上で（のうえで, no uede）- upon, after</li><li>をもって（をもって, womotte）- by means of</li><li>によって（によって, niyotte）- by, depending on</li></ul><p><strong>English Translation:</strong> His success would have been impossible without effort.</p>"
+      }
+    },
+    {
+      "question": "問題は（  ）しており、もはや解決の糸口が見えない。",
+      "options": [
+        "1. 泥沼化して",
+        "2. 一喝して",
+        "3. 一掃して",
+        "4. 一致団結して"
+      ],
+      "answer": "1. 泥沼化して",
+      "hint": "<p>泥沼化（どろぬまか, doronuma ka）- becoming a quagmire<br>糸口（いとぐち, itoguchi）- clue</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 泥沼化して（どろぬまかして, doronuma ka shite）- to become a quagmire</p><ul><li>一喝して（いっかつして, ikkatsu shite）- to scold sharply</li><li>一掃して（いっそうして, issou shite）- to sweep away</li><li>一致団結して（いっちだんけつして, icchi danketsu shite）- to unite</li></ul><p><strong>English Translation:</strong> The issue has become a quagmire, and no clue for resolution is visible.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 泥沼化して（どろぬまかして, doronuma ka shite）- to become a quagmire</p><ul><li>一喝して（いっかつして, ikkatsu shite）- to scold sharply</li><li>一掃して（いっそうして, issou shite）- to sweep away</li><li>一致団結して（いっちだんけつして, icchi danketsu shite）- to unite</li></ul><p><strong>English Translation:</strong> The issue has become a quagmire, and no clue for resolution is visible.</p>"
+      }
+    }
+  ]
+}

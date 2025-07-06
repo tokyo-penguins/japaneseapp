@@ -1,0 +1,55 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "田中さんは人前で話すと、すぐに（＿）する。",
+      "options": ["1. 緊張", "2. 不安", "3. 興奮", "4. 冷静"],
+      "answer": "1. 緊張",
+      "hint": "<p><ruby>人前<rt>ひとまえ</rt></ruby> – in front of people<br><ruby>話<rt>はな</rt></ruby>す – to speak<br><em>Romaji:</em> hitomae, hanasu</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>緊張 (きんちょう)</strong> means nervousness. The sentence means Mr. Tanaka becomes nervous when speaking in front of others.<br><br><strong>Option Explanations:</strong><br>1. <ruby>緊張<rt>きんちょう</rt></ruby> (kinchou): ✅ nervousness<br>2. <ruby>不安<rt>ふあん</rt></ruby> (fuan): anxiety<br>3. <ruby>興奮<rt>こうふん</rt></ruby> (koufun): excitement<br>4. <ruby>冷静<rt>れいせい</rt></ruby> (reisei): calmness</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. 緊張 (きんちょう)</strong> – nervousness.<br><br><strong>Option Explanations:</strong><br>1. <ruby>緊張<rt>きんちょう</rt></ruby> (kinchou): ✅ nervousness<br>2. <ruby>不安<rt>ふあん</rt></ruby> (fuan): anxiety<br>3. <ruby>興奮<rt>こうふん</rt></ruby> (koufun): excitement<br>4. <ruby>冷静<rt>れいせい</rt></ruby> (reisei): calmness</p>"
+      }
+    },
+    {
+      "question": "彼はまるで自分が社長（＿）ふるまっている。",
+      "options": ["1. のようだ", "2. らしい", "3. みたいだ", "4. かのように"],
+      "answer": "4. かのように",
+      "hint": "<p><ruby>まるで</ruby> – as if<br><ruby>振<rt>ふ</rt></ruby>る<ruby>舞<rt>ま</rt></ruby>う – to behave<br><em>Romaji:</em> marude, furumau</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>かのように (ka no you ni)</strong> means 'as if' and is used in formal expressions.<br><br><strong>Option Explanations:</strong><br>1. <ruby>のようだ</ruby> (no you da): like (neutral)<br>2. <ruby>らしい</ruby> (rashii): apparently, it seems<br>3. <ruby>みたいだ</ruby> (mitai da): like (grammatically incorrect)<br>4. <ruby>かのように</ruby> (ka no you ni): ✅ as if (formal)</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>4. かのように</strong> – as if (formal).<br><br><strong>Option Explanations:</strong><br>1. <ruby>のようだ</ruby> (no you da): like (neutral)<br>2. <ruby>らしい</ruby> (rashii): apparently<br>3. <ruby>みたいだ</ruby> (mitai da): like (grammatically incorrect)<br>4. <ruby>かのように</ruby> (ka no you ni): ✅ as if (formal)</p>"
+      }
+    },
+    {
+      "question": "旅行中に財布をなくして（＿）と思った。",
+      "options": ["1. わけがない", "2. はずがない", "3. おっと", "4. やばい"],
+      "answer": "4. やばい",
+      "hint": "<p><ruby>旅行中<rt>りょこうちゅう</rt></ruby> – while traveling<br><ruby>財布<rt>さいふ</rt></ruby> – wallet<br><em>Romaji:</em> ryokouchuu, saifu</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>やばい (yabai)</strong> is a casual expression meaning 'oh no' or 'this is bad'.<br><br><strong>Option Explanations:</strong><br>1. <ruby>わけがない</ruby> (wake ga nai): no way, impossible<br>2. <ruby>はずがない</ruby> (hazu ga nai): can’t be<br>3. <ruby>おっと</ruby> (otto): oops! (used after mistake)<br>4. <ruby>やばい</ruby> (yabai): ✅ oh no, terrible</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>4. やばい (yabai)</strong> – oh no, dangerous.<br><br><strong>Option Explanations:</strong><br>1. <ruby>わけがない</ruby> (wake ga nai): impossible<br>2. <ruby>はずがない</ruby> (hazu ga nai): can't be<br>3. <ruby>おっと</ruby> (otto): oops!<br>4. <ruby>やばい</ruby> (yabai): ✅ oh no, terrible</p>"
+      }
+    },
+    {
+      "question": "彼の提案には（＿）がある。",
+      "options": ["1. 納得", "2. 実感", "3. 説得力", "4. 信用"],
+      "answer": "3. 説得力",
+      "hint": "<p><ruby>提案<rt>ていあん</rt></ruby> – proposal<br><ruby>力<rt>りょく</rt></ruby> – power<br><em>Romaji:</em> teian, ryoku</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>説得力 (せっとくりょく)</strong> means persuasive power.<br><br><strong>Option Explanations:</strong><br>1. <ruby>納得<rt>なっとく</rt></ruby> (nattoku): agreement<br>2. <ruby>実感<rt>じっかん</rt></ruby> (jikkan): real feeling<br>3. <ruby>説得力<rt>せっとくりょく</rt></ruby> (settokuryoku): ✅ persuasive power<br>4. <ruby>信用<rt>しんよう</rt></ruby> (shinyou): trust</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>3. 説得力 (せっとくりょく)</strong> – persuasive power.<br><br><strong>Option Explanations:</strong><br>1. <ruby>納得<rt>なっとく</rt></ruby> (nattoku): agreement<br>2. <ruby>実感<rt>じっかん</rt></ruby> (jikkan): real feeling<br>3. <ruby>説得力<rt>せっとくりょく</rt></ruby> (settokuryoku): ✅ persuasive power<br>4. <ruby>信用<rt>しんよう</rt></ruby> (shinyou): trust</p>"
+      }
+    },
+    {
+      "question": "この仕事は男女の（＿）を問わず、誰でも応募できます。",
+      "options": ["1. 経験", "2. 能力", "3. 性別", "4. 学歴"],
+      "answer": "3. 性別",
+      "hint": "<p><ruby>問<rt>と</rt></ruby>わず – regardless of<br><ruby>応募<rt>おうぼ</rt></ruby> – application<br><em>Romaji:</em> towazu, oubo</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>性別 (せいべつ)</strong> means gender. This sentence implies the job is open to all regardless of gender.<br><br><strong>Option Explanations:</strong><br>1. <ruby>経験<rt>けいけん</rt></ruby> (keiken): experience<br>2. <ruby>能力<rt>のうりょく</rt></ruby> (nouryoku): ability<br>3. <ruby>性別<rt>せいべつ</rt></ruby> (seibetsu): ✅ gender<br>4. <ruby>学歴<rt>がくれき</rt></ruby> (gakureki): academic background</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>3. 性別 (せいべつ)</strong> – gender.<br><br><strong>Option Explanations:</strong><br>1. <ruby>経験<rt>けいけん</rt></ruby> (keiken): experience<br>2. <ruby>能力<rt>のうりょく</rt></ruby> (nouryoku): ability<br>3. <ruby>性別<rt>せいべつ</rt></ruby> (seibetsu): ✅ gender<br>4. <ruby>学歴<rt>がくれき</rt></ruby> (gakureki): academic background</p>"
+      }
+    }
+  ]
+}

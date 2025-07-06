@@ -1,0 +1,48 @@
+{
+    "type": "type2",
+    "title": "JLPT N5 Word Reordering Quiz",
+    "questions": [
+        {
+            "sentence": "___ ___ ___ ___ します。",
+            "options": [
+              { "word": "みず", "furigana": "", "romaji": "mizu", "meaning": "water" },
+              { "word": "を", "furigana": "", "romaji": "wo", "meaning": "object marker" },
+              { "word": "ひとつ", "furigana": "", "romaji": "hitotsu", "meaning": "one (thing)" },
+              { "word": "おねがい", "furigana": "", "romaji": "onegai", "meaning": "please (request)" }
+            ],
+            "answer": ["みず", "を", "ひとつ", "おねがい"],
+            "full": "みず を ひとつ おねがいします。",
+            "translation": "One water, please.",
+            "fixedPart": "します。",
+            "possiblePositions": [5]
+          },
+          {
+            "sentence": "___ ___ ___ ___ いきます。",
+            "options": [
+            { "word": "は", "furigana": "", "romaji": "wa", "meaning": "topic marker" },
+              { "word": "に", "furigana": "", "romaji": "ni", "meaning": "to (destination)" },
+              { "word": "わたし", "furigana": "", "romaji": "watashi", "meaning": "I" },
+              { "word": "がっこう", "furigana": "", "romaji": "gakkou", "meaning": "school" }
+            ],
+            "answer": ["わたし", "は", "がっこう", "に"],
+            "full": "わたし は がっこう に いき ます。",
+            "translation": "I go to school.",
+            "fixedPart": "いきます。",
+            "possiblePositions": [5]
+          },
+          {
+            "sentence": "___ ___ ___ ___ きました。",
+            "options": [
+            { "word": "が", "furigana": "", "romaji": "ga", "meaning": "subject marker" },
+              { "word": "ともだち", "furigana": "", "romaji": "tomodachi", "meaning": "friend" },
+              { "word": "家", "furigana": "いえ", "romaji": "ie", "meaning": "house" },
+              { "word": "に", "furigana": "", "romaji": "ni", "meaning": "to" }
+            ],
+            "answer": ["ともだち", "が", "家", "に"],
+            "full": "ともだち が 家 に きました。",
+            "translation": "A friend came to my house.",
+            "fixedPart": "きました。",
+            "possiblePositions": [5]
+          }
+    ]
+}

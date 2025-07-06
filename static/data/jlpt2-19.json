@@ -1,0 +1,85 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "彼はまるで何でも知っている（＿）話す。",
+      "options": ["1. みたいに", "2. ところで", "3. わけで", "4. うちに"],
+      "answer": "1. みたいに",
+      "hint": "<p><ruby>まるで<rt>まるで</rt></ruby> (marude) - as if<br><ruby>知<rt>し</rt></ruby>っている (shitte iru) - to know<br><ruby>話<rt>はな</rt></ruby>す (hanasu) - to speak</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong> みたいに (like, as if)</p><ul><li><ruby>みたいに<rt>みたいに</rt></ruby> (mitai ni): to talk as if knowing everything</li><li><ruby>ところで<rt>ところで</rt></ruby> (tokoro de): by the way</li><li><ruby>わけで<rt>わけで</rt></ruby> (wake de): because of that reason</li><li><ruby>うちに<rt>うちに</rt></ruby> (uchi ni): while doing something</li></ul><p><strong>Full Sentence Meaning:</strong> He talks as if he knows everything.</p>",
+        "incorrect": "<p><strong>Incorrect!</strong> The correct answer is <strong>1. みたいに</strong> (mitai ni).</p><ul><li><ruby>ところで<rt>ところで</rt></ruby> (tokoro de): by the way</li><li><ruby>わけで<rt>わけで</rt></ruby> (wake de): because of that reason</li><li><ruby>うちに<rt>うちに</rt></ruby> (uchi ni): while doing something</li></ul><p><strong>Meaning:</strong> He talks as if he knows everything.</p>"
+      }
+    },
+    {
+      "question": "彼は結果を出すために、毎日努力を（＿）。",
+      "options": ["1. 重ねた", "2. 治した", "3. 削った", "4. 伸ばした"],
+      "answer": "1. 重ねた",
+      "hint": "<p><ruby>結果<rt>けっか</rt></ruby> (kekka) - result<br><ruby>努力<rt>どりょく</rt></ruby> (doryoku) - effort</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong> <ruby>重<rt>かさ</rt></ruby>ねた (kasaneta) - accumulated</p><ul><li>治した - healed or fixed</li><li>削った - shaved or reduced</li><li>伸ばした - extended or stretched</li></ul><p><strong>Full Sentence Meaning:</strong> He put in continuous effort every day to get results.</p>",
+        "incorrect": "<p><strong>Incorrect!</strong> The correct answer is <strong>1. 重ねた</strong> (kasaneta).</p><ul><li>治した - to heal or fix</li><li>削った - to reduce</li><li>伸ばした - to extend</li></ul><p><strong>Meaning:</strong> He continuously accumulated efforts to achieve results.</p>"
+      }
+    },
+    {
+      "question": "あの二人は顔を合わせるたびに（＿）。",
+      "options": ["1. 火花を散らす", "2. 手を抜く", "3. 顔を潰す", "4. 足を引っ張る"],
+      "answer": "1. 火花を散らす",
+      "hint": "<p><ruby>顔<rt>かお</rt></ruby>を<ruby>合<rt>あ</rt></ruby>わせる (kao o awaseru) - to meet<br><ruby>たび<rt>たび</rt></ruby>に - every time</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong> <ruby>火花<rt>ひばな</rt></ruby>を<ruby>散<rt>ち</rt></ruby>らす (hibana o chirasu) - to clash fiercely</p><ul><li>手を抜く - to cut corners</li><li>顔を潰す - to disgrace someone</li><li>足を引っ張る - to drag someone down</li></ul><p><strong>Full Sentence Meaning:</strong> Every time those two meet, they fiercely clash.</p>",
+        "incorrect": "<p><strong>Incorrect!</strong> The correct answer is <strong>1. 火花を散らす</strong> (hibana o chirasu).</p><ul><li>手を抜く - to slack off</li><li>顔を潰す - to ruin someone's reputation</li><li>足を引っ張る - to hold someone back</li></ul><p><strong>Meaning:</strong> Every time those two meet, sparks fly between them.</p>"
+      }
+    },
+    {
+      "question": "何度も同じミスをして、彼の信頼を（＿）。",
+      "options": ["1. 失った", "2. 上げた", "3. 拾った", "4. 借りた"],
+      "answer": "1. 失った",
+      "hint": "<p><ruby>信頼<rt>しんらい</rt></ruby> (shinrai) - trust<br><ruby>何度<rt>なんど</rt></ruby>も - many times</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong> <ruby>失<rt>うしな</rt></ruby>った (ushinatta) - lost</p><ul><li>上げた - raised</li><li>拾った - picked up</li><li>借りた - borrowed</li></ul><p><strong>Full Sentence Meaning:</strong> He lost their trust by repeating the same mistake many times.</p>",
+        "incorrect": "<p><strong>Incorrect!</strong> The correct answer is <strong>1. 失った</strong> (ushinatta).</p><ul><li>上げた - raised</li><li>拾った - picked up</li><li>借りた - borrowed</li></ul><p><strong>Meaning:</strong> He repeatedly made mistakes and lost their trust.</p>"
+      }
+    },
+    {
+      "question": "彼女の話はいつも（＿）が合っておもしろい。",
+      "options": ["1. 間", "2. 枠", "3. 筋", "4. 枝"],
+      "answer": "1. 間",
+      "hint": "<p><ruby>話<rt>はなし</rt></ruby> (hanashi) - story<br><ruby>間<rt>ま</rt></ruby> (ma) - timing, pause</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong> <ruby>間<rt>ま</rt></ruby> (ma) - timing</p><ul><li>枠 - frame</li><li>筋 - storyline</li><li>枝 - branch</li></ul><p><strong>Full Sentence Meaning:</strong> Her timing in telling stories is always good and interesting.</p>",
+        "incorrect": "<p><strong>Incorrect!</strong> The correct answer is <strong>1. 間</strong> (ma).</p><ul><li>枠 - frame</li><li>筋 - storyline</li><li>枝 - branch</li></ul><p><strong>Meaning:</strong> Her storytelling timing makes it entertaining.</p>"
+      }
+    },
+    {
+      "question": "あの選手はついに限界を（＿）。",
+      "options": ["1. 迎えた", "2. 吸った", "3. 刺した", "4. 乗った"],
+      "answer": "1. 迎えた",
+      "hint": "<p><ruby>限界<rt>げんかい</rt></ruby> (genkai) - limit</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong> <ruby>迎<rt>むか</rt></ruby>えた (mukaeta) - reached</p><ul><li>吸った - inhaled</li><li>刺した - stabbed</li><li>乗った - got on</li></ul><p><strong>Full Sentence Meaning:</strong> That athlete has finally reached their limit.</p>",
+        "incorrect": "<p><strong>Incorrect!</strong> The correct answer is <strong>1. 迎えた</strong> (mukaeta).</p><ul><li>吸った - to inhale</li><li>刺した - to stab</li><li>乗った - to get on</li></ul><p><strong>Meaning:</strong> The player finally hit the limit of their strength or endurance.</p>"
+      }
+    },
+    {
+      "question": "あの人はお金のことになると、（＿）を持たない。",
+      "options": ["1. 執着", "2. 謙遜", "3. 感謝", "4. 配慮"],
+      "answer": "1. 執着",
+      "hint": "<p><ruby>執着<rt>しゅうちゃく</rt></ruby> (shuuchaku) - attachment, obsession</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong> <ruby>執着<rt>しゅうちゃく</rt></ruby> (shuuchaku) - obsession/attachment</p><ul><li>謙遜 - humility</li><li>感謝 - gratitude</li><li>配慮 - consideration</li></ul><p><strong>Full Sentence Meaning:</strong> That person has no attachment to money.</p>",
+        "incorrect": "<p><strong>Incorrect!</strong> The correct answer is <strong>1. 執着</strong> (shuuchaku).</p><ul><li>謙遜 - modesty</li><li>感謝 - thankfulness</li><li>配慮 - consideration</li></ul><p><strong>Meaning:</strong> That person is indifferent when it comes to money.</p>"
+      }
+    },
+    {
+      "question": "彼はいつも口だけで、行動が（＿）。",
+      "options": ["1. 伴わない", "2. 過ぎない", "3. 異ならない", "4. 足らない"],
+      "answer": "1. 伴わない",
+      "hint": "<p><ruby>行動<rt>こうどう</rt></ruby> (koudou) - action<br><ruby>伴<rt>ともな</rt></ruby>わない (tomowanai) - not accompanied</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong> <ruby>伴<rt>ともな</rt></ruby>わない (tomowanai) - not accompanied</p><ul><li>過ぎない - nothing more than</li><li>異ならない - not different</li><li>足らない - not enough</li></ul><p><strong>Full Sentence Meaning:</strong> He always talks but never takes action.</p>",
+        "incorrect": "<p><strong>Incorrect!</strong> The correct answer is <strong>1. 伴わない</strong> (tomowanai).</p><ul><li>過ぎない - merely</li><li>異ならない - not different</li><li>足らない - insufficient</li></ul><p><strong>Meaning:</strong> He only talks and never follows through with action.</p>"
+      }
+    }
+  ]
+}

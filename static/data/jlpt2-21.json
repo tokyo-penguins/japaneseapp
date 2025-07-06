@@ -1,0 +1,35 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "外交官は、その発言が（＿）を引き起こすことを懸念していた。",
+      "options": ["3. 誤解", "1. 感動", "4. 進化", "2. 採用"],
+      "answer": "3. 誤解",
+      "hint": "<p><ruby>外交官<rt>がいこうかん</rt></ruby> (gaikoukan) – diplomat<br><ruby>懸念<rt>けねん</rt></ruby> (kenen) – concern/worry<br><ruby>誤解<rt>ごかい</rt></ruby> (gokai) – misunderstanding</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>The word <ruby>誤解<rt>ごかい</rt></ruby> (gokai) means 'misunderstanding'. The sentence implies that the diplomat was worried about their words causing a misunderstanding.<br><br><strong>Option Explanations:</strong><br>1. <ruby>感動<rt>かんどう</rt></ruby> (kandou): deep emotion<br>2. <ruby>採用<rt>さいよう</rt></ruby> (saiyou): hiring/adoption<br>3. <ruby>誤解<rt>ごかい</rt></ruby> (gokai): ✅ misunderstanding<br>4. <ruby>進化<rt>しんか</rt></ruby> (shinka): evolution<br><br><strong>Sentence meaning:</strong> The diplomat was concerned that the statement might cause a misunderstanding.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>3. <ruby>誤解<rt>ごかい</rt></ruby></strong> – misunderstanding.<br><br><strong>Option Explanations:</strong><br>1. <ruby>感動<rt>かんどう</rt></ruby> (kandou): deep emotion<br>2. <ruby>採用<rt>さいよう</rt></ruby> (saiyou): hiring/adoption<br>3. <ruby>誤解<rt>ごかい</rt></ruby> (gokai): ✅ misunderstanding<br>4. <ruby>進化<rt>しんか</rt></ruby> (shinka): evolution</p>"
+      }
+    },
+    {
+      "question": "この協定の署名は、両国の平和的な（＿）を象徴している。",
+      "options": ["1. 解決", "4. 攻撃", "2. 分裂", "3. 批判"],
+      "answer": "1. 解決",
+      "hint": "<p><ruby>協定<rt>きょうてい</rt></ruby> (kyoutei) – agreement<br><ruby>署名<rt>しょめい</rt></ruby> (shomei) – signature<br><ruby>解決<rt>かいけつ</rt></ruby> (kaiketsu) – resolution</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>解決<rt>かいけつ</rt></ruby> (kaiketsu) means resolution. The signing of this agreement represents a peaceful solution.<br><br><strong>Option Explanations:</strong><br>1. <ruby>解決<rt>かいけつ</rt></ruby> (kaiketsu): ✅ resolution<br>2. <ruby>分裂<rt>ぶんれつ</rt></ruby> (bunretsu): division<br>3. <ruby>批判<rt>ひはん</rt></ruby> (hihan): criticism<br>4. <ruby>攻撃<rt>こうげき</rt></ruby> (kougeki): attack<br><br><strong>Sentence meaning:</strong> The signing of this agreement symbolizes a peaceful resolution between the two nations.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>解決<rt>かいけつ</rt></ruby></strong> – resolution.<br><br><strong>Option Explanations:</strong><br>1. <ruby>解決<rt>かいけつ</rt></ruby> (kaiketsu): ✅ resolution<br>2. <ruby>分裂<rt>ぶんれつ</rt></ruby> (bunretsu): division<br>3. <ruby>批判<rt>ひはん</rt></ruby> (hihan): criticism<br>4. <ruby>攻撃<rt>こうげき</rt></ruby> (kougeki): attack</p>"
+      }
+    },
+    {
+      "question": "その提案は、国際社会から強い（＿）を受けた。",
+      "options": ["4. 支持", "3. 統合", "2. 保存", "1. 応援"],
+      "answer": "4. 支持",
+      "hint": "<p><ruby>国際社会<rt>こくさいしゃかい</rt></ruby> (kokusai shakai) – international community<br><ruby>支持<rt>しじ</rt></ruby> (shiji) – support/backing</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>支持<rt>しじ</rt></ruby> (shiji) means support or backing. It indicates that the international community strongly backed the proposal.<br><br><strong>Option Explanations:</strong><br>1. <ruby>応援<rt>おうえん</rt></ruby> (ouen): cheering/emotional support<br>2. <ruby>保存<rt>ほぞん</rt></ruby> (hozon): preservation<br>3. <ruby>統合<rt>とうごう</rt></ruby> (tougou): integration<br>4. <ruby>支持<rt>しじ</rt></ruby> (shiji): ✅ support/backing<br><br><strong>Sentence meaning:</strong> The proposal received strong support from the international community.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>4. <ruby>支持<rt>しじ</rt></ruby></strong> – support.<br><br><strong>Option Explanations:</strong><br>1. <ruby>応援<rt>おうえん</rt></ruby> (ouen): cheering/emotional support<br>2. <ruby>保存<rt>ほぞん</rt></ruby> (hozon): preservation<br>3. <ruby>統合<rt>とうごう</rt></ruby> (tougou): integration<br>4. <ruby>支持<rt>しじ</rt></ruby> (shiji): ✅ support/backing</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "駅（＿）　人が　たくさん　います。",
+      "options": ["1. に", "2. を", "3. で", "4. が"],
+      "answer": "1. に",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～に います</strong> - location of existence (for people)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「駅<strong>に</strong>人がいます」 means “There are people at the station.”</p><ul><li><strong>を</strong> - object marker</li><li><strong>で</strong> - place of action, not used with いる/ある</li><li><strong>が</strong> - subject marker, not for location</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>に</strong>.<ul><li><strong>を</strong> - object marker</li><li><strong>で</strong> - place of action, not used with いる/ある</li><li><strong>が</strong> - subject marker, not for location</li></ul></p>"
+      }
+    },
+    {
+      "question": "いぬ（＿）　にくを　あげました。",
+      "options": ["1. に", "2. が", "3. は", "4. を"],
+      "answer": "1. に",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～に あげる</strong> - to give to someone/something</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「犬<strong>に</strong>あげました」 = “I gave meat to the dog.”</p><ul><li><strong>が</strong> - subject marker</li><li><strong>は</strong> - topic marker</li><li><strong>を</strong> - object marker (used for what is given)</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>に</strong>.<ul><li><strong>が</strong> - subject marker</li><li><strong>は</strong> - topic marker</li><li><strong>を</strong> - object marker (used for what is given)</li></ul></p>"
+      }
+    },
+    {
+      "question": "へや（＿）　エアコンが　ついています。",
+      "options": ["1. に", "2. を", "3. は", "4. と"],
+      "answer": "1. に",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～に ついています</strong> - something is on/in a location</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「へや<strong>に</strong>エアコンがついています」 = “There is an air conditioner on in the room.”</p><ul><li><strong>を</strong> - object marker</li><li><strong>は</strong> - topic marker</li><li><strong>と</strong> - “with” or “and”</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>に</strong>.<ul><li><strong>を</strong> - object marker</li><li><strong>は</strong> - topic marker</li><li><strong>と</strong> - “with” or “and”</li></ul></p>"
+      }
+    },
+    {
+      "question": "このかばんは　山田さん（＿）です。",
+      "options": ["1. の", "2. が", "3. を", "4. に"],
+      "answer": "1. の",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～の</strong> - possession</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「山田さん<strong>の</strong>です」 = “It belongs to Mr./Ms. Yamada.”</p><ul><li><strong>が</strong> - subject marker</li><li><strong>を</strong> - object marker</li><li><strong>に</strong> - direction or recipient</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>の</strong>.<ul><li><strong>が</strong> - subject marker</li><li><strong>を</strong> - object marker</li><li><strong>に</strong> - direction or recipient</li></ul></p>"
+      }
+    },
+    {
+      "question": "私は　先生（＿）　ききました。",
+      "options": ["1. に", "2. を", "3. が", "4. で"],
+      "answer": "1. に",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～に 聞く</strong> - to ask someone</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「先生<strong>に</strong>ききました」 = “I asked the teacher.”</p><ul><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker</li><li><strong>で</strong> - location marker</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>に</strong>.<ul><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker</li><li><strong>で</strong> - location marker</li></ul></p>"
+      }
+    },
+    {
+      "question": "田中さん（＿）　ピアノが　じょうずです。",
+      "options": ["1. は", "2. に", "3. を", "4. が"],
+      "answer": "1. は",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～は ～が 上手</strong> - A is good at B</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「田中さん<strong>は</strong>ピアノが上手です」 = “Tanaka is good at piano.”</p><ul><li><strong>に</strong> - indirect marker</li><li><strong>を</strong> - object marker</li><li><strong>が</strong> - marks the skill (ピアノ), not Tanaka</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>は</strong>.<ul><li><strong>に</strong> - indirect marker</li><li><strong>を</strong> - object marker</li><li><strong>が</strong> - marks the skill (ピアノ), not Tanaka</li></ul></p>"
+      }
+    }
+  ]
+}

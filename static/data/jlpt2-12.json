@@ -1,0 +1,75 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "彼は約束を守らなかったことを深く（＿）していた。",
+      "options": ["1. 反省", "2. 喜び", "3. 無視", "4. 遠慮"],
+      "answer": "1. 反省",
+      "hint": "<p><ruby>約束<rt>やくそく</rt></ruby> (yakusoku) – promise<br><ruby>守る<rt>まもる</rt></ruby> (mamoru) – to keep</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>反省<rt>はんせい</rt></ruby> (hansei) means reflection or remorse. He deeply regretted breaking his promise.<br><br><strong>Option Explanations:</strong><br>1. <ruby>反省<rt>はんせい</rt></ruby> (hansei): ✅ reflection, remorse<br>2. <ruby>喜び<rt>よろこび</rt></ruby> (yorokobi): joy<br>3. <ruby>無視<rt>むし</rt></ruby> (mushi): ignoring<br>4. <ruby>遠慮<rt>えんりょ</rt></ruby> (enryo): restraint</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>反省<rt>はんせい</rt></ruby> (hansei)</strong> – reflection, remorse.<br><br><strong>Option Explanations:</strong><br>1. <ruby>反省<rt>はんせい</rt></ruby> (hansei): ✅ reflection, remorse<br>2. <ruby>喜び<rt>よろこび</rt></ruby> (yorokobi): joy<br>3. <ruby>無視<rt>むし</rt></ruby> (mushi): ignoring<br>4. <ruby>遠慮<rt>えんりょ</rt></ruby> (enryo): restraint</p>"
+      }
+    },
+    {
+      "question": "田中さんは何を頼んでも、嫌な顔一つ（＿）で引き受けてくれる。",
+      "options": ["1. する", "2. しない", "3. しかけ", "4. して"],
+      "answer": "2. しない",
+      "hint": "<p><ruby>嫌な顔<rt>いやなかお</rt></ruby> (iya na kao) – displeased look<br><ruby>引き受ける<rt>ひきうける</rt></ruby> (hikiukeru) – to undertake</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>“嫌な顔一つしない” is a common phrase meaning someone helps without showing any displeasure.<br><br><strong>Option Explanations:</strong><br>1. <ruby>する<rt>する</rt></ruby> (suru): to do<br>2. <ruby>しない<rt>しない</rt></ruby> (shinai): ✅ not do<br>3. <ruby>しかけ<rt>しかけ</rt></ruby> (shikake): attempt, start to do<br>4. <ruby>して<rt>して</rt></ruby> (shite): te-form of suru</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>2. <ruby>しない<rt>しない</rt></ruby></strong> – not do.<br><br><strong>Option Explanations:</strong><br>1. <ruby>する<rt>する</rt></ruby> (suru): to do<br>2. <ruby>しない<rt>しない</rt></ruby> (shinai): ✅ not do<br>3. <ruby>しかけ<rt>しかけ</rt></ruby> (shikake): attempt<br>4. <ruby>して<rt>して</rt></ruby> (shite): te-form</p>"
+      }
+    },
+    {
+      "question": "彼は新人なのに、大きなプロジェクトを（＿）られた。",
+      "options": ["1. 頼り", "2. 任せ", "3. 通り", "4. 乗り"],
+      "answer": "2. 任せ",
+      "hint": "<p><ruby>新人<rt>しんじん</rt></ruby> (shinjin) – newcomer<br><ruby>任せる<rt>まかせる</rt></ruby> (makaseru) – to entrust</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>任せ<rt>まかせ</rt></ruby> is the correct stem form meaning ‘entrusted’ with something.<br><br><strong>Option Explanations:</strong><br>1. <ruby>頼り<rt>たより</rt></ruby> (tayori): reliance<br>2. <ruby>任せ<rt>まかせ</rt></ruby> (makase): ✅ entrust<br>3. <ruby>通り<rt>とおり</rt></ruby> (toori): street, way<br>4. <ruby>乗り<rt>のり</rt></ruby> (nori): ride</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>2. <ruby>任せ<rt>まかせ</rt></ruby></strong> – entrust.<br><br><strong>Option Explanations:</strong><br>1. <ruby>頼り<rt>たより</rt></ruby> (tayori): reliance<br>2. <ruby>任せ<rt>まかせ</rt></ruby> (makase): ✅ entrust<br>3. <ruby>通り<rt>とおり</rt></ruby> (toori): way<br>4. <ruby>乗り<rt>のり</rt></ruby> (nori): ride</p>"
+      }
+    },
+    {
+      "question": "この映画は思っていたよりも（＿）、最後まで飽きずに見られた。",
+      "options": ["1. 地味", "2. 平凡", "3. 退屈", "4. 面白く"],
+      "answer": "4. 面白く",
+      "hint": "<p><ruby>飽きる<rt>あきる</rt></ruby> (akiru) – to get bored<br><ruby>面白く<rt>おもしろく</rt></ruby> (omoshiroku) – interesting (adverb form)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>面白く<rt>おもしろく</rt></ruby> (omoshiroku) modifies the verb 見る. The sentence means “It was more interesting than expected.”<br><br><strong>Option Explanations:</strong><br>1. <ruby>地味<rt>じみ</rt></ruby> (jimi): plain<br>2. <ruby>平凡<rt>へいぼん</rt></ruby> (heibon): ordinary<br>3. <ruby>退屈<rt>たいくつ</rt></ruby> (taikutsu): boring<br>4. <ruby>面白く<rt>おもしろく</rt></ruby> (omoshiroku): ✅ interesting (adverb)</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>4. <ruby>面白く<rt>おもしろく</rt></ruby></strong> – interesting.<br><br><strong>Option Explanations:</strong><br>1. <ruby>地味<rt>じみ</rt></ruby> (jimi): plain<br>2. <ruby>平凡<rt>へいぼん</rt></ruby> (heibon): ordinary<br>3. <ruby>退屈<rt>たいくつ</rt></ruby> (taikutsu): boring<br>4. <ruby>面白く<rt>おもしろく</rt></ruby> (omoshiroku): ✅ interesting</p>"
+      }
+    },
+    {
+      "question": "彼の発言は、状況を（＿）させただけだった。",
+      "options": ["1. 改善", "2. 破壊", "3. 悪化", "4. 向上"],
+      "answer": "3. 悪化",
+      "hint": "<p><ruby>発言<rt>はつげん</rt></ruby> (hatsugen) – remark<br><ruby>悪化<rt>あっか</rt></ruby> (akka) – worsening</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>悪化<rt>あっか</rt></ruby> (akka) means that the situation got worse due to the statement.<br><br><strong>Option Explanations:</strong><br>1. <ruby>改善<rt>かいぜん</rt></ruby> (kaizen): improvement<br>2. <ruby>破壊<rt>はかい</rt></ruby> (hakai): destruction<br>3. <ruby>悪化<rt>あっか</rt></ruby> (akka): ✅ worsening<br>4. <ruby>向上<rt>こうじょう</rt></ruby> (koujou): improvement (in ability or quality)</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>3. <ruby>悪化<rt>あっか</rt></ruby></strong> – worsening.<br><br><strong>Option Explanations:</strong><br>1. <ruby>改善<rt>かいぜん</rt></ruby> (kaizen): improvement<br>2. <ruby>破壊<rt>はかい</rt></ruby> (hakai): destruction<br>3. <ruby>悪化<rt>あっか</rt></ruby> (akka): ✅ worsening<br>4. <ruby>向上<rt>こうじょう</rt></ruby> (koujou): improvement</p>"
+      }
+    },
+    {
+      "question": "彼女はいつも時間通りに来るので、（＿）できる人だと思う。",
+      "options": ["1. 信用", "2. 自慢", "3. 管理", "4. 失敗"],
+      "answer": "1. 信用",
+      "hint": "<p><ruby>信用<rt>しんよう</rt></ruby> (shinyou) – trust</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>信用<rt>しんよう</rt></ruby> (shinyou) means someone can be trusted.<br><br><strong>Option Explanations:</strong><br>1. <ruby>信用<rt>しんよう</rt></ruby> (shinyou): ✅ trust<br>2. <ruby>自慢<rt>じまん</rt></ruby> (jiman): boast<br>3. <ruby>管理<rt>かんり</rt></ruby> (kanri): management<br>4. <ruby>失敗<rt>しっぱい</rt></ruby> (shippai): failure</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>信用<rt>しんよう</rt></ruby></strong> – trust.<br><br><strong>Option Explanations:</strong><br>1. <ruby>信用<rt>しんよう</rt></ruby> (shinyou): ✅ trust<br>2. <ruby>自慢<rt>じまん</rt></ruby> (jiman): boast<br>3. <ruby>管理<rt>かんり</rt></ruby> (kanri): management<br>4. <ruby>失敗<rt>しっぱい</rt></ruby> (shippai): failure</p>"
+      }
+    },
+    {
+      "question": "上司の言葉に（＿）を飲んだ。",
+      "options": ["1. 声", "2. 飲み物", "3. 息", "4. 涙"],
+      "answer": "3. 息",
+      "hint": "<p><ruby>息を飲む<rt>いきをのむ</rt></ruby> (iki wo nomu) – to gasp (in surprise)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>息を飲む<rt>いきをのむ</rt></ruby> (iki wo nomu) is an idiom meaning to be so surprised that you hold your breath.<br><br><strong>Option Explanations:</strong><br>1. <ruby>声<rt>こえ</rt></ruby> (koe): voice<br>2. <ruby>飲み物<rt>のみもの</rt></ruby> (nomimono): drink<br>3. <ruby>息<rt>いき</rt></ruby> (iki): ✅ breath<br>4. <ruby>涙<rt>なみだ</rt></ruby> (namida): tears</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>3. <ruby>息<rt>いき</rt></ruby></strong> – breath.<br><br><strong>Option Explanations:</strong><br>1. <ruby>声<rt>こえ</rt></ruby> (koe): voice<br>2. <ruby>飲み物<rt>のみもの</rt></ruby> (nomimono): drink<br>3. <ruby>息<rt>いき</rt></ruby> (iki): ✅ breath<br>4. <ruby>涙<rt>なみだ</rt></ruby> (namida): tears</p>"
+      }
+    }
+  ]
+}

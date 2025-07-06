@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Register</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Basic body styling */
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        /* Style for the container */
+        .form-container {
+            background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+            backdrop-filter: blur(10px); /* Blur effect for background */
+            border-radius: 1rem; /* Rounded corners */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Soft shadow */
+            padding: 2.5rem;
+            width: 100%;
+            max-width: 450px; /* Max width for the form */
+        }
+        /* Style for input fields */
+        .input-field {
+            border-radius: 0.5rem; /* Rounded corners */
+            border: 1px solid #d1d5db; /* Light gray border */
+            padding: 0.75rem 1rem;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+        }
+        .input-field:focus {
+            outline: none;
+            border-color: #6366f1; /* Indigo border on focus */
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2); /* Indigo ring on focus */
+        }
+        /* Style for buttons */
+        .submit-button {
+            border-radius: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            font-weight: 600;
+            color: white;
+            background: linear-gradient(to right, #6366f1, #8b5cf6); /* Indigo to purple gradient */
+            transition: background 0.3s ease, transform 0.1s ease; /* Smooth transition */
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3); /* Button shadow */
+        }
+        .submit-button:hover {
+            background: linear-gradient(to right, #4f46e5, #7c3aed); /* Darker gradient on hover */
+            transform: translateY(-2px); /* Slight lift on hover */
+        }
+        .submit-button:active {
+             transform: translateY(0px); /* Button press effect */
+        }
+        /* Style for toggle links */
+        .toggle-link {
+            color: #6366f1; /* Indigo color */
+            font-weight: 500;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+        .toggle-link:hover {
+            color: #4f46e5; /* Darker indigo on hover */
+            text-decoration: underline;
+        }
+        /* Hide elements */
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4">
+
+    <div class="form-container">
+        <button id="saveBtn" class="submit-button mt-4">Save Progress</button>
+        <div id="login-form">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-6">Welcome Back!</h2>
+            <div id="login-message" class="mb-4 text-center text-sm font-medium"></div>
+            <form action="/login" method="post" id="loginFormActual">
+                <div class="mb-4">
+                    <label for="login-username" class="block text-sm font-medium text-gray-700 mb-1">Username</label>
+                    <input type="text" id="login-username" name="username" required
+                           class="w-full input-field" placeholder="Enter your username">
+                </div>
+                <div class="mb-6">
+                    <label for="login-password" class="block text-sm font-medium text-gray-700 mb-1">Password</label>
+                    <input type="password" id="login-password" name="password" required
+                           class="w-full input-field" placeholder="Enter your password">
+                </div>
+                <button type="submit" class="w-full submit-button mb-4">Login</button>
+            </form>
+            <p class="text-center text-sm text-gray-600">
+                Don't have an account? <span onclick="toggleForms()" class="toggle-link">Register here</span>
+            </p>
+        </div>
+
+        <div id="register-form" class="hidden">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-6">Create Account</h2>
+             <div id="register-message" class="mb-4 text-center text-sm font-medium"></div>
+            <form action="/register" method="post" id="registerFormActual">
+                <div class="mb-4">
+                    <label for="register-username" class="block text-sm font-medium text-gray-700 mb-1">Username</label>
+                    <input type="text" id="register-username" name="username" required
+                           class="w-full input-field" placeholder="Choose a username">
+                </div>
+                 <div class="mb-4">
+                    <label for="register-email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                    <input type="email" id="register-email" name="email" required
+                           class="w-full input-field" placeholder="Enter your email">
+                </div>
+                <div class="mb-6">
+                    <label for="register-password" class="block text-sm font-medium text-gray-700 mb-1">Password</label>
+                    <input type="password" id="register-password" name="password" required
+                           class="w-full input-field" placeholder="Create a password">
+                </div>
+                <button type="submit" class="w-full submit-button mb-4">Register</button>
+            </form>
+            <p class="text-center text-sm text-gray-600">
+                Already have an account? <span onclick="toggleForms()" class="toggle-link">Login here</span>
+            </p>
+        </div>
+
+    </div>
+
+    <script>
+        // Function to toggle between login and registration forms
+        function toggleForms() {
+            const loginForm = document.getElementById('login-form');
+            const registerForm = document.getElementById('register-form');
+            loginForm.classList.toggle('hidden');
+            registerForm.classList.toggle('hidden');
+            // Clear any previous messages
+            document.getElementById('login-message').textContent = '';
+            document.getElementById('register-message').textContent = '';
+        }
+
+        // Function to display messages from the server (passed via URL parameters)
+        function displayMessages() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const loginMsg = urlParams.get('login_message');
+            const registerMsg = urlParams.get('register_message');
+            const loginMsgElement = document.getElementById('login-message');
+            const registerMsgElement = document.getElementById('register-message');
+
+            if (loginMsg) {
+                loginMsgElement.textContent = decodeURIComponent(loginMsg);
+                loginMsgElement.className = urlParams.get('login_status') === 'success' ? 'mb-4 text-center text-sm font-medium text-green-600' : 'mb-4 text-center text-sm font-medium text-red-600';
+                // Ensure login form is visible if there's a login message
+                document.getElementById('login-form').classList.remove('hidden');
+                document.getElementById('register-form').classList.add('hidden');
+            }
+
+            if (registerMsg) {
+                registerMsgElement.textContent = decodeURIComponent(registerMsg);
+                 registerMsgElement.className = urlParams.get('register_status') === 'success' ? 'mb-4 text-center text-sm font-medium text-green-600' : 'mb-4 text-center text-sm font-medium text-red-600';
+                 // Ensure register form is visible if there's a register message
+                document.getElementById('register-form').classList.remove('hidden');
+                document.getElementById('login-form').classList.add('hidden');
+            }
+        }
+
+        // Display messages when the page loads
+        window.onload = displayMessages;
+
+    </script>
+    
+</body>
+</html>

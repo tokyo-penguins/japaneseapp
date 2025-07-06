@@ -1,0 +1,65 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "彼は自分の実力を（  ），結果は散々だった。",
+      "options": [
+        "1. 高く評価する",
+        "2. 高を括る",
+        "3. 高を上げる",
+        "4. 高を並べる"
+      ],
+      "answer": "2. 高を括る",
+      "hint": "<p>実力（じつりょく, jitsuryoku）- ability<br>散々（さんざん, sanzan）- terrible (result)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 高を括る（たかをくくる, taka wo kukuru）- to overestimate</p><ul><li>高く評価する（たかくひょうかする, takaku hyouka suru）- to rate highly</li><li>高を上げる（たかをあげる, taka wo ageru）- (not a set expression)</li><li>高を並べる（たかをならべる, taka wo naraberu）- (not a set expression)</li></ul><p><strong>English Translation:</strong> He overestimated his own ability, and the result was disastrous.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 高を括る（たかをくくる, taka wo kukuru）- to overestimate</p><ul><li>高く評価する（たかくひょうかする, takaku hyouka suru）- to rate highly</li><li>高を上げる（たかをあげる, taka wo ageru）- (not a set expression)</li><li>高を並べる（たかをならべる, taka wo naraberu）- (not a set expression)</li></ul><p><strong>English Translation:</strong> He overestimated his own ability, and the result was disastrous.</p>"
+      }
+    },
+    {
+      "question": "彼女はプロジェクトの成功のために（  ）している。",
+      "options": [
+        "1. 苦心",
+        "2. 腐心",
+        "3. 感心",
+        "4. 歓心"
+      ],
+      "answer": "2. 腐心",
+      "hint": "<p>成功（せいこう, seikou）- success<br>プロジェクト（ぷろじぇくと, purojekuto）- project</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 腐心（ふしん, fushin）- to worry/to toil over</p><ul><li>苦心（くしん, kushin）- hard work</li><li>感心（かんしん, kanshin）- admiration</li><li>歓心（かんしん, kanshin）- favor</li><p><strong>English Translation:</strong> She is laboring anxiously for the success of the project.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 腐心（ふしん, fushin）- to worry/to toil over</p><ul><li>苦心（くしん, kushin）- hard work</li><li>感心（かんしん, kanshin）- admiration</li><li>歓心（かんしん, kanshin）- favor</li></ul><p><strong>English Translation:</strong> She is laboring anxiously for the success of the project.</p>"
+      }
+    },
+    {
+      "question": "健康のためには、毎日運動する（  ）。",
+      "options": [
+        "1. に越したことはない",
+        "2. によって",
+        "3. にかけては",
+        "4. ためだ"
+      ],
+      "answer": "1. に越したことはない",
+      "hint": "<p>健康（けんこう, kenkou）- health<br>運動（うんどう, undou）- exercise</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> に越したことはない（にこしたことはない, ni koshita koto wa nai）- nothing beats</p><ul><li>によって（によって, ni yotte）- by/depending on</li><li>にかけては（にかけては, ni kakete wa）- when it comes to</li><li>ためだ（ためだ, tame da）- in order to do</li></ul><p><strong>English Translation:</strong> Nothing beats exercising every day for your health.</p>",
+        "incorrect": "<p><strong>Answer:</strong> に越したことはない（にこしたことはない, ni koshita koto wa nai）- nothing beats</p><ul><li>によって（によって, ni yotte）- by/depending on</li><li>にかけては（にかけては, ni kakete wa）- when it comes to</li><li>ためだ（ためだ, tame da）- in order to do</li></ul><p><strong>English Translation:</strong> Nothing beats exercising every day for your health.</p>"
+      }
+    },
+    {
+      "question": "彼の気持ちは想像する（  ）。",
+      "options": [
+        "1. にかたくない",
+        "2. に反して",
+        "3. といえども",
+        "4. ものの"
+      ],
+      "answer": "1. にかたくない",
+      "hint": "<p>想像（そうぞう, souzou）- imagination<br>気持ち（きもち, kimochi）- feelings</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> にかたくない（にかたくない, ni katakunai）- easy to</p><ul><li>に反して（にはんして, ni hanshite）- contrary to</li><li>といえども（といえども, to iedomo）- even though</li><li>ものの（ものの, mono no）- although</li></ul><p><strong>English Translation:</strong> His feelings are easy to imagine.</p>",
+        "incorrect": "<p><strong>Answer:</strong> にかたくない（にかたくない, ni katakunai）- easy to</p><ul><li>に反して（にはんして, ni hanshite）- contrary to</li><li>といえども（といえども, to iedomo）- even though</li><li>ものの（ものの, mono no）- although</li></ul><p><strong>English Translation:</strong> His feelings are easy to imagine.</p>"
+      }
+    }
+  ]
+}

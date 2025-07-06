@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ quiz_title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/quiz_type1.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    
+    <div class="quiz-container">
+        <div class="speech-bubble" id="question-counter">Question 1</div>
+        <p id="question"></p>
+        <img id="question-img" src="" alt="Question Image" style="display: none;">
+        
+        <button class="hint-btn" id="hintBtn">
+            <span>💡</span> Show Hint
+        </button>
+        <div class="hint-box" id="hintBox"></div>
+        
+        <div id="options"></div>
+        
+        <div class="explanation-box" id="explanationBox"></div>
+        
+        <div class="buttons-container">
+            <button onclick="nextQuestion()" class="next-btn">Next</button>
+            <button id="back-btn" onclick="window.location.href='/{{ quizLevel }}'">Main Menu</button>
+        </div>
+        
+        <div id="results-container" class="results-container">
+            <div id="result-message" class="result-message"></div>
+            <div id="result-submessage" class="result-submessage">Want to take your Japanese to the next level?</div>
+            <a href="#" id="result-link" class="result-link">Check out our premium courses</a>
+        </div>
+    </div>
+    
+    <div class="retry-notification" id="retryNotification">
+        <h3>You didn't answer all questions correctly!</h3>
+        <p>Would you like to try again or return to the quiz list?</p>
+        <div class="retry-buttons">
+            <button class="retry-btn retry-home">Quiz List</button>
+            <button class="retry-btn retry-again">Try Again</button>
+        </div>
+    </div>
+
+    <script>
+  const questions = {{ questions|tojson|safe if questions is defined else '[]' }};
+  const quizLevel = "{{ quizLevel }}";
+  const quizNum = {{ quizNum }};
+  const quiz_id = "{{ quiz_id }}";
+  console.log("埋め込みquestionsデータ:", questions);
+</script>
+      <script src="{{ url_for('static', filename='js/quiz_type1_logic.js') }}"></script>
+      
+</body>
+</html>

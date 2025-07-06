@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Conversation</title>
+  <style>
+    body {
+      background-image: url("{{ url_for('static', filename='images/daily.png') }}");
+      background-size: cover;
+      background-position: center;
+      font-family: 'Comic Sans MS', 'Noto Sans JP', cursive;
+      margin: 0;
+      padding: 40px 20px;
+      text-align: center;
+      background-attachment: fixed;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 30px;
+      color: #d92027;
+      text-shadow: 2px 2px 0 #fff;
+    }
+
+    .tab-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .daily-tab {
+      border: 3px solid black;
+      border-radius: 15px;
+      padding: 20px;
+      width: 140px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 3px 3px 0 black;
+      text-decoration: none;
+      color: black;
+      transition: transform 0.2s;
+    }
+
+    .daily-tab:hover {
+      transform: scale(1.08);
+      filter: brightness(1.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Daily Conversation</h1>
+  <div class="tab-container" id="tabContainer">
+    <!-- タブが自動で追加される -->
+  </div>
+  <div style="margin-top: 40px;">
+    <a href="/home#daily-section" class="daily-tab" style="background-color: #ffcbcb;">← Back to Home</a>
+  </div>
+
+  <script>
+
+    const currentFiles = 5; // ここを増やすだけでタブが増える
+    const colors = [
+      "#f9f871", "#a0e7e5", "#b4f8c8", "#ffdac1",
+      "#ffb7b2", "#caffbf", "#9bf6ff", "#ffc6ff",
+      "#fdffb6", "#ffd6a5", "#cdeac0", "#ffadad"
+    ];
+
+    const tabNames = ["Daily", "Restaurant", "Convenience Store","Izakaya", "Hospital",]; // Add more as needed
+
+    const tabContainer = document.getElementById('tabContainer');
+
+    for (let i = 1; i <= currentFiles; i++) {
+      const a = document.createElement('a');
+      a.href = `/dailyconv/daily-${i}.html`;
+      a.className = 'daily-tab';
+      a.textContent = tabNames[i - 1] || `Tab ${i}`; // fallback in case index exceeds the array
+      a.style.backgroundColor = colors[i - 1];
+      tabContainer.appendChild(a);
+    }
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "A: いまなんじですか？\nB: （＿）3時5分です。",
+        "options": ["1. ごろ", "2. ちょうど", "3. たぶん", "4. まだ"],
+        "answer": "2. ちょうど",
+        "hint": "<p>「ちょうど」 means “exactly” and is used with time or quantity.</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「ちょうど3時5分」 = exactly 3:05.<br>Perfect way to answer the time question.</p><ul><li><strong>ごろ</strong> - about/around (not exact)</li><li><strong>たぶん</strong> - maybe (used for uncertainty)</li><li><strong>まだ</strong> - still/yet</li></ul>",
+          "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>ちょうど</strong>.<ul><li><strong>ごろ</strong> - about/around (not exact)</li><li><strong>たぶん</strong> - maybe (used for uncertainty)</li><li><strong>まだ</strong> - still/yet</li></ul></p>"
+        }
+      },
+      {
+        "question": "A: このスマホ、いくら？\nB: 1万円（＿）です。",
+        "options": ["1. しか", "2. ごろ", "3. ぐらい", "4. まで"],
+        "answer": "3. ぐらい",
+        "hint": "<p>「〜ぐらい」 is used to say “about” an amount or time.</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「1万円ぐらい」 = about 10,000 yen.<br>Common and natural expression for approximations.</p><ul><li><strong>しか</strong> - used with negatives (e.g., 〜しかない)</li><li><strong>ごろ</strong> - about/around a time, not price</li><li><strong>まで</strong> - until</li></ul>",
+          "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>ぐらい</strong>.<ul><li><strong>しか</strong> - used with negatives (e.g., 〜しかない)</li><li><strong>ごろ</strong> - about/around a time, not price</li><li><strong>まで</strong> - until</li></ul></p>"
+        }
+      },
+      {
+        "question": "A: 明日、ピクニックに行く？\nB: うん、天気（＿）よかったらね。",
+        "options": ["1. で", "2. に", "3. が", "4. は"],
+        "answer": "3. が",
+        "hint": "<p>「〜が〜」 is used to mark the subject in conditional forms like 「〜がよかったら」.</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「天気がよかったら」 = if the weather is good.<br>「が」 marks the subject (天気) here.</p><ul><li><strong>で / に / は</strong> don’t make grammatical sense with conditional form 「〜よかったら」.</li></ul>",
+          "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>が</strong>.<ul><li><strong>で / に / は</strong> don’t make grammatical sense with conditional form 「〜よかったら」.</li></ul></p>"
+        }
+      }
+    ]
+  }
+  

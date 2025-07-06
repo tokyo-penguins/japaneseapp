@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Daily Japanese Quiz</title>
+    <style>
+        :root {
+            --button-bg: rgba(255, 255, 255, 0.85);
+            --button-hover-bg: rgba(255, 255, 255, 0.95);
+            --correct-color: #4CAF50; /* Green */
+            --incorrect-color: #F44336; /* Red */
+        }
+        
+        body {
+            font-family: 'Noto Sans JP', 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f9f5f0;
+            text-align: center;
+            padding: 15px;
+            background-image: url("{{ url_for('static', filename='images/backg.png') }}");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            min-height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+        
+        .quiz-container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 0 10px;
+        }
+        
+        .quiz-scenario {
+            background-color: var(--button-bg);
+            border-radius: 3px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            display: none;
+        }
+        
+        .quiz-scenario.active {
+            display: block;
+        }
+        
+        .scenario-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .quiz-options {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 15px;
+        }
+        
+        .option-btn {
+            padding: 14px 20px;
+            background-color: var(--button-bg);
+            border: none;
+            border-radius: 3px;
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.3s;
+            border-left: 4px solid #e0e0e0;
+        }
+        
+        .option-btn:hover:not(:disabled) {
+            background-color: var(--button-hover-bg);
+            transform: translateY(-2px);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        
+        .correct {
+            border-left-color: var(--correct-color) !important;
+            background-color: rgba(76, 175, 80, 0.15) !important;
+        }
+        
+        .incorrect {
+            border-left-color: var(--incorrect-color) !important;
+            background-color: rgba(244, 67, 54, 0.15) !important;
+        }
+        
+        .feedback {
+            padding: 12px;
+            border-radius: 3px;
+            margin: 15px 0;
+            text-align: left;
+            display: none;
+            animation: fadeIn 0.5s;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .correct-feedback {
+            background-color: rgba(76, 175, 80, 0.1);
+            border-left: 4px solid var(--correct-color);
+        }
+        
+        .incorrect-feedback {
+            background-color: rgba(244, 67, 54, 0.1);
+            border-left: 4px solid var(--incorrect-color);
+        }
+        
+        .explanation {
+            font-size: 0.9em;
+            margin-top: 10px;
+            color: #555;
+        }
+        
+        .emoji-feedback {
+            font-size: 2em;
+            margin: 10px 0;
+            animation: pop 0.5s;
+        }
+        
+        @keyframes pop {
+            0% { transform: scale(0.5); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+        
+        .cracker {
+            position: relative;
+            font-size: 2em;
+            display: inline-block;
+            animation: cracker 1s;
+        }
+        
+        @keyframes cracker {
+            0% { transform: rotate(0deg) scale(0.5); }
+            25% { transform: rotate(15deg) scale(1.2); }
+            50% { transform: rotate(-15deg) scale(1.3); }
+            75% { transform: rotate(5deg) scale(1.2); }
+            100% { transform: rotate(0deg) scale(1); }
+        }
+        
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        
+        .nav-btn {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .next-btn {
+            background-color: #8e6c88;
+            color: white;
+        }
+        
+        .menu-btn {
+            background-color: #6c7b8b;
+            color: white;
+        }
+        
+        .progress {
+            margin: 20px 0;
+            font-size: 0.9em;
+            color: #666;
+        }
+        
+        .quiz-complete {
+            text-align: center;
+            padding: 30px;
+            background-color: var(--button-bg);
+            border-radius: 3px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+            backdrop-filter: blur(4px);
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="quiz-container">
+        <!-- Scenario 1 -->
+        <div class="quiz-scenario active">
+            <h3>Scenario 1: Supermarket Voucher</h3>
+            <img src="{{ url_for('static', filename='images/coupon.png') }}" alt="Supermarket voucher" class="scenario-image">
+            <p>You see this voucher at your local supermarket. What does it mean?</p>
+            
+            <p class="quiz-question">What does 「50% OFF」mean in this context?</p>
+            
+            <div class="quiz-options">
+                <button class="option-btn" onclick="checkAnswer(this, false)">A) Buy 50 items</button>
+                <button class="option-btn" onclick="checkAnswer(this, true)">B) 50% discount</button>
+                <button class="option-btn" onclick="checkAnswer(this, false)">C) Only for 50 customers</button>
+                <button class="option-btn" onclick="checkAnswer(this, false)">D) Valid for 50 days</button>
+            </div>
+            
+            <div class="feedback correct-feedback">
+                <div class="emoji-feedback cracker">🎉</div>
+                Correct! 「50% OFF」means half price discount.
+                <div class="explanation">In Japanese stores, "OFF" is commonly used to indicate discounts.</div>
+            </div>
+            
+            <div class="feedback incorrect-feedback">
+                <div class="emoji-feedback">😑</div>
+                Incorrect! The correct answer is: <strong>50% discount</strong>
+                <div class="explanation">"OFF" in Japanese stores indicates discounts, different from Western usage.</div>
+            </div>
+            
+            <div class="nav-buttons">
+                <a href="/dailyconv" class="nav-btn menu-btn">Back to Main Menu</a>
+                <button class="nav-btn next-btn" onclick="nextQuestion()" disabled>Next Question</button>
+
+            </div>
+        </div>
+        
+        <!-- Scenario 2 -->
+        <div class="quiz-scenario">
+            <h3>Scenario 2: Social Media Message</h3>
+            <img src="{{ url_for('static', filename='images/linemes.png') }}" alt="Social media chat" class="scenario-image">
+            <p>Your Japanese friend sent you this message on LINE:</p>
+            
+            <p class="quiz-question">What does 「今度飲みに行こうぜ！」mean?</p>
+            
+            <div class="quiz-options">
+                <button class="option-btn" onclick="checkAnswer(this, false)">A) I'm drinking now</button>
+                <button class="option-btn" onclick="checkAnswer(this, false)">B) Don't drink too much</button>
+                <button class="option-btn" onclick="checkAnswer(this, true)">C) Let's go for drinks sometime!</button>
+                <button class="option-btn" onclick="checkAnswer(this, false)">D) I drank too much</button>
+            </div>
+            
+            <div class="feedback correct-feedback">
+                <div class="emoji-feedback cracker">🎉</div>
+                Correct! It's an invitation to go drinking together.
+                <div class="explanation">「今度」means "next time" or "sometime", and 「飲みに行こう」is the casual suggestion form.</div>
+            </div>
+            
+            <div class="feedback incorrect-feedback">
+                <div class="emoji-feedback">😑</div>
+                Incorrect! The correct answer is: <strong>Let's go for drinks sometime!</strong>
+                <div class="explanation">This is a common invitation phrase among friends in Japan.</div>
+            </div>
+            
+            <div class="nav-buttons">
+                <a href="/dailyconv"class="nav-btn menu-btn">Back to Main Menu</a>
+                <button class="nav-btn next-btn" onclick="nextQuestion()" disabled>Next Question</button>
+
+
+            </div>
+        </div>
+        
+        <!-- Scenario 3 -->
+        <div class="quiz-scenario">
+            <h3>Scenario 3: Work Email</h3>
+            <img src="{{ url_for('static', filename='images/mail.png') }}" alt="Work email" class="scenario-image">
+            <p>You received this email from your Japanese colleague:</p>
+            
+            <p class="quiz-question">What does 「添付ファイルをご確認ください」mean?</p>
+            
+            <div class="quiz-options">
+                <button class="option-btn" onclick="checkAnswer(this, false)">A) Please delete the attachment</button>
+                <button class="option-btn" onclick="checkAnswer(this, true)">B) Please check the attached file</button>
+                <button class="option-btn" onclick="checkAnswer(this, false)">C) The file is too big</button>
+                <button class="option-btn" onclick="checkAnswer(this, false)">D) I can't open the file</button>
+            </div>
+            
+            <div class="feedback correct-feedback">
+                <div class="emoji-feedback cracker">🎉</div>
+                Correct! It's asking you to review the attached file.
+                <div class="explanation">「添付ファイル」means "attached file" and 「ご確認ください」is the polite request form.</div>
+            </div>
+            
+            <div class="feedback incorrect-feedback">
+                <div class="emoji-feedback">😑</div>
+                Incorrect! The correct answer is: <strong>Please check the attached file</strong>
+                <div class="explanation">This is standard business Japanese for requesting document review.</div>
+            </div>
+            
+            <div class="nav-buttons">
+                <a href="/dailyconv" class="nav-btn menu-btn">Back to Main Menu</a>
+                <button class="nav-btn next-btn" onclick="nextQuestion()" disabled>Next Question</button>
+
+            </div>
+        </div>
+        
+        <!-- Scenario 4 -->
+        <div class="quiz-scenario">
+            <h3>Scenario 4: Train Station Announcement</h3>
+            <img src="{{ url_for('static', filename='images/board.png') }}" alt="Train station sign" class="scenario-image">
+            <p>You see this sign at a Tokyo train station:</p>
+            
+            <p class="quiz-question">What does 「まもなく電車がまいります」mean?</p>
+            
+            <div class="quiz-options">
+                <button class="option-btn" onclick="checkAnswer(this, false)">A) The train is delayed</button>
+                <button class="option-btn" onclick="checkAnswer(this, false)">B) This train is out of service</button>
+                <button class="option-btn" onclick="checkAnswer(this, true)">C) The train will arrive shortly</button>
+                <button class="option-btn" onclick="checkAnswer(this, false)">D) Last train of the day</button>
+            </div>
+            
+            <div class="feedback correct-feedback">
+                <div class="emoji-feedback cracker">🎉</div>
+                Correct! It means the train is arriving soon.
+                <div class="explanation">「まもなく」means "shortly" and 「まいります」means "will arrive".</div>
+            </div>
+            
+            <div class="feedback incorrect-feedback">
+                <div class="emoji-feedback">😑</div>
+                Incorrect! The correct answer is: <strong>The train will arrive shortly</strong>
+                <div class="explanation">This is a standard announcement you'll hear at Japanese stations.</div>
+            </div>
+            
+            <div class="nav-buttons">
+                <a href="/dailyconv" class="nav-btn menu-btn">Back to Main Menu</a>
+                <button class="nav-btn next-btn" onclick="nextQuestion()" disabled>Next Question</button>
+
+            </div>
+        </div>
+        
+        <!-- Quiz Complete Screen -->
+        <div class="quiz-scenario quiz-complete" style="display:none;">
+            <h2>Quiz Complete!</h2>
+            <div class="emoji-feedback cracker">🎊</div>
+            <p>You've finished all scenarios!</p>
+            <div class="nav-buttons" style="justify-content: center;">
+                <a href="/dailyconv" class="nav-btn menu-btn">Back to Main Menu</a>
+            </div>
+        </div>
+        
+        <div class="progress">Question 1 of 4</div>
+    </div>
+
+    <script>
+        let currentQuestion = 1;
+        const totalQuestions = 4;
+        
+        function checkAnswer(btn, isCorrect) {
+    const allButtons = btn.parentElement.querySelectorAll('.option-btn');
+    allButtons.forEach(button => {
+        button.disabled = true;
+        button.onclick = null;
+    });
+
+    const scenario = btn.closest('.quiz-scenario');
+    const nextBtn = scenario.querySelector('.next-btn');
+
+    if (isCorrect) {
+        btn.classList.add('correct');
+        scenario.querySelector('.correct-feedback').style.display = 'block';
+    } else {
+        btn.classList.add('incorrect');
+        const correctBtn = Array.from(allButtons).find(
+            button => button.onclick && button.onclick.toString().includes('true')
+        );
+        if (correctBtn) correctBtn.classList.add('correct');
+        scenario.querySelector('.incorrect-feedback').style.display = 'block';
+    }
+
+    // ✅ Enable "Next" no matter the result
+    nextBtn.disabled = false;
+}
+        
+function nextQuestion() {
+    const currentScenario = document.querySelector('.quiz-scenario.active');
+    currentScenario.classList.remove('active');
+
+    currentQuestion++;
+
+    if (currentQuestion <= totalQuestions) {
+        const nextScenario = document.querySelectorAll('.quiz-scenario')[currentQuestion - 1];
+        nextScenario.classList.add('active');
+
+        // Reset progress
+        document.querySelector('.progress').textContent = `Question ${currentQuestion} of ${totalQuestions}`;
+
+        // Disable "Next" button until correct answer
+        const nextBtn = nextScenario.querySelector('.next-btn');
+        if (nextBtn) nextBtn.disabled = true;
+    } else {
+        // Quiz complete
+        document.querySelector('.quiz-complete').style.display = 'block';
+        document.querySelector('.quiz-complete').classList.add('active');
+        document.querySelector('.progress').style.display = 'none';
+    }
+}
+    </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+{
+    "type": "type2",
+    "title": "JLPT N4 Word Reordering Quiz",
+    "questions": [
+        {
+            "options": [
+              { "word": "この", "furigana": "", "romaji": "kono", "meaning": "this" },
+              { "word": "レストランの", "furigana": "", "romaji": "resutoran no", "meaning": "restaurant's" },
+              { "word": "とても", "furigana": "", "romaji": "totemo", "meaning": "very" },
+              { "word": "おいしい", "furigana": "", "romaji": "oishii", "meaning": "delicious" }
+            ],
+            "answer": ["この", "レストランの", "とても", "おいしい"],
+            "full": "このレストランのパスタはとてもおいしい。",
+            "translation": "The pasta at this restaurant is very delicious.",
+            "fixedPart": "パスタは",
+            "possiblePositions": [3]
+          },
+          {
+            "options": [
+              { "word": "冬に", "furigana": "ふゆに", "romaji": "fuyu ni", "meaning": "in winter" },
+              { "word": "なる", "furigana": "", "romaji": "naru", "meaning": "become" },
+              { "word": "と", "furigana": "", "romaji": "to", "meaning": "when" },
+              { "word": "寒い", "furigana": "さむい", "romaji": "samui", "meaning": "cold" }
+            ],
+            "answer": ["冬に", "なる", "と", "寒い"],
+            "full": "冬になると北海道は寒い。",
+            "translation": "When winter comes, Hokkaido becomes cold.",
+            "fixedPart": "北海道は",
+            "possiblePositions": [4]
+          },
+          {
+            "options": [
+              { "word": "日本語の", "furigana": "にほんごの", "romaji": "nihongo no", "meaning": "Japanese" },
+              { "word": "勉強を", "furigana": "べんきょうを", "romaji": "benkyou wo", "meaning": "study" },
+              { "word": "始めた", "furigana": "はじめた", "romaji": "hajimeta", "meaning": "started" },
+              { "word": "去年", "furigana": "きょねん", "romaji": "kyonen", "meaning": "last year" }
+            ],
+            "answer": ["去年", "日本語の", "勉強を", "始めた"],
+            "full": "去年、日本語の勉強を始めた。",
+            "translation": "I started studying Japanese last year.",
+            "fixedPart": "、",
+            "possiblePositions": [2]
+          },
+          {
+            "options": [
+              { "word": "猫が", "furigana": "ねこが", "romaji": "neko ga", "meaning": "cat" },
+              { "word": "ソファの", "furigana": "", "romaji": "sofa no", "meaning": "sofa's" },
+              { "word": "寝て", "furigana": "ねて", "romaji": "nete", "meaning": "sleeping" },
+              { "word": "上で", "furigana": "うえで", "romaji": "ue de", "meaning": "on" }
+            ],
+            "answer": ["猫が", "ソファの", "上で", "寝て"],
+            "full": "猫がソファの上で寝ている。",
+            "translation": "The cat is sleeping on the sofa.",
+            "fixedPart": "いる",
+            "possiblePositions": [5]
+          }
+    ]
+}

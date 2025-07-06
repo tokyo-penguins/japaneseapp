@@ -1,0 +1,45 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "計画の変更については、全員に（＿）上で実行してください。",
+      "options": ["1. 相談した", "2. 通知した", "3. 合意を得た", "4. 報告した"],
+      "answer": "3. 合意を得た",
+      "hint": "<p><ruby>変更<rt>へんこう</rt></ruby> (henkou) – change<br><ruby>実行<rt>じっこう</rt></ruby> (jikkou) – execution/implementation</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>合意<rt>ごうい</rt></ruby>を<ruby>得<rt>え</rt></ruby>た means 'obtained agreement'. This expression fits best when changes need to be confirmed by everyone before taking action.<br><br><strong>Option Explanations:</strong><br>1. <ruby>相談<rt>そうだん</rt></ruby>した (soudan shita): consulted<br>2. <ruby>通知<rt>つうち</rt></ruby>した (tsuuchi shita): notified<br>3. <ruby>合意<rt>ごうい</rt></ruby>を<ruby>得<rt>え</rt></ruby>た (goui wo eta): ✅ got agreement<br>4. <ruby>報告<rt>ほうこく</rt></ruby>した (houkoku shita): reported<br><br><strong>Sentence meaning:</strong> Please carry out the plan only after getting everyone’s agreement.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>3. 合意を得た</strong> – to obtain agreement.<br><br><strong>Option Explanations:</strong><br>1. <ruby>相談<rt>そうだん</rt></ruby>した: consulted<br>2. <ruby>通知<rt>つうち</rt></ruby>した: notified<br>3. <ruby>合意<rt>ごうい</rt></ruby>を<ruby>得<rt>え</rt></ruby>た: ✅ got agreement<br>4. <ruby>報告<rt>ほうこく</rt></ruby>した: reported</p>"
+      }
+    },
+    {
+      "question": "彼は長年の経験に（＿）判断を下した。",
+      "options": ["1. 基づいて", "2. 沿って", "3. 代わって", "4. 重ねて"],
+      "answer": "1. 基づいて",
+      "hint": "<p><ruby>経験<rt>けいけん</rt></ruby> (keiken) – experience<br><ruby>判断<rt>はんだん</rt></ruby> (handan) – judgment</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>基<rt>もと</rt></ruby>づいて means 'based on'. It's used to show decisions grounded in something.<br><br><strong>Option Explanations:</strong><br>1. <ruby>基づいて<rt>もとづいて</rt></ruby> (motozuite): ✅ based on<br>2. <ruby>沿って<rt>そって</rt></ruby> (sotte): along<br>3. <ruby>代わって<rt>かわって</rt></ruby> (kawatte): instead of<br>4. <ruby>重ねて<rt>かさねて</rt></ruby> (kasanete): repeatedly<br><br><strong>Sentence meaning:</strong> He made a decision based on many years of experience.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. 基づいて</strong> – based on.<br><br><strong>Option Explanations:</strong><br>1. <ruby>基づいて<rt>もとづいて</rt></ruby>: ✅ based on<br>2. <ruby>沿って<rt>そって</rt></ruby>: along<br>3. <ruby>代わって<rt>かわって</rt></ruby>: instead of<br>4. <ruby>重ねて<rt>かさねて</rt></ruby>: repeatedly</p>"
+      }
+    },
+    {
+      "question": "無理をすると、体に（＿）がくるよ。",
+      "options": ["1. ガタ", "2. ヒント", "3. シワ", "4. キズ"],
+      "answer": "1. ガタ",
+      "hint": "<p><ruby>体<rt>からだ</rt></ruby>にガタがくる – your body starts to break down (due to overwork)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>ガタ means 'wear or damage'. It's often used in this expression for physical decline.<br><br><strong>Option Explanations:</strong><br>1. ガタ (gata): ✅ wear/damage<br>2. <ruby>ヒント</ruby> (hinto): hint<br>3. <ruby>シワ</ruby> (shiwa): wrinkle<br>4. <ruby>キズ</ruby> (kizu): scratch<br><br><strong>Sentence meaning:</strong> If you overdo it, your body will start to wear down.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. ガタ</strong> – damage or decline (physically).<br><br><strong>Option Explanations:</strong><br>1. ガタ (gata): ✅ wear/damage<br>2. ヒント: hint<br>3. シワ: wrinkle<br>4. キズ: scratch</p>"
+      }
+    },
+    {
+      "question": "上司に反対したら、彼の（＿）を買ってしまったようだ。",
+      "options": ["1. 機嫌", "2. 怒り", "3. 恨み", "4. 恐れ"],
+      "answer": "3. 恨み",
+      "hint": "<p><ruby>恨<rt>うら</rt></ruby>みを<ruby>買<rt>か</rt></ruby>う – to incur resentment</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>恨<rt>うら</rt></ruby>み means 'grudge or resentment'. This idiom means the boss may now resent the speaker.<br><br><strong>Option Explanations:</strong><br>1. <ruby>機嫌<rt>きげん</rt></ruby> (kigen): mood<br>2. <ruby>怒り<rt>いかり</rt></ruby> (ikari): anger<br>3. <ruby>恨み<rt>うらみ</rt></ruby> (urami): ✅ resentment<br>4. <ruby>恐れ<rt>おそれ</rt></ruby> (osore): fear<br><br><strong>Sentence meaning:</strong> I seem to have made my boss resent me by opposing him.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>3. 恨み</strong> – resentment.<br><br><strong>Option Explanations:</strong><br>1. 機嫌: mood<br>2. 怒り: anger<br>3. 恨み: ✅ resentment<br>4. 恐れ: fear</p>"
+      }
+    }
+  ]
+}

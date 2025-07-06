@@ -1,0 +1,45 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "会議の前に（＿）を配ってください。",
+      "options": ["1. 資料", "2. 飲み物", "3. お土産", "4. 名札"],
+      "answer": "1. 資料",
+      "hint": "<p>会議（かいぎ, meeting）、前（まえ, before）、配る（くばる, to distribute）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>資料（しりょう, shiryou）</strong> means 'documents'—commonly distributed before meetings.</p><ul><li>資料 – documents (しりょう, shiryou)</li><li>飲み物 – drinks (のみもの, nomimono)</li><li>お土産 – souvenir (おみやげ, omiyage)</li><li>名札 – name tag (なふだ, nafuda)</li></ul><p><strong>Sentence meaning:</strong> Please distribute the documents before the meeting.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 資料（しりょう, shiryou） - documents<br><ul><li>資料 – documents</li><li>飲み物 – drinks</li><li>お土産 – souvenir</li><li>名札 – name tag</li></ul><p><strong>Sentence meaning:</strong> Please distribute the documents before the meeting.</p>"
+      }
+    },
+    {
+      "question": "この機械を使う時は（＿）を着用してください。",
+      "options": ["1. 保護メガネ", "2. ネクタイ", "3. 指輪", "4. ネックレス"],
+      "answer": "1. 保護メガネ",
+      "hint": "<p>機械（きかい, machine）、使う（つかう, to use）、着用（ちゃくよう, wearing）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>保護メガネ（ほごめがね, hogo megane）</strong> means 'safety goggles'—needed for machine operation.</p><ul><li>保護メガネ – safety goggles (ほごめがね, hogo megane)</li><li>ネクタイ – necktie (ねくたい, nekutai)</li><li>指輪 – ring (ゆびわ, yubiwa)</li><li>ネックレス – necklace (ねっくれす, nekkuresu)</li></ul><p><strong>Sentence meaning:</strong> Please wear safety goggles when using this machine.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 保護メガネ（ほごめがね, hogo megane） - safety goggles<br><ul><li>保護メガネ – safety goggles</li><li>ネクタイ – necktie</li><li>指輪 – ring</li><li>ネックレス – necklace</li></ul><p><strong>Sentence meaning:</strong> Please wear safety goggles when using this machine.</p>"
+      }
+    },
+    {
+      "question": "出張の（＿）を交通費として申請できます。",
+      "options": ["1. 電車代", "2. 食事代", "3. 土産代", "4. 衣装代"],
+      "answer": "1. 電車代",
+      "hint": "<p>出張（しゅっちょう, business trip）、交通費（こうつうひ, travel expense）、申請（しんせい, apply）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>電車代（でんしゃだい, densha dai）</strong> means 'train fare'—a valid travel expense claim.</p><ul><li>電車代 – train fare (でんしゃだい, densha dai)</li><li>食事代 – meal cost (しょくじだい, shokujidai)</li><li>土産代 – souvenir cost (みやげだい, miyagedai)</li><li>衣装代 – costume cost (いしょうだい, ishoudai)</li></ul><p><strong>Sentence meaning:</strong> You can apply for the train fare as travel expense for the business trip.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 電車代（でんしゃだい, densha dai） - train fare<br><ul><li>電車代 – train fare</li><li>食事代 – meal cost</li><li>土産代 – souvenir cost</li><li>衣装代 – costume cost</li></ul><p><strong>Sentence meaning:</strong> You can apply for the train fare as travel expense for the business trip.</p>"
+      }
+    },
+    {
+      "question": "このソフトウェアを（＿）すると、パソコンが再起動します。",
+      "options": ["1. インストール", "2. 削除", "3. コピー", "4. 印刷"],
+      "answer": "1. インストール",
+      "hint": "<p>再起動（さいきどう, restart）、ソフトウェア（software）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>インストール（いんすとーる, insutooru）</strong> means 'install'—installation may require restart.</p><ul><li>インストール – install (いんすとーる, insutooru)</li><li>削除 – delete (さくじょ, sakujo)</li><li>コピー – copy (こぴー, kopii)</li><li>印刷 – print (いんさつ, insatsu)</li></ul><p><strong>Sentence meaning:</strong> If you install this software, the computer will restart.</p>",
+        "incorrect": "<p><strong>Answer:</strong> インストール（いんすとーる, insutooru） - install<br><ul><li>インストール – install</li><li>削除 – delete</li><li>コピー – copy</li><li>印刷 – print</li></ul><p><strong>Sentence meaning:</strong> If you install this software, the computer will restart.</p>"
+      }
+    }
+  ]
+}

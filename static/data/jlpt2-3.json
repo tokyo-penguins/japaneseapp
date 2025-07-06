@@ -1,0 +1,33 @@
+{
+    "type": "type2",
+    "title": "JLPT N2 Word Reordering Quiz",
+    "questions": [
+        {
+            "options": [
+              { "word": "説明してくれました。", "furigana": "", "romaji": "setsumei shite kuremashita", "meaning": "explained" },
+              { "word": "内容を", "furigana": "", "romaji": "teinei ni", "meaning": "politely" },
+              { "word": "先生は", "furigana": "", "romaji": "sensei wa", "meaning": "the teacher" },
+              { "word": "私が", "furigana": "", "romaji": "watashi ni", "meaning": "to me" }
+            ],
+            "answer": ["先生は", "私が", "内容を", "説明してくれました。"],
+            "fixedPart": "質問した",
+            "full": "先生は私が質問した内容を説明してくれました。",
+            "translation": "The teacher kindly explained the grammar I asked about to me.",
+            "possiblePositions": [3]
+          },
+          {
+            "options": [
+              { "word": "試験の", "furigana": "", "romaji": "shiken no", "meaning": "of the exam" },
+              { "word": "驚きました", "furigana": "", "romaji": "odorokimashita", "meaning": "was surprised" },
+              { "word": "高くて", "furigana": "", "romaji": "takakute", "meaning": "high" },
+              { "word": "私は", "furigana": "", "romaji": "watashi wa", "meaning": "I" },
+              { "word": "想像以上に", "furigana": "", "romaji": "souzou ijou ni", "meaning": "more than expected" }
+            ],
+            "answer": ["私は", "試験の", "想像以上に", "高くて","驚きました"],
+            "fixedPart": "点数が",
+            "full": "私は試験の点数が想像以上に高くて驚きました。",
+            "translation": "I was surprised by the exam result because the score was higher than expected.",
+            "possiblePositions": [3]
+          }
+    ]
+}

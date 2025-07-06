@@ -1,0 +1,47 @@
+{
+    "type": "type2",
+    "title": "JLPT N5 Word Reordering Quiz",
+    "questions": [
+        {
+            "sentence": "___ ___ ___ ___ 。",
+            "options": [
+              { "word": "がいこくじん", "furigana": "", "romaji": "gaikokujin", "meaning": "foreigner" },
+              { "word": "わたし", "furigana": "", "romaji": "watashi", "meaning": "I" },
+              { "word": "は", "furigana": "", "romaji": "wa", "meaning": "topic marker" },
+              { "word": "です", "furigana": "", "romaji": "desu", "meaning": "is/am/are" }
+            ],
+            "answer": ["わたし", "は", "がいこくじん", "です"],
+            "full": "わたしはがいこくじんです。",
+            "translation": "I am a foreigner.",
+            "fixedPart": "。 "
+          },
+          {
+            "sentence": "___ ___ ___ ___ です。",
+            "options": [
+              { "word": "の", "furigana": "", "romaji": "no", "meaning": "of" },
+              { "word": "にほん", "furigana": "", "romaji": "nihon", "meaning": "Japan" },
+              { "word": "これは", "furigana": "", "romaji": "kore wa", "meaning": "this is" },
+              { "word": "たべもの", "furigana": "", "romaji": "tabemono", "meaning": "food" }
+            ],
+            "answer": ["これは", "にほん", "の", "たべもの"],
+            "full": "これはにほんのたべものです。",
+            "translation": "This is Japanese food.",
+            "fixedPart": "です。",
+            "possiblePositions": [5]
+          },
+          {
+            "sentence": "___ ___ ___ ___ すきです。",
+            "options": [
+              { "word": "りんご", "furigana": "", "romaji": "ringo", "meaning": "apple" },
+              { "word": "わたし", "furigana": "", "romaji": "watashi", "meaning": "I" },
+              { "word": "は", "furigana": "", "romaji": "wa", "meaning": "topic marker" },
+              { "word": "が", "furigana": "", "romaji": "ga", "meaning": "subject marker" }
+            ],
+            "answer": ["わたし", "は", "りんご", "が"],
+            "full": "わたしはりんごがすきです。",
+            "translation": "I like apples.",
+            "fixedPart": "すきです。",
+            "possiblePositions": [5]
+          }
+    ]
+}

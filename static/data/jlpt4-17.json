@@ -1,0 +1,55 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "田中さんは毎朝6時に（＿）います。",
+      "options": ["3. 起きて", "2. 泳いで", "1. 寝て", "4. 書いて"],
+      "answer": "3. 起きて",
+      "hint": "<p>起きる（おきる / to wake up）、毎朝（まいあさ / every morning）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「起きる」 means to wake up and start your day. Saying someone wakes up at 6 a.m. is a natural daily expression.<br><strong>Option meanings:</strong><br>1. 寝て (ねて / to sleep)<br>2. 泳いで (およいで / swimming)<br>3. 起きて (おきて / ✅ correct: waking up)<br>4. 書いて (かいて / writing)</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is 3. 起きて (おきて / waking up). It fits with the morning routine.</p>"
+      }
+    },
+    {
+      "question": "この道をまっすぐ行けば、駅に（＿）ますよ。",
+      "options": ["1. 着き", "3. 泳ぎ", "2. 話し", "4. 掃除し"],
+      "answer": "1. 着き",
+      "hint": "<p>着く（つく / to arrive）、駅（えき / station）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「着く」 means to arrive at a destination. This fits naturally when giving directions to a station.<br><strong>Option meanings:</strong><br>1. 着き (つき / ✅ correct: arrive)<br>2. 話し (はなし / talking)<br>3. 泳ぎ (およぎ / swimming)<br>4. 掃除し (そうじし / cleaning)</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is 1. 着き (つき / arrive). It fits well when describing how to reach a place.</p>"
+      }
+    },
+    {
+      "question": "夏休みに沖縄の海で（＿）ました。",
+      "options": ["4. 泳ぎ", "2. 読み", "3. 寝", "1. 勉強し"],
+      "answer": "4. 泳ぎ",
+      "hint": "<p>泳ぐ（およぐ / to swim）、海（うみ / sea）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「泳ぐ」 means to swim. It's a typical activity in the sea during summer vacation.<br><strong>Option meanings:</strong><br>1. 勉強し (べんきょうし / studying)<br>2. 読み (よみ / reading)<br>3. 寝 (ね / sleeping)<br>4. 泳ぎ (およぎ / ✅ correct: swimming)</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is 4. 泳ぎ (およぎ / swimming), the most common activity in the sea.</p>"
+      }
+    },
+    {
+      "question": "今日は仕事が（＿）ので、とても疲れました。",
+      "options": ["2. 多い", "1. 明るく", "3. 低く", "4. 遠く"],
+      "answer": "2. 多い",
+      "hint": "<p>多い（おおい / many, a lot）、疲れる（つかれる / to get tired）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「多い」 indicates a large quantity. A lot of work makes you tired.<br><strong>Option meanings:</strong><br>1. 明るく (あかるく / brightly)<br>2. 多く (おおく / ✅ correct: a lot)<br>3. 低く (ひくく / low)<br>4. 遠く (とおく / far)</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is 2. 多く (おおく / a lot). A heavy workload naturally leads to fatigue.</p>"
+      }
+    },
+    {
+      "question": "毎晩寝る前に日記を（＿）います。",
+      "options": ["1. 書いて", "3. 泳いで", "2. 飲んで", "4. 歩いて"],
+      "answer": "1. 書いて",
+      "hint": "<p>書く（かく / to write）、日記（にっき / diary）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「日記を書く」 means writing a diary. It's a common habit before bed.<br><strong>Option meanings:</strong><br>1. 書いて (かいて / ✅ correct: writing)<br>2. 飲んで (のんで / drinking)<br>3. 泳いで (およいで / swimming)<br>4. 歩いて (あるいて / walking)</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is 1. 書いて (かいて / writing), which fits with keeping a diary.</p>"
+      }
+    }
+  ]
+}

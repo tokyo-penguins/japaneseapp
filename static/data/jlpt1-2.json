@@ -1,0 +1,65 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "試験が明日なのに、遊んでいる（ ）。",
+      "options": [
+        "1. どころではない",
+        "2. ところがある",
+        "3. はずである",
+        "4. ことにする"
+      ],
+      "answer": "1. どころではない",
+      "hint": "<p>試験（しけん, shiken）- exam<br>遊ぶ（あそぶ, asobu）- to play</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> どころではない（どころではない, dokoro dewa nai）- out of the question</p><ul><li>ところがある（ところがある, tokoro ga aru）- there is a point that</li><li>はずである（はずである, hazu de aru）- must be it</li><li>ことにする（ことにする, koto ni suru）- decide to</li></ul><p><strong>English Translation:</strong> There's no way to be playing when the exam is tomorrow.</p>",
+        "incorrect": "<p><strong>Answer:</strong> どころではない（どころではない, dokoro dewa nai）- out of the question</p><ul><li>ところがある（ところがある, tokoro ga aru）- there is a point that</li><li>はずである（はずである, hazu de aru）- must be it</li><li>ことにする（ことにする, koto ni suru）- decide to</li></ul><p><strong>English Translation:</strong> There's no way to be playing when the exam is tomorrow.</p>"
+      }
+    },
+    {
+      "question": "本人に連絡（  ）ことには、会議を始められない。",
+      "options": [
+        "1. しない",
+        "2. したところで",
+        "3. してからでないと",
+        "4. したからには"
+      ],
+      "answer": "1. しない",
+      "hint": "<p>本人（ほんにん, honnin）- the person himself/herself<br>会議（かいぎ, kaigi）- meeting</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> しない（しない, shinai）- unless</p><ul><li>したところで（したところで, shita tokoro de）- even if</li><li>してからでないと（してからでないと, shite kara de nai to）- until after</li><li>したからには（したからには, shita kara ni wa）- now that</li></ul><p><strong>English Translation:</strong> We can't start the meeting unless we contact the person first.</p>",
+        "incorrect": "<p><strong>Answer:</strong> しない（しない, shinai）- unless</p><ul><li>したところで（したところで, shita tokoro de）- even if</li><li>してからでないと（してからでないと, shite kara de nai to）- until after</li><li>したからには（したからには, shita kara ni wa）- now that</li></ul><p><strong>English Translation:</strong> We can't start the meeting unless we contact the person first.</p>"
+      }
+    },
+    {
+      "question": "ビジネスでは、（  ）のが勝利の鍵だ。",
+      "options": [
+        "1. 先んずれば人を制す",
+        "2. 棚から牡丹餅",
+        "3. 自業自得",
+        "4. 一石二鳥"
+      ],
+      "answer": "1. 先んずれば人を制す",
+      "hint": "<p>勝利（しょうり, shouri）- victory<br>鍵（かぎ, kagi）- key</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 先んずれば人を制す（さきんずればひとをせいす, sakinzureba hito o seisu）- he who strikes first wins</p><ul><li>棚から牡丹餅（たなからぼたもち, tanakara botamochi）- windfall</li><li>自業自得（じごうじとく, jigoujitoku）- one's own fault</li><li>一石二鳥（いっせきにちょう, issekinichou）- kill two birds with one stone</li></ul><p><strong>English Translation:</strong> In business, striking first is the key to victory.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 先んずれば人を制す（さきんずればひとをせいす, sakinzureba hito o seisu）- he who strikes first wins</p><ul><li>棚から牡丹餅（たなからぼたもち, tanakara botamochi）- windfall</li><li>自業自得（じごうじとく, jigoujitoku）- one's own fault</li><li>一石二鳥（いっせきにちょう, issekinichou）- kill two birds with one stone</li></ul><p><strong>English Translation:</strong> In business, striking first is the key to victory.</p>"
+      }
+    },
+    {
+      "question": "彼の行動は常軌を逸しており、（  ）と言っていい。",
+      "options": [
+        "1. 言語道断",
+        "2. 無礼千万",
+        "3. どうでもいい",
+        "4. 正々堂々"
+      ],
+      "answer": "1. 言語道断",
+      "hint": "<p>常軌を逸する（じょうきをいっする, jouki wo issuru）- to go beyond all bounds<br>行動（こうどう, koudou）- behavior</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 言語道断（ごんごどうだん, gongodoudan）- outrageous</p><ul><li>無礼千万（ぶれいせんばん, bureisenganban）- extremely rude</li><li>どうでもいい（どうでもいい, doudemo ii）- it doesn't matter</li><li>正々堂々（せいせいどうどう, seiseidoudou）- fair and square</li></ul><p><strong>English Translation:</strong> His conduct is so beyond bound that it's outrageous.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 言語道断（ごんごどうだん, gongodoudan）- outrageous</p><ul><li>無礼千万（ぶれいせんばん, bureisenganban）- extremely rude</li><li>どうでもいい（どうでもいい, doudemo ii）- it doesn't matter</li><li>正々堂々（せいせいどうどう, seiseidoudou）- fair and square</li></ul><p><strong>English Translation:</strong> His conduct is so beyond bound that it's outrageous.</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Japanese Learning - Donation Platform</title>
+    <script src="https://js.stripe.com/v3/"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        :root {
+            --primary: #e74c3c; /* Japanese red */
+            --primary-dark: #c0392b;
+            --secondary: #f39c12; /* Gold */
+            --accent1: #8e44ad; /* Purple */
+            --accent2: #3498db; /* Blue */
+            --accent3: #2ecc71; /* Green */
+            --light: #fef6e6; /* Japanese paper color */
+            --dark: #2c3e50;
+            --success: #27ae60;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: var(--light);
+            background-image: url('https://www.transparenttextures.com/patterns/rice-paper-3.png');
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            border-radius: 0 0 20px 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            border-bottom: 5px solid var(--secondary);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        header::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 10px;
+            background: linear-gradient(90deg, 
+                var(--primary) 0%, 
+                var(--accent1) 20%, 
+                var(--accent2) 40%, 
+                var(--accent3) 60%, 
+                var(--secondary) 80%, 
+                var(--primary) 100%);
+        }
+        
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            font-family: 'Noto Serif JP', serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .hero {
+            padding: 4rem 0;
+            text-align: center;
+            background-image: url('https://www.transparenttextures.com/patterns/sakura.png');
+            background-attachment: fixed;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--dark);
+            font-family: 'Noto Serif JP', serif;
+        }
+        
+        .hero p {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            color: #555;
+        }
+        
+        .mission-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .mission-card {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            padding: 2rem;
+            width: 350px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+            border-top: 5px solid var(--primary);
+            backdrop-filter: blur(5px);
+        }
+        
+        .mission-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .mission-card i {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+        }
+        
+        .mission-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--dark);
+            font-family: 'Noto Serif JP', serif;
+        }
+        
+        .donation-section {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 3rem;
+            margin: 4rem auto;
+            max-width: 800px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            border: 1px solid #eee;
+            border-top: 5px solid var(--primary);
+        }
+        
+        .donation-section h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: var(--dark);
+            font-family: 'Noto Serif JP', serif;
+        }
+        
+        .donation-section p {
+            margin-bottom: 2rem;
+            color: #555;
+        }
+        
+        .donation-options {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .donation-amount {
+            background: white;
+            border: 2px solid #ddd;
+            border-radius: 50px;
+            padding: 0.8rem 1.5rem;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+        
+        .donation-amount:hover, .donation-amount.active {
+            border-color: var(--primary);
+            background: var(--primary);
+            color: white;
+            transform: scale(1.05);
+        }
+        
+        .custom-amount {
+            width: 100%;
+            padding: 1rem;
+            border: 2px solid #ddd;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            text-align: center;
+            margin-bottom: 1.5rem;
+            transition: border-color 0.3s;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        
+        .custom-amount:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.2);
+        }
+        
+        .donate-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 50px;
+            padding: 1rem 2.5rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            width: 100%;
+            max-width: 300px;
+            margin: 0 auto;
+            display: block;
+            font-family: 'Noto Sans JP', sans-serif;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+        
+        .donate-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: 0.5s;
+            z-index: -1;
+        }
+        
+        .donate-btn:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .donate-btn:hover::before {
+            left: 100%;
+        }
+        
+        .payment-methods {
+            margin-top: 2rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .payment-method {
+            width: 60px;
+            height: 40px;
+            object-fit: contain;
+            opacity: 0.7;
+            transition: opacity 0.3s;
+        }
+        
+        .payment-method:hover {
+            opacity: 1;
+        }
+        
+        .testimonials {
+            padding: 4rem 0;
+            background: linear-gradient(135deg, rgba(247, 239, 227, 0.8), rgba(232, 236, 255, 0.8));
+            text-align: center;
+            background-image: url('https://www.transparenttextures.com/patterns/rice-paper-2.png');
+        }
+        
+        .testimonials h2 {
+            font-size: 2rem;
+            margin-bottom: 3rem;
+            color: var(--dark);
+            font-family: 'Noto Serif JP', serif;
+        }
+        
+        .testimonial-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+        }
+        
+        .testimonial-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 2rem;
+            width: 350px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            text-align: left;
+            position: relative;
+            border-left: 5px solid var(--primary);
+        }
+        
+        .testimonial-card::before {
+            content: "";
+            font-family: serif;
+            font-size: 5rem;
+            color: rgba(231, 76, 60, 0.1);
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            line-height: 1;
+        }
+        
+        .testimonial-card .quote {
+            font-style: italic;
+            margin-bottom: 1.5rem;
+            color: #555;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .testimonial-card .author {
+            font-weight: 600;
+            color: var(--dark);
+        }
+        
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
+            position: relative;
+        }
+        
+        footer::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 10px;
+            background: linear-gradient(90deg, 
+                var(--primary) 0%, 
+                var(--accent1) 20%, 
+                var(--accent2) 40%, 
+                var(--accent3) 60%, 
+                var(--secondary) 80%, 
+                var(--primary) 100%);
+        }
+        
+        .footer-logo {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            font-family: 'Noto Serif JP', serif;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .footer-link {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+            position: relative;
+        }
+        
+        .footer-link::after {
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transition: width 0.3s;
+        }
+        
+        .footer-link:hover {
+            color: var(--primary);
+        }
+        
+        .footer-link:hover::after {
+            width: 100%;
+        }
+        
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .social-icon {
+            color: white;
+            font-size: 1.5rem;
+            transition: all 0.3s;
+            background: rgba(255,255,255,0.1);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .social-icon:hover {
+            color: var(--primary);
+            background: white;
+            transform: translateY(-3px);
+        }
+        
+        .copyright {
+            opacity: 0.7;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .mission-card {
+                width: 100%;
+            }
+            
+            .donation-section {
+                padding: 2rem 1.5rem;
+            }
+        }
+        .goals-intro {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+    color: #555;
+}
+
+.big-red-goal {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Tokyo Penguins</div>
+            <div class="tagline">Bridging Japanese Learners Worldwide</div>
+        </div>
+    </header>
+     <div class="container">
+        <div class="mission-cards">
+            <div class="mission-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>World's Largest Japanese Quiz App</h3>
+                <p>Your donations help cover operational costs and development of new features to enhance the learning experience for millions of users.</p>
+            </div>
+            
+            <div class="mission-card">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <h3>Influencer-Led Private Lessons</h3>
+                <p>Support our mission to connect learners with top Japanese influencers who serve as teachers, offering exclusive private lessons.</p>
+            </div>
+            
+            <div class="mission-card">
+                <i class="fas fa-globe-asia"></i>
+                <h3>Global Learning Community</h3>
+                <p>Help us build the world's largest community for Japanese learners - a space for cultural exchange and mutual growth.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="donation-section">
+            <h2>Your Support Creates the Future</h2>
+            <p>Every donation goes directly toward improving our services and giving back to our community. No amount is too small to make a difference.</p>
+            
+            <div class="donation-options">
+                <div class="donation-amount" data-amount="7">$7</div>
+                <div class="donation-amount" data-amount="15">$15</div>
+                <div class="donation-amount active" data-amount="30">$30</div>
+                <div class="donation-amount" data-amount="50">$50</div>
+                <div class="donation-amount" data-amount="100">$100</div>
+            </div>
+            
+            <select class="custom-amount">
+                <option value="">Select a custom amount</option>
+                <option value="150">$150</option>
+                <option value="200">$200</option>
+                <option value="400">$400</option>
+                <option value="700">$700</option>
+                <option value="1000">$1,000</option>
+                <option value="10000">$10,000</option>
+            </select>
+            
+            <form id="payment-form">
+                <div id="card-element" style="margin-bottom: 1.5rem;"></div>
+                <div id="card-errors" role="alert" style="color: red; margin-bottom: 1rem;"></div>
+                <button class="donate-btn" id="submit" type="submit">Support Now</button>
+            </form>
+            <div class="payment-methods">
+                <!-- Visa logo -->
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" class="payment-method" alt="Visa">
+
+<!-- Mastercard logo -->
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png" class="payment-method" alt="Mastercard">
+
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" class="payment-method" alt="Apple Pay">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/2560px-PayPal.svg.png" class="payment-method" alt="PayPal" style="object-fit: cover;">
+                <div class="section fade-in" id="donor-info">
+                <br>
+  <h3>📩 Special Benefits for Donors</h3>
+  <p>✴︎ Donors will receive **exclusive updates**, bonus materials, and early access to new content!</p>
+  
+  <form action="{{ url_for('donation_email') }}" method="POST">
+    <input type="email" name="emails" placeholder="Enter your email" required
+           style="padding: 10px; border-radius: 8px; width: 80%; max-width: 400px; margin: 10px 0;">
+    <button type="submit" class="btn-free" style="background: #4caf50;">Submit</button>
+  </form>
+</div>
+            </div>
+        </div>
+    </div>
+    
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Supporters Say</h2>
+            
+            <div class="testimonial-cards">
+                <div class="testimonial-card">
+                    <p class="quote">"This platform completely transformed my Japanese learning journey. I'm proud to support its growth so others can benefit too."</p>
+                    <p class="author">- James (New York, USA)</p>
+                </div>
+            
+                <div class="testimonial-card">
+                    <p class="quote">"C'est la meilleure plateforme pour apprendre le japonais avec humour !Je suis un fan de Tokyo penguins depuis le début!"  
+                    <br><small>(This is the best platform to learn Japanese with humor! I’ve loved TokyoPenguins since the very first video!)</small></p>
+                    <p class="author">- Eliott F. (Paris, France)</p>
+                </div>
+            
+                <div class="testimonial-card">
+                    <p class="quote">"Gue suka TokyoPenguins banget! Setiap video membuatku semangat belajar Jepang!"  
+                    <br><small>(I really love the TokyoPenguins account! Every video makes me excited to learn Japan!)</small></p>
+                    <p class="author">- Diva F. (Jakarta, Indonesia)</p>
+                </div>
+            </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-logo">Tokyo Penguins</div>
+            
+            <div class="social-icons">          
+                <a href="https://lin.ee/x2dr3d6" class="social-icon"><i class="fab fa-line"></i></a>       
+                <a href="https://www.tiktok.com/@tokyo.penguins?is_from_webapp=1&sender_device=pc" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/tokyo.penguins/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com/@tokyopenguins?si=qYGa9yZVxDIVoxMT" class="social-icon"><i class="fab fa-youtube"></i></a>
+            </div>
+            
+            <p class="copyright">© 2025 Tokyo Penguins. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Donation amount selection
+        const amountButtons = document.querySelectorAll('.donation-amount');
+        const customAmount = document.querySelector('.custom-amount');
+        
+        amountButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                amountButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                customAmount.value = '';
+            });
+        });
+        
+        customAmount.addEventListener('change', () => {
+            if (customAmount.value) {
+                amountButtons.forEach(btn => btn.classList.remove('active'));
+            }
+        });
+        
+        // Donate button click handler (replace with actual payment processing)
+        const donateBtn = document.querySelector('.donate-btn');
+        
+        donateBtn.addEventListener('click', () => {
+            let amount = document.querySelector('.donation-amount.active')?.dataset.amount || customAmount.value;
+            
+            if (!amount) {
+                alert('Please select or enter a valid amount');
+                return;
+            }
+            
+            // Replace this with actual payment processing
+            alert(`Processing $${amount} donation...\n\nThis would connect to your payment processor in a live implementation`);
+            
+            // Reset form
+            customAmount.value = '';
+            amountButtons[2].classList.add('active'); // Reset to $30 as default
+        });
+        donateBtn.addEventListener('click', () => {
+    let amount = document.querySelector('.donation-amount.active')?.dataset.amount || customAmount.value;
+    document.getElementById('selected-amount').value = amount * 100;  // Stripeはセント単位
+});
+const stripe = Stripe("pk_test_51RSQyKQKJIuJM06G92cPwM2Q4G3LvvaaSvFb31infQusYID2ShVSYMmrLvMhWCzNzw8MkQtza0Ie5qLUUUGk34Hu00FwkxrelU"); // ← 自分の公開キーを入れんといけん。
+
+  const elements = stripe.elements();
+  const card = elements.create("card", {style: {base: {fontFamily: 'Noto Sans JP'}}});
+  card.mount("#card-element");
+
+  const form = document.getElementById("payment-form");
+  const style = {
+  base: {
+    fontSize: '200px', // 👈 ここを大きく！
+    color: '#32325d',
+    fontFamily: 'Noto Sans JP, sans-serif',
+    '::placeholder': {
+      color: '#aab7c4'
+    }
+  },
+  invalid: {
+    color: '#fa755a',
+    iconColor: '#fa755a'
+  }
+};
+
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+
+    const selected = document.querySelector(".donation-amount.active");
+    const custom = document.querySelector(".custom-amount").value;
+    const amount = selected?.dataset.amount || custom;
+    if (!amount) return alert("Please choose or enter an amount.");
+
+    const {token, error} = await stripe.createToken(card);
+
+    if (error) {
+      document.getElementById("card-errors").textContent = error.message;
+    } else {
+      const response = await fetch("/charge", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({
+          token: token.id,
+          amount: parseInt(amount * 100) // Stripeはセント単位
+        })
+      });
+
+      const result = await response.json();
+      if (result.status === "success") {
+        alert("🎉 Donation completed successfully!");
+        location.reload();
+      } else {
+        alert("❌ Donation failed. Please try again.");
+      }
+    }
+  });
+    </script>
+</body>
+</html>

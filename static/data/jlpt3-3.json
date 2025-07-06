@@ -1,0 +1,46 @@
+
+{
+    "type": "type2",
+    "title": "JLPT N3 Word Reordering Quiz",
+    "questions": [
+        {
+            "options": [
+              { "word": "行く", "furigana": "い", "romaji": "iku", "meaning": "to go" },
+              { "word": "ことに", "furigana": "", "romaji": "koto ni", "meaning": "decide to" },
+              { "word": "しました", "furigana": "", "romaji": "shimashita", "meaning": "did (polite)" },
+              { "word": "留学に", "furigana": "りゅうがく", "romaji": "ryuugaku ni", "meaning": "for studying abroad" }
+            ],
+            "answer": ["留学に", "行く", "ことに", "しました"],
+            "full": "来年、留学に行くことにしました。",
+            "translation": "I’ve decided to study abroad next year.",
+            "fixedPart": "来年、",
+            "possiblePositions": [0]
+          },
+          {
+            "options": [
+              { "word": "わけでは", "furigana": "", "romaji": "wake de wa", "meaning": "it's not that..." },
+              { "word": "ない", "furigana": "", "romaji": "nai", "meaning": "not" },
+              { "word": "嫌いな", "furigana": "きら", "romaji": "kirai na", "meaning": "dislike" },
+              { "word": "食べ物が", "furigana": "たべもの", "romaji": "tabemono ga", "meaning": "food" }
+            ],
+            "answer": ["嫌いな", "食べ物が", "ない", "わけでは"],
+            "full": "嫌いな食べ物がないわけではありません。",
+            "translation": "It's not that there’s no food I dislike.",
+            "fixedPart": "ありません。",
+            "possiblePositions": [5]
+          },
+          {
+            "options": [
+              { "word": "会う", "furigana": "あう", "romaji": "au", "meaning": "meet" },
+              { "word": "機会が", "furigana": "きかいが", "romaji": "kikai ga", "meaning": "chance/opportunity" },
+              { "word": "なかなか", "furigana": "", "romaji": "nakanaka", "meaning": "rarely / hardly" },
+              { "word": "ない", "furigana": "", "romaji": "nai", "meaning": "not exist" }
+            ],
+            "answer": ["会う", "機会が","なかなか", "ない"],
+            "fixedPart": "友達に",
+            "full": "友達に会う機会がなかなかない。",
+            "translation": "I rarely have the chance to meet my friends.",
+            "possiblePositions": [1]
+          }
+    ]
+}

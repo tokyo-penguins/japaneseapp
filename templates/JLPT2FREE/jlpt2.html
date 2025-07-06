@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JLPT2 Mastery Challenge</title>
+    <style>
+        :root {
+            --button-bg: rgba(255, 255, 255, 0.78);
+            --button-hover-bg: rgba(255, 255, 255, 0.9);
+            --completed-color: #8bc34a;
+            --locked-color: #e0e0e0;
+            --premium-color: #ff9800;
+            --reset-color: #f44336;
+        }
+        
+        body {
+            font-family: 'Noto Sans JP', 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f9f5f0;
+            text-align: center;
+            padding: 20px;
+            background-image: url("{{ url_for('static', filename='images/lion.png') }}");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            min-height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+        
+        h1 {
+            margin: 20px 0;
+            color: #2c2c2c;
+            font-weight: 350;
+            font-size: clamp(1.8em, 5vw, 2.2em);
+            letter-spacing: 0.5px;
+        }
+        .back-btn {
+            position: relative;             /* スクロールしても固定 */         
+            background-color: #b65a2cfd;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            z-index: 999;                /* 他の要素の上に表示 */
+            transition: all 0.3s ease;
+}
+.back-btn:hover {
+    background-color: #455a64;
+    transform: translateY(-1px);
+}
+        .progress-container {
+            width: 200px;
+            height: 200px;
+            margin: 20px auto;
+            position: relative;
+        }
+        
+        .progress-chart {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .progress-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .buttons-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .quiz-btn {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 12px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            position: relative;
+            overflow: hidden;
+            background-color: var(--button-bg);
+            color: #333;
+            font-weight: 400;
+            text-decoration: none;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+            min-height: 60px;
+            box-sizing: border-box;
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+        }
+        
+        .quiz-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+            background-color: var(--button-hover-bg);
+        }
+        
+        .quiz-btn.completed {
+            background-color: var(--completed-color);
+            color: white;
+        }
+        
+        .quiz-btn.locked {
+            background-color: var(--locked-color);
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+        
+        .quiz-btn.premium {
+            background-color: var(--premium-color);
+            color: white;
+        }
+        
+        .quiz-btn::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0) 100%);
+            transform: translateX(-100%);
+            transition: transform 0.6s ease;
+        }
+        
+        .quiz-btn:hover::after {
+            transform: translateX(100%);
+        }
+        
+        .lock-icon {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            font-size: 12px;
+        }
+        
+        /* Modal styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+        
+        .modal-content {
+            background-color: white;
+            margin: 15% auto;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 400px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        
+        .premium-btn {
+            background-color: #ff9800;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+        
+        .premium-btn:hover {
+            background-color: #f57c00;
+        }
+        
+        .reset-btn {
+            background-color: var(--reset-color);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 20px auto;
+            font-size: 16px;
+            display: block;
+            transition: all 0.3s;
+        }
+        
+        .reset-btn:hover {
+            background-color: #d32f2f;
+            transform: translateY(-2px);
+        }
+        
+        .confirmation-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .confirmation-btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+        .confirm-yes {
+            background-color: #f44336;
+            color: white;
+        }
+        
+        .confirm-no {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .quiz-btn.locked {
+    filter: grayscale(90%);
+    opacity: 0.6;
+}
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    
+    <h1>JLPT2 Mastery Challenge</h1>
+    <button class="back-btn" onclick="goToMainMenu()">Back to main menu</button>
+    <div class="progress-container">
+        <canvas id="progressChart" class="progress-chart"></canvas>
+        <div class="progress-text" id="progressText">0%</div>
+    </div>
+    
+    <div class="buttons-grid" id="buttonsGrid"></div>
+    
+    <button class="reset-btn" id="resetBtn">Reset All Progress</button>
+    
+    <div id="premiumModal" class="modal">
+        <div class="modal-content">
+            <h2>Premium Content</h2>
+            <p>Congratulations on completing the free section! To continue your JLPT2 journey, upgrade to premium.</p>
+            <button class="premium-btn" onclick="redirectToPremium()">Upgrade to Premium</button>
+        </div>
+    </div>
+    
+    <div id="resetConfirmModal" class="modal">
+        <div class="modal-content">
+            <h2>Reset Progress</h2>
+            <p>Are you sure you want to reset all your progress? This cannot be undone.</p>
+            <div class="confirmation-buttons">
+                <button class="confirmation-btn confirm-yes" id="confirmReset">Yes, Reset</button>
+                <button class="confirmation-btn confirm-no" id="cancelReset">No, Cancel</button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const completedQuizzes = {{ completed_quizzes | tojson }};
+        const maxUnlocked = {{ max_unlocked }};
+        const isPremium = {{ is_premium | tojson }};
+        
+        // Initialize progress chart
+        const progressCtx = document.getElementById('progressChart').getContext('2d');
+        const progressChart = new Chart(progressCtx, {
+            type: 'doughnut',
+            data: {
+                datasets: [{
+                    data: [0, 100],
+                    backgroundColor: ['#8bc34a', '#e0e0e0'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                cutout: '70%',
+                responsive: true,
+                maintainAspectRatio: false,
+                events: []
+            }
+        });
+        
+        // Update progress display
+        function updateProgressDisplay() {
+    const progressPercent = Math.min(completedQuizzes.length * 1, 100); // 100問想定だから1%ずつ増える
+    progressChart.data.datasets[0].data = [progressPercent, 100 - progressPercent];
+    progressChart.update();
+    document.getElementById('progressText').textContent = `${progressPercent}%`;
+
+    // completedQuizzesを見てボタンにチェックマーク
+    completedQuizzes.forEach(qid => {
+        const match = qid.match(/jlpt2-(\d+)/);
+        if (match) {
+            const quizNum = match[1];
+            const btn = document.getElementById(`quiz-btn-${quizNum}`);
+            if (btn) {
+                btn.classList.add('completed');
+                btn.innerHTML = `JLPT2-${quizNum}<span>✅</span>`;
+            }
+        }
+    });
+    
+    // Check if all free quizzes are completed
+    if (completedQuizzes.length >= 15) {
+        showCracker();
+    }
+}
+        
+        // Create buttons
+        function createButtons() {
+    const buttonsGrid = document.getElementById('buttonsGrid');
+    buttonsGrid.innerHTML = '';
+
+    const total = 100;
+    const blockSize = 5;
+    const currentBlockEnd = Math.floor((maxUnlocked - 1) / blockSize) * blockSize + blockSize;
+    const nextBlockStart = currentBlockEnd + 1;
+    const nextBlockEnd = nextBlockStart + blockSize - 1;
+    const previewBlockStart = nextBlockEnd + 1;
+    const previewBlockEnd = previewBlockStart + blockSize - 1;
+
+    for (let i = 1; i <= total; i++) {
+        // 非表示ルール：プレビューより後の番号はスキップ
+        if (i > previewBlockEnd) continue;
+
+        const btn = document.createElement('a');
+        btn.className = 'quiz-btn';
+        btn.id = `quiz-btn-${i}`;
+        btn.innerHTML = `JLPT2-${i}`;
+        const quizId = `jlpt2-${i}`;
+
+        const isCompleted = completedQuizzes.includes(quizId);
+
+        // ✅ 完了
+        if (isCompleted) {
+            btn.classList.add('completed');
+            btn.href = `/${quizId}`;
+            btn.innerHTML += '<span>✅</span>';
+        }
+        // ✅ 通常アクセス可能
+        else if (i <= maxUnlocked) {
+            btn.href = `/${quizId}`;
+        }
+        // ✅ 次のロック対象（鍵アイコンあり・クリック可能）
+        else if (i > maxUnlocked && i <= nextBlockEnd) {
+            btn.classList.add('locked');
+            btn.innerHTML += '<span class="lock-icon">🔒</span>';
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const prevStart = i - blockSize;
+                let allPrevCompleted = true;
+                for (let j = prevStart; j < i; j++) {
+                    if (!completedQuizzes.includes(`jlpt2-${j}`)) {
+                        allPrevCompleted = false;
+                        break;
+                    }
+                }
+
+                if (isPremium) {
+                    if (!allPrevCompleted) {
+                        alert("Solve every question to unlock this problem!");
+                    }
+                } else {
+                    if (allPrevCompleted) {
+                        showPremiumModal();
+                    }
+                }
+            });
+        }
+        // ✅ さらにその下：ぼやけて存在（クリックできない）
+        else if (i > nextBlockEnd && i <= previewBlockEnd) {
+            btn.classList.add('locked');
+            btn.innerHTML += '<span class="lock-icon">🔒</span>';
+            btn.style.opacity = '0.3';
+            btn.style.filter = 'blur(1.5px)';
+            btn.style.pointerEvents = 'none';
+        }
+
+        buttonsGrid.appendChild(btn);
+    }
+
+    updateProgressDisplay();
+}
+
+        // Show cracker animation
+        function showCracker() {
+            confetti({
+            particleCount: 100,
+            spread: 70,
+            origin: { y: 0.6 }
+         });
+        }
+        
+        // Show premium modal
+        function showPremiumModal() {
+            document.getElementById('premiumModal').style.display = 'block';
+        }
+        
+        // Show reset confirmation modal
+        function showResetConfirmModal() {
+            document.getElementById('resetConfirmModal').style.display = 'block';
+        }
+        
+        // Close modals
+        function closeAllModals() {
+            document.getElementById('premiumModal').style.display = 'none';
+            document.getElementById('resetConfirmModal').style.display = 'none';
+        }
+        
+        // Reset all progress
+        function resetAllProgress() {
+    for (let i = 1; i <= 100; i++) {
+        localStorage.removeItem(`jlpt2-${i}-completed`);
+    }
+    // サーバーにもリセットリクエスト送る！
+    fetch('/reset_progress/jlpt2', { method: 'POST' })
+        .then(() => {
+            location.reload();  // ページリロードして完全リセット状態を反映
+        });
+}
+        
+        // Redirect to premium page
+        function redirectToPremium() {
+            window.location.href = 'paid.html';
+        }
+        
+        // Event listeners
+        document.getElementById('resetBtn').addEventListener('click', showResetConfirmModal);
+        document.getElementById('confirmReset').addEventListener('click', resetAllProgress);
+        document.getElementById('cancelReset').addEventListener('click', closeAllModals);
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+                closeAllModals();
+            }
+        }
+        
+        // Initialize the page
+        createButtons();
+
+        function goToMainMenu() {
+    window.location.href = '/home#jlpt2-section';
+}
+    </script>
+</body>
+</html>

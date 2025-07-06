@@ -1,0 +1,65 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "彼は自分の実力を（  ），結果は散々だった。",
+      "options": [
+        "1. 高く評価する",
+        "2. 高を括る",
+        "3. 高を上げる",
+        "4. 高を並べる"
+      ],
+      "answer": "2. 高を括る",
+      "hint": "<p><ruby>実力<rt>じつりょく</rt></ruby> – ability<br><ruby>結果<rt>けっか</rt></ruby> – result<br><ruby>散々<rt>さんざん</rt></ruby> – disastrous<br><em>Romaji:</em> jitsuryoku, kekka, sanzan</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>高を括る（たかをくくる）</strong> means to underestimate or take something lightly. In this case, he underestimated the challenge.<br><br><strong>Option Explanations:</strong><br>1. <ruby>高く評価する<rt>たかくひょうかする</rt></ruby> (takaku hyouka suru): to rate highly<br>2. <ruby>高を括る<rt>たかをくくる</rt></ruby> (taka wo kukuru): ✅ to underestimate<br>3. <ruby>高を上げる<rt>たかをあげる</rt></ruby> (taka wo ageru): ❌ not a natural expression<br>4. <ruby>高を並べる<rt>たかをならべる</rt></ruby> (taka wo naraberu): ❌ not a valid phrase<br><br><strong>Sentence meaning:</strong> He underestimated his own ability, and the result was disastrous.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>2. 高を括る（たかをくくる）</strong> – to underestimate.<br><br><strong>Option Explanations:</strong><br>1. <ruby>高く評価する<rt>たかくひょうかする</rt></ruby> – to rate highly<br>2. <ruby>高を括る<rt>たかをくくる</rt></ruby> – ✅ to underestimate<br>3. <ruby>高を上げる<rt>たかをあげる</rt></ruby> – ❌ invalid phrase<br>4. <ruby>高を並べる<rt>たかをならべる</rt></ruby> – ❌ invalid phrase</p>"
+      }
+    },
+    {
+      "question": "彼女はプロジェクトの成功のために（  ）している。",
+      "options": [
+        "1. 苦心",
+        "2. 腐心",
+        "3. 感心",
+        "4. 歓心"
+      ],
+      "answer": "2. 腐心",
+      "hint": "<p><ruby>成功<rt>せいこう</rt></ruby> – success<br><ruby>腐心<rt>ふしん</rt></ruby> – to worry, to toil over<br><em>Romaji:</em> seikou, fushin</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>腐心（ふしん）</strong> means to worry deeply or toil mentally over something, often used in formal writing.<br><br><strong>Option Explanations:</strong><br>1. <ruby>苦心<rt>くしん</rt></ruby> (kushin): hard effort<br>2. <ruby>腐心<rt>ふしん</rt></ruby> (fushin): ✅ to worry/toil over<br>3. <ruby>感心<rt>かんしん</rt></ruby> (kanshin): admiration<br>4. <ruby>歓心<rt>かんしん</rt></ruby> (kanshin): favor or good impression<br><br><strong>Sentence meaning:</strong> She is toiling for the success of the project.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>2. 腐心（ふしん）</strong> – to worry/toil over.<br><br><strong>Option Explanations:</strong><br>1. <ruby>苦心<rt>くしん</rt></ruby> – hard effort<br>2. <ruby>腐心<rt>ふしん</rt></ruby> – ✅ to worry/toil over<br>3. <ruby>感心<rt>かんしん</rt></ruby> – admiration<br>4. <ruby>歓心<rt>かんしん</rt></ruby> – favor or good impression</p>"
+      }
+    },
+    {
+      "question": "健康のためには、毎日運動する（  ）。",
+      "options": [
+        "1. に越したことはない",
+        "2. によって",
+        "3. にかけては",
+        "4. ためだ"
+      ],
+      "answer": "1. に越したことはない",
+      "hint": "<p><ruby>健康<rt>けんこう</rt></ruby> – health<br><ruby>運動<rt>うんどう</rt></ruby> – exercise<br><em>Romaji:</em> kenkou, undou</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>に越したことはない（にこしたことはない）</strong> means \"nothing is better than\" or \"it’s best to\".<br><br><strong>Option Explanations:</strong><br>1. <ruby>に越したことはない<rt>にこしたことはない</rt></ruby> – ✅ it's best to<br>2. <ruby>によって<rt>によって</rt></ruby> – depending on/by means of<br>3. <ruby>にかけては<rt>にかけては</rt></ruby> – when it comes to<br>4. <ruby>ためだ<rt>ためだ</rt></ruby> – because of<br><br><strong>Sentence meaning:</strong> For your health, it’s best to exercise daily.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. に越したことはない（にこしたことはない）</strong> – it's best to.<br><br><strong>Option Explanations:</strong><br>1. <ruby>に越したことはない<rt>にこしたことはない</rt></ruby> – ✅ best to do<br>2. <ruby>によって<rt>によって</rt></ruby> – depending on<br>3. <ruby>にかけては<rt>にかけては</rt></ruby> – in the area of<br>4. <ruby>ためだ<rt>ためだ</rt></ruby> – due to</p>"
+      }
+    },
+    {
+      "question": "彼の気持ちは想像する（  ）。",
+      "options": [
+        "1. にかたくない",
+        "2. に反して",
+        "3. といえども",
+        "4. ものの"
+      ],
+      "answer": "1. にかたくない",
+      "hint": "<p><ruby>気持ち<rt>きもち</rt></ruby> – feeling<br><ruby>想像<rt>そうぞう</rt></ruby> – imagination<br><em>Romaji:</em> kimochi, souzou</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>にかたくない（にかたくない）</strong> means \"not hard to\" and is used in formal language to indicate empathy or mental ease.<br><br><strong>Option Explanations:</strong><br>1. <ruby>にかたくない<rt>にかたくない</rt></ruby> – ✅ not difficult to imagine<br>2. <ruby>に反して<rt>にはんして</rt></ruby> – contrary to<br>3. <ruby>といえども<rt>といえども</rt></ruby> – even though<br>4. <ruby>ものの<rt>ものの</rt></ruby> – although<br><br><strong>Sentence meaning:</strong> It is not difficult to imagine how he feels.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. にかたくない</strong> – not difficult to imagine.<br><br><strong>Option Explanations:</strong><br>1. <ruby>にかたくない<rt>にかたくない</rt></ruby> – ✅ easy to imagine<br>2. <ruby>に反して<rt>にはんして</rt></ruby> – contrary to<br>3. <ruby>といえども<rt>といえども</rt></ruby> – even though<br>4. <ruby>ものの<rt>ものの</rt></ruby> – although</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "コンビニで年齢確認を（  ）されました。",
+        "options": [
+          "1. 求め",
+          "2. 履き",
+          "3. 訴え",
+          "4. 巻き"
+        ],
+        "answer": "1. 求め",
+        "hint": "<p>年齢確認（ねんれいかくにん, nenrei kakunin）- age verification<br>求める（もとめる, motomeru）- to request; to require</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! :</strong> 求め（もとめ, motome）- request; requirement</p><ul><li>履き（はき, haki）- putting on (shoes, pants)</li><li>訴え（うったえ, uttae）- appeal; lawsuit</li><li>巻き（まき, maki）- winding</li></ul><p><strong>English Translation:</strong> I was asked for age verification at the convenience store.</p>",
+          "incorrect": "<p><strong>Answer:</strong> 求め（もとめ, motome）- request; requirement</p><ul><li>履き（はき, haki）- putting on (shoes, pants)</li><li>訴え（うったえ, uttae）- appeal; lawsuit</li><li>巻き（まき, maki）- winding</li></ul><p><strong>English Translation:</strong> I was asked for age verification at the convenience store.</p>"
+        }
+      },
+      {
+        "question": "今後のため、今回の件は社内に（  ）します。",
+        "options": [
+          "1. 周知",
+          "2. 阻止",
+          "3. 勧告",
+          "4. 分析"
+        ],
+        "answer": "1. 周知",
+        "hint": "<p>社内（しゃない, shanai）- inside the company<br>周知（しゅうち, shuuchi）- informing everyone; spreading awareness</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! :</strong> 周知（しゅうち, shuuchi）- informing all members</p><ul><li>阻止（そし, soshi）- prevention</li><li>勧告（かんこく, kankoku）- recommendation</li><li>分析（ぶんせき, bunseki）- analysis</li></ul><p><strong>English Translation:</strong> For future reference, this matter will be made known within the company.</p>",
+          "incorrect": "<p><strong>Answer:</strong> 周知（しゅうち, shuuchi）- informing all members</p><ul><li>阻止（そし, soshi）- prevention</li><li>勧告（かんこく, kankoku）- recommendation</li><li>分析（ぶんせき, bunseki）- analysis</li></ul><p><strong>English Translation:</strong> For future reference, this matter will be made known within the company.</p>"
+        }
+      },
+      {
+        "question": "必要書類に不備がある場合、（  ）されることがあります。",
+        "options": [
+          "1. 受理を拒否",
+          "2. 提出を強制",
+          "3. 記入を催促",
+          "4. 保存を促進"
+        ],
+        "answer": "1. 受理を拒否",
+        "hint": "<p>必要書類（ひつようしょるい, hitsuyou shorui）- required documents<br>不備（ふび, fubi）- deficiencies</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! :</strong> 受理を拒否（じゅりをきょひ, juri wo kyohi）- rejection of acceptance</p><ul><li>提出を強制（ていしゅつをきょうせい, teishutsu wo kyousei）- forced submission</li><li>記入を催促（きにゅうをさいそく, kinyuu wo saisoku）- demand to fill in</li><li>保存を促進（ほぞんをそくしん, hozon wo sokushin）- promotion of storage</li></ul><p><strong>English Translation:</strong> If there are deficiencies in the required documents, acceptance may be refused.</p>",
+          "incorrect": "<p><strong>Answer:</strong> 受理を拒否（じゅりをきょひ, juri wo kyohi）- rejection of acceptance</p><ul><li>提出を強制（ていしゅつをきょうせい, teishutsu wo kyousei）- forced submission</li><li>記入を催促（きにゅうをさいそく, kinyuu wo saisoku）- demand to fill in</li><li>保存を促進（ほぞんをそくしん, hozon wo sokushin）- promotion of storage</li></ul><p><strong>English Translation:</strong> If there are deficiencies in the required documents, acceptance may be refused.</p>"
+        }
+      }
+    ]
+  }

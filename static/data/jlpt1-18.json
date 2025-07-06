@@ -1,0 +1,71 @@
+{
+  "type": "type2",
+  "title": "JLPT N1 Word Reordering Quiz",
+  "questions": [
+    {
+      "options": [
+        { "word": "進化を", "furigana": "", "romaji": "shinka wo", "meaning": "evolution" },
+        { "word": "続けている", "furigana": "", "romaji": "tsudzukete iru", "meaning": "is continuing" },
+        { "word": "AI技術は", "furigana": "", "romaji": "AI gijutsu wa", "meaning": "AI technology" },
+        { "word": "急速に", "furigana": "", "romaji": "kyuusoku ni", "meaning": "rapidly" }
+      ],
+      "answer": ["AI技術は", "急速に", "進化を", "続けている"],
+      "fixedPart": "近年、",
+      "full": "AI技術は近年、急速に進化を続けている。",
+      "translation": "In recent years, AI technology has been rapidly evolving.",
+      "possiblePositions": [2]
+    },
+    {
+      "options": [
+        { "word": "方針に", "furigana": "", "romaji": "houshin ni", "meaning": "in the policy" },
+        { "word": "変更を", "furigana": "", "romaji": "henkou wo", "meaning": "change" },
+        { "word": "政府は", "furigana": "", "romaji": "seifu wa", "meaning": "the government" },
+        { "word": "加えた", "furigana": "", "romaji": "kuwaeta", "meaning": "made" }
+      ],
+      "answer": ["政府は", "方針に", "変更を", "加えた"],
+      "fixedPart": "新しいデータをもとに",
+      "full": "政府は新しいデータをもとに方針に変更を加えた。",
+      "translation": "The government made changes to the policy based on new data.",
+      "possiblePositions": [2]
+    },
+    {
+      "options": [
+        { "word": "見直す", "furigana": "", "romaji": "minaosu", "meaning": "reconsider" },
+        { "word": "必要がある", "furigana": "", "romaji": "hitsuyou ga aru", "meaning": "there is a need" },
+        { "word": "制度を", "furigana": "", "romaji": "seido wo", "meaning": "the system" },
+        { "word": "私たちは", "furigana": "", "romaji": "watashitachi wa", "meaning": "we" }
+      ],
+      "answer": ["私たちは", "制度を", "見直す", "必要がある"],
+      "fixedPart": "社会の変化に対応するために",
+      "full": "私たちは制度を社会の変化に対応するために見直す必要がある。",
+      "translation": "We need to reconsider the system in order to respond to changes in society.",
+      "possiblePositions": [3]
+    },
+    {
+      "options": [
+        { "word": "高まっている", "furigana": "", "romaji": "takamatte iru", "meaning": "is increasing" },
+        { "word": "関心が", "furigana": "", "romaji": "kanshin ga", "meaning": "interest" },
+        { "word": "環境問題への", "furigana": "", "romaji": "kankyou mondai e no", "meaning": "toward environmental issues" },
+        { "word": "若者の", "furigana": "", "romaji": "wakamono no", "meaning": "young people's" }
+      ],
+      "answer": ["若者の", "環境問題への", "関心が", "高まっている"],
+      "fixedPart": "最近の報道によれば",
+      "full": "最近の報道によれば若者の環境問題への関心が高まっている。",
+      "translation": "According to recent reports, young people's interest in environmental issues is increasing.",
+      "possiblePositions": [0]
+    },
+    {
+      "options": [
+        { "word": "対応が", "furigana": "", "romaji": "taiou ga", "meaning": "the response" },
+        { "word": "企業の", "furigana": "", "romaji": "kigyou no", "meaning": "of companies" },
+        { "word": "求められる", "furigana": "", "romaji": "motomerareru", "meaning": "is expected" },
+        { "word": "柔軟な", "furigana": "", "romaji": "juunan na", "meaning": "flexible" }
+      ],
+      "answer": ["企業の", "柔軟な", "対応が", "求められる"],
+      "fixedPart": "急速な市場変化において",
+      "full": "急速な市場変化において企業の柔軟な対応が求められる。",
+      "translation": "In a rapidly changing market, flexible responses by companies are expected.",
+      "possiblePositions": [0]
+    }
+  ]
+}

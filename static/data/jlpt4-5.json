@@ -1,0 +1,36 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "この本を全部読み終わったら、図書館に（＿）ください。",
+        "options": ["1. 貸して", "2. 借りて", "3. 売って", "4. 戻して"],
+        "answer": "4. 戻して",
+        "hint": "<p><strong>～たら</strong> - conditional form<br>全部(ぜんぶ)、図書館(としょかん)、返す(かえす)</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「戻して」 means \"return\" (to original place).<ul><li>貸して - lend</li><li>借りて - borrow</li><li>売って - sell</li></ul><p>English: When you finish reading this book, please return it to the library.</p>",
+          "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>戻して</strong> - to return things to where they were.</p>"
+        }
+      },
+      {
+        "question": "会議室の予約をキャンセルしたいのですが、どうすればいいですか",
+        "options": ["1. 電話で伝えて", "2. 手紙を食べて", "3. 写真で撮って", "4. 音楽で聞いて"],
+        "answer": "1. 電話で伝えて",
+        "hint": "<p><strong>～たいのですが</strong> - expressing desire<br>会議室(かいぎしつ)、予約(よやく)、伝える(つたえる)</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「電話で伝えて」 means \"inform by phone.\"<ul><li>手紙を食べて - eat letters (nonsense)</li><li>写真で撮って - take a photo</li><li>音楽で聞いて - listen to music</li></ul></p>",
+          "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>電話で伝えて</strong> - inform by phone.</p>"
+        }
+      },
+      {
+        "question": "この書類をコピーするとき、カラーではなく（＿）印刷にしてください。",
+        "options": ["1. 片面", "2. 白黒", "3. 縮小", "4. 両面"],
+        "answer": "2. 白黒",
+        "hint": "<p><strong>～にしてください</strong> - polite request<br>書類(しょるい)、印刷(いんさつ)</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「白黒」 means \"black and white\" printing.<ul><li>片面 - single-sided</li><li>縮小 - reduced</li><li>両面 - double-sided</li></ul></p>",
+          "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>白黒</strong> - meaning \"black and white\" mode.</p>"
+        }
+      }
+    ]
+  }
+  

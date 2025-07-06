@@ -1,0 +1,35 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "A: この（＿）、おいしいですね。\nB: ありがとう。卵と牛乳を使いました。",
+      "options": ["1. ケーキ", "2. サラダ", "3. おちゃ", "4. コーヒー"],
+      "answer": "1. ケーキ",
+      "hint": "<p>卵（たまご, tamago）＝ egg<br>牛乳（ぎゅうにゅう, gyuunyuu）＝ milk</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「ケーキ（cake）」は卵と牛乳を材料に作られる甘い食べ物です。</p><ul><li>ケーキ – cake (けーき, kēki)</li><li>サラダ – salad (さらだ, sarada)</li><li>おちゃ – tea (おちゃ, ocha)</li><li>コーヒー – coffee (こーひー, kōhī)</li></ul><p><strong>Sentence meaning:</strong> A: This cake is delicious. B: Thanks! I used eggs and milk.</p>",
+        "incorrect": "<p><strong>Answer:</strong> ケーキ（けーき, kēki） - cake<br><ul><li>ケーキ – made with eggs and milk</li><li>サラダ – not typically sweet or made with eggs/milk</li><li>おちゃ – drink, made from tea leaves</li><li>コーヒー – drink, no eggs/milk as core ingredients</li></ul><p><strong>Sentence meaning:</strong> A: This cake is delicious. B: Thanks! I used eggs and milk.</p>"
+      }
+    },
+    {
+      "question": "A: この（＿）、どこで乗りますか？\nB: 2番線です。急行ですよ。",
+      "options": ["1. 電車", "2. エレベーター", "3. タクシー", "4. ひこうき"],
+      "answer": "1. 電車",
+      "hint": "<p>番線（ばんせん, bansen）＝ platform number<br>急行（きゅうこう, kyuukou）＝ express</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「電車（でんしゃ）」は番線（platform）や急行（express）などの用語が使われます。</p><ul><li>電車 – train (でんしゃ, densha)</li><li>エレベーター – elevator (えれべーたー, erebētā)</li><li>タクシー – taxi (たくしー, takushī)</li><li>ひこうき – airplane (ひこうき, hikouki)</li></ul><p><strong>Sentence meaning:</strong> A: Where do I get on this train? B: Track 2. It's an express.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 電車（でんしゃ, densha） - train<br><ul><li>電車 – has platform numbers (番線) and express types (急行)</li><li>エレベーター – no tracks</li><li>タクシー – picked up on the street, no platform</li><li>ひこうき – uses terminals/gates, not 番線</li></ul><p><strong>Sentence meaning:</strong> A: Where do I get on this train? B: Track 2. It's an express.</p>"
+      }
+    },
+    {
+      "question": "A: この（＿）、操作が簡単ですね。\nB: ええ、最新のスマートフォンですから。",
+      "options": ["1. 電話", "2. 車", "3. 冷蔵庫", "4. 時計"],
+      "answer": "1. 電話",
+      "hint": "<p>操作（そうさ, sōsa）＝ operation<br>スマートフォン = modern type of telephone</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「電話（でんわ）」はスマートフォンも含まれ、操作性の話にも自然に合います。</p><ul><li>電話 – telephone/smartphone (でんわ, denwa)</li><li>車 – car (くるま, kuruma)</li><li>冷蔵庫 – refrigerator (れいぞうこ, reizōko)</li><li>時計 – watch/clock (とけい, tokei)</li></ul><p><strong>Sentence meaning:</strong> A: This phone is easy to use. B: Yes, it's the latest smartphone.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 電話（でんわ, denwa） - phone<br><ul><li>電話 – refers to smartphones, easy to operate</li><li>車 – not usually described as simple in general context</li><li>冷蔵庫 – not the focus of this type of conversation</li><li>時計 – operation isn't typically discussed</li></ul><p><strong>Sentence meaning:</strong> A: This phone is easy to use. B: Yes, it's the latest smartphone.</p>"
+      }
+    }
+  ]
+}

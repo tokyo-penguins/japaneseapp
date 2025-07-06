@@ -1,0 +1,25 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "でんしゃ（＿）のります。",
+        "options": ["1. に", "2. を", "3. が", "4. へ"],
+        "answer": "1. に",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～にのります</strong> - to ride on (transport)</p><p><strong>でんしゃ</strong> - train</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「でんしゃ<strong>に</strong>のります」 means \"I ride the train.\"</p><ul><li><strong>を</strong> - used for direct objects</li><li><strong>が</strong> - subject marker</li><li><strong>へ</strong> - direction marker, but not correct for \"乗る\"</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>に</strong>.</p><ul><li><strong>を</strong> - used for direct objects</li><li><strong>が</strong> - subject marker</li><li><strong>へ</strong> - direction marker, but not correct for \"乗る\"</li></ul>"
+        }
+      },
+      {
+        "question": "これは（＿）ほんです。",
+        "options": ["1. わたしの", "2. わたし", "3. わたしに", "4. わたしを"],
+        "answer": "1. わたしの",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～の</strong> - possession marker (\"my\")</p><p><strong>ほん</strong> - book</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「これは<strong>わたしの</strong>ほんです」 means \"This is my book.\"</p><ul><li><strong>わたし</strong> - incomplete without の</li><li><strong>わたしに</strong> - \"to me\"</li><li><strong>わたしを</strong> - \"me\" as object</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>わたしの</strong>.</p><ul><li><strong>わたし</strong> - incomplete without の</li><li><strong>わたしに</strong> - \"to me\"</li><li><strong>わたしを</strong> - \"me\" as object</li></ul>"
+        }
+      }
+    ]
+  }

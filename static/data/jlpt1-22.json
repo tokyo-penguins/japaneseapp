@@ -1,0 +1,55 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "政府は景気回復のために、新たな（＿）政策を導入した。",
+      "options": ["1. 財政", "2. 医療", "3. 教育", "4. 防災"],
+      "answer": "1. 財政",
+      "hint": "<p><ruby>景気回復<rt>けいきかいふく</rt></ruby> – economic recovery<br><ruby>財政<rt>ざいせい</rt></ruby> – fiscal</p>",
+      "explanation": {
+        "correct": "<p><strong>✅ Correct!</strong><br><ruby>財政<rt>ざいせい</rt></ruby> means fiscal policy.</p><ul><li><ruby>財政<rt>ざいせい</rt></ruby>: fiscal</li><li><ruby>医療<rt>いりょう</rt></ruby>: medical</li><li><ruby>教育<rt>きょういく</rt></ruby>: education</li><li><ruby>防災<rt>ぼうさい</rt></ruby>: disaster prevention</li></ul><p><strong>Sentence meaning:</strong> The government introduced new fiscal policies to help the economy recover.</p>",
+        "incorrect": "<p><strong>❌ Incorrect.</strong><br>The correct answer is <ruby>財政<rt>ざいせい</rt></ruby>.</p><ul><li><ruby>財政<rt>ざいせい</rt></ruby>: fiscal</li><li><ruby>医療<rt>いりょう</rt></ruby>: medical</li><li><ruby>教育<rt>きょういく</rt></ruby>: education</li><li><ruby>防災<rt>ぼうさい</rt></ruby>: disaster prevention</li></ul><p><strong>Sentence meaning:</strong> The government introduced new fiscal policies to help the economy recover.</p>"
+      }
+    },
+    {
+      "question": "物価の上昇により、国民の（＿）が低下している。",
+      "options": ["1. 購買力", "2. 発言力", "3. 勤務態度", "4. 記憶力"],
+      "answer": "1. 購買力",
+      "hint": "<p><ruby>物価<rt>ぶっか</rt></ruby> – prices<br><ruby>購買力<rt>こうばいりょく</rt></ruby> – purchasing power</p>",
+      "explanation": {
+        "correct": "<p><strong>✅ Correct!</strong><br><ruby>購買力<rt>こうばいりょく</rt></ruby> means purchasing power.</p><ul><li><ruby>購買力<rt>こうばいりょく</rt></ruby>: purchasing power</li><li><ruby>発言力<rt>はつげんりょく</rt></ruby>: speaking power</li><li><ruby>勤務態度<rt>きんむたいど</rt></ruby>: work attitude</li><li><ruby>記憶力<rt>きおくりょく</rt></ruby>: memory</li></ul><p><strong>Sentence meaning:</strong> Due to rising prices, people’s purchasing power is decreasing.</p>",
+        "incorrect": "<p><strong>❌ Incorrect.</strong><br>The correct answer is <ruby>購買力<rt>こうばいりょく</rt></ruby>.</p><ul><li><ruby>購買力<rt>こうばいりょく</rt></ruby>: purchasing power</li><li><ruby>発言力<rt>はつげんりょく</rt></ruby>: speaking power</li><li><ruby>勤務態度<rt>きんむたいど</rt></ruby>: work attitude</li><li><ruby>記憶力<rt>きおくりょく</rt></ruby>: memory</li></ul><p><strong>Sentence meaning:</strong> Due to rising prices, people’s purchasing power is decreasing.</p>"
+      }
+    },
+    {
+      "question": "企業はコスト削減のため、業務の（＿）を進めている。",
+      "options": ["1. 外注", "2. 破産", "3. 借金", "4. 従業"],
+      "answer": "1. 外注",
+      "hint": "<p><ruby>外注<rt>がいちゅう</rt></ruby> – outsourcing</p>",
+      "explanation": {
+        "correct": "<p><strong>✅ Correct!</strong><br><ruby>外注<rt>がいちゅう</rt></ruby> means outsourcing.</p><ul><li><ruby>外注<rt>がいちゅう</rt></ruby>: outsourcing</li><li><ruby>破産<rt>はさん</rt></ruby>: bankruptcy</li><li><ruby>借金<rt>しゃっきん</rt></ruby>: debt</li><li><ruby>従業<rt>じゅうぎょう</rt></ruby>: (invalid/unused as standalone)</li></ul><p><strong>Sentence meaning:</strong> Companies are promoting outsourcing to reduce costs.</p>",
+        "incorrect": "<p><strong>❌ Incorrect.</strong><br>The correct answer is <ruby>外注<rt>がいちゅう</rt></ruby>.</p><ul><li><ruby>外注<rt>がいちゅう</rt></ruby>: outsourcing</li><li><ruby>破産<rt>はさん</rt></ruby>: bankruptcy</li><li><ruby>借金<rt>しゃっきん</rt></ruby>: debt</li><li><ruby>従業<rt>じゅうぎょう</rt></ruby>: (invalid/unused as standalone)</li></ul><p><strong>Sentence meaning:</strong> Companies are promoting outsourcing to reduce costs.</p>"
+      }
+    },
+    {
+      "question": "日銀は金利を引き下げて、（＿）を刺激しようとしている。",
+      "options": ["1. 投資", "2. 掃除", "3. 移動", "4. 退職"],
+      "answer": "1. 投資",
+      "hint": "<p><ruby>金利<rt>きんり</rt></ruby> – interest rate<br><ruby>投資<rt>とうし</rt></ruby> – investment</p>",
+      "explanation": {
+        "correct": "<p><strong>✅ Correct!</strong><br><ruby>投資<rt>とうし</rt></ruby> means investment.</p><ul><li><ruby>投資<rt>とうし</rt></ruby>: investment</li><li><ruby>掃除<rt>そうじ</rt></ruby>: cleaning</li><li><ruby>移動<rt>いどう</rt></ruby>: movement</li><li><ruby>退職<rt>たいしょく</rt></ruby>: retirement</li></ul><p><strong>Sentence meaning:</strong> The Bank of Japan is trying to stimulate investment by lowering interest rates.</p>",
+        "incorrect": "<p><strong>❌ Incorrect.</strong><br>The correct answer is <ruby>投資<rt>とうし</rt></ruby>.</p><ul><li><ruby>投資<rt>とうし</rt></ruby>: investment</li><li><ruby>掃除<rt>そうじ</rt></ruby>: cleaning</li><li><ruby>移動<rt>いどう</rt></ruby>: movement</li><li><ruby>退職<rt>たいしょく</rt></ruby>: retirement</li></ul><p><strong>Sentence meaning:</strong> The Bank of Japan is trying to stimulate investment by lowering interest rates.</p>"
+      }
+    },
+    {
+      "question": "人口の減少が（＿）成長に悪影響を与えている。",
+      "options": ["1. 経済", "2. 農業", "3. 医療", "4. 教養"],
+      "answer": "1. 経済",
+      "hint": "<p><ruby>経済<rt>けいざい</rt></ruby> – economy</p>",
+      "explanation": {
+        "correct": "<p><strong>✅ Correct!</strong><br><ruby>経済<rt>けいざい</rt></ruby> means economy.</p><ul><li><ruby>経済<rt>けいざい</rt></ruby>: economy</li><li><ruby>農業<rt>のうぎょう</rt></ruby>: agriculture</li><li><ruby>医療<rt>いりょう</rt></ruby>: medical care</li><li><ruby>教養<rt>きょうよう</rt></ruby>: culture/education</li></ul><p><strong>Sentence meaning:</strong> Population decline is negatively affecting economic growth.</p>",
+        "incorrect": "<p><strong>❌ Incorrect.</strong><br>The correct answer is <ruby>経済<rt>けいざい</rt></ruby>.</p><ul><li><ruby>経済<rt>けいざい</rt></ruby>: economy</li><li><ruby>農業<rt>のうぎょう</rt></ruby>: agriculture</li><li><ruby>医療<rt>いりょう</rt></ruby>: medical care</li><li><ruby>教養<rt>きょうよう</rt></ruby>: culture/education</li></ul><p><strong>Sentence meaning:</strong> Population decline is negatively affecting economic growth.</p>"
+      }
+    }
+  ]
+}

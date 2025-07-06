@@ -1,0 +1,45 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "熱があるので、（＿）を測りました。",
+      "options": ["1. 体温", "2. 身長", "3. 体重", "4. 血圧"],
+      "answer": "1. 体温",
+      "hint": "<p><ruby>熱<rt>ねつ</rt></ruby> (netsu) - fever<br><ruby>測る<rt>はかる</rt></ruby> (hakaru) - to measure</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong><br>『体温』(たいおん, taion) means 'body temperature,' which is measured when you have a fever.</p><ul><li>1. 体温 – body temperature (たいおん, taion)</li><li>2. 身長 – height (しんちょう, shinchou)</li><li>3. 体重 – weight (たいじゅう, taijuu)</li><li>4. 血圧 – blood pressure (けつあつ, ketsuatsu)</li></ul><p><strong>English Translation:</strong> I had a fever, so I measured my temperature.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 体温 (たいおん, taion) – body temperature<br>The only measurement relevant to fever.</p>"
+      }
+    },
+    {
+      "question": "このシャツ、試着したいのですが、（＿）はどこですか？",
+      "options": ["1. レジ", "2. 試着室", "3. エレベーター", "4. 駐車場"],
+      "answer": "2. 試着室",
+      "hint": "<p><ruby>試着<rt>しちゃく</rt></ruby> (shichaku) - trying on clothes<br><ruby>シャツ</ruby> (shatsu) - shirt</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong><br>『試着室』(しちゃくしつ, shichakushitsu) means 'fitting room.'</p><ul><li>1. レジ – register (れじ, reji)</li><li>2. 試着室 – fitting room (しちゃくしつ, shichakushitsu)</li><li>3. エレベーター – elevator (えれべーたー, erebeetaa)</li><li>4. 駐車場 – parking lot (ちゅうしゃじょう, chuushajou)</li></ul><p><strong>English Translation:</strong> I’d like to try on this shirt—where’s the fitting room?</p>",
+        "incorrect": "<p><strong>Answer:</strong> 試着室 (しちゃくしつ, shichakushitsu) – fitting room<br>It’s the only place meant for trying on clothes.</p>"
+      }
+    },
+    {
+      "question": "次の駅で（＿）ので、荷物をまとめ始めました。",
+      "options": ["1. 乗り換える", "2. 寝る", "3. 食べる", "4. 働く"],
+      "answer": "1. 乗り換える",
+      "hint": "<p><ruby>荷物<rt>にもつ</rt></ruby> (nimotsu) - luggage<br><ruby>まとめる</ruby> (matomeru) - to gather/pack</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong><br>『乗り換える』(のりかえる, norikaeru) means 'to transfer trains,' which explains why the speaker is preparing their bags.</p><ul><li>1. 乗り換える – transfer (のりかえる, norikaeru)</li><li>2. 寝る – sleep (ねる, neru)</li><li>3. 食べる – eat (たべる, taberu)</li><li>4. 働く – work (はたらく, hataraku)</li></ul><p><strong>English Translation:</strong> I’m transferring at the next station, so I started organizing my luggage.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 乗り換える (のりかえる, norikaeru) – transfer<br>Only this option explains preparing luggage at a train station.</p>"
+      }
+    },
+    {
+      "question": "ゴミを（＿）に分けて出すようにしています。",
+      "options": ["1. 種類", "2. 色", "3. 形", "4. 重さ"],
+      "answer": "1. 種類",
+      "hint": "<p><ruby>分ける<rt>わける</rt></ruby> (wakeru) - to separate/sort<br><ruby>ゴミ</ruby> (gomi) - trash</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong><br>『種類』(しゅるい, shurui) means 'type' or 'category.' This is how trash is commonly sorted in Japan.</p><ul><li>1. 種類 – type/category (しゅるい, shurui)</li><li>2. 色 – color (いろ, iro)</li><li>3. 形 – shape (かたち, katachi)</li><li>4. 重さ – weight (おもさ, omosa)</li></ul><p><strong>English Translation:</strong> I always try to sort the trash by type when disposing it.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 種類 (しゅるい, shurui) – type/category<br>In Japan, garbage is typically sorted by category, not color or weight.</p>"
+      }
+    }
+  ]
+}

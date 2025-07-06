@@ -1,0 +1,55 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "大きな地震があったときは、まず（＿）を守ってください。",
+      "options": ["4. 身", "1. 木", "3. 店", "2. 時"],
+      "answer": "4. 身",
+      "hint": "<p>地震（じしん, jishin） - earthquake<br>身（み, mi） - body</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「身を守る」 means to protect one's body. It’s the correct response in an emergency.</p><ul><li>1. 木（き / ki）- tree</li><li>2. 時（とき / toki）- time</li><li>3. 店（みせ / mise）- store</li><li>4. 身（み / mi） - ✅ correct: body, self</li></ul>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>4. 身</strong> (body). In an earthquake, protecting yourself is the top priority.<br><ul><li>1. 木 - tree, unrelated</li><li>2. 時 - time, not a thing to protect</li><li>3. 店 - store, not appropriate here</li><li>4. 身 - ✅ correct: body</li></ul></p>"
+      }
+    },
+    {
+      "question": "冷蔵庫にケーキがあるから、（＿）食べていいよ。",
+      "options": ["1. 自分で", "2. 必ず", "3. 全然", "4. ときどき"],
+      "answer": "1. 自分で",
+      "hint": "<p>自分（じぶん, jibun） - oneself<br>冷蔵庫（れいぞうこ, reizōko） - refrigerator</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「自分で食べていい」 means you're allowed to eat it by yourself.<ul><li>1. 自分で（じぶんで / jibun de） - ✅ correct: by oneself</li><li>2. 必ず（かならず / kanarazu） - definitely</li><li>3. 全然（ぜんぜん / zenzen） - not at all (usually with negatives)</li><li>4. ときどき（ときどき / tokidoki） - sometimes</li></ul>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. 自分で</strong>. This means you can eat the cake by yourself without asking.<ul><li>1. 自分で - ✅ correct</li><li>2. 必ず - not suitable in this context</li><li>3. 全然 - usually used with negatives</li><li>4. ときどき - 'sometimes' doesn't fit the sentence</li></ul></p>"
+      }
+    },
+    {
+      "question": "明日の会議は午前9時に（＿）します。",
+      "options": ["2. 開始", "3. 到着", "1. 閉店", "4. 運動"],
+      "answer": "2. 開始",
+      "hint": "<p>会議（かいぎ, kaigi） - meeting<br>開始（かいし, kaishi） - start</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>会議は「開始」するのが自然な表現です。<ul><li>1. 閉店（へいてん / heiten） - store closing</li><li>2. 開始（かいし / kaishi） - ✅ correct: to start</li><li>3. 到着（とうちゃく / tōchaku） - arrival</li><li>4. 運動（うんどう / undō） - exercise</li></ul>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>2. 開始</strong>. Meetings usually “start” at a fixed time.<ul><li>1. 閉店 - not relevant for a meeting</li><li>2. 開始 - ✅ correct</li><li>3. 到着 - arriving, not starting</li><li>4. 運動 - unrelated</li></ul></p>"
+      }
+    },
+    {
+      "question": "この機械の使い方について（＿）してください。",
+      "options": ["4. 説明", "3. 散歩", "2. 運転", "1. 開店"],
+      "answer": "4. 説明",
+      "hint": "<p>使い方（つかいかた, tsukaikata） - how to use<br>説明（せつめい, setsumei） - explanation</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>We often “explain” how to use machines.<ul><li>1. 開店（かいてん / kaiten） - opening a store</li><li>2. 運転（うんてん / unten） - driving</li><li>3. 散歩（さんぽ / sanpo） - taking a walk</li><li>4. 説明（せつめい / setsumei） - ✅ correct: explanation</li></ul>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>4. 説明</strong>. Explaining how to use a machine is common.<ul><li>1. 開店 - unrelated</li><li>2. 運転 - not about explaining</li><li>3. 散歩 - not logical here</li><li>4. 説明 - ✅ correct</li></ul></p>"
+      }
+    },
+    {
+      "question": "この学校では、制服を（＿）いけません。",
+      "options": ["1. 着なければ", "2. 運ばなければ", "3. 投げなければ", "4. 磨かなければ"],
+      "answer": "1. 着なければ",
+      "hint": "<p>制服（せいふく, seifuku） - school uniform<br>着る（きる, kiru） - to wear</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>Wearing a uniform is often required in schools.<ul><li>1. 着なければ（きなければ / kinakereba） - ✅ correct: must wear</li><li>2. 運ばなければ（はこばなければ / hakobanakereba） - must carry</li><li>3. 投げなければ（なげなければ / nagenakereba） - must throw</li><li>4. 磨かなければ（みがかなければ / migakanakereba） - must polish</li></ul>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. 着なければ</strong>. School rules often require students to wear uniforms.<ul><li>1. 着なければ - ✅ correct</li><li>2. 運ばなければ - unrelated</li><li>3. 投げなければ - illogical</li><li>4. 磨かなければ - polishing is unrelated</li></ul></p>"
+      }
+    }
+  ]
+}

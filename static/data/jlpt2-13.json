@@ -1,0 +1,33 @@
+{
+    "type": "type2",
+    "title": "JLPT N2 Word Reordering Quiz",
+    "questions": [
+        {
+            "options": [
+              { "word": "再確認しました", "furigana": "", "romaji": "saikakunin shimashita", "meaning": "double-checked" },
+              { "word": "書類を", "furigana": "", "romaji": "shorui wo", "meaning": "documents" },
+              { "word": "出発前に", "furigana": "", "romaji": "shuppatsu mae ni", "meaning": "before departure" },
+              { "word": "私は", "furigana": "", "romaji": "watashi wa", "meaning": "I" },
+              { "word": "大事な", "furigana": "", "romaji": "daiji na", "meaning": "important" }
+            ],
+            "answer": ["私は", "出発前に", "大事な", "書類を", "再確認しました"],
+            "fixedPart": "忘れ物がないように",
+            "full": "私は出発前に忘れ物がないように大事な書類を再確認しました。",
+            "translation": "Before departure, I double-checked the important documents so I wouldn't forget anything.",
+            "possiblePositions": [3]
+          },
+          {
+            "options": [
+              { "word": "壊れてしまいました", "furigana": "", "romaji": "kowarete shimaimashita", "meaning": "ended up broken" },
+              { "word": "スマホが", "furigana": "", "romaji": "sumaho ga", "meaning": "the smartphone" },
+              { "word": "床に", "furigana": "", "romaji": "yuka ni", "meaning": "on the floor" },
+              { "word": "落ちて", "furigana": "", "romaji": "otoshite", "meaning": "fell" }
+            ],
+            "answer": [ "スマホが", "床に", "落ちて", "壊れてしまいました"],
+            "fixedPart": "誤って",
+            "full": "スマホが誤って床に落ちて壊れてしまいました。",
+            "translation": "My phone fell down on the floor, ended up broken.",
+            "possiblePositions": [2]
+          }
+    ]
+}

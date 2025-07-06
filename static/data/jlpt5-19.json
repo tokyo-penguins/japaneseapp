@@ -1,0 +1,26 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "A: おんがくをきくのが好き？\nB: うん、ヒップホップ（＿）よくきくよ！",
+        "options": ["1. と", "2. が", "3. とか", "4. か"],
+        "answer": "3. とか",
+        "hint": "<p>「AとかB」 is used to give examples and list them. 「ヒップホップとか〜」 means “hip-hop and...”</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「ヒップホップとかよくきく」 implies hip-hop and possibly other genres.<br>「とか」 connects items naturally.</p><ul><li><strong>が</strong> - subject marker (not suitable in this context)</li><li><strong>と</strong> - and</li><li><strong>か</strong> - or</li></ul>",
+          "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>とか</strong>.<ul><li><strong>が</strong> - subject marker (not suitable in this context)</li><li><strong>と</strong> - and</li><li><strong>か</strong> - or</li></ul></p>"
+        }
+      },
+      {
+        "question": "A: あれ、ケーキ？\nB: うん、きのう店（＿）買った。",
+        "options": ["1. に", "2. を", "3. が", "4. で"],
+        "answer": "4. で",
+        "hint": "<p>「〜で買う」 means “to buy at a place.” 「店で買った」 = “bought at the store.”</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「店で買った」 is a natural way to say “I bought it at the store.”<br>「で」 marks the location of the action.</p><ul><li><strong>に</strong> - not used with “buy” here</li><li><strong>を</strong> - marks the object, not place/time</li><li><strong>が</strong> - marks subject</li></ul>",
+          "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>で</strong>.<ul><li><strong>に</strong> - not used with “buy” here</li><li><strong>を</strong> - marks the object, not place/time</li><li><strong>が</strong> - marks subject</li></ul></p>"
+        }
+      }
+    ]
+  }
+  

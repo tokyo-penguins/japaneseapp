@@ -1,0 +1,55 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "毎日　こうえん（＿）　さんぽします。",
+      "options": ["1. で", "2. に", "3. を", "4. が"],
+      "answer": "1. で",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～で</strong> - location of an action</p><p><strong>さんぽする</strong> - to take a walk</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong></p><p>「こうえん<strong>で</strong>さんぽします」 means “I take a walk in the park.”</p><ul><li><strong>に</strong> - indicates direction or time</li><li><strong>を</strong> - marks the object, not place</li><li><strong>が</strong> - subject marker</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>で</strong>.</p><ul><li><strong>に</strong> - indicates direction or time</li><li><strong>を</strong> - marks the object, not place</li><li><strong>が</strong> - subject marker</li></ul>"
+      }
+    },
+    {
+      "question": "日曜日（＿）　ともだちに　あいました。",
+      "options": ["1. に", "2. が", "3. を", "4. と"],
+      "answer": "1. に",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～に 会う</strong> - to meet on a specific day or time</p><p><strong>日曜日</strong> - Sunday</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong></p><p>「日曜日<strong>に</strong>会いました」 means “I met (someone) on Sunday.”</p><ul><li><strong>が</strong> - subject marker</li><li><strong>を</strong> - object marker</li><li><strong>と</strong> - “with,” not correct for time marker</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>に</strong>.</p><ul><li><strong>が</strong> - subject marker</li><li><strong>を</strong> - object marker</li><li><strong>と</strong> - “with,” not correct for time marker</li></ul>"
+      }
+    },
+    {
+      "question": "このみせは　にちようび（＿）　しまっています。",
+      "options": ["1. が", "2. を", "3. に", "4. は"],
+      "answer": "3. に",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～に 閉まっています</strong> - to be closed on a specific day</p><p><strong>にちようび</strong> - Sunday</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong></p><p>「日曜日<strong>に</strong>しまっています」 means “It’s closed on Sundays.”</p><ul><li><strong>が</strong> - subject marker</li><li><strong>を</strong> - object marker</li><li><strong>は</strong> - topic marker, but not correct for time</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>に</strong>.</p><ul><li><strong>が</strong> - subject marker</li><li><strong>を</strong> - object marker</li><li><strong>は</strong> - topic marker, but not correct for time</li></ul>"
+      }
+    },
+    {
+      "question": "先生（＿）　しつもんを　ききました。",
+      "options": ["1. で", "2. に", "3. を", "4. が"],
+      "answer": "2. に",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～に 聞く</strong> - to ask someone a question</p><p><strong>しつもん</strong> - question</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong></p><p>「先生<strong>に</strong>聞きました」 means “I asked the teacher.”</p><ul><li><strong>で</strong> - place marker</li><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>に</strong>.</p><ul><li><strong>で</strong> - place marker</li><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker</li></ul>"
+      }
+    },
+    {
+      "question": "いま　ともだち（＿）　でんわを　しています。",
+      "options": ["1. を", "2. に", "3. と", "4. が"],
+      "answer": "3. と",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～と</strong> - with someone</p><p><strong>でんわする</strong> - to call someone</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong></p><p>「ともだち<strong>と</strong>でんわしています」 means “I’m on the phone with my friend.”</p><ul><li><strong>を</strong> - object marker</li><li><strong>に</strong> - direction/target marker</li><li><strong>が</strong> - subject marker</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>と</strong>.</p><ul><li><strong>を</strong> - object marker</li><li><strong>に</strong> - direction/target marker</li><li><strong>が</strong> - subject marker</li></ul>"
+      }
+    }
+  ]
+}

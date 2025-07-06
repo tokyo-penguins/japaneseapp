@@ -1,0 +1,85 @@
+ {
+  "type": "type1",
+  "questions": [
+    {
+      "question": "熱があるときは、無理をせずに（＿）ください。",
+      "options": ["2. 休んで", "1. 泳いで", "3. 掃除して", "4. 歩いて"],
+      "answer": "2. 休んで",
+      "hint": "<p>休む（やすむ / yasumu）- to rest<br>熱（ねつ / netsu）- fever</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>When you have a fever, it is important to rest your body.<br><strong>Option meanings:</strong><br>1. 泳いで (およいで / oyoide) - swim<br>2. 休んで (やすんで / yasunde) - ✅ correct: rest<br>3. 掃除して (そうじして / souji shite) - clean<br>4. 歩いて (あるいて / aruite) - walk</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>休んで</strong> (rest).<br><strong>Option meanings:</strong><br>1. 泳いで - swim<br>2. 休んで - ✅ correct: rest<br>3. 掃除して - clean<br>4. 歩いて - walk</p>"
+      }
+    },
+    {
+      "question": "このボタンを押すと、コピーが（＿）ます。",
+      "options": ["3. 始まり", "1. 泳ぎ", "2. 閉じ", "4. 止まり"],
+      "answer": "3. 始まり",
+      "hint": "<p>始まる（はじまる / hajimaru）- to begin<br>コピー（こぴー / kopii）- copy</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>On a copier, pressing the button starts the copy process.<br><strong>Option meanings:</strong><br>1. 泳ぎ (およぎ / oyogi) - swim<br>2. 閉じ (とじ / toji) - close<br>3. 始まり (はじまり / hajimari) - ✅ correct: begin<br>4. 止まり (とまり / tomari) - stop</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>始まり</strong> (begin).<br><strong>Option meanings:</strong><br>1. 泳ぎ - swim<br>2. 閉じ - close<br>3. 始まり - ✅ correct<br>4. 止まり - stop</p>"
+      }
+    },
+    {
+        "question": "電気を消し忘れたので、すぐに（＿）に戻りました。",
+        "options": ["1. 部屋", "2. 学校", "3. 病院", "4. 山"],
+        "answer": "1. 部屋",
+        "hint": "<p>部屋（へや, heya）- room<br>戻る（もどる, modoru）- to return</p>",
+        "explanation": {
+            "correct": "<p><strong>Correct! 🎉</strong><br>You return to the room to turn off the forgotten light.<br><strong>Option meanings:</strong><br>1. 部屋（heya）- ✅ room<br>2. 学校（gakkou）- school<br>3. 病院（byouin）- hospital<br>4. 山（yama）- mountain</p>",
+            "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. 部屋</strong> (heya - room).<br>It's where the light was forgotten.</p>"
+        }
+    },
+    {
+        "question": "雨が強かったので、学校まで（＿）行きました。",
+        "options": ["4. 車で", "2. 靴で", "3. 手で", "1. 傘で"],
+        "answer": "4. 車で",
+        "hint": "<p>車（くるま, kuruma）- car<br>雨（あめ, ame）- rain</p>",
+        "explanation": {
+            "correct": "<p><strong>Correct! 🎉</strong><br>Using a car is convenient in heavy rain.<br><strong>Option meanings:</strong><br>1. 傘で（kasa de）- with an umbrella<br>2. 靴で（kutsu de）- with shoes<br>3. 手で（te de）- with hands<br>4. 車で（kuruma de）- ✅ by car</p>",
+            "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>4. 車で</strong> (kuruma de - by car).<br>It is the common transportation choice in rain.</p>"
+        }
+    },
+    {
+        "question": "駅に着いたら、まず切符を（＿）ください。",
+        "options": ["3. 買って", "1. 読んで", "2. 探して", "4. 作って"],
+        "answer": "3. 買って",
+        "hint": "<p>買う（かう, kau）- to buy<br>切符（きっぷ, kippu）- ticket</p>",
+        "explanation": {
+            "correct": "<p><strong>Correct! 🎉</strong><br>You need to buy a ticket before riding the train.<br><strong>Option meanings:</strong><br>1. 読んで（yonde）- read<br>2. 探して（sagashite）- search<br>3. 買って（katte）- ✅ buy<br>4. 作って（tsukutte）- make</p>",
+            "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>3. 買って</strong> (katte - to buy).<br>It’s needed to board the train.</p>"
+        }
+    },
+    {
+        "question": "新しいアパートは駅から近くて、とても（＿）です。",
+        "options": ["1. 便利", "2. 暗い", "3. 寒い", "4. 低い"],
+        "answer": "1. 便利",
+        "hint": "<p>便利（べんり, benri）- convenient<br>近い（ちかい, chikai）- close</p>",
+        "explanation": {
+            "correct": "<p><strong>Correct! 🎉</strong><br>Being close to the station is very convenient.<br><strong>Option meanings:</strong><br>1. 便利（benri）- ✅ convenient<br>2. 暗い（kurai）- dark<br>3. 寒い（samui）- cold<br>4. 低い（hikui）- low</p>",
+            "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. 便利</strong> (benri - convenient).<br>Location near a station is typically described as convenient.</p>"
+        }
+    },
+    {
+        "question": "週末に家族と一緒に映画を（＿）に行きます。",
+        "options": ["2. 見", "3. 着", "1. 飛", "4. 泳"],
+        "answer": "2. 見",
+        "hint": "<p>見る（みる, miru）- to watch<br>映画（えいが, eiga）- movie</p>",
+        "explanation": {
+            "correct": "<p><strong>Correct! 🎉</strong><br>Watching a movie is the correct activity.<br><strong>Option meanings:</strong><br>1. 飛（to）- fly<br>2. 見（mi）- ✅ watch<br>3. 着（ki）- wear/arrive<br>4. 泳（oyo）- swim</p>",
+            "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>2. 見</strong> (mi - to watch).<br>It is the proper verb with movies.</p>"
+        }
+    },
+    {
+        "question": "子どものころは、よく外で（＿）ました。",
+        "options": ["3. 遊び", "1. 教え", "2. 着替え", "4. 勉強し"],
+        "answer": "3. 遊び",
+        "hint": "<p>遊ぶ（あそぶ, asobu）- to play<br>外（そと, soto）- outside</p>",
+        "explanation": {
+            "correct": "<p><strong>Correct! 🎉</strong><br>Children commonly play outside.<br><strong>Option meanings:</strong><br>1. 教え（oshie）- teach<br>2. 着替え（kigae）- change clothes<br>3. 遊び（asobi）- ✅ play<br>4. 勉強し（benkyou shi）- study</p>",
+            "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>3. 遊び</strong> (asobi - play).<br>It's a natural childhood activity outdoors.</p>"
+        }
+    }
+]
+ }

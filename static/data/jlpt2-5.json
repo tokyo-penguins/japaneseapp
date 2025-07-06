@@ -1,0 +1,45 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "この文章の（＿）を説明してください。",
+      "options": ["1. 意識", "2. 内容", "3. 感情", "4. 知識"],
+      "answer": "2. 内容",
+      "hint": "<p><ruby>文章<rt>ぶんしょう</rt></ruby> – text, writing<br><ruby>説明<rt>せつめい</rt></ruby> – explanation<br><em>Romaji:</em> bunshou, setsumei</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> The correct answer is <strong>2. 内容 (ないよう)</strong> – content. This sentence asks the reader to explain the content of the text.<br><br><strong>Option Explanations:</strong><br>1. <ruby>意識<rt>いしき</rt></ruby> (ishiki): consciousness<br>2. <ruby>内容<rt>ないよう</rt></ruby> (naiyou): ✅ content<br>3. <ruby>感情<rt>かんじょう</rt></ruby> (kanjou): emotion<br>4. <ruby>知識<rt>ちしき</rt></ruby> (chishiki): knowledge</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong> The correct answer is <strong>2. 内容 (ないよう)</strong> – content.<br><br><strong>Option Explanations:</strong><br>1. <ruby>意識<rt>いしき</rt></ruby> (ishiki): consciousness<br>2. <ruby>内容<rt>ないよう</rt></ruby> (naiyou): ✅ content<br>3. <ruby>感情<rt>かんじょう</rt></ruby> (kanjou): emotion<br>4. <ruby>知識<rt>ちしき</rt></ruby> (chishiki): knowledge</p>"
+      }
+    },
+    {
+      "question": "面接では第一印象が（＿）される。",
+      "options": ["1. 重視", "2. 交代", "3. 反対", "4. 記録"],
+      "answer": "1. 重視",
+      "hint": "<p><ruby>面接<rt>めんせつ</rt></ruby> – interview<br><ruby>第一印象<rt>だいいちいんしょう</rt></ruby> – first impression<br><em>Romaji:</em> mensetsu, daiichi inshou</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> The correct answer is <strong>1. 重視 (じゅうし)</strong> – to place importance on. In interviews, first impressions are considered important.<br><br><strong>Option Explanations:</strong><br>1. <ruby>重視<rt>じゅうし</rt></ruby> (juushi): ✅ importance<br>2. <ruby>交代<rt>こうたい</rt></ruby> (koutai): replacement<br>3. <ruby>反対<rt>はんたい</rt></ruby> (hantai): opposition<br>4. <ruby>記録<rt>きろく</rt></ruby> (kiroku): record</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong> The correct answer is <strong>1. 重視 (じゅうし)</strong> – to place importance on.<br><br><strong>Option Explanations:</strong><br>1. <ruby>重視<rt>じゅうし</rt></ruby> (juushi): ✅ importance<br>2. <ruby>交代<rt>こうたい</rt></ruby> (koutai): replacement<br>3. <ruby>反対<rt>はんたい</rt></ruby> (hantai): opposition<br>4. <ruby>記録<rt>きろく</rt></ruby> (kiroku): record</p>"
+      }
+    },
+    {
+      "question": "その事件はニュースで（＿）された。",
+      "options": ["1. 報道", "2. 制限", "3. 統一", "4. 分離"],
+      "answer": "1. 報道",
+      "hint": "<p><ruby>事件<rt>じけん</rt></ruby> – incident<br>ニュース – news<br><em>Romaji:</em> jiken, nyūsu</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> The correct answer is <strong>1. 報道 (ほうどう)</strong> – news reporting. The sentence means: “The incident was reported on the news.”<br><br><strong>Option Explanations:</strong><br>1. <ruby>報道<rt>ほうどう</rt></ruby> (houdou): ✅ news reporting<br>2. <ruby>制限<rt>せいげん</rt></ruby> (seigen): restriction<br>3. <ruby>統一<rt>とういつ</rt></ruby> (touitsu): unification<br>4. <ruby>分離<rt>ぶんり</rt></ruby> (bunri): separation</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong> The correct answer is <strong>1. 報道 (ほうどう)</strong> – news reporting.<br><br><strong>Option Explanations:</strong><br>1. <ruby>報道<rt>ほうどう</rt></ruby> (houdou): ✅ news reporting<br>2. <ruby>制限<rt>せいげん</rt></ruby> (seigen): restriction<br>3. <ruby>統一<rt>とういつ</rt></ruby> (touitsu): unification<br>4. <ruby>分離<rt>ぶんり</rt></ruby> (bunri): separation</p>"
+      }
+    },
+    {
+      "question": "彼の説明はとても（＿）だったので、すぐに理解できた。",
+      "options": ["1. 明確", "2. 適当", "3. 自由", "4. 平等"],
+      "answer": "1. 明確",
+      "hint": "<p><ruby>説明<rt>せつめい</rt></ruby> – explanation<br><ruby>理解<rt>りかい</rt></ruby> – understanding<br><em>Romaji:</em> setsumei, rikai</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> The correct answer is <strong>1. 明確 (めいかく)</strong> – clear. His explanation was so clear that it was easy to understand.<br><br><strong>Option Explanations:</strong><br>1. <ruby>明確<rt>めいかく</rt></ruby> (meikaku): ✅ clear<br>2. <ruby>適当<rt>てきとう</rt></ruby> (tekitou): appropriate / vague<br>3. <ruby>自由<rt>じゆう</rt></ruby> (jiyuu): freedom<br>4. <ruby>平等<rt>びょうどう</rt></ruby> (byoudou): equality</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong> The correct answer is <strong>1. 明確 (めいかく)</strong> – clear.<br><br><strong>Option Explanations:</strong><br>1. <ruby>明確<rt>めいかく</rt></ruby> (meikaku): ✅ clear<br>2. <ruby>適当<rt>てきとう</rt></ruby> (tekitou): appropriate / vague<br>3. <ruby>自由<rt>じゆう</rt></ruby> (jiyuu): freedom<br>4. <ruby>平等<rt>びょうどう</rt></ruby> (byoudou): equality</p>"
+      }
+    }
+  ]
+}

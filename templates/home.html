@@ -1,0 +1,1327 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Japanese Learning Platform - TokyoPenguins</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        :root {
+            --black: #1d1d1f;
+            --white: #f5f5f7;
+            --primary: #06c;
+            --primary-hover: #2997ff;
+            --gray: #86868b;
+            --light-gray: #d2d2d7;
+            --section-padding: 80px 0;
+            --max-width: 980px;
+            --border-radius: 18px;
+            --box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            --required-color: #ff3b30;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--black);
+            background-color: var(--white);
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        /* Navigation */
+        header {
+            background-color: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 44px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 22px;
+        }
+        
+        .logo {
+    display: flex; /* 文字と画像を横並びにする！ */
+    align-items: center; /* 上下の真ん中揃え */
+    font-size: 21px;
+    font-weight: 600;
+    color: var(--black);
+    gap: 10px; /* 文字とアイコンの間にちょっと余白 */
+}
+.hamburger-icon {
+    width: 40px;
+    height: 28px;
+    object-fit: contain; /* 画像が変に引き伸ばされない */
+}
+.logo-icon {
+    width: 40px; /* アイコンの大きさ（自由に変えられる） */
+    height: 90px;
+    object-fit: contain; /* 画像が変に伸びない */
+}
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+        
+        .nav-links a {
+            color: var(--black);
+            font-size: 14px;
+            font-weight: 400;
+            opacity: 0.8;
+            transition: var(--transition);
+        }
+        /* Hero Section with Video Background */
+        .hero-wrapper {
+            position: relative;
+            height: calc(100vh - 44px); /* Subtract header height */
+            min-height: 600px;
+            max-height: 1200px;
+            overflow: hidden;
+            margin-bottom: -20px;
+        }
+        
+        .hero-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        
+        .hero {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 22px;
+            position: relative;
+            color: white;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+            z-index: -1;
+        }
+        
+        .hero h1 {
+            margin-bottom: 10px;
+            font-size: 56px;
+            line-height: 1.07143;
+        }
+        
+        .hero p {
+            font-size: 24px;
+            max-width: 600px;
+            margin: 0 auto 30px;
+            color: rgba(255, 255, 255, 0.9);
+        }
+        
+        /* Buttons */
+        .button {
+    min-width: 120px;
+    min-height: 48px;
+    line-height: 24px; /* テキストを中央揃え */
+    padding: 12px 24px;
+}
+        
+        .button-primary {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+        }
+        
+        .button-primary:hover {
+            background-color: var(--primary-hover);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: var(--box-shadow);
+        }
+        
+        .button-secondary {
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+            margin-left: 10px;
+        }
+        
+        .button-secondary:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            transform: translateY(-2px);
+            box-shadow: var(--box-shadow);
+        }
+        
+        /* Sections */
+        section {
+            padding: var(--section-padding);
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+            padding: 0 22px;
+        }
+        
+        .section-header h2 {
+            font-size: 40px;
+            line-height: 1.1;
+            margin-bottom: 10px;
+        }
+        
+        .section-header p {
+            font-size: 21px;
+            color: var(--gray);
+        }
+        
+        /* Cards */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 0 22px;
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--box-shadow);
+            transition: var(--transition);
+            transform: translateY(40px);
+            transition: all 0.4s ease;
+        }
+        .card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+        .card:hover {
+            transform: translateY(-10px) scale(1.03);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .card-image {
+            height: 200px;
+            background-color: var(--light-gray);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gray);
+            font-size: 24px;
+            font-weight: 500;
+        }
+        
+        .card-content {
+            padding: 30px;
+        }
+        
+        .card h3 {
+            font-size: 24px;
+            line-height: 1.16667;
+            margin-bottom: 10px;
+        }
+        
+        .card p {
+            font-size: 17px;
+            color: var(--gray);
+            margin-bottom: 20px;
+        }
+        
+        .card a {
+            color: var(--primary);
+            font-weight: 500;
+        }
+        
+        .promo-banner {
+  background: linear-gradient(135deg, #54c4d3 0%, #2997ff 100%);
+  color: white;
+  text-align: center;
+  padding: 60px 22px;
+  margin: 80px auto;
+  width: 90%;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+}
+        
+        .promo-banner h2 {
+            margin-bottom: 15px;
+            color: white;
+        }
+        
+        .promo-banner p {
+            color: rgba(255, 255, 255, 0.8);
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+        
+        /* Contact Form */
+        .contact-form {
+            background-color: white;
+            border-radius: var(--border-radius);
+            padding: 50px;
+            box-shadow: var(--box-shadow);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: var(--black);
+        }
+        
+        .required-field::after {
+            content: "*";
+            color: var(--required-color);
+            margin-left: 4px;
+        }
+        
+        input, textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid var(--light-gray);
+            border-radius: 8px;
+            font-size: 16px;
+            transition: var(--transition);
+        }
+        
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(0, 102, 204, 0.2);
+        }
+        
+        textarea {
+            height: 150px;
+            resize: vertical;
+        }
+        
+        .checkbox-group {
+            margin: 25px 0;
+        }
+        
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+            font-weight: normal;
+            color: var(--gray);
+        }
+        
+        .checkbox-label input {
+            width: auto;
+            margin-right: 10px;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--black);
+            color: var(--white);
+            padding: 60px 0 30px;
+        }
+        
+        .footer-content {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 30px;
+            padding: 0 22px;
+        }
+        
+        .footer-column h3 {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: var(--gray);
+        }
+        
+        .footer-column ul {
+            list-style: none;
+        }
+        
+        .footer-column li {
+            margin-bottom: 12px;
+        }
+        
+        .footer-column a {
+            color: var(--white);
+            opacity: 0.8;
+            font-size: 14px;
+        }
+        
+        .footer-column a:hover {
+            opacity: 1;
+            text-decoration: underline;
+        }
+        
+        .copyright {
+            max-width: var(--max-width);
+            margin: 60px auto 0;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 12px;
+            color: var(--gray);
+            text-align: center;
+        }
+        .button-candy {
+  background: linear-gradient(135deg, #f8fe8f 0%, #FFEB3B 100%); /* オレンジ〜黄色グラデ */
+  color: #7B3F00; /* 落ち着いたブラウン (文字色) */
+  padding: 14px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(255, 167, 38, 0.8), 0 0 20px rgba(255, 235, 59, 0.6);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.button-candy:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(218, 214, 83, 0.8), 0 0 25px rgba(212, 249, 126, 0.6);
+}
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            :root {
+                --section-padding: 60px 0;
+            }
+            
+            h1 {
+                font-size: 40px;
+            }
+            
+            .hero h1 {
+                font-size: 48px;
+            }
+            
+            h2 {
+                font-size: 32px;
+            }
+            
+            .hero-wrapper {
+                min-height: 500px;
+            }
+            
+            .hero p {
+                font-size: 20px;
+            }
+            
+            .button-secondary {
+                display: block;
+                margin: 15px auto 0;
+                width: fit-content;
+            }
+            
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .contact-form {
+                padding: 30px;
+            }
+        }
+        .fade-in {
+    opacity: 0;
+    transform: scale(1.05);
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+}
+
+.fade-in.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Slide up for cards */
+.card {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+#premiumpenguin {
+    text-align: center; /* 中央揃え */
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.penguin-image {
+    width: 30%; /* 画像の横幅をページ幅の80%に */
+    max-width: 200px; /* 最大幅400px */
+    height: auto; /* 高さは自動調整（崩れない） */
+    display: block; /* 画像をブロック要素にして中央に */
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width: 600px) {
+    .penguin-image {
+        width: 90%; /* スマホではもっと大きめに */
+    }
+}
+#premium-benefits-section {
+    padding-top: 0;
+}
+@media (max-width: 768px) {
+    .logo {
+        font-size: 18px; /* スマホでは少し小さくする */
+    }
+}
+.popup-message {
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f8f4e6; /* 和風のクリーム色 */
+  color: #4b382a; /* 深い茶色 */
+  border: 2px solid #e0c9a6;
+  border-radius: 12px;
+  padding: 16px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  z-index: 9999;
+  opacity: 0;
+  animation: fadeInOut 5s ease-in-out forwards;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateX(-50%) translateY(-10px); }
+  10% { opacity: 1; transform: translateX(-50%) translateY(0); }
+  90% { opacity: 1; transform: translateX(-50%) translateY(0); }
+  100% { opacity: 0; transform: translateX(-50%) translateY(-10px); }
+}
+.flash-message {
+  padding: 15px;
+  background-color: #e6ffe6;
+  border: 1px solid #00cc66;
+  margin: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  animation: fadeIn 1s ease-in-out;
+}
+/* --- スマートフォン風カルーセルスタイル（自動スクロール版） --- */
+
+/* コンテナの変更：overflow: hidden に。スクロールバーとスナップは不要 */
+.phone-scroll-container {
+    /* overflow-x: auto; を削除またはコメントアウト */
+    /* scroll-snap-type: x mandatory; を削除またはコメントアウト */
+    overflow: hidden; /* はみ出た部分は表示しない */
+    /* 他のスタイル (padding, margin) は維持 */
+    padding-bottom: 20px;
+    margin: 0 calc(-1 * (100vw - min(var(--max-width), calc(100vw - 44px))) / 2);
+    padding-left: calc((100vw - min(var(--max-width), calc(100vw - 44px))) / 2);
+    padding-right: calc((100vw - min(var(--max-width), calc(100vw - 44px))) / 2);
+}
+/* スクロールバー非表示スタイルも不要になる */
+/* .phone-scroll-container::-webkit-scrollbar { display: none; } */
+/* .phone-scroll-container { scrollbar-width: none; } */
+
+
+/* ラッパーにアニメーションを適用 */
+.phone-scroll-wrapper {
+    display: flex;
+    gap: 30px;
+    width: max-content; /* 必須 */
+    /* padding-left/right は不要になるか、調整が必要 */
+    padding-left: 0;
+    padding-right: 0;
+    align-items: center;
+    min-height: 450px;
+
+    /* アニメーション設定 */
+    /* アニメーション名、時間、タイミング関数、無限ループ */
+    animation: autoScroll 120s linear infinite; /* 60秒で1周する例 */
+}
+
+/* カードの変更：スナップ関連は不要 */
+.phone-card {
+    flex: 0 0 auto;
+    width: 200px;
+    /* scroll-snap-align: center; を削除 */
+    position: relative;
+    /* transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1); */ /* ポップアウト用だったので削除 */
+}
+
+/* ポップアウトスタイルは削除 */
+/*
+.phone-card.is-centered .phone-frame {
+    transform: scale(1.08) translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3), inset 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+*/
+
+
+/* スクロールアニメーションの定義 */
+@keyframes autoScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    /* 元のカード群の幅だけ移動（複製分は見せかけのため） */
+    transform: translateX(calc(-1 * ((200px + 30px) * 8)));
+  }
+}
+
+.phone-scroll-wrapper {
+  animation: autoScroll 120s linear infinite;
+  width: max-content;
+}
+
+/* --- iPhone風ステータスバースタイル --- */
+.phone-frame {
+    /* 既存スタイルに追加 */
+    position: relative; /* 子要素の絶対配置のため */
+    padding-top: 35px; /* ステータスバーのスペースを確保 */
+    height: 435px; /* 元の高さ＋追加したpadding-top分 */
+}
+/* ノッチ描画を調整 */
+.phone-frame::before {
+     top: 10px; /* padding-top分下げる */
+     /* 他は維持 */
+}
+.phone-frame::after {
+    top: 15px; /* padding-top分下げる */
+    /* 他は維持 */
+}
+
+.phone-time {
+    /* 特にスタイル不要 */
+}
+
+/* レスポンシブ調整 */
+@media (max-width: 768px) {
+    .phone-scroll-wrapper {
+        gap: 20px;
+        min-height: 400px;
+        /* アニメーション距離も再計算が必要 */
+        /* 例：カード幅180px、ギャップ20px、カード8枚 */
+        animation-name: autoScrollMobile; /* モバイル用アニメーションを別に定義 */
+    }
+     @keyframes autoScrollMobile {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(calc(-1 * ((180px + 20px) * 8))); }
+    }
+    .phone-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* これが重要 */
+}
+    .phone-card {
+        width: 180px;
+    }
+    .phone-frame {
+    /* 既存スタイル */
+    width: 100%;
+    background-color: #2c2c2e;
+    border-radius: 30px;
+    padding: 10px; /* padding-top: 35px; を元の padding: 10px; に戻すか、padding-topだけ削除 */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2), inset 0 2px 4px rgba(255, 255, 255, 0.1);
+    position: relative;
+    height: 400px; /* 元の高さに戻す (435px -> 400px) */
+}
+
+/* ノッチの位置を元に戻す */
+.phone-frame::before {
+    content: '';
+    position: absolute;
+    top: 10px; /* padding-top 分ずらしていたのを戻す */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    height: 15px;
+    background-color: #1c1c1e;
+    border-radius: 0 0 8px 8px;
+    z-index: 2;
+}
+.phone-frame::after { /* スピーカー風 */
+    content: '';
+    position: absolute;
+    top: 15px; /* padding-top 分ずらしていたのを戻す */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 3px;
+    background-color: #555;
+    border-radius: 3px;
+    z-index: 3;
+}
+.lockscreen-clock {
+    position: absolute;
+    top: 25%; /* 上から25%の位置 (調整可能) */
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 5; /* 画像より手前 */
+    color: white;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6); /* 読みやすくするための影 */
+    pointer-events: none; /* 下の画像操作を妨げないように */
+    padding: 0 20px; /* 左右の余白 */
+}
+
+.lockscreen-clock .phone-time {
+    display: block; /* 改行させる */
+    font-size: 56px; /* 大きめの文字サイズ */
+    font-weight: 200; /* 細めのウェイト (iOS風) */
+    line-height: 1.1;
+    letter-spacing: 1px; /* 少し文字間隔をあける */
+}
+
+.lockscreen-clock .phone-date-day {
+    display: block; /* 改行させる */
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+/* レスポンシブ調整 */
+@media (max-width: 768px) {
+    .lockscreen-clock .phone-time {
+        font-size: 48px;
+    }
+    .lockscreen-clock .phone-date-day {
+        font-size: 14px;
+    }
+}
+/* --- ロック画面風 時計スタイル END --- */
+ /* レスポンシブ内の .phone-frame も同様に修正 */
+@media (max-width: 768px) {
+    .phone-frame {
+        height: 360px; /* 元の高さに戻す (395px -> 360px) */
+        padding: 8px;  /* 元の padding に戻すか、padding-topだけ削除 */
+        border-radius: 25px;
+    }
+     /* レスポンシブ内の ::before, ::after も top を調整する必要があれば行う */
+     /* (元の値に戻っていれば不要な場合も) */
+}
+     .phone-status-bar {
+        font-size: 11px;
+        top: 8px;
+        left: 10px;
+        right: 10px;
+     }
+}
+
+/* --- スマートフォン風カルーセルスタイル（自動スクロール版） END --- */
+@media (max-width: 600px) {
+    .card-grid {
+        grid-template-columns: 1fr; /* スマホは1列 */
+    }
+    .hero h1 {
+        font-size: 32px; /* タイトルを少し小さく */
+    }
+    .hero p {
+        font-size: 18px;
+    }
+    .phone-card {
+        width: 160px; /* スマホのphone-cardを少し小さく */
+    }
+}
+
+/* 📱📲 768px以下（タブレット）の時 */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr); /* タブレットは2列 */
+    }
+    .hero h1 {
+        font-size: 40px;
+    }
+}
+
+/* 🖥️ 1025px以上（PC）の時 */
+@media (min-width: 1025px) {
+    .card-grid {
+        grid-template-columns: repeat(3, 1fr); /* PCは3列 */
+    }
+    .phone-card {
+        width: 200px; /* PCではphone-cardを通常サイズに */
+    }
+}
+/* ハンバーガー本体 */
+.hamburger {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    z-index: 1001;
+}
+@media (max-width: 480px) {
+    :root {
+        font-size: 14px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    .hero p, .section-header p {
+        font-size: 16px;
+    }
+    
+    .card h3 {
+        font-size: 20px;
+    }
+    
+    .card p {
+        font-size: 15px;
+    }
+}
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* カードグリッドを完全な縦並びに */
+@media (max-width: 600px) {
+    .card-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}
+
+/* スマホ時のナビゲーションリンク表示 */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        flex-direction: column;
+        background: #f8f4e6; /* 和風のクリーム系背景！ */
+        border: 2px solid #e0c9a6; /* やさしい茶色の縁 */
+        border-radius: 12px;
+        overflow: hidden;
+        min-width: 140px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+        padding: 0; /* ←余白を完全になくす！ */
+        margin: 0;
+    }
+        .nav-links a {
+    padding: 12px 16px;
+    display: block;
+} /* 縦だけ最小限、横はゼロ */
+
+    .nav-links a:last-child {
+        border-bottom: none;
+    }
+
+    .nav-links a:hover {
+        background: #ede3d2; /* ホバー時は少しだけ和紙風に明るく */
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+.button-thirdly {
+    background-color: #ffeb3b; /* 明るい黄色 */
+    color: #333;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.button-thirdly:hover {
+    background-color: #fdd835;
+}
+ .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .social-icon {
+            color: white;
+            font-size: 1.5rem;
+            transition: all 0.3s;
+            background: rgba(255,255,255,0.1);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .social-icon:hover {
+            color: var(--primary);
+            background: white;
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                TokyoPenguins
+                <img src="../static/images/touka.png" alt="Logo Icon" class="logo-icon">
+            </div>
+            
+            <div class="nav-links">
+                <a href="#materials">Materials</a>
+                <a href="#unlimited">Premium</a>
+                <a href="#contact">Contact</a>
+            </div>
+        
+            <div class="hamburger">
+                <img src="../static/images/hamburger.png" alt="Menu" class="hamburger-icon">
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Hero Section with Video Background -->
+    <div class="hero-wrapper">
+        <video class="hero-video fade-in" autoplay="" muted="" loop="" playsinline="">
+            <source src="../static/images/vi copy.mov" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+        <section class="hero">
+            <h1>Master Japanese</h1>
+            <p>Learn Japanese in craziest &amp; funniest ways🇯🇵</p>
+            <div>
+                <a href="#materials" class="button button-primary">Start for Free</a>
+                <a href="#unlimited" class="button button-secondary">Try Premium</a>
+                <a href="/donation" class="button-thirdly">Donation</a>
+            </div>
+        </section>
+    </div>
+    <section id="materials">
+        
+        {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+      <div id="popup-message" class="popup-message">
+        {% for category, message in messages %}
+          <p>{{ message }}</p>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endwith %}
+
+
+ <div class="section-header">
+            <h2>Free Learning Materials</h2>
+            <p>Resources for all levels from beginner to advanced</p>
+        </div>
+
+        <div class="card-grid">
+            <div class="card">
+                <div class="card-image" id="slang">
+                    <img src="../static/images/pensur.png" alt="Japanese slangs" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>Japanese slangs</h3>
+                    <p>Wanna know the weird Japanese slags?</p>
+                    <a href="{{ url_for('slang_home') }}">Start Learning →</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image" id="jlpt5-section">
+                    <img src="../static/images/penpen.png" alt="JLPT N5" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>N5 Beginner Level</h3>
+                    <p>First steps in Japanese. Master basic vocabulary.</p>
+                    <a href="{{ url_for('jlpt_index', level='jlpt5') }}">Start Learning →</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-image" id="jlpt4-section">
+                    <img src="../static/images/d.png" alt="JLPT N4" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>N4 Elementary Level</h3>
+                    <p>Essential words for daily conversation.</p>
+                    <a href="{{ url_for('jlpt_index', level='jlpt4') }}">Start Learning →</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-image" id="jlpt3-section">
+                    <img src="../static/images/pand.png" alt="JLPT N3" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>N3 Intermidiate Level</h3>
+                    <p>Intermediate level words and expressions.</p>
+                    <a href="{{ url_for('jlpt_index', level='jlpt3') }}">Start Learning →</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-image" id="jlpt2-section">
+                    <img src="../static/images/li.png" alt="JLPT N2" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>N2 Upper-Intermediate Level</h3>
+                    <p>Learn more natural Japanese expressions.</p>
+                    <a href="{{ url_for('jlpt_index', level='jlpt2') }}">Start Learning →</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-image" id="jlpt1-section">
+                    <img src="../static/images/gorib1.png" alt="JLPT N1" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>N1 Advanced Level</h3>
+                    <p>Advanced vocabulary and expressions.</p>
+                    <a href="{{ url_for('jlpt_index', level='jlpt1') }}">Start Learning →</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-image" id="daily-section">
+                    <img src="../static/images/paripi.png" alt="DailyConversation" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>Daily Conversation</h3>
+                    <p>Practical phrases for everyday use.</p>
+                    <a href="{{ url_for('dailyconv') }}">Start Learning →</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-image" id="osaka-section">
+                    <img src="../static/images/o.png" alt="Osaka" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>Osaka Dialect</h3>
+                    <p>Learn the unique Kansai dialect.</p>
+                    <a href="{{ url_for('Osaka') }}">Start Learning →</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image" id="jlptlo">
+                    <img src="../static/images/i.png" alt="JLPT5~3 TEST" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>JLPT5~3 TEST for JUNE</h3>
+                    <p>Try your Japanese skills!</p>
+                    <a href="{{ url_for('jlptlower') }}">Start Learning →</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image" id="jlptup">
+                    <img src="../static/images/p.png" alt="JLPT2~1 TEST" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>JLPT2~1 TEST for JUNE</h3>
+                    <p>Wanna try the hardest Japanese Quiz?</p>
+                    <a href="{{ url_for('jlptupper') }}">Start Learning →</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <div class="spacepenguin" id="premiumpenguin">
+        <img src="../static/images/premium.png" alt="Premium-Penguin" class="penguin-image">
+    </div>
+
+    <section id="premium-benefits-section">
+        <div class="section-header">
+            <h2>Premium Membership Benefits</h2>
+            <p>Special learning experience with Unlimited membership</p>
+        </div>
+        
+
+        <div class="card-grid">
+            <div class="card">
+                <div class="card-image">
+                    <img src="../static/images/allmate.png" alt="All Materials" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>All Materials</h3>
+                    <p>Unlimited access to all levels from N5 to N1</p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-image">
+                    <img src="../static/images/pb.png" alt="Specialized Courses" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>Specialized Courses</h3>
+                    <p>Business Japanese, Keigo, and more</p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-image">
+                    <img src="../static/images/goriex.png" alt="Monthly Exclusive Benefits" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>Monthly Exclusive Benefits</h3>
+                    <p>Any benefitial Info about Japan such as language secret's, travel tips, hidden recommended places in Japan...!🇯🇵✨</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="../static/images/TPexpress.png" alt="Express Access to Our Team" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>Express Access to Our Team</h3>
+                    <p>Any inquiries or questions about Japanese will be given TOP priority</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="../static/images/teac.png" alt="Private Lessons" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>Private Classes with your Favorite Influencers</h3>
+                    <p>You can meet and talk with Japanese influencers!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="promo-banner" id="unlimited">
+        <h2>Exclusive Premium Membership!</h2>
+        <p>Access all materials and take you to the next level</p>
+        <a href="{{ url_for('quiz_gate') }}" class="button button-candy">Join Now</a>
+    </div>
+    <section class="donation-entry">
+        <div class="centered">
+            <a href="/donation" class="button-thirdly">Donate & Support Us</a>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="section-header">
+
+            {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+              <div id="popup-message" class="popup-message">
+                {% for category, message in messages %}
+                  <p>{{ message }}</p>
+                {% endfor %}
+              </div>
+            {% endif %}
+          {% endwith %}
+
+            <h2>Contact Us</h2>
+            <p>Feel free to contact us with any questions or requests</p>
+        </div>
+        
+        <div class="contact-form">
+            <form action="{{ url_for('contact') }}" method="post">
+                <div class="form-group">
+                    <label for="first-name" class="required-field">First Name</label>
+                    <input type="text" id="first-name" name="first-name" required="">
+                </div>
+                
+                <div class="form-group">
+                    <label for="last-name" class="required-field">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" required="">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email" class="required-field">Email Address</label>
+                    <input type="email" id="email" name="email" required="">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message" class="required-field">Message</label>
+                    <textarea id="message" name="message" required=""></textarea>
+                </div>
+                
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="newsletter">
+                        Yes, I would like to receive information about special events, newsletters and program updates
+                    </label>
+                </div>
+                
+                <button type="submit" class="button button-primary" style="width: 100%;">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Materials</h3>
+                <ul>
+                    <li><a href="#materials">Free Materials</a></li>
+                    <li><a href="#unlimited">Premium Materials</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>TokyoPenguins</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Team</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="social-icons">
+    <a href="https://lin.ee/x2dr3d6" class="social-icon"><i class="fab fa-line"></i></a>              
+    <a href="https://www.tiktok.com/@tokyo.penguins?is_from_webapp=1&sender_device=pc" class="social-icon"><i class="fab fa-tiktok"></i></a>
+    <a href="https://www.instagram.com/tokyo.penguins/" class="social-icon"><i class="fab fa-instagram"></i></a>
+    <a href="https://youtube.com/@tokyopenguins?si=qYGa9yZVxDIVoxMT" class="social-icon"><i class="fab fa-youtube"></i></a>
+</div>
+
+
+        <div class="copyright">
+            Copyright © 2025 TokyoPenguins. All rights reserved.
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    const cards = document.querySelectorAll('.card');
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, { threshold: 0.1 });
+    
+    cards.forEach(card => {
+        observer.observe(card);
+    });
+});
+document.addEventListener('DOMContentLoaded', function() {
+  const wrapper = document.querySelector('.phone-scroll-wrapper');
+  const cards = document.querySelectorAll('.phone-card');
+  
+  // カードを複製して無限ループの準備
+  cards.forEach(card => {
+    const clone = card.cloneNode(true);
+    wrapper.appendChild(clone);
+  });
+  
+  // アニメーション終了時にリセット
+  wrapper.addEventListener('animationiteration', () => {
+    // アニメーションを一時的に無効化
+    wrapper.style.animation = 'none';
+    
+    // レイアウト再計算を強制
+    void wrapper.offsetWidth;
+    
+    // アニメーションを再適用
+    wrapper.style.animation = 'autoScroll 120s linear infinite';
+  });
+});
+        // Fade-in for hero video
+        window.addEventListener('load', () => {
+            document.querySelector('.hero-video').classList.add('active');
+        });
+        
+        document.addEventListener('DOMContentLoaded', () => {
+
+// --- 時計・日付更新機能 ---
+const timeElements = document.querySelectorAll('.phone-time');
+const dateElements = document.querySelectorAll('.phone-date-day');
+
+function updateStatusBar() {
+    // 現在時刻 (JST) を取得
+    const now = new Date();
+
+    // 時:分 (24時間表記、ゼロ埋め)
+    const hours = now.getHours().toString().padStart(2, '0');
+    const minutes = now.getMinutes().toString().padStart(2, '0');
+    const currentTime = `${hours}:${minutes}`;
+
+    // 月/日 曜日
+    const month = now.getMonth() + 1; // getMonth()は0から始まる
+    const day = now.getDate();
+    const dayOfWeek = ['日', '月', '火', '水', '木', '金', '土'][now.getDay()];
+    const currentDate = `${month}/${day} ${dayOfWeek}`;
+
+    // 全てのステータスバーの表示を更新
+    if (timeElements.length > 0) {
+        timeElements.forEach(el => el.textContent = currentTime);
+    }
+    if (dateElements.length > 0) {
+        dateElements.forEach(el => el.textContent = currentDate);
+    }
+     //console.log(`Updated time: ${currentTime}, date: ${currentDate}`); // デバッグ用
+}
+
+// ページ読み込み時にすぐ更新
+updateStatusBar();
+// 1秒ごと（または分ごとでも可）に更新
+setInterval(updateStatusBar, 1000); // 1000ms = 1秒
+
+
+// --- (以前の Intersection Observer コードは削除) ---
+/*
+const container = document.querySelector('.phone-scroll-container');
+const wrapper = document.querySelector('.phone-scroll-wrapper');
+window.addEventListener('resize', updateCenterClass);
+container.addEventListener('scrollend', updateCenterClass, {passive: true});
+*/
+
+});
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', function() {
+        navLinks.style.display = (navLinks.style.display === 'flex') ? 'none' : 'flex';
+    });
+});
+        </script>
+</body>
+</html>

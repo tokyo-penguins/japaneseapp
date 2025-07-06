@@ -1,0 +1,66 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "契約内容にご不明な点がございましたら、（  ）お問い合わせください。",
+        "options": [
+          "1. 遠慮なく",
+          "2. しぶしぶ",
+          "3. やむをえず",
+          "4. うっかり"
+        ],
+        "answer": "1. 遠慮なく",
+        "hint": "<p>契約内容（けいやくないよう, keiyakunaiyou）- contract terms<br>問い合わせ（といあわせ, toiawase）- inquiry</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! :</strong> 遠慮なく（えんりょなく, enryo naku）- without hesitation</p><ul><li>しぶしぶ（shibushibu）- reluctantly</li><li>やむをえず（yamuwoezu）- unwillingly; inevitably</li><li>うっかり（ukkari）- carelessly</li></ul><p><strong>English Translation:</strong> If you have any questions about the contract, feel free to ask.</p>",
+          "incorrect": "<p><strong>Answer:</strong> 遠慮なく（えんりょなく, enryo naku）- without hesitation</p><ul><li>しぶしぶ（shibushibu）- reluctantly</li><li>やむをえず（yamuwoezu）- unwillingly; inevitably</li><li>うっかり（ukkari）- carelessly</li></ul><p><strong>English Translation:</strong> If you have any questions about the contract, feel free to ask.</p>"
+        }
+      },
+      {
+        "question": "プロジェクトの成功は、彼の努力（  ）ものだった。",
+        "options": [
+          "1. にほかならない",
+          "2. にわたらない",
+          "3. にかまわない",
+          "4. にすぎない"
+        ],
+        "answer": "1. にほかならない",
+        "hint": "<p>成功（せいこう, seikou）- success<br>努力（どりょく, doryoku）- effort</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! :</strong> にほかならない（ni hoka naranai）- nothing but; solely</p><ul><li>にわたらない（ni wataranai）- does not extend to</li><li>にかまわない（ni kamawanai）- does not matter</li><li>にすぎない（ni suginai）- no more than</li></ul><p><strong>English Translation:</strong> The project’s success was nothing but the result of his efforts.</p>",
+          "incorrect": "<p><strong>Answer:</strong> にほかならない（ni hoka naranai）- nothing but; solely</p><ul><li>にわたらない（ni wataranai）- does not extend to</li><li>にかまわない（ni kamawanai）- does not matter</li><li>にすぎない（ni suginai）- no more than</li></ul><p><strong>English Translation:</strong> The project’s success was nothing but the result of his efforts.</p>"
+        }
+      },
+      {
+        "question": "説明会は午後2時より（  ）いたします。",
+        "options": [
+          "1. 開催",
+          "2. 終了",
+          "3. 修了",
+          "4. 履修"
+        ],
+        "answer": "1. 開催",
+        "hint": "<p>説明会（せつめいかい, setsumeikai）- briefing session<br>午後（ごご, gogo）- afternoon</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! :</strong> 開催（かいさい, kaisai）- holding (an event)</p><ul><li>終了（しゅうりょう, shuuryou）- end</li><li>修了（しゅうりょう, shuuryou）- completion (of a course)</li><li>履修（りしゅう, rishuu）- taking (a course)</li></ul><p><strong>English Translation:</strong> The briefing session will be held from 2 PM.</p>",
+          "incorrect": "<p><strong>Answer:</strong> 開催（かいさい, kaisai）- holding (an event)</p><ul><li>終了（しゅうりょう, shuuryou）- end</li><li>修了（しゅうりょう, shuuryou）- completion (of a course)</li><li>履修（りしゅう, rishuu）- taking (a course)</li></ul><p><strong>English Translation:</strong> The briefing session will be held from 2 PM.</p>"
+        }
+      },
+      {
+        "question": "担当者が（  ）お伺いいたしますので、少々お待ちください。",
+        "options": [
+          "1. 間もなく",
+          "2. それとなく",
+          "3. なまぬるく",
+          "4. あやふやに"
+        ],
+        "answer": "1. 間もなく",
+        "hint": "<p>担当者（たんとうしゃ, tantousha）- person in charge<br>伺う（うかがう, ukagau）- to visit; to come (humble)</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! :</strong> 間もなく（まもなく, mamonaku）- shortly</p><ul><li>それとなく（soretonaku）- indirectly</li><li>なまぬるく（namanuruku）- lukewarmly</li><li>あやふやに（ayafuya ni）- vaguely</li></ul><p><strong>English Translation:</strong> The person in charge will be with you shortly. Please wait a moment.</p>",
+          "incorrect": "<p><strong>Answer:</strong> 間もなく（まもなく, mamonaku）- shortly</p><ul><li>それとなく（soretonaku）- indirectly</li><li>なまぬるく（namanuruku）- lukewarmly</li><li>あやふやに（ayafuya ni）- vaguely</li></ul><p><strong>English Translation:</strong> The person in charge will be with you shortly. Please wait a moment.</p>"
+        }
+      }
+    ]
+  }
+  

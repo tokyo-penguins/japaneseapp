@@ -1,0 +1,75 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "かぞく（＿）　しゃしんを　とりました。",
+      "options": ["1. と", "2. に", "3. を", "4. が"],
+      "answer": "1. と",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～と 写真をとる</strong> - to take a photo with someone</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「かぞく<strong>と</strong>しゃしんをとりました」 means “I took a photo with my family.”</p><ul><li><strong>に</strong> - direction/indirect object</li><li><strong>を</strong> - direct object marker</li><li><strong>が</strong> - subject marker</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>と</strong>.<ul><li><strong>に</strong> - direction/indirect object</li><li><strong>を</strong> - direct object marker</li><li><strong>が</strong> - subject marker</li></ul></p>"
+      }
+    },
+    {
+      "question": "にほんご（＿）　べんきょうしています。",
+      "options": ["1. を", "2. に", "3. が", "4. は"],
+      "answer": "1. を",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～を べんきょうする</strong> - to study something</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「にほんご<strong>を</strong>べんきょうしています」 = “I am studying Japanese.”</p><ul><li><strong>に</strong> - used for direction or recipient</li><li><strong>が</strong> - subject marker</li><li><strong>は</strong> - topic marker</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>を</strong>.<ul><li><strong>に</strong> - used for direction or recipient</li><li><strong>が</strong> - subject marker</li><li><strong>は</strong> - topic marker</li></ul></p>"
+      }
+    },
+    {
+      "question": "まいあさ　コーヒー（＿）　のみます。",
+      "options": ["1. が", "2. を", "3. で", "4. に"],
+      "answer": "2. を",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～を のむ</strong> - to drink something</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「コーヒー<strong>を</strong>のみます」 = “I drink coffee.”</p><ul><li><strong>が</strong> - subject marker</li><li><strong>で</strong> - place of action</li><li><strong>に</strong> - direction/target marker</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>を</strong>.<ul><li><strong>が</strong> - subject marker</li><li><strong>で</strong> - place of action</li><li><strong>に</strong> - direction/target marker</li></ul></p>"
+      }
+    },
+    {
+      "question": "かばんの　なか（＿）　ふでばこが　あります。",
+      "options": ["1. を", "2. に", "3. が", "4. は"],
+      "answer": "2. に",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～に あります</strong> - something exists in a location</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「なか<strong>に</strong>あります」 = “inside (it), there is...”</p><ul><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker</li><li><strong>は</strong> - topic marker</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>に</strong>.<ul><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker</li><li><strong>は</strong> - topic marker</li></ul></p>"
+      }
+    },
+    {
+      "question": "まど（＿）　あけても　いいですか？",
+      "options": ["1. を", "2. に", "3. が", "4. で"],
+      "answer": "1. を",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～を あける</strong> - to open something</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「まど<strong>を</strong>あけてもいいですか」 = “Can I open the window?”</p><ul><li><strong>に</strong> - indicates destination/time</li><li><strong>が</strong> - subject marker</li><li><strong>で</strong> - place of action</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>を</strong>.<ul><li><strong>に</strong> - indicates destination/time</li><li><strong>が</strong> - subject marker</li><li><strong>で</strong> - place of action</li></ul></p>"
+      }
+    },
+    {
+      "question": "つぎの　えき（＿）　おります。",
+      "options": ["1. を", "2. で", "3. に", "4. は"],
+      "answer": "2. で",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～で おります</strong> - to get off at a location</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「えき<strong>で</strong>おります」 = “I get off at the station.”</p><ul><li><strong>を</strong> - object marker</li><li><strong>に</strong> - destination marker (used with “go”)</li><li><strong>は</strong> - topic marker</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>で</strong>.<ul><li><strong>を</strong> - object marker</li><li><strong>に</strong> - destination marker (used with “go”)</li><li><strong>は</strong> - topic marker</li></ul></p>"
+      }
+    },
+    {
+      "question": "つくえの　うえ（＿）　ほんが　あります。",
+      "options": ["1. に", "2. が", "3. は", "4. を"],
+      "answer": "1. に",
+      "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～に あります</strong> - location of a non-living object</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「うえ<strong>に</strong>あります」 = “There is (a book) on top.”</p><ul><li><strong>が</strong> - subject marker</li><li><strong>は</strong> - topic marker</li><li><strong>を</strong> - object marker</li></ul>",
+        "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>に</strong>.<ul><li><strong>が</strong> - subject marker</li><li><strong>は</strong> - topic marker</li><li><strong>を</strong> - object marker</li></ul></p>"
+      }
+    }
+  ]
+}

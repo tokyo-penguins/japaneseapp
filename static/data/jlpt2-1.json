@@ -1,0 +1,65 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "あの人は（＿）人だ。",
+      "options": ["1. 怒りっぽい", "2. 病気がち", "3. たまらない", "4. ぎみ"],
+      "answer": "1. 怒りっぽい",
+      "hint": "<p><ruby>怒<rt>いか</rt></ruby>りっぽい (ikarippoi): easily angered, hot-tempered</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>怒りっぽい (ikarippoi)</strong> describes someone who gets angry easily.<br><br><strong>Option Explanations:</strong><br>1. <ruby>怒りっぽい<rt>ikarippoi</rt></ruby>: ✅ Easily angered<br>2. <ruby>病気がち<rt>byouki-gachi</rt></ruby>: Prone to illness<br>3. <ruby>たまらない<rt>tamaranai</rt></ruby>: Unbearable (usually emotional or physical state)<br>4. <ruby>ぎみ<rt>gimi</rt></ruby>: Slightly, somewhat</p><p><strong>Sentence meaning:</strong> 'That person is quick to anger.'</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. 怒りっぽい</strong><br><br><strong>Option Explanations:</strong><br>1. <ruby>怒りっぽい<rt>ikarippoi</rt></ruby>: ✅ Easily angered<br>2. <ruby>病気がち<rt>byouki-gachi</rt></ruby>: Prone to illness<br>3. <ruby>たまらない<rt>tamaranai</rt></ruby>: Unbearable<br>4. <ruby>ぎみ<rt>gimi</rt></ruby>: Slightly</p><p><strong>Sentence meaning:</strong> 'That person is quick to anger.'</p>"
+      }
+    },
+    {
+      "question": "私は歳をとり（＿）になった。",
+      "options": ["1. 病気がち", "2. ぎみ", "3. っぽい", "4. たまらない"],
+      "answer": "1. 病気がち",
+      "hint": "<p><ruby>病気<rt>びょうき</rt></ruby>がち (byouki-gachi): prone to illness</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>病気がち (byouki-gachi)</strong> means you tend to get sick often.<br><br><strong>Option Explanations:</strong><br>1. <ruby>病気がち<rt>byouki-gachi</rt></ruby>: ✅ Prone to illness<br>2. <ruby>ぎみ<rt>gimi</rt></ruby>: Slightly (not habitual)<br>3. <ruby>っぽい<rt>ppoi</rt></ruby>: Characteristic of<br>4. <ruby>たまらない<rt>tamaranai</rt></ruby>: Unbearable</p><p><strong>Sentence meaning:</strong> 'I've become more prone to illness as I aged.'</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. 病気がち</strong><br><br><strong>Option Explanations:</strong><br>1. <ruby>病気がち<rt>byouki-gachi</rt></ruby>: ✅ Prone to illness<br>2. <ruby>ぎみ<rt>gimi</rt></ruby>: Slight tendency<br>3. <ruby>っぽい<rt>ppoi</rt></ruby>: Resembling<br>4. <ruby>たまらない<rt>tamaranai</rt></ruby>: Extreme/unbearable</p><p><strong>Sentence meaning:</strong> 'I've become more prone to illness as I aged.'</p>"
+      }
+    },
+    {
+      "question": "彼女のことが心配で（＿）。",
+      "options": ["1. たまらない", "2. ぎみ", "3. っぽい", "4. がち"],
+      "answer": "1. たまらない",
+      "hint": "<p><ruby>心配<rt>しんぱい</rt></ruby>で <ruby>たまらない<rt>tamaranai</rt></ruby>: unbearably worried</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>たまらない (tamaranai)</strong> is used for intense emotional or physical states.<br><br><strong>Option Explanations:</strong><br>1. <ruby>たまらない<rt>tamaranai</rt></ruby>: ✅ Unbearable feeling<br>2. <ruby>ぎみ<rt>gimi</rt></ruby>: Slightly<br>3. <ruby>っぽい<rt>ppoi</rt></ruby>: Tendency/characteristic<br>4. <ruby>がち<rt>gachi</rt></ruby>: Tends to</p><p><strong>Sentence meaning:</strong> 'I'm so worried about her I can't stand it.'</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. たまらない</strong></p>"
+      }
+    },
+    {
+      "question": "退職後は暇で（＿）。",
+      "options": ["1. しょうがない", "2. ならない", "3. いられない", "4. ぎみ"],
+      "answer": "1. しょうがない",
+      "hint": "<p><ruby>暇<rt>ひま</rt></ruby>で <ruby>しょうがない<rt>shouganai</rt></ruby>: so free that it's annoying</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>しょうがない (shouganai)</strong> expresses an emotional state that cannot be helped.<br><br><strong>Option Explanations:</strong><br>1. <ruby>しょうがない<rt>shouganai</rt></ruby>: ✅ Can't be helped<br>2. <ruby>ならない<rt>naranai</rt></ruby>: Cannot become<br>3. <ruby>いられない<rt>irarenai</rt></ruby>: Cannot remain or endure<br>4. <ruby>ぎみ<rt>gimi</rt></ruby>: Slightly</p><p><strong>Sentence meaning:</strong> 'After retirement, I was so bored I couldn't stand it.'</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. しょうがない</strong></p>"
+      }
+    },
+    {
+      "question": "彼を信頼していたのに（＿）。",
+      "options": ["1. 残念でならない", "2. しょうがない", "3. がち", "4. ぎみ"],
+      "answer": "1. 残念でならない",
+      "hint": "<p><ruby>残念<rt>ざんねん</rt></ruby>で <ruby>ならない<rt>naranai</rt></ruby>: deeply regrettable</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>残念でならない (zannen de naranai)</strong> expresses deep regret.<br><br><strong>Option Explanations:</strong><br>1. <ruby>残念でならない<rt>zannen de naranai</rt></ruby>: ✅ Deep regret<br>2. <ruby>しょうがない<rt>shouganai</rt></ruby>: Can't be helped<br>3. <ruby>がち<rt>gachi</rt></ruby>: Often, tendency<br>4. <ruby>ぎみ<rt>gimi</rt></ruby>: Slightly</p><p><strong>Sentence meaning:</strong> 'Even though I trusted him, I deeply regret it.'</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. 残念でならない</strong></p>"
+      }
+    },
+    {
+      "question": "ゲームで負けて（＿）くてたまらない。",
+      "options": ["1. 悔し", "2. 残念", "3. 怒り", "4. 病気"],
+      "answer": "1. 悔し",
+      "hint": "<p><ruby>悔<rt>くや</rt></ruby>しい: frustrated, regretful</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>悔しいくてたまらない = So frustrated I can’t stand it.<br><br><strong>Option Explanations:</strong><br>1. <ruby>悔し<rt>kuyashi</rt></ruby>: ✅ Frustrated<br>2. <ruby>残念<rt>zannen</rt></ruby>: Regretful<br>3. <ruby>怒り<rt>ikari</rt></ruby>: Anger<br>4. <ruby>病気<rt>byouki</rt></ruby>: Illness</p><p><strong>Sentence meaning:</strong> 'I was so frustrated after losing the game.'</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. 悔し</strong></p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "にほんごのクラス（＿）まいにち　べんきょうします。",
+        "options": ["1. で", "2. に", "3. を", "4. は"],
+        "answer": "1. で",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～でべんきょうする</strong> - to study at (location)</p><p><strong>クラス</strong> - class</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「クラス<strong>で</strong>べんきょうします」 means \"I study in the class.\"</p>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>で</strong>.</p><ul><li><strong>に</strong> - destination or time</li><li><strong>を</strong> - object marker</li><li><strong>は</strong> - topic marker</li></ul>"
+        }
+      },
+      {
+        "question": "あした　ともだち（＿）えいがを見ます。",
+        "options": ["1. で", "2. を", "3. と", "4. に"],
+        "answer": "3. と",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～と</strong> - with (person)</p><p><strong>えいがを見ます</strong> - to watch a movie</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「ともだち<strong>と</strong>えいがを見ます」 means \"I will watch a movie with a friend.\"</p>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>と</strong>.</p><ul><li><strong>で</strong> - place</li><li><strong>を</strong> - object marker</li><li><strong>に</strong> - direction</li></ul>"
+        }
+      },
+      {
+        "question": "このシャツ（＿）500えんでした。",
+        "options": ["1. で", "2. を", "3. は", "4. が"],
+        "answer": "3. は",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～は～でした</strong> - topic + past state</p><p><strong>500えん</strong> - 500 yen</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「このシャツ<strong>は</strong>500えんでした」 means \"This shirt was 500 yen.\"</p>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>は</strong>.</p><ul><li><strong>で</strong> - method/means</li><li><strong>を</strong> - object</li><li><strong>が</strong> - subject (possible, but less common in price statements)</li></ul>"
+        }
+      },
+      {
+        "question": "にほん（＿）たべものが　すきです。",
+        "options": ["1. を", "2. に", "3. の", "4. が"],
+        "answer": "3. の",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>AのB</strong> - B belonging to A (noun modifier)</p><p><strong>すき</strong> - like</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「にほん<strong>の</strong>たべものがすきです」 means \"I like Japanese food.\"</p>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>の</strong>.</p><ul><li><strong>を</strong> - object</li><li><strong>に</strong> - direction/time</li><li><strong>が</strong> - subject, not used here for modifying</li></ul>"
+        }
+      }
+    ]
+  }
+  

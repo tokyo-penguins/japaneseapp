@@ -1,0 +1,75 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "この書類は、正式な手続きを（  ）作成されたものです。",
+      "options": ["1. 経て", "2. 絶って", "3. 遂げて", "4. 考えて"],
+      "answer": "1. 経て",
+      "hint": "<p><ruby>正式<rt>せいしき</rt></ruby> (seishiki) – official<br><ruby>手続き<rt>てつづき</rt></ruby> (tetsuzuki) – procedure</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>経て<rt>へて</rt></ruby> (hete) means “through” or “after undergoing.” This is appropriate when describing a document created through official procedures.<br><br><strong>Option Explanations:</strong><br>1. <ruby>経て<rt>へて</rt></ruby> (hete): ✅ through, after<br>2. <ruby>絶って<rt>たって</rt></ruby> (tatte): to sever, cut off (inappropriate)<br>3. <ruby>遂げて<rt>とげて</rt></ruby> (togete): to accomplish (unrelated nuance)<br>4. <ruby>考えて<rt>かんがえて</rt></ruby> (kangaete): to think (doesn’t fit syntactically)<br><br><strong>Sentence meaning:</strong> This document was created through official procedures.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>経て<rt>へて</rt></ruby></strong> – through, after undergoing.<br><br><strong>Option Explanations:</strong><br>1. <ruby>経て<rt>へて</rt></ruby> – through, after<br>2. <ruby>絶って<rt>たって</rt></ruby> – cut off<br>3. <ruby>遂げて<rt>とげて</rt></ruby> – accomplish<br>4. <ruby>考えて<rt>かんがえて</rt></ruby> – think</p>"
+      }
+    },
+    {
+      "question": "彼の行動は、道徳に（  ）していると非難された。",
+      "options": ["1. 反", "2. 対", "3. 被", "4. 適"],
+      "answer": "1. 反",
+      "hint": "<p><ruby>道徳<rt>どうとく</rt></ruby> (doutoku) – morality<br><ruby>非難<rt>ひなん</rt></ruby> (hinan) – criticism</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>反<rt>はん</rt></ruby> (han) means “to oppose or go against.” Here, it implies that his actions go against moral standards.<br><br><strong>Option Explanations:</strong><br>1. <ruby>反<rt>はん</rt></ruby>: ✅ oppose<br>2. <ruby>対<rt>たい</rt></ruby>: versus, in opposition<br>3. <ruby>被<rt>ひ</rt></ruby>: to be subjected to (doesn’t fit syntactically)<br>4. <ruby>適<rt>てき</rt></ruby>: suitable (used in compounds like 適応)<br><br><strong>Sentence meaning:</strong> His actions were criticized for going against morality.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>反<rt>はん</rt></ruby></strong> – to oppose.<br><br><strong>Option Explanations:</strong><br>1. <ruby>反<rt>はん</rt></ruby>: oppose<br>2. <ruby>対<rt>たい</rt></ruby>: versus<br>3. <ruby>被<rt>ひ</rt></ruby>: subjected to<br>4. <ruby>適<rt>てき</rt></ruby>: suitable</p>"
+      }
+    },
+    {
+      "question": "慎重な対応が、事態の悪化を（  ）した。",
+      "options": ["1. 回避", "2. 促進", "3. 助長", "4. 放置"],
+      "answer": "1. 回避",
+      "hint": "<p><ruby>慎重<rt>しんちょう</rt></ruby> (shinchou) – cautious<br><ruby>悪化<rt>あっか</rt></ruby> (akka) – worsening</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>回避<rt>かいひ</rt></ruby> (kaihi) means “avoidance.” Cautious response avoided the worsening of the situation.<br><br><strong>Option Explanations:</strong><br>1. <ruby>回避<rt>かいひ</rt></ruby>: ✅ avoidance<br>2. <ruby>促進<rt>そくしん</rt></ruby>: promotion<br>3. <ruby>助長<rt>じょちょう</rt></ruby>: encouragement (often of something bad)<br>4. <ruby>放置<rt>ほうち</rt></ruby>: neglect<br><br><strong>Sentence meaning:</strong> Cautious response avoided the worsening of the situation.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>回避<rt>かいひ</rt></ruby></strong> – avoidance.<br><br><strong>Option Explanations:</strong><br>1. <ruby>回避<rt>かいひ</rt></ruby>: avoidance<br>2. <ruby>促進<rt>そくしん</rt></ruby>: promotion<br>3. <ruby>助長<rt>じょちょう</rt></ruby>: encouragement<br>4. <ruby>放置<rt>ほうち</rt></ruby>: neglect</p>"
+      }
+    },
+    {
+      "question": "この問題については、複数の観点から（  ）する必要がある。",
+      "options": ["1. 検討", "2. 裁縫", "3. 緊張", "4. 治療"],
+      "answer": "1. 検討",
+      "hint": "<p><ruby>観点<rt>かんてん</rt></ruby> (kanten) – perspective<br><ruby>必要<rt>ひつよう</rt></ruby> (hitsuyou) – necessary</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>検討<rt>けんとう</rt></ruby> (kentou) means “examination” or “consideration.”<br><br><strong>Option Explanations:</strong><br>1. <ruby>検討<rt>けんとう</rt></ruby>: ✅ consideration<br>2. <ruby>裁縫<rt>さいほう</rt></ruby>: sewing<br>3. <ruby>緊張<rt>きんちょう</rt></ruby>: tension<br>4. <ruby>治療<rt>ちりょう</rt></ruby>: treatment<br><br><strong>Sentence meaning:</strong> This issue needs to be considered from multiple perspectives.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>検討<rt>けんとう</rt></ruby></strong> – consideration.<br><br><strong>Option Explanations:</strong><br>1. <ruby>検討<rt>けんとう</rt></ruby>: consideration<br>2. <ruby>裁縫<rt>さいほう</rt></ruby>: sewing<br>3. <ruby>緊張<rt>きんちょう</rt></ruby>: tension<br>4. <ruby>治療<rt>ちりょう</rt></ruby>: treatment</p>"
+      }
+    },
+    {
+      "question": "責任を他人に（  ）するのはよくない。",
+      "options": ["1. 転嫁", "2. 注文", "3. 納得", "4. 執着"],
+      "answer": "1. 転嫁",
+      "hint": "<p><ruby>責任<rt>せきにん</rt></ruby> (sekinin) – responsibility<br><ruby>他人<rt>たにん</rt></ruby> (tanin) – others</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>転嫁<rt>てんか</rt></ruby> (tenka) means “to shift” (especially blame or responsibility).<br><br><strong>Option Explanations:</strong><br>1. <ruby>転嫁<rt>てんか</rt></ruby>: ✅ shifting<br>2. <ruby>注文<rt>ちゅうもん</rt></ruby>: order<br>3. <ruby>納得<rt>なっとく</rt></ruby>: understanding, agreement<br>4. <ruby>執着<rt>しゅうちゃく</rt></ruby>: attachment<br><br><strong>Sentence meaning:</strong> It’s not good to shift responsibility onto others.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>転嫁<rt>てんか</rt></ruby></strong> – shifting.<br><br><strong>Option Explanations:</strong><br>1. <ruby>転嫁<rt>てんか</rt></ruby>: shifting<br>2. <ruby>注文<rt>ちゅうもん</rt></ruby>: order<br>3. <ruby>納得<rt>なっとく</rt></ruby>: understanding<br>4. <ruby>執着<rt>しゅうちゃく</rt></ruby>: attachment</p>"
+      }
+    },
+    {
+      "question": "彼の理論は現実とはかけ離れており、（  ）がない。",
+      "options": ["1. 実用性", "2. 親密性", "3. 歓迎性", "4. 有毒性"],
+      "answer": "1. 実用性",
+      "hint": "<p><ruby>理論<rt>りろん</rt></ruby> (riron) – theory<br><ruby>現実<rt>げんじつ</rt></ruby> (genjitsu) – reality</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>実用性<rt>じつようせい</rt></ruby> (jitsuyousei) means “practicality.” The sentence implies that the theory is too far-fetched.<br><br><strong>Option Explanations:</strong><br>1. <ruby>実用性<rt>じつようせい</rt></ruby>: ✅ practicality<br>2. <ruby>親密性<rt>しんみつせい</rt></ruby>: intimacy<br>3. <ruby>歓迎性<rt>かんげいせい</rt></ruby>: welcoming nature (awkward usage)<br>4. <ruby>有毒性<rt>ゆうどくせい</rt></ruby>: toxicity<br><br><strong>Sentence meaning:</strong> His theory is far from reality and lacks practicality.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>実用性<rt>じつようせい</rt></ruby></strong> – practicality.<br><br><strong>Option Explanations:</strong><br>1. <ruby>実用性<rt>じつようせい</rt></ruby>: practicality<br>2. <ruby>親密性<rt>しんみつせい</rt></ruby>: intimacy<br>3. <ruby>歓迎性<rt>かんげいせい</rt></ruby>: welcoming nature<br>4. <ruby>有毒性<rt>ゆうどくせい</rt></ruby>: toxicity</p>"
+      }
+    },
+    {
+      "question": "長年の研究の（  ）がようやく認められた。",
+      "options": ["1. 成果", "2. 提案", "3. 見通し", "4. 誤差"],
+      "answer": "1. 成果",
+      "hint": "<p><ruby>長年<rt>ながねん</rt></ruby> (naganen) – many years<br><ruby>認められる<rt>みとめられる</rt></ruby> (mitomerareru) – to be recognized</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>成果<rt>せいか</rt></ruby> (seika) means “achievement” or “result.”<br><br><strong>Option Explanations:</strong><br>1. <ruby>成果<rt>せいか</rt></ruby>: ✅ achievement<br>2. <ruby>提案<rt>ていあん</rt></ruby>: proposal<br>3. <ruby>見通し<rt>みとおし</rt></ruby>: outlook<br>4. <ruby>誤差<rt>ごさ</rt></ruby>: margin of error<br><br><strong>Sentence meaning:</strong> The results of many years of research were finally recognized.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>成果<rt>せいか</rt></ruby></strong> – achievement.<br><br><strong>Option Explanations:</strong><br>1. <ruby>成果<rt>せいか</rt></ruby>: achievement<br>2. <ruby>提案<rt>ていあん</rt></ruby>: proposal<br>3. <ruby>見通し<rt>みとおし</rt></ruby>: outlook<br>4. <ruby>誤差<rt>ごさ</rt></ruby>: margin of error</p>"
+      }
+    }
+  ]
+}

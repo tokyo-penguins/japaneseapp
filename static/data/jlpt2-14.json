@@ -1,0 +1,45 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "試験に合格したのは、先生の助けが（＿）ことに他ならない。",
+      "options": ["1. あった", "2. なかった", "3. 必要だった", "4. 大事だった"],
+      "answer": "1. あった",
+      "hint": "<p><ruby>他<rt>ほか</rt></ruby>ならない (hoka naranai) – nothing but, exactly because of</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>あった</ruby> means 'was' or 'existed'. This expression emphasizes that passing the test was entirely due to the teacher's help.<br><br><strong>Option Explanations:</strong><br>1. <ruby>あった</ruby> (atta): ✅ was; existed<br>2. <ruby>なかった</ruby> (nakatta): did not exist<br>3. <ruby>必要だった</ruby> (hitsuyou datta): was necessary<br>4. <ruby>大事だった</ruby> (daiji datta): was important<br><br><strong>Sentence meaning:</strong> Passing the test was thanks to the teacher’s help and nothing else.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. あった</strong> – was; existed.<br><br><strong>Option Explanations:</strong><br>1. <ruby>あった</ruby> (atta): ✅ was; existed<br>2. <ruby>なかった</ruby> (nakatta): did not exist<br>3. <ruby>必要だった</ruby> (hitsuyou datta): was necessary<br>4. <ruby>大事だった</ruby> (daiji datta): was important</p>"
+      }
+    },
+    {
+      "question": "彼の演技は、観客の心を強く（＿）た。",
+      "options": ["1. 打っ", "2. 燃やし", "3. 振り", "4. 覆い"],
+      "answer": "1. 打っ",
+      "hint": "<p><ruby>心<rt>こころ</rt></ruby>を<ruby>打<rt>う</rt></ruby>つ (kokoro wo utsu) – to move someone's heart emotionally</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>打っ</ruby> is from the verb <ruby>打つ<rt>うつ</rt></ruby> (utsu), meaning to strike. The phrase means his performance emotionally moved the audience.<br><br><strong>Option Explanations:</strong><br>1. <ruby>打っ</ruby> (uttsu): ✅ strike; move emotionally<br>2. <ruby>燃やし<rt>もやし</rt></ruby> (moyashi): burn<br>3. <ruby>振り<rt>ふり</rt></ruby> (furi): swing<br>4. <ruby>覆い<rt>おおい</rt></ruby> (ooi): cover<br><br><strong>Sentence meaning:</strong> His performance deeply moved the audience.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. 打っ</strong> – move emotionally.<br><br><strong>Option Explanations:</strong><br>1. <ruby>打っ</ruby> (uttsu): ✅ strike; move emotionally<br>2. <ruby>燃やし<rt>もやし</rt></ruby> (moyashi): burn<br>3. <ruby>振り<rt>ふり</rt></ruby> (furi): swing<br>4. <ruby>覆い<rt>おおい</rt></ruby> (ooi): cover</p>"
+      }
+    },
+    {
+      "question": "彼女はいつも、周囲に（＿）されているように感じると言っていた。",
+      "options": ["1. 見張ら", "2. 支配", "3. 指摘", "4. 解決"],
+      "answer": "1. 見張ら",
+      "hint": "<p><ruby>見張<rt>みは</rt></ruby>る (miharu) – to watch/monitor closely</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>見張ら</ruby> is from <ruby>見張る</ruby> – to watch or monitor. It fits the meaning of someone feeling watched.<br><br><strong>Option Explanations:</strong><br>1. <ruby>見張ら<rt>みはら</rt></ruby> (mihara): ✅ watched, monitored<br>2. <ruby>支配<rt>しはい</rt></ruby> (shihai): control, domination<br>3. <ruby>指摘<rt>してき</rt></ruby> (shiteki): pointing out<br>4. <ruby>解決<rt>かいけつ</rt></ruby> (kaiketsu): resolution<br><br><strong>Sentence meaning:</strong> She said she always felt like she was being watched by those around her.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. 見張ら</strong> – to be watched.<br><br><strong>Option Explanations:</strong><br>1. <ruby>見張ら<rt>みはら</rt></ruby> (mihara): ✅ watched<br>2. <ruby>支配<rt>しはい</rt></ruby> (shihai): control<br>3. <ruby>指摘<rt>してき</rt></ruby> (shiteki): pointing out<br>4. <ruby>解決<rt>かいけつ</rt></ruby> (kaiketsu): resolution</p>"
+      }
+    },
+    {
+      "question": "彼の行動は、常識から大きく（＿）いる。",
+      "options": ["1. 外れて", "2. 超えて", "3. 合って", "4. 従って"],
+      "answer": "1. 外れて",
+      "hint": "<p><ruby>常識<rt>じょうしき</rt></ruby> (joushiki) – common sense<br><ruby>外<rt>はず</rt></ruby>れる (hazureru) – to deviate</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>外れて</ruby> means 'to deviate from'. This indicates that his actions are far from what is considered common sense.<br><br><strong>Option Explanations:</strong><br>1. <ruby>外れて<rt>はずれて</rt></ruby> (hazurete): ✅ deviated<br>2. <ruby>超えて<rt>こえて</rt></ruby> (koete): exceeded<br>3. <ruby>合って<rt>あって</rt></ruby> (atte): matched<br>4. <ruby>従って<rt>したがって</rt></ruby> (shitagatte): followed<br><br><strong>Sentence meaning:</strong> His behavior greatly deviates from what is considered common sense.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. 外れて</strong> – deviated.<br><br><strong>Option Explanations:</strong><br>1. <ruby>外れて<rt>はずれて</rt></ruby> (hazurete): ✅ deviated<br>2. <ruby>超えて<rt>こえて</rt></ruby> (koete): exceeded<br>3. <ruby>合って<rt>あって</rt></ruby> (atte): matched<br>4. <ruby>従って<rt>したがって</rt></ruby> (shitagatte): followed</p>"
+      }
+    }
+  ]
+}

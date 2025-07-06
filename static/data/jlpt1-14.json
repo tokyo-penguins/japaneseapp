@@ -1,0 +1,85 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "その提案は現実的ではなく、すぐに（＿）にされた。",
+      "options": ["2. 却下", "4. 削除", "3. 回避", "1. 否定"],
+      "answer": "2. 却下",
+      "hint": "<p><ruby>提案<rt>ていあん</rt></ruby> (teian) – proposal<br><ruby>却下<rt>きゃっか</rt></ruby> (kyakka) – rejection/dismissal</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>却下<rt>きゃっか</rt></ruby> (kyakka) means 'rejection' or 'dismissal', often used in formal or bureaucratic contexts.<br><br><strong>Option Explanations:</strong><br>1. <ruby>否定<rt>ひてい</rt></ruby> (hitei): denial<br>2. <ruby>却下<rt>きゃっか</rt></ruby> (kyakka): ✅ rejection/dismissal<br>3. <ruby>回避<rt>かいひ</rt></ruby> (kaihi): avoidance<br>4. <ruby>削除<rt>さくじょ</rt></ruby> (sakujo): deletion<br><br><strong>Sentence meaning:</strong> The proposal was deemed unrealistic and was immediately dismissed.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>2. <ruby>却下<rt>きゃっか</rt></ruby></strong> – rejection/dismissal.<br><br><strong>Option Explanations:</strong><br>1. <ruby>否定<rt>ひてい</rt></ruby> (hitei): denial<br>2. <ruby>却下<rt>きゃっか</rt></ruby> (kyakka): ✅ rejection/dismissal<br>3. <ruby>回避<rt>かいひ</rt></ruby> (kaihi): avoidance<br>4. <ruby>削除<rt>さくじょ</rt></ruby> (sakujo): deletion</p>"
+      }
+    },
+    {
+      "question": "この法律は、多くの国民の反発を（＿）ものだった。",
+      "options": ["3. 招く", "2. 求める", "1. 固める", "4. 導く"],
+      "answer": "3. 招く",
+      "hint": "<p><ruby>反発<rt>はんぱつ</rt></ruby> (hanpatsu) – backlash<br><ruby>招く<rt>まねく</rt></ruby> (maneku) – to invite/cause (a result)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>招く<rt>まねく</rt></ruby> (maneku) is used to mean 'to invite' or 'bring about (usually something negative)'.<br><br><strong>Option Explanations:</strong><br>1. <ruby>固める<rt>かためる</rt></ruby> (katameru): to harden/solidify<br>2. <ruby>求める<rt>もとめる</rt></ruby> (motomeru): to seek/request<br>3. <ruby>招く<rt>まねく</rt></ruby> (maneku): ✅ to invite/cause (a result)<br>4. <ruby>導く<rt>みちびく</rt></ruby> (michibiku): to guide/lead<br><br><strong>Sentence meaning:</strong> This law caused a lot of backlash among the public.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>3. <ruby>招く<rt>まねく</rt></ruby></strong> – to cause/invite.<br><br><strong>Option Explanations:</strong><br>1. <ruby>固める<rt>かためる</rt></ruby> (katameru): to harden<br>2. <ruby>求める<rt>もとめる</rt></ruby> (motomeru): to seek<br>3. <ruby>招く<rt>まねく</rt></ruby> (maneku): ✅ to cause<br>4. <ruby>導く<rt>みちびく</rt></ruby> (michibiku): to lead</p>"
+      }
+    },
+    {
+      "question": "彼はあくまで自分の意見に（＿）し、他人の話を聞こうとしなかった。",
+      "options": ["2. 固執", "3. 解釈", "4. 分析", "1. 講義"],
+      "answer": "2. 固執",
+      "hint": "<p><ruby>固執<rt>こしつ</rt></ruby> (koshitsu) – sticking to, persistence</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>固執<rt>こしつ</rt></ruby> (koshitsu) means to persist stubbornly in one’s own opinion or approach.<br><br><strong>Option Explanations:</strong><br>1. <ruby>講義<rt>こうぎ</rt></ruby> (kougi): lecture<br>2. <ruby>固執<rt>こしつ</rt></ruby> (koshitsu): ✅ stubborn persistence<br>3. <ruby>解釈<rt>かいしゃく</rt></ruby> (kaishaku): interpretation<br>4. <ruby>分析<rt>ぶんせき</rt></ruby> (bunseki): analysis<br><br><strong>Sentence meaning:</strong> He stubbornly stuck to his own opinion and refused to listen to others.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>2. <ruby>固執<rt>こしつ</rt></ruby></strong> – sticking to.<br><br><strong>Option Explanations:</strong><br>1. <ruby>講義<rt>こうぎ</rt></ruby> (kougi): lecture<br>2. <ruby>固執<rt>こしつ</rt></ruby> (koshitsu): ✅ persistence<br>3. <ruby>解釈<rt>かいしゃく</rt></ruby> (kaishaku): interpretation<br>4. <ruby>分析<rt>ぶんせき</rt></ruby> (bunseki): analysis</p>"
+      }
+    },
+    {
+      "question": "新しい制度は多くの反発を（＿）ながらも実施された。",
+      "options": ["4. 伴い", "2. 包み", "3. 越え", "1. 省き"],
+      "answer": "4. 伴い",
+      "hint": "<p><ruby>伴う<rt>ともなう</rt></ruby> (tomonau) – to accompany, to be accompanied by</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>伴い<rt>ともない</rt></ruby> (tomonai) means to come with or be accompanied by. Here, the reform came with backlash.<br><br><strong>Option Explanations:</strong><br>1. <ruby>省き<rt>はぶき</rt></ruby> (habuki): omission<br>2. <ruby>包み<rt>つつみ</rt></ruby> (tsutsumi): wrap<br>3. <ruby>越え<rt>こえ</rt></ruby> (koe): to cross<br>4. <ruby>伴い<rt>ともない</rt></ruby> (tomonai): ✅ accompanied by<br><br><strong>Sentence meaning:</strong> The new system was implemented despite being accompanied by much opposition.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>4. <ruby>伴い<rt>ともない</rt></ruby></strong> – accompanied by.<br><br><strong>Option Explanations:</strong><br>1. <ruby>省き<rt>はぶき</rt></ruby> (habuki): omission<br>2. <ruby>包み<rt>つつみ</rt></ruby> (tsutsumi): wrapping<br>3. <ruby>越え<rt>こえ</rt></ruby> (koe): crossing<br>4. <ruby>伴い<rt>ともない</rt></ruby> (tomonai): ✅ accompanied by</p>"
+      }
+    },
+    {
+      "question": "彼の説明はあまりにも（＿）で、聞き手に誤解を与えた。",
+      "options": ["1. 曖昧", "4. 嫌味", "3. 明確", "2. 簡潔"],
+      "answer": "1. 曖昧",
+      "hint": "<p><ruby>曖昧<rt>あいまい</rt></ruby> (aimai) – vague, ambiguous</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>曖昧<rt>あいまい</rt></ruby> (aimai) means unclear or ambiguous.<br><br><strong>Option Explanations:</strong><br>1. <ruby>曖昧<rt>あいまい</rt></ruby> (aimai): ✅ vague<br>2. <ruby>簡潔<rt>かんけつ</rt></ruby> (kanketsu): concise<br>3. <ruby>明確<rt>めいかく</rt></ruby> (meikaku): clear<br>4. <ruby>嫌味<rt>いやみ</rt></ruby> (iyami): sarcasm<br><br><strong>Sentence meaning:</strong> His explanation was too vague and caused misunderstanding among the listeners.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>曖昧<rt>あいまい</rt></ruby></strong> – vague.<br><br><strong>Option Explanations:</strong><br>1. <ruby>曖昧<rt>あいまい</rt></ruby> (aimai): ✅ vague<br>2. <ruby>簡潔<rt>かんけつ</rt></ruby> (kanketsu): concise<br>3. <ruby>明確<rt>めいかく</rt></ruby> (meikaku): clear<br>4. <ruby>嫌味<rt>いやみ</rt></ruby> (iyami): sarcasm</p>"
+      }
+    },
+    {
+      "question": "国際関係を安定させるためには、相互の信頼関係が（＿）だ。",
+      "options": ["3. 不可欠", "2. 臨時", "4. 無難", "1. 冷淡"],
+      "answer": "3. 不可欠",
+      "hint": "<p><ruby>不可欠<rt>ふかけつ</rt></ruby> (fukaketsu) – essential, indispensable</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>不可欠<rt>ふかけつ</rt></ruby> (fukaketsu) means something absolutely necessary.<br><br><strong>Option Explanations:</strong><br>1. <ruby>冷淡<rt>れいたん</rt></ruby> (reitan): cold, indifferent<br>2. <ruby>臨時<rt>りんじ</rt></ruby> (rinji): temporary<br>3. <ruby>不可欠<rt>ふかけつ</rt></ruby> (fukaketsu): ✅ essential<br>4. <ruby>無難<rt>ぶなん</rt></ruby> (bunan): safe, acceptable<br><br><strong>Sentence meaning:</strong> Mutual trust is essential to stabilizing international relations.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>3. <ruby>不可欠<rt>ふかけつ</rt></ruby></strong> – essential.<br><br><strong>Option Explanations:</strong><br>1. <ruby>冷淡<rt>れいたん</rt></ruby> (reitan): indifferent<br>2. <ruby>臨時<rt>りんじ</rt></ruby> (rinji): temporary<br>3. <ruby>不可欠<rt>ふかけつ</rt></ruby> (fukaketsu): ✅ essential<br>4. <ruby>無難<rt>ぶなん</rt></ruby> (bunan): safe</p>"
+      }
+    },
+    {
+      "question": "その制度の導入は社会全体に（＿）を及ぼした。",
+      "options": ["2. 影響", "3. 手当", "1. 圧力", "4. 支援"],
+      "answer": "2. 影響",
+      "hint": "<p><ruby>影響<rt>えいきょう</rt></ruby> (eikyou) – influence, impact</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>影響<rt>えいきょう</rt></ruby> (eikyou) refers to impact or influence on others or a system.<br><br><strong>Option Explanations:</strong><br>1. <ruby>圧力<rt>あつりょく</rt></ruby> (atsuryoku): pressure<br>2. <ruby>影響<rt>えいきょう</rt></ruby> (eikyou): ✅ impact<br>3. <ruby>手当<rt>てあて</rt></ruby> (teate): benefit, allowance<br>4. <ruby>支援<rt>しえん</rt></ruby> (shien): support<br><br><strong>Sentence meaning:</strong> The implementation of that system had an impact on the whole society.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>2. <ruby>影響<rt>えいきょう</rt></ruby></strong> – influence.<br><br><strong>Option Explanations:</strong><br>1. <ruby>圧力<rt>あつりょく</rt></ruby> (atsuryoku): pressure<br>2. <ruby>影響<rt>えいきょう</rt></ruby> (eikyou): ✅ influence<br>3. <ruby>手当<rt>てあて</rt></ruby> (teate): allowance<br>4. <ruby>支援<rt>しえん</rt></ruby> (shien): support</p>"
+      }
+    },
+    {
+      "question": "この契約は両者の合意により（＿）される。",
+      "options": ["3. 成立", "2. 実施", "1. 採択", "4. 維持"],
+      "answer": "3. 成立",
+      "hint": "<p><ruby>成立<rt>せいりつ</rt></ruby> (seiritsu) – conclusion, establishment (of an agreement)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>成立<rt>せいりつ</rt></ruby> (seiritsu) means something being concluded or officially coming into effect.<br><br><strong>Option Explanations:</strong><br>1. <ruby>採択<rt>さいたく</rt></ruby> (saitaku): adoption<br>2. <ruby>実施<rt>じっし</rt></ruby> (jisshi): implementation<br>3. <ruby>成立<rt>せいりつ</rt></ruby> (seiritsu): ✅ establishment<br>4. <ruby>維持<rt>いじ</rt></ruby> (iji): maintenance<br><br><strong>Sentence meaning:</strong> This contract will be concluded upon agreement by both parties.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>3. <ruby>成立<rt>せいりつ</rt></ruby></strong> – conclusion.<br><br><strong>Option Explanations:</strong><br>1. <ruby>採択<rt>さいたく</rt></ruby> (saitaku): adoption<br>2. <ruby>実施<rt>じっし</rt></ruby> (jisshi): implementation<br>3. <ruby>成立<rt>せいりつ</rt></ruby> (seiritsu): ✅ conclusion<br>4. <ruby>維持<rt>いじ</rt></ruby> (iji): maintenance</p>"
+      }
+    }
+  ]
+}

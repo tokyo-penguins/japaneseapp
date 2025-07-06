@@ -1,0 +1,45 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "大学では、専門的な（＿）を深く学ぶことができます。",
+      "options": ["1. 遊び", "2. 知識", "3. 観光", "4. 料理"],
+      "answer": "2. 知識",
+      "hint": "<p>専門的（せんもんてき, senmonteki）<br>知識（ちしき, chishiki）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 知識 - ちしき (chishiki) - knowledge</p><ul><li>遊び - あそび (asobi) - play</li><li>観光 - かんこう (kankou) - sightseeing</li><li>料理 - りょうり (ryouri) - cooking</li></ul><p><strong>Sentence meaning:</strong> At university, you can study specialized knowledge in depth.</p>",
+        "incorrect": "<p><strong>Answer :</strong> 知識 - ちしき (chishiki) - knowledge</p><ul><li>遊び - play</li><li>観光 - sightseeing</li><li>料理 - cooking</li></ul>"
+      }
+    },
+    {
+      "question": "彼は大学の（＿）として、学園祭の企画を担当している。",
+      "options": ["1. 選手", "2. 読者", "3. 代表", "4. 観客"],
+      "answer": "3. 代表",
+      "hint": "<p>代表（だいひょう, daihyou）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 代表 - だいひょう (daihyou) - representative</p><ul><li>選手 - せんしゅ (senshu) - athlete</li><li>読者 - どくしゃ (dokusha) - reader</li><li>観客 - かんきゃく (kankyaku) - audience</li></ul><p><strong>Sentence meaning:</strong> He is responsible for planning the university festival as a representative.</p>",
+        "incorrect": "<p><strong>Answer :</strong> 代表 - だいひょう (daihyou) - representative</p><ul><li>選手 - athlete</li><li>読者 - reader</li><li>観客 - audience</li></ul>"
+      }
+    },
+    {
+      "question": "大学に入ってから、自分の将来について（＿）するようになった。",
+      "options": ["1. 考慮", "2. 演奏", "3. 練習", "4. 調理"],
+      "answer": "1. 考慮",
+      "hint": "<p>将来（しょうらい, shourai）<br>考慮（こうりょ, kouryo）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 考慮 - こうりょ (kouryo) - consideration</p><ul><li>演奏 - えんそう (ensou) - musical performance</li><li>練習 - れんしゅう (renshuu) - practice</li><li>調理 - ちょうり (chouri) - cooking</li></ul><p><strong>Sentence meaning:</strong> Since entering university, I’ve started to consider my future.</p>",
+        "incorrect": "<p><strong>Answer :</strong> 考慮 - こうりょ (kouryo) - consideration</p><ul><li>演奏 - musical performance</li><li>練習 - practice</li><li>調理 - cooking</li></ul>"
+      }
+    },
+    {
+      "question": "このゼミでは、学生が自由に（＿）を発表することが求められる。",
+      "options": ["1. 申請", "2. 注文", "3. 予測", "4. 意見"],
+      "answer": "4. 意見",
+      "hint": "<p>意見（いけん, iken）<br>発表（はっぴょう, happyou）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 意見 - いけん (iken) - opinion</p><ul><li>申請 - しんせい (shinsei) - application</li><li>注文 - ちゅうもん (chuumon) - order</li><li>予測 - よそく (yosoku) - prediction</li></ul><p><strong>Sentence meaning:</strong> In this seminar, students are expected to freely present their opinions.</p>",
+        "incorrect": "<p><strong>Answer :</strong> 意見 - いけん (iken) - opinion</p><ul><li>申請 - application</li><li>注文 - order</li><li>予測 - prediction</li></ul>"
+      }
+    }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "A: いらっしゃいませ。何をお探しですか？\nB: スマートフォンのケースがほしいんですが。\nA: こちらの棚にいろいろありますよ。色や（＿）はどんなものがいいですか？\nB: 青で、できれば少し大きいものがいいです。",
+      "options": ["1. 形", "2. 音", "3. 大きさ", "4. 値段"],
+      "answer": "3. 大きさ",
+      "hint": "<p><ruby>形<rt>かたち</rt></ruby> (katachi) – shape/form<br><ruby>色<rt>いろ</rt></ruby> (iro) – color<br><ruby>棚<rt>たな</rt></ruby> (tana) – shelf<br>Case shopping: typical features include shape, color, material.</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong><br>『大きさ』（おおきさ, okisa）means “size,” which is a typical factor when choosing a smartphone case.</p><ul><li>1. 形 – shape (かたち, katachi)</li><li>2. 音 – sound (おと, oto)</li><li>3. 大きさ – size (おおきさ, ookisa)</li><li>4. 値段 – price (ねだん, nedan)</li></ul><p><strong>English Translation:</strong> A: Welcome! What are you looking for? B: I’d like a smartphone case. A: We have many here. What color and size do you prefer? B: Something blue, and maybe a little big.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 大きさ (おおきさ, okisa) – size<br>Sound is unrelated. While size and price may be relevant, only size fits naturally with the customer's request for a “big” type.</p>"
+      }
+    },
+    {
+      "question": "A: いらっしゃいませ。何かお探しですか？\nB: はい、春に着られるジャケットを見ているんですが。\nA: でしたら、こちらのコーナーがおすすめです。試着もできますよ。\nB: ありがとうございます。あの、これの（＿）はありますか？Mサイズだと少し大きいかもしれなくて。\nA: 少々お待ちください。Sサイズをお持ちしますね。",
+      "options": ["1. 色", "2. Sサイズ", "3. 値段", "4. 季節"],
+      "answer": "2. Sサイズ",
+      "hint": "<p><ruby>サイズ</ruby> (saizu) – size<br><ruby>春<rt>はる</rt></ruby> (haru) – spring<br><ruby>試着<rt>しちゃく</rt></ruby> (shichaku) – trying on clothes</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong><br>『Sサイズ』（エスさいず, esu saizu）means “small size.” The customer said M might be too big, so they are logically asking for S.</p><ul><li>1. 色 – color (いろ, iro)</li><li>2. Sサイズ – size S (エスさいず, esu saizu)</li><li>3. 値段 – price (ねだん, nedan)</li><li>4. 季節 – season (きせつ, kisetsu)</li></ul><p><strong>English Translation:</strong> A: Welcome! Looking for something? B: Yes, a jacket for spring. A: Then this section is recommended. You can try it on. B: Thank you. By the way, do you have this in S size? M might be a bit too big. A: One moment. I’ll bring you the S.</p>",
+        "incorrect": "<p><strong>Answer:</strong> Sサイズ (エスさいず, esu saizu) – size S<br>The customer says M size may be too large, so asking for another size is natural. Color or price could also be topics, but not here.</p>"
+      }
+    },
+    {
+      "question": "A: いらっしゃいませ。ご注文はお決まりですか？\nB: はい。まず、（＿）を一貫お願いします。\nA: かしこまりました。お飲み物はいかがですか？\nB: お茶をお願いします。",
+      "options": ["1. マグロ", "2. カルビ", "3. ロース", "4. ハラミ"],
+      "answer": "1. マグロ",
+      "hint": "<p><ruby>注文<rt>ちゅうもん</rt></ruby> (chuumon) – order<br><ruby>一貫<rt>いっかん</rt></ruby> (ikkan) – one piece (of sushi)<br>Typical sushi item vocabulary.</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong><br>『マグロ』（まぐろ, maguro）means “tuna.” It’s a very common sushi item and fits this restaurant scene perfectly.</p><ul><li>1. マグロ – tuna (まぐろ, maguro)</li><li>2. カルビ – beef ribs (かるび, karubi)</li><li>3. ロース – roast (ろーす, roosu)</li><li>4. ハラミ – skirt steak (はらみ, harami)</li></ul><p><strong>English Translation:</strong> A: Welcome! Have you decided? B: Yes. One piece of tuna sushi, please. A: Got it. Would you like something to drink? B: Tea, please.</p>",
+        "incorrect": "<p><strong>Answer:</strong> マグロ (まぐろ, maguro) – tuna<br>The others (カルビ, ロース, ハラミ) are meat cuts typical in Korean BBQ, not sushi. Only tuna fits a sushi restaurant context.</p>"
+      }
+    }
+  ]
+}

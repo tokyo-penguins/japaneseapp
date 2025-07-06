@@ -1,0 +1,36 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "わたしはまいにち（＿）のります。",
+        "options": ["1. じてんしゃに", "2. じてんしゃ", "3. じてんしゃで", "4. じてんしゃを"],
+        "answer": "1. じてんしゃに",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～にのります</strong> - to ride (something)</p><p><strong>じてんしゃ</strong> - bicycle</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「わたしはまいにち<strong>じてんしゃに</strong>のります」 means \"I ride a bicycle every day.\"</p><ul><li><strong>じてんしゃ</strong> - missing necessary particle</li><li><strong>じてんしゃで</strong> - \"で\" means \"by\", not used with のります</li><li><strong>じてんしゃを</strong> - incorrect for のる</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>じてんしゃに</strong>.</p><ul><li><strong>じてんしゃ</strong> - missing necessary particle</li><li><strong>じてんしゃで</strong> - \"で\" means \"by\", not used with のります</li><li><strong>じてんしゃを</strong> - incorrect for のる</li></ul>"
+        }
+      },
+      {
+        "question": "つくえのうえ（＿）ほんがあります。",
+        "options": ["1. に", "2. を", "3. で", "4. へ"],
+        "answer": "1. に",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～にあります</strong> - used to show existence of objects at a location</p><p><strong>つくえのうえ</strong> - on the desk</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「つくえのうえ<strong>に</strong>ほんがあります」 means \"There is a book on the desk.\"</p><ul><li><strong>を</strong> - marks direct object</li><li><strong>で</strong> - place where action happens, not existence</li><li><strong>へ</strong> - direction marker</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>に</strong>.</p><ul><li><strong>を</strong> - marks direct object</li><li><strong>で</strong> - place where action happens, not existence</li><li><strong>へ</strong> - direction marker</li></ul>"
+        }
+      },
+      {
+        "question": "あの（＿）はせんせいですか。",
+        "options": ["1. ひと", "2. ひとが", "3. ひとに", "4. ひとは"],
+        "answer": "1. ひと",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>あの + noun</strong> - that [noun] over there</p><p><strong>ひと</strong> - person</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「あの<strong>ひと</strong>はせんせいですか」 means \"Is that person a teacher?\"</p><ul><li><strong>ひとが</strong> - wrong particle in noun phrase</li><li><strong>ひとに</strong> - \"to person\", not appropriate here</li><li><strong>ひとは</strong> - duplicate topic marker</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>ひと</strong>.</p><ul><li><strong>ひとが</strong> - wrong particle in noun phrase</li><li><strong>ひとに</strong> - \"to person\", not appropriate here</li><li><strong>ひとは</strong> - duplicate topic marker</li></ul>"
+        }
+      }
+    ]
+  }
+  

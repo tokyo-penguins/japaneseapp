@@ -1,0 +1,45 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "彼は毎日遅刻ばかりしていたが、ついに（＿）を切られた。",
+      "options": ["1. 頭", "2. 尻", "3. 腹", "4. 首"],
+      "answer": "4. 首",
+      "hint": "<p><ruby>遅刻<rt>ちこく</rt></ruby> (chikoku) - being late<br><ruby>切られる<rt>きられる</rt></ruby> (kirareru) - to be cut</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> <ruby>首<rt>くび</rt></ruby> (kubi) - being fired (idiomatic expression)</p><ul><li><ruby>頭<rt>あたま</rt></ruby> (atama) - head (not idiomatic here)</li><li><ruby>尻<rt>しり</rt></ruby> (shiri) - buttocks</li><li><ruby>腹<rt>はら</rt></ruby> (hara) - belly</li></ul><p>He was always late and finally got fired (had his 'neck cut').</p>",
+        "incorrect": "<p><strong>Answer:</strong> <ruby>首<rt>くび</rt></ruby> (kubi) - being fired</p><ul><li><ruby>頭<rt>あたま</rt></ruby> (atama) - head</li><li><ruby>尻<rt>しり</rt></ruby> (shiri) - buttocks</li><li><ruby>腹<rt>はら</rt></ruby> (hara) - belly</li></ul><p>This idiom means getting fired or dismissed from a job.</p>"
+      }
+    },
+    {
+      "question": "彼女は失敗して落ち込んでいたが、友達の言葉でようやく（＿）を取り戻した。",
+      "options": ["1. 勇気", "2. 記憶", "3. 時間", "4. 力"],
+      "answer": "1. 勇気",
+      "hint": "<p><ruby>失敗<rt>しっぱい</rt></ruby> (shippai) - failure<br><ruby>落ち込む<rt>おちこむ</rt></ruby> (ochikomu) - to feel down</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> <ruby>勇気<rt>ゆうき</rt></ruby> (yuuki) - courage</p><ul><li><ruby>記憶<rt>きおく</rt></ruby> (kioku) - memory</li><li><ruby>時間<rt>じかん</rt></ruby> (jikan) - time</li><li><ruby>力<rt>ちから</rt></ruby> (chikara) - strength</li></ul><p>She regained her courage after being cheered up by a friend.</p>",
+        "incorrect": "<p><strong>Answer:</strong> <ruby>勇気<rt>ゆうき</rt></ruby> (yuuki) - courage</p><ul><li><ruby>記憶<rt>きおく</rt></ruby> (kioku) - memory</li><li><ruby>時間<rt>じかん</rt></ruby> (jikan) - time</li><li><ruby>力<rt>ちから</rt></ruby> (chikara) - strength</li></ul><p>Only 'courage' fits the context of recovering emotionally.</p>"
+      }
+    },
+    {
+      "question": "あの人は口が（＿）から、秘密を話さない方がいいよ。",
+      "options": ["1. 重い", "2. 軽い", "3. 開く", "4. 固い"],
+      "answer": "2. 軽い",
+      "hint": "<p><ruby>秘密<rt>ひみつ</rt></ruby> (himitsu) - secret<br>口が<ruby>軽い<rt>かるい</rt></ruby> - can't keep secrets</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> <ruby>軽い<rt>かるい</rt></ruby> (karui) - light (idiom: 口が軽い)</p><ul><li><ruby>重い<rt>おもい</rt></ruby> (omoi) - heavy</li><li><ruby>開く<rt>ひらく</rt></ruby> (hiraku) - to open</li><li><ruby>固い<rt>かたい</rt></ruby> (katai) - hard</li></ul><p>This idiom means the person talks too much and can’t keep secrets.</p>",
+        "incorrect": "<p><strong>Answer:</strong> <ruby>軽い<rt>かるい</rt></ruby> (karui) - light (idiomatic use)</p><ul><li><ruby>重い<rt>おもい</rt></ruby> (omoi) - heavy</li><li><ruby>開く<rt>ひらく</rt></ruby> (hiraku) - to open</li><li><ruby>固い<rt>かたい</rt></ruby> (katai) - hard</li></ul><p>‘口が軽い’ is a fixed expression for being indiscreet.</p>"
+      }
+    },
+    {
+      "question": "彼は新しい業界に入ったばかりで、まだ右も左も（＿）。",
+      "options": ["1. 分かる", "2. 覚える", "3. 知らない", "4. 行ける"],
+      "answer": "3. 知らない",
+      "hint": "<p><ruby>業界<rt>ぎょうかい</rt></ruby> (gyoukai) - industry<br>右も左も<ruby>知らない<rt>しらない</rt></ruby> - know nothing at all</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> <ruby>知らない<rt>しらない</rt></ruby> (shiranai) - not know</p><ul><li><ruby>分かる<rt>わかる</rt></ruby> (wakaru) - to understand</li><li><ruby>覚える<rt>おぼえる</rt></ruby> (oboeru) - to memorize</li><li><ruby>行ける<rt>いける</rt></ruby> (ikeru) - to be able to go</li></ul><p>This idiom describes someone completely unfamiliar with a situation.</p>",
+        "incorrect": "<p><strong>Answer:</strong> <ruby>知らない<rt>しらない</rt></ruby> (shiranai) - not know</p><ul><li><ruby>分かる<rt>わかる</rt></ruby> (wakaru) - to understand</li><li><ruby>覚える<rt>おぼえる</rt></ruby> (oboeru) - to memorize</li><li><ruby>行ける<rt>いける</rt></ruby> (ikeru) - to be able to go</li></ul><p>The idiom “右も左も知らない” means you’re completely new or inexperienced.</p>"
+      }
+    }
+  ]
+}

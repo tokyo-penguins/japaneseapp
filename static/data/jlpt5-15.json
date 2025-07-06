@@ -1,0 +1,26 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "A: おなかすいたね。\nB: うん、（＿）に行こうか？",
+        "options": ["1. 本や", "2. おすし", "3. レストラン", "4. ぎゅうにゅう"],
+        "answer": "3. レストラン",
+        "hint": "<p><strong>Vocabulary:</strong></p><ul><li><strong>おなかすいた</strong> - I'm hungry</li><li><strong>レストランに行く</strong> - to go to a restaurant</li></ul><p><strong>Grammar:</strong> 「〜に行く」 is used when going <em>to</em> a place.</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「レストランに行こうか？」 means \"Shall we go to a restaurant?\"</p><ul><li><strong>本や</strong> - bookshop (doesn’t match the context of eating)</li><li><strong>おすし</strong> - sushi (not a place)</li><li><strong>ぎゅうにゅう</strong> - milk (not a destination)</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>レストラン</strong>.</p><ul><li><strong>本や</strong> - bookshop (doesn’t match the context of eating)</li><li><strong>おすし</strong> - sushi (not a place)</li><li><strong>ぎゅうにゅう</strong> - milk (not a destination)</li></ul>"
+        }
+      },
+      {
+        "question": "A: おちゃ、どうぞ。\nB: ありがとう。あつい（＿）、ゆっくりのみます。",
+        "options": ["1. の", "2. けど", "3. なので", "4. ので"],
+        "answer": "4. ので",
+        "hint": "<p>「〜ので」 expresses a reason in a softer, more polite way than から.</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「あついので、ゆっくりのみます」 means “Because it’s hot, I’ll drink it slowly.”<br>「ので」 is often used in formal or polite conversation.</p><ul><li><strong>の</strong> - incomplete and grammatically incorrect here</li><li><strong>なので</strong> - grammatically incorrect here</li><li><strong>けど</strong> - means 'but', doesn't show reason</li></ul>",
+          "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>ので</strong>.<br><ul><li><strong>の</strong> - incomplete and grammatically incorrect here</li><li><strong>なので</strong> - grammatically incorrect here</li><li><strong>けど</strong> - means 'but', doesn't show reason</li></ul>"
+        }
+      }
+    ]
+  }
+  

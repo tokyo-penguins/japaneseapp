@@ -1,0 +1,55 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "道に迷ってしまい、駅まで（＿）のに時間がかかりました。",
+      "options": ["3. 戻る", "1. 泳ぐ", "2. 食べる", "4. 降りる"],
+      "answer": "3. 戻る",
+      "hint": "<p>迷う（まよう）、駅（えき）、戻る（もどる）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>戻る（もどる / modoru） means 'to return.' After getting lost, it naturally takes time to return to the station.<br><strong>Option meanings:</strong><br>1. 泳ぐ（およぐ / oyogu）- to swim (not related)<br>2. 食べる（たべる / taberu）- to eat (unrelated to direction)<br>3. 戻る（もどる / modoru）- ✅ correct: to return<br>4. 降りる（おりる / oriru）- to get off (not applicable here)</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is 3. 戻る (modoru / to return).<br><strong>Option meanings:</strong><br>1. 泳ぐ - to swim, unrelated<br>2. 食べる - to eat, doesn't fit<br>3. 戻る - ✅ correct<br>4. 降りる - to get off, illogical here</p>"
+      }
+    },
+    {
+      "question": "部屋が暗かったので、電気を（＿）ました。",
+      "options": ["4. つけ", "3. 読み", "1. 寝", "2. 洗い"],
+      "answer": "4. つけ",
+      "hint": "<p>部屋（へや）、暗い（くらい）、電気（でんき）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>つける（つけ / tsukeru） means 'to turn on.' It's natural to turn on the light in a dark room.<br><strong>Option meanings:</strong><br>1. 寝（ね / ne）- to sleep<br>2. 洗い（あらい / arai）- to wash<br>3. 読み（よみ / yomi）- to read<br>4. つけ（つける / tsukeru）- ✅ correct: to turn on</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is 4. つけ (tsukeru / to turn on).<br><strong>Option meanings:</strong><br>1. 寝 - to sleep, unrelated<br>2. 洗い - to wash, illogical<br>3. 読み - to read, not relevant<br>4. つけ - ✅ correct</p>"
+      }
+    },
+    {
+      "question": "今日の午後は、大事な（＿）があります。",
+      "options": ["1. 会議", "3. 散歩", "2. 運動", "4. 宿題"],
+      "answer": "1. 会議",
+      "hint": "<p>今日（きょう）、午後（ごご）、会議（かいぎ）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>会議（かいぎ / kaigi） means 'meeting,' which is commonly used for important events.<br><strong>Option meanings:</strong><br>1. 会議 - ✅ correct: meeting<br>2. 運動 - exercise<br>3. 散歩 - walk, casual<br>4. 宿題 - homework, not formal in this tone</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is 1. 会議 (kaigi / meeting).<br><strong>Option meanings:</strong><br>1. 会議 - ✅ correct<br>2. 運動 - exercise <br>3. 散歩 - walk, doesn't fit 'important'<br>4. 宿題 - homework, not formal</p>"
+      }
+    },
+    {
+      "question": "この薬を飲めば、熱が（＿）ますよ。",
+      "options": ["3. 下がり", "1. 上がり", "2. 泣き", "4. 太り"],
+      "answer": "3. 下がり",
+      "hint": "<p>薬（くすり）、熱（ねつ）、下がる（さがる）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>下がり（さがり / sagari） means 'to go down.' It is natural for a fever to go down after taking medicine.<br><strong>Option meanings:</strong><br>1. 上がり - to rise, opposite<br>2. 泣き - to cry, irrelevant<br>3. 下がり - ✅ correct: to go down<br>4. 太り - to gain weight, unrelated</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is 3. 下がり (sagari / to go down).<br><strong>Option meanings:</strong><br>1. 上がり - to rise, incorrect<br>2. 泣き - to cry, unrelated<br>3. 下がり - ✅ correct<br>4. 太り - to gain weight, not logical here</p>"
+      }
+    },
+    {
+      "question": "雨が降りそうなので、（＿）を持って行ってください。",
+      "options": ["2. 傘", "1. 箸", "3. 鏡", "4. 財布"],
+      "answer": "2. 傘",
+      "hint": "<p>雨（あめ）、傘（かさ）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>傘（かさ / kasa） means 'umbrella,' used to protect yourself from the rain.<br><strong>Option meanings:</strong><br>1. 箸（はし / hashi）- chopsticks, for eating<br>2. 傘（かさ / kasa）- ✅ correct: umbrella<br>3. 鏡（かがみ / kagami）- mirror, unrelated<br>4. 財布（さいふ / saifu）- wallet, doesn't help in rain</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is 2. 傘 (kasa / umbrella).<br><strong>Option meanings:</strong><br>1. 箸 - chopsticks, not for weather<br>2. 傘 - ✅ correct<br>3. 鏡 - mirror, unrelated<br>4. 財布 - wallet, doesn't help in rain</p>"
+      }
+    }
+  ]
+}

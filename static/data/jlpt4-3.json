@@ -1,0 +1,71 @@
+{
+    "type": "type2",
+    "title": "JLPT N4 Word Reordering Quiz",
+    "questions": [
+        {
+            "options": [
+              { "word": "学生は", "furigana": "がくせい", "romaji": "gakusei wa", "meaning": "students" },
+              { "word": "毎日", "furigana": "まいにち", "romaji": "mainichi", "meaning": "every day" },
+              { "word": "で", "furigana": "", "romaji": "de", "meaning": "at" },
+              { "word": "勉強する", "furigana": "べんきょう", "romaji": "benkyou suru", "meaning": "study" }
+            ],
+            "answer": ["学生は", "毎日", "で", "勉強する"],
+            "full": "学生は毎日図書館で勉強する。",
+            "translation": "Students study at the library every day.",
+            "fixedPart": "図書館",
+            "possiblePositions": [3]
+          },
+          {
+            "options": [
+              { "word": "新しい", "furigana": "あたら", "romaji": "atarashii", "meaning": "new" },
+              { "word": "を", "furigana": "", "romaji": "wo", "meaning": "object marker" },
+              { "word": "買いました", "furigana": "か", "romaji": "kaimashita", "meaning": "bought" },
+              { "word": "父が", "furigana": "ちち", "romaji": "chichi ga", "meaning": "my father" }
+            ],
+            "answer": ["父が", "新しい", "を", "買いました"],
+            "full": "父が新しいパソコンを買いました。",
+            "translation": "My father bought a new computer.",
+            "fixedPart": "パソコン",
+            "possiblePositions": [3]
+          },
+          {
+            "options": [
+              { "word": "映画を", "furigana": "えいが", "romaji": "eiga wo", "meaning": "movie" },
+              { "word": "見に", "furigana": "み", "romaji": "mi ni", "meaning": "to watch" },
+              { "word": "行きます", "furigana": "い", "romaji": "ikimasu", "meaning": "will go" },
+              { "word": "友達と", "furigana": "ともだち", "romaji": "tomodachi to", "meaning": "with friends" }
+            ],
+            "answer": ["友達と", "映画を", "見に", "行きます"],
+            "full": "友達と映画館へ映画を見に行きます。",
+            "translation": "I will go to the cinema with friends to watch a movie.",
+            "fixedPart": "映画館へ",
+            "possiblePositions": [1]
+          },
+          {
+            "options": [
+              { "word": "雨が", "furigana": "あめ", "romaji": "ame ga", "meaning": "rain" },
+              { "word": "ので", "furigana": "", "romaji": "node", "meaning": "because" },
+              { "word": "試合は", "furigana": "しあい", "romaji": "shiai wa", "meaning": "the game" },
+              { "word": "中止に", "furigana": "ちゅうし", "romaji": "chuushi ni", "meaning": "canceled" }
+            ],
+            "answer": ["雨が", "ので", "試合は", "中止に"],
+            "full": "雨が降ったので試合は中止になりました。",
+            "translation": "Because it rained, the game was canceled.",
+            "fixedPart": "降った",
+            "possiblePositions": [2]
+          },
+          {
+            "options": [
+              { "word": "宿題が", "furigana": "しゅくだい", "romaji": "shukudai ga", "meaning": "homework" },
+              { "word": "終わった", "furigana": "お", "romaji": "owatta", "meaning": "finished" },
+              { "word": "から", "furigana": "", "romaji": "kara", "meaning": "because" },
+              { "word": "遊びに", "furigana": "あそ", "romaji": "asobi ni", "meaning": "to play" }
+            ],
+            "answer": ["宿題が", "終わった", "から", "遊びに行こう。"],
+            "full": "宿題が終わったから公園へ遊びに行こう。",
+            "translation": "Since the homework is finished, let's go play at the park.",
+            "fixedPart": "公園へ",
+            "possiblePositions": [3]
+          }
+    ]
+}

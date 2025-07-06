@@ -1,0 +1,56 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "彼は部長に（＿）して、新しい企画を通した。",
+      "options": ["2. 提案", "4. 紹介", "3. 連絡", "1. 予約"],
+      "answer": "2. 提案",
+      "hint": "<p><ruby>提案<rt>ていあん</rt></ruby> (proposal/suggestion), <ruby>企画<rt>きかく</rt></ruby> (plan)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>提案</strong>（ていあん, teian）means to make a suggestion or proposal, which fits the situation of getting a plan approved by a superior.<br><br><strong>Option explanations:</strong><br><strong>1. 予約</strong>（よやく, yoyaku）– reservation, doesn't fit the business context.<br><strong>2. 提案</strong>（ていあん, teian）– proposal, the correct answer.<br><strong>3. 連絡</strong>（れんらく, renraku）– contact/communication, not about presenting ideas.<br><strong>4. 紹介</strong>（しょうかい, shoukai）– introduction, unrelated to planning.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>2. 提案</strong>（ていあん, teian）– to make a suggestion.<br><br><strong>Option explanations:</strong><br><strong>1. 予約</strong> – reservation.<br><strong>2. 提案</strong> – suggestion/proposal.<br><strong>3. 連絡</strong> – contact/communication.<br><strong>4. 紹介</strong> – introduction.</p>"
+      }
+    },
+    {
+      "question": "最近の子どもたちはスマートフォンに（＿）している。",
+      "options": ["3. 依存", "1. 活用", "4. 配達", "2. 移動"],
+      "answer": "3. 依存",
+      "hint": "<p><ruby>依存<rt>いぞん</rt></ruby> (dependence), <ruby>最近<rt>さいきん</rt></ruby> (recently)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>依存</strong>（いぞん, izon）means dependence. Many children are overly dependent on smartphones nowadays.<br><br><strong>Option explanations:</strong><br><strong>1. 活用</strong>（かつよう, katsuyou）– use/utilization.<br><strong>2. 移動</strong>（いどう, idou）– movement/transport.<br><strong>3. 依存</strong>（いぞん, izon）– dependence (correct).<br><strong>4. 配達</strong>（はいたつ, haitatsu）– delivery.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>3. 依存</strong>（いぞん, izon）– dependence.<br><br><strong>Option explanations:</strong><br><strong>1. 活用</strong> – utilization.<br><strong>2. 移動</strong> – movement.<br><strong>3. 依存</strong> – dependence.<br><strong>4. 配達</strong> – delivery.</p>"
+      }
+    },
+    {
+      "question": "この道は工事中のため、（＿）が必要です。",
+      "options": ["2. 迂回", "1. 経由", "3. 運搬", "4. 乗車"],
+      "answer": "2. 迂回",
+      "hint": "<p><ruby>迂回<rt>うかい</rt></ruby> (detour), <ruby>工事中<rt>こうじちゅう</rt></ruby> (under construction)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>迂回</strong>（うかい, ukai）means detour – necessary when roads are closed due to construction.<br><br><strong>Option explanations:</strong><br><strong>1. 経由</strong>（けいゆ, keiyu）– via, not specifically about detours.<br><strong>2. 迂回</strong>（うかい, ukai）– detour (correct).<br><strong>3. 運搬</strong>（うんぱん, unpan）– transportation of goods.<br><strong>4. 乗車</strong>（じょうしゃ, jousha）– boarding a vehicle.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>2. 迂回</strong>（うかい, ukai）– detour.<br><br><strong>Option explanations:</strong><br><strong>1. 経由</strong> – via/through.<br><strong>2. 迂回</strong> – detour.<br><strong>3. 運搬</strong> – carrying or transporting things.<br><strong>4. 乗車</strong> – boarding a vehicle.</p>"
+      }
+    },
+    {
+      "question": "彼のプレゼンは（＿）がしっかりしていて、説得力があった。",
+      "options": ["4. 構成", "2. 宣伝", "3. 整理", "1. 取材"],
+      "answer": "4. 構成",
+      "hint": "<p><ruby>構成<rt>こうせい</rt></ruby> (structure), <ruby>説得力<rt>せっとくりょく</rt></ruby> (persuasiveness)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>構成</strong>（こうせい, kousei）means structure or organization. A strong presentation relies on a solid structure.<br><br><strong>Option explanations:</strong><br><strong>1. 取材</strong>（しゅざい, shuzai）– news coverage/interview.<br><strong>2. 宣伝</strong>（せんでん, senden）– advertisement.<br><strong>3. 整理</strong>（せいり, seiri）– organization, but not specific to structure.<br><strong>4. 構成</strong>（こうせい, kousei）– structure (correct).</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>4. 構成</strong>（こうせい, kousei）– structure.<br><br><strong>Option explanations:</strong><br><strong>1. 取材</strong> – gathering news.<br><strong>2. 宣伝</strong> – advertisement.<br><strong>3. 整理</strong> – arrangement.<br><strong>4. 構成</strong> – structure.</p>"
+      }
+    },
+    {
+      "question": "新しい制度について、社員に（＿）された。",
+      "options": ["1. 説明", "3. 交流", "2. 通訳", "4. 拡大"],
+      "answer": "1. 説明",
+      "hint": "<p><ruby>説明<rt>せつめい</rt></ruby> (explanation), <ruby>制度<rt>せいど</rt></ruby> (system)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>説明</strong>（せつめい, setsumei）means explanation. New systems are often explained to staff members.<br><br><strong>Option explanations:</strong><br><strong>1. 説明</strong>（せつめい, setsumei）– explanation (correct).<br><strong>2. 通訳</strong>（つうやく, tsuuyaku）– interpretation (language).<br><strong>3. 交流</strong>（こうりゅう, kouryuu）– interaction/exchange.<br><strong>4. 拡大</strong>（かくだい, kakudai）– expansion.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. 説明</strong>（せつめい, setsumei）– explanation.<br><br><strong>Option explanations:</strong><br><strong>1. 説明</strong> – explanation.<br><strong>2. 通訳</strong> – interpretation.<br><strong>3. 交流</strong> – exchange or interaction.<br><strong>4. 拡大</strong> – expansion.</p>"
+      }
+    }
+  ]
+}
+

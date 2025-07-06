@@ -1,0 +1,55 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "彼の話はとても（＿）があるので、信じられる。",
+      "options": ["2. 信頼性", "1. 知識", "4. 運動", "3. 成績"],
+      "answer": "2. 信頼性",
+      "hint": "<p><ruby>信頼性<rt>しんらいせい</rt></ruby> – reliability<br><ruby>信じる<rt>しんじる</rt></ruby> – to believe<br><em>Romaji:</em> shinraisei, shinjiru</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>信頼性 (しんらいせい)</strong> means reliability. The sentence implies that his story is trustworthy.<br><br><strong>Option Explanations:</strong><br>1. <ruby>知識<rt>ちしき</rt></ruby> (chishiki): knowledge<br>2. <ruby>信頼性<rt>しんらいせい</rt></ruby> (shinraisei): ✅ reliability<br>3. <ruby>成績<rt>せいせき</rt></ruby> (seiseki): grades<br>4. <ruby>運動<rt>うんどう</rt></ruby> (undou): exercise</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>2. 信頼性 (しんらいせい)</strong> – reliability.<br><br><strong>Option Explanations:</strong><br>1. <ruby>知識<rt>ちしき</rt></ruby> (chishiki): knowledge<br>2. <ruby>信頼性<rt>しんらいせい</rt></ruby> (shinraisei): ✅ reliability<br>3. <ruby>成績<rt>せいせき</rt></ruby> (seiseki): grades<br>4. <ruby>運動<rt>うんどう</rt></ruby> (undou): exercise</p>"
+      }
+    },
+    {
+      "question": "この仕事には高い（＿）が求められる。",
+      "options": ["4. 能力", "1. 経歴", "2. 記録", "3. 趣味"],
+      "answer": "4. 能力",
+      "hint": "<p><ruby>能力<rt>のうりょく</rt></ruby> – ability<br><ruby>求める<rt>もとめる</rt></ruby> – to require<br><em>Romaji:</em> nouryoku, motomeru</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>能力 (のうりょく)</strong> means ability or skill. This job requires a high level of skill.<br><br><strong>Option Explanations:</strong><br>1. <ruby>経歴<rt>けいれき</rt></ruby> (keireki): career history<br>2. <ruby>記録<rt>きろく</rt></ruby> (kiroku): record<br>3. <ruby>趣味<rt>しゅみ</rt></ruby> (shumi): hobby<br>4. <ruby>能力<rt>のうりょく</rt></ruby> (nouryoku): ✅ ability</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>4. 能力 (のうりょく)</strong> – ability.<br><br><strong>Option Explanations:</strong><br>1. <ruby>経歴<rt>けいれき</rt></ruby> (keireki): career history<br>2. <ruby>記録<rt>きろく</rt></ruby> (kiroku): record<br>3. <ruby>趣味<rt>しゅみ</rt></ruby> (shumi): hobby<br>4. <ruby>能力<rt>のうりょく</rt></ruby> (nouryoku): ✅ ability</p>"
+      }
+    },
+    {
+      "question": "彼は外国語を（＿）するのが得意です。",
+      "options": ["3. 習得", "1. 対立", "2. 放送", "4. 交流"],
+      "answer": "3. 習得",
+      "hint": "<p><ruby>習得<rt>しゅうとく</rt></ruby> – acquisition<br><ruby>得意<rt>とくい</rt></ruby> – good at<br><em>Romaji:</em> shuutoku, tokui</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>習得 (しゅうとく)</strong> means acquiring or mastering a skill, such as a foreign language.<br><br><strong>Option Explanations:</strong><br>1. <ruby>対立<rt>たいりつ</rt></ruby> (tairitsu): conflict<br>2. <ruby>放送<rt>ほうそう</rt></ruby> (housou): broadcast<br>3. <ruby>習得<rt>しゅうとく</rt></ruby> (shuutoku): ✅ acquisition<br>4. <ruby>交流<rt>こうりゅう</rt></ruby> (kouryuu): interaction</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>3. 習得 (しゅうとく)</strong> – acquisition.<br><br><strong>Option Explanations:</strong><br>1. <ruby>対立<rt>たいりつ</rt></ruby> (tairitsu): conflict<br>2. <ruby>放送<rt>ほうそう</rt></ruby> (housou): broadcast<br>3. <ruby>習得<rt>しゅうとく</rt></ruby> (shuutoku): ✅ acquisition<br>4. <ruby>交流<rt>こうりゅう</rt></ruby> (kouryuu): interaction</p>"
+      }
+    },
+    {
+      "question": "母はいつも健康に（＿）ています。",
+      "options": ["1. 気をつけ", "4. 関係し", "2. 怒鳴り", "3. 忘れ"],
+      "answer": "1. 気をつけ",
+      "hint": "<p><ruby>気<rt>き</rt></ruby>を<ruby>つ<rt>つ</rt></ruby>ける – to be careful<br><ruby>健康<rt>けんこう</rt></ruby> – health<br><em>Romaji:</em> ki o tsukeru, kenkou</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>気をつける (きをつける)</strong> means to be careful. The sentence means she always takes care of her health.<br><br><strong>Option Explanations:</strong><br>1. <ruby>気をつけ<rt>きをつけ</rt></ruby> (ki o tsuke): ✅ to be careful<br>2. <ruby>怒鳴り<rt>どなり</rt></ruby> (donari): yelling<br>3. <ruby>忘れ<rt>わすれ</rt></ruby> (wasure): forgetting<br>4. <ruby>関係し<rt>かんけいし</rt></ruby> (kankeishi): being related to</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. 気をつけ (きをつけ)</strong> – to be careful.<br><br><strong>Option Explanations:</strong><br>1. <ruby>気をつけ<rt>きをつけ</rt></ruby> (ki o tsuke): ✅ to be cautious<br>2. <ruby>怒鳴り<rt>どなり</rt></ruby> (donari): shouting loudly<br>3. <ruby>忘れ<rt>わすれ</rt></ruby> (wasure): forgetting something<br>4. <ruby>関係し<rt>かんけいし</rt></ruby> (kankeishi): being involved/related</p>"
+      }
+    },
+    {
+      "question": "この小説は感動的な（＿）で終わった。",
+      "options": ["2. 結末", "1. 音楽", "4. 規則", "3. 方法"],
+      "answer": "2. 結末",
+      "hint": "<p><ruby>結末<rt>けつまつ</rt></ruby> – ending<br><ruby>感動<rt>かんどう</rt></ruby> – emotional<br><em>Romaji:</em> ketsumatsu, kandou</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>結末 (けつまつ)</strong> means the ending of a story. The novel had a moving conclusion.<br><br><strong>Option Explanations:</strong><br>1. <ruby>音楽<rt>おんがく</rt></ruby> (ongaku): music<br>2. <ruby>結末<rt>けつまつ</rt></ruby> (ketsumatsu): ✅ ending<br>3. <ruby>方法<rt>ほうほう</rt></ruby> (houhou): method<br>4. <ruby>規則<rt>きそく</rt></ruby> (kisoku): rule</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>2. 結末 (けつまつ)</strong> – ending.<br><br><strong>Option Explanations:</strong><br>1. <ruby>音楽<rt>おんがく</rt></ruby> (ongaku): music<br>2. <ruby>結末<rt>けつまつ</rt></ruby> (ketsumatsu): ✅ ending<br>3. <ruby>方法<rt>ほうほう</rt></ruby> (houhou): method<br>4. <ruby>規則<rt>きそく</rt></ruby> (kisoku): rule</p>"
+      }
+    }
+  ]
+}

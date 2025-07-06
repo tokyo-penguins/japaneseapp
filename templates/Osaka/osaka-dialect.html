@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osaka Dialect Quiz</title>
+    <style>
+        body {
+            font-family: 'Noto Sans JP', Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f9f5f0;
+            background-image: url("{{ url_for('static', filename='images/osaka.jpeg') }}");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+        }
+        .quiz-container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        .question-section {
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px dashed #8e6c88;
+        }
+        .question-section:last-child {
+            border-bottom: none;
+        }
+        .question-number {
+            font-weight: bold;
+            color: #8e6c88;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .english-sentence {
+            font-size: 1.1em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .dialect-image {
+            max-width: 100%;
+            height: auto;
+            max-height: 300px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border: 3px solid #8e6c88;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .option {
+            display: block;
+            margin: 12px auto;
+            padding: 12px;
+            width: 90%;
+            cursor: pointer;
+            background-color: #f1f1f1;
+            border: none;
+            border-radius: 5px;
+            transition: all 0.3s;
+            text-align: left;
+            font-size: 1em;
+        }
+        .option:hover {
+            background-color: #e0e0e0;
+            transform: translateX(5px);
+        }
+        .correct { 
+            background-color: #8e6c88;
+            color: white;
+            font-weight: bold;
+        }
+        .incorrect { 
+            background-color: #f44336;
+            color: white;
+        }
+        .feedback {
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            display: none;
+            animation: fadeIn 0.5s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .correct-feedback {
+            background-color: rgba(142, 108, 136, 0.1);
+            border-left: 4px solid #8e6c88;
+        }
+        .incorrect-feedback {
+            background-color: rgba(244, 67, 54, 0.1);
+            border-left: 4px solid #f44336;
+        }
+        .explanation {
+            font-size: 0.9em;
+            margin-top: 10px;
+            color: #555;
+            font-style: italic;
+        }
+        .final-button {
+            display: block;
+            margin: 30px auto 10px;
+            padding: 15px 30px;
+            background-color: #ff6b6b;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .final-button:hover {
+            background-color: #ff5252;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        }
+        .translation {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        .menu-btn {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            background-color: #6c7b8b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            z-index: 100;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button class="menu-btn" onclick="window.location.href='/home#osaka-section'">← Main Menu</button>
+    <div class="quiz-container">
+        <!-- Question 1 -->
+        <div class="question-section">
+            <div class="question-number">Question 1 of 6</div>
+            <div class="english-sentence">"What the heck are you talking about?!" (Expression used when criticizing someone's statement)</div>
+            <img src="{{ url_for('static', filename='images/nande.png') }}" alt="Osaka dialect expression" class="dialect-image">
+            <div class="options">
+                <button class="option" onclick="checkAnswer(this, '1. なんでやねん！', 1)">1. なんでやねん！</button>
+                <button class="option" onclick="checkAnswer(this, '2. めっちゃ', 1)">2. めっちゃ</button>
+                <button class="option" onclick="checkAnswer(this, '3. せやな', 1)">3. せやな</button>
+                <button class="option" onclick="checkAnswer(this, '4. おおきに', 1)">4. おおきに</button>
+            </div>
+            
+            <div class="feedback correct-feedback" id="correct-feedback-1">
+                Correct! <strong>「なんでやねん！」</strong> is the classic Osaka phrase used when criticizing or questioning someone's statement.
+                <div class="explanation">This is the quintessential Osaka phrase used for comedic "tsukkomi" (straight man) reactions in comedy routines.</div>
+            </div>
+            
+            <div class="feedback incorrect-feedback" id="incorrect-feedback-1">
+                Incorrect! The correct answer is <strong>「なんでやねん！」</strong> - the classic Osaka phrase used when criticizing or questioning someone's statement.
+                <div class="explanation">This phrase is famously used in Osaka's "manzai" comedy as the "tsukkomi" (straight man) response to ridiculous statements.</div>
+            </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="question-section">
+            <div class="question-number">Question 2 of 6</div>
+            <div class="english-sentence">"That's super delicious!" (Emphasizing degree)</div>
+            <img src="{{ url_for('static', filename='images/tako.png') }}" alt="Osaka dialect expression" class="dialect-image">
+            <div class="options">
+                <button class="option" onclick="checkAnswer(this, '1. 知らんけど', 2)">1. 知らんけど</button>
+                <button class="option" onclick="checkAnswer(this, '2. めっちゃ', 2)">2. めっちゃ</button>
+                <button class="option" onclick="checkAnswer(this, '3. 〜へん', 2)">3. 〜へん</button>
+                <button class="option" onclick="checkAnswer(this, '4. なんでやねん！', 2)">4. なんでやねん！</button>
+            </div>
+            
+            <div class="feedback correct-feedback" id="correct-feedback-2">
+                Correct! <strong>「めっちゃ」</strong> means "very" or "super" in Osaka dialect.
+                <div class="explanation">Young people all over Japan now use this originally Osaka phrase to emphasize things, like "めっちゃおいしい" (super delicious).</div>
+            </div>
+            
+            <div class="feedback incorrect-feedback" id="incorrect-feedback-2">
+                Incorrect! The correct answer is <strong>「めっちゃ」</strong> which means "very" or "super" in Osaka dialect.
+                <div class="explanation">This word has become popular nationwide, especially among younger generations.</div>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question-section">
+            <div class="question-number">Question 3 of 6</div>
+            <div class="english-sentence">"I don't eat that." (Negative form)</div>
+            <img src="{{ url_for('static', filename='images/eat.png') }}"alt="Osaka dialect expression" class="dialect-image">
+            <div class="options">
+                <button class="option" onclick="checkAnswer(this, '1. 食べへん', 3)">1. 食べへん</button>
+                <button class="option" onclick="checkAnswer(this, '2. おおきに', 3)">2. おおきに</button>
+                <button class="option" onclick="checkAnswer(this, '3. なんでやねん！', 3)">3. なんでやねん！</button>
+                <button class="option" onclick="checkAnswer(this, '4. めっちゃ', 3)">4. めっちゃ</button>
+            </div>
+            
+            <div class="feedback correct-feedback" id="correct-feedback-3">
+                Correct! <strong>「〜へん」</strong> is the Osaka negative form, so "食べへん" means "I don't eat".
+                <div class="explanation">In standard Japanese this would be "食べない", but in Osaka dialect it becomes "食べへん".</div>
+            </div>
+            
+            <div class="feedback incorrect-feedback" id="incorrect-feedback-3">
+                Incorrect! The correct answer is <strong>「食べへん」</strong> - the Osaka negative form meaning "I don't eat".
+                <div class="explanation">This is one of the most distinctive features of Osaka dialect, changing the negative "〜ない" to "〜へん".</div>
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question-section">
+            <div class="question-number">Question 4 of 6</div>
+            <div class="english-sentence">"Yeah, that's right." (Agreement)</div>
+            <img src="{{ url_for('static', filename='images/ee.png') }}" alt="Osaka dialect expression" class="dialect-image">
+            <div class="options">
+                <button class="option" onclick="checkAnswer(this, '1. めっちゃ', 4)">1. めっちゃ</button>
+                <button class="option" onclick="checkAnswer(this, '2. せやな', 4)">2. せやな</button>
+                <button class="option" onclick="checkAnswer(this, '3. おおきに', 4)">3. おおきに</button>
+                <button class="option" onclick="checkAnswer(this, '4. 知らんけど', 4)">4. 知らんけど</button>
+            </div>
+            
+            <div class="feedback correct-feedback" id="correct-feedback-4">
+                Correct! <strong>「せやな」</strong> means "Yeah, that's right" or "That's true" in Osaka dialect.
+                <div class="explanation">This comes from "そうやな" in standard Japanese, shortened to "せやな" in Osaka dialect.</div>
+            </div>
+            
+            <div class="feedback incorrect-feedback" id="incorrect-feedback-4">
+                Incorrect! The correct answer is <strong>「せやな」</strong> which means "Yeah, that's right" in Osaka dialect.
+                <div class="explanation">You'll hear this all the time in Osaka when people are agreeing with each other.</div>
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question-section">
+            <div class="question-number">Question 5 of 6</div>
+            <div class="english-sentence">"Thank you very much!" (Gratitude)</div>
+            <img src="{{ url_for('static', filename='images/ookini.png') }}" alt="Osaka dialect expression" class="dialect-image">
+            <div class="options">
+                <button class="option" onclick="checkAnswer(this, '1. おおきに', 5)">1. おおきに</button>
+                <button class="option" onclick="checkAnswer(this, '2. なんでやねん！', 5)">2. なんでやねん！</button>
+                <button class="option" onclick="checkAnswer(this, '3. めっちゃ', 5)">3. めっちゃ</button>
+                <button class="option" onclick="checkAnswer(this, '4. せやな', 5)">4. せやな</button>
+            </div>
+            
+            <div class="feedback correct-feedback" id="correct-feedback-5">
+                Correct! <strong>「おおきに」</strong> is the Osaka way to say "Thank you".
+                <div class="explanation">This comes from the phrase "大きにありがとう" (ookini arigatou) which got shortened to just "おおきに".</div>
+            </div>
+            
+            <div class="feedback incorrect-feedback" id="incorrect-feedback-5">
+                Incorrect! The correct answer is <strong>「おおきに」</strong> - the Osaka way to say "Thank you".
+                <div class="explanation">You'll hear this in shops and restaurants throughout Osaka instead of "ありがとう".</div>
+            </div>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="question-section">
+            <div class="question-number">Question 6 of 6</div>
+            <div class="english-sentence">"I don't know for sure, but..." (Uncertainty)</div>
+            <img src="{{ url_for('static', filename='images/idk.png') }}" alt="Osaka dialect expression" class="dialect-image">
+            <div class="options">
+                <button class="option" onclick="checkAnswer(this, '1. せやな', 6)">1. せやな</button>
+                <button class="option" onclick="checkAnswer(this, '2. めっちゃ', 6)">2. めっちゃ</button>
+                <button class="option" onclick="checkAnswer(this, '3. 知らんけど', 6)">3. 知らんけど</button>
+                <button class="option" onclick="checkAnswer(this, '4. おおきに', 6)">4. おおきに</button>
+            </div>
+            
+            <div class="feedback correct-feedback" id="correct-feedback-6">
+                Correct! <strong>「知らんけど」</strong> means "I don't know for sure, but..." in Osaka dialect.
+                <div class="explanation">This is often used at the end of sentences when the speaker isn't completely certain about something.</div>
+            </div>
+            
+            <div class="feedback incorrect-feedback" id="incorrect-feedback-6">
+                Incorrect! The correct answer is <strong>「知らんけど」</strong> which means "I don't know for sure, but..." in Osaka dialect.
+                <div class="explanation">This phrase is commonly used when people want to express their opinion but acknowledge they might not have all the facts.</div>
+            </div>
+        </div>
+
+        <!-- Final Button with Translation -->
+        <div id="final-section" style="display: none;">
+            <button class="final-button" onclick="window.location.href='paid.html'">もっとおもろい日本語一緒に勉強せえへん？</button>
+            <div class="translation">(Want to study more fun Japanese together?)</div>
+        </div>
+    </div>
+
+    <script>
+        let answeredQuestions = 0;
+        const totalQuestions = 6;
+
+        function checkAnswer(btn, selectedOption, questionNum) {
+            const correctAnswers = [
+                "1. なんでやねん！",
+                "2. めっちゃ",
+                "1. 食べへん",
+                "2. せやな",
+                "1. おおきに",
+                "3. 知らんけど"
+            ];
+            
+            const isCorrect = (selectedOption === correctAnswers[questionNum - 1]);
+            
+            // Disable all options in this question
+            const questionSection = btn.closest('.question-section');
+            questionSection.querySelectorAll('.option').forEach(option => {
+                option.disabled = true;
+            });
+            
+            if (isCorrect) {
+                btn.classList.add("correct");
+                questionSection.querySelector(`#correct-feedback-${questionNum}`).style.display = 'block';
+                triggerConfetti(); 
+            } else {
+                btn.classList.add("incorrect");
+                // Highlight correct answer
+                questionSection.querySelectorAll('.option').forEach(option => {
+                    if (option.textContent.includes(correctAnswers[questionNum - 1])) {
+                        option.classList.add("correct");
+                    }
+                });
+                questionSection.querySelector(`#incorrect-feedback-${questionNum}`).style.display = 'block';
+            }
+            
+            answeredQuestions++;
+            if (answeredQuestions === totalQuestions) {
+                setTimeout(() => {
+                    document.getElementById('final-section').style.display = 'block';
+                    // Smooth scroll to the button
+                    document.getElementById('final-section').scrollIntoView({ behavior: 'smooth' });
+                }, 500);
+            }
+        }
+        function triggerConfetti() {
+    confetti({
+        particleCount: 100,
+        spread: 70,
+        origin: { y: 0.6 }
+    });
+}
+    </script>
+</body>
+</html>

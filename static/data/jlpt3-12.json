@@ -1,0 +1,45 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "会議は午後3時に（　　　）されます。",
+      "options": ["1. かいさい", "2. けいけん", "3. しゅっせき", "4. うんてん"],
+      "answer": "1. かいさい",
+      "hint": "<p><ruby>会議<rt>かいぎ</rt></ruby> (kaigi) – meeting<br><ruby>午後<rt>ごご</rt></ruby> (gogo) – afternoon<br><ruby>開催<rt>かいさい</rt></ruby> (kaisai) – to be held</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『かいさい（開催）』means “to be held” and is commonly used for meetings, events, or exhibitions.</p><ul><li>1. かいさい – to be held (開催, kaisai)</li><li>2. けいけん – experience (経験, keiken)</li><li>3. しゅっせき – attendance (出席, shusseki)</li><li>4. うんてん – driving (運転, unten)</li></ul><p><strong>English Translation:</strong> The meeting will be held at 3 PM.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 1. かいさい (開催, kaisai) – to be held<br>The other options are unrelated to organizing or scheduling a meeting.</p>"
+      }
+    },
+    {
+      "question": "こどもたちは　そのえほんに（　　　）をもちました。",
+      "options": ["1. きょうみ", "2. しっぱい", "3. せつめい", "4. もんく"],
+      "answer": "1. きょうみ",
+      "hint": "<p><ruby>絵本<rt>えほん</rt></ruby> (ehon) – picture book<br><ruby>興味<rt>きょうみ</rt></ruby> (kyoumi) – interest</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『きょうみ（興味）』means “interest.” It's natural to say children have interest in a picture book.</p><ul><li>1. きょうみ – interest (興味, kyoumi)</li><li>2. しっぱい – failure (失敗, shippai)</li><li>3. せつめい – explanation (説明, setsumei)</li><li>4. もんく – complaint (文句, monku)</li></ul><p><strong>English Translation:</strong> The children showed interest in the picture book.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 1. きょうみ (興味, kyoumi) – interest<br>The other options don't logically fit with how children respond to a picture book.</p>"
+      }
+    },
+    {
+      "question": "この問題は（　　　）考えれば、すぐにわかるよ。",
+      "options": ["1. おちついて", "2. いそいで", "3. あわてて", "4. ながれて"],
+      "answer": "1. おちついて",
+      "hint": "<p><ruby>落ち着いて<rt>おちついて</rt></ruby> (ochitsuite) – calmly<br><ruby>問題<rt>もんだい</rt></ruby> (mondai) – problem<br><ruby>考える<rt>かんがえる</rt></ruby> (kangaeru) – to think</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『おちついて（落ち着いて）』means “calmly.” It makes sense when solving a problem.</p><ul><li>1. おちついて – calmly (落ち着いて, ochitsuite)</li><li>2. いそいで – in a hurry (急いで, isoide)</li><li>3. あわてて – frantically (慌てて, awatete)</li><li>4. ながれて – flowing (流れて, nagarete)</li></ul><p><strong>English Translation:</strong> If you think calmly, you’ll understand the problem quickly.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 1. おちついて (落ち着いて, ochitsuite) – calmly<br>Solving a problem frantically or in a rush leads to mistakes, so 'calmly' is correct.</p>"
+      }
+    },
+    {
+      "question": "このコートは軽くて（　　　）です。",
+      "options": ["1. べんり", "2. けんこう", "3. ふつう", "4. へんぴ"],
+      "answer": "1. べんり",
+      "hint": "<p><ruby>便利<rt>べんり</rt></ruby> (benri) – convenient<br><ruby>軽い<rt>かるい</rt></ruby> (karui) – light<br>Often paired to describe practical items.</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『べんり（便利）』means “convenient.” Lightweight clothes are often described this way.</p><ul><li>1. べんり – convenient (便利, benri)</li><li>2. けんこう – healthy (健康, kenkou)</li><li>3. ふつう – normal (普通, futsuu)</li><li>4. へんぴ – remote (辺鄙, henpi)</li></ul><p><strong>English Translation:</strong> This coat is light and convenient.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 1. べんり (便利, benri) – convenient<br>Only 'benri' naturally pairs with 'lightweight' in this sentence.</p>"
+      }
+    }
+  ]
+}

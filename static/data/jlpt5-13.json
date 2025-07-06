@@ -1,0 +1,34 @@
+{
+    "type": "type2",
+    "title": "JLPT N5 Word Reordering Quiz",
+    "questions": [
+        {
+            "sentence": "___ ___ ___ ___ います。",
+            "options": [
+            { "word": "にほんに", "furigana": "", "romaji": "nihon", "meaning": "In Japan" },
+              { "word": "彼", "furigana": "かれ", "romaji": "kare", "meaning": "with him" },
+              { "word": "と", "furigana": "", "romaji": "to", "meaning": "with" },
+              { "word": "わたしは", "furigana": "", "romaji": "watashiwa", "meaning": "I am" }
+            ],
+            "answer": ["わたしは", "彼", "と", "にほんに"],
+            "full": "わたし は 彼 と にほん に います。",
+            "translation": "I am in Japan with him.",
+            "fixedPart": "います。",
+            "possiblePositions": [5]
+          },
+          {
+            "sentence": "___ ___ ___ ___ のみます。",
+            "options": [
+            { "word": "で", "furigana": "", "romaji": "de", "meaning": "at" },
+              { "word": "カフェ", "furigana": "", "romaji": "kafe", "meaning": "cafe" },
+              { "word": "コーヒー", "furigana": "", "romaji": "koohii", "meaning": "coffee" },
+              { "word": "を", "furigana": "", "romaji": "wo", "meaning": "object marker" }
+            ],
+            "answer": ["カフェ", "で", "コーヒー", "を"],
+            "full": "カフェ で コーヒー を のみます。",
+            "translation": "I drink coffee at a cafe.",
+            "fixedPart": "のみます。",
+            "possiblePositions": [5]
+          }
+    ]
+}

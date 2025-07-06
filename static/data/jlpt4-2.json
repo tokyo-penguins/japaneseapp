@@ -1,0 +1,46 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "毎朝、駅（＿）自転車で行きます。",
+        "options": ["2. まで", "1. では", "3. ので", "4. しか"],
+        "answer": "2. まで",
+        "hint": "<p><strong>Place + まで</strong> - \"as far as/to\" (movement destination)<br>毎朝(まいあさ)、駅(えき)、自転車(じてんしゃ)</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「駅まで」 means \"to the station.\"</p><ul><li>では - at/in</li><li>ので - because</li><li>しか - only (needs negative verb)</li></ul>",
+          "incorrect": "<p><strong>Incorrect</strong><br>The correct answer is <strong>まで</strong> (to the station).</p>"
+        }
+      },
+      {
+        "question": "この薬は食後（＿）飲んでください。",
+        "options": ["1. に", "2. で", "3. を", "4. が"],
+        "answer": "1. に",
+        "hint": "<p><strong>Time/Event + に</strong> - specific timing<br>薬(くすり)、食後(しょくご)</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「食後に」 indicates \"after meals.\"</p><ul><li>で - place or method</li><li>を - object marker</li><li>が - subject marker</li></ul>",
+          "incorrect": "<p><strong>Incorrect</strong><br>The correct answer is <strong>に</strong>, which shows the timing of the action.</p>"
+        }
+      },
+      {
+        "question": "図書館の本を全部（＿）返しました。",
+        "options": ["1. 買って", "2. 借りて", "3. 売って", "4. 探して"],
+        "answer": "2. 借りて",
+        "hint": "<p><strong>～て form</strong> - shows sequence of actions<br>図書館(としょかん)、全部(ぜんぶ)、返す(かえす)</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「借りて返しました」 means \"borrowed and returned.\"</p><ul><li>買って - bought</li><li>売って - sold</li><li>探して - searched</li></ul>",
+          "incorrect": "<p><strong>Incorrect</strong><br>The correct answer is <strong>借りて</strong>, which logically precedes \"returned\" when referring to library books.</p>"
+        }
+      },
+      {
+        "question": "先生の質問に（＿）答えられませんでした。",
+        "options": ["1. 正しく", "2. 遅く", "3. 楽しく", "4. 美しく"],
+        "answer": "1. 正しく",
+        "hint": "<p><strong>Adverb + verb</strong> - shows how an action is performed<br>質問(しつもん)、答える(こたえる)</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「正しく答えられませんでした」 means \"couldn't answer correctly.\"</p><ul><li>遅く - slowly</li><li>楽しく - enjoyably</li><li>美しく - beautifully</li></ul>",
+          "incorrect": "<p><strong>Incorrect</strong><br>The correct answer is <strong>正しく</strong>, the only one that fits the context of answering a question.</p>"
+        }
+      }
+    ]
+  }
+  

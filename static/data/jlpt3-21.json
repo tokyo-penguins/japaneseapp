@@ -1,0 +1,65 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "部長から新しい（＿）を任されました。",
+      "options": ["3. 任務", "1. 買物", "4. 料理", "2. 対立"],
+      "answer": "3. 任務",
+      "hint": "<p><ruby>任務<rt>にんむ</rt></ruby> (task, duty)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>任務<rt>にんむ</rt></ruby> means a duty or responsibility assigned as work. It is commonly used in business or formal contexts to describe tasks given by superiors.</p><p>Option meanings:<br><strong>1. 買物</strong> (<ruby>かいもの</rt>): shopping<br><strong>2. 対立</strong> (<ruby>たいりつ</rt>): conflict<br><strong>3. 任務</strong> (<ruby>にんむ</rt>): task, duty ✅<br><strong>4. 料理</strong> (<ruby>りょうり</rt>): cooking</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>3. 任務</strong> (<ruby>にんむ</rt>), which means an assigned task or duty, typically from a superior such as a 部長 (<ruby>ぶちょう</rt>, manager). Other options like 'shopping' or 'cooking' don't make sense in this context.</p><p>Option meanings:<br><strong>1. 買物</strong> (<ruby>かいもの</rt>): shopping<br><strong>2. 対立</strong> (<ruby>たいりつ</rt>): conflict<br><strong>3. 任務</strong> (<ruby>にんむ</rt>): task, duty ✅<br><strong>4. 料理</strong> (<ruby>りょうり</rt>): cooking</p>"
+      }
+    },
+    {
+      "question": "この会社では経験より（＿）が重視される。",
+      "options": ["1. 年齢", "2. 能力", "3. 食欲", "4. 家族"],
+      "answer": "2. 能力",
+      "hint": "<p><ruby>能力<rt>のうりょく</rt></ruby> (nouryoku) – ability, skill<br><ruby>経験<rt>けいけん</rt></ruby> (keiken) – experience<br><ruby>重視<rt>じゅうし</rt></ruby> (juushi) – importance</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> 『能力が重視される』 means 'ability is valued more than experience' in this company.</p><ul><li>1. <ruby>年齢<rt>ねんれい</rt></ruby> (nenrei) – age</li><li>2. <ruby>能力<rt>のうりょく</rt></ruby> (nouryoku) – ✅ ability, skill</li><li>3. <ruby>食欲<rt>しょくよく</rt></ruby> (shokuyoku) – appetite</li><li>4. <ruby>家族<rt>かぞく</rt></ruby> (kazoku) – family</li></ul><p><strong>English Translation:</strong> In this company, ability is valued more than experience.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>2. 能力 (nouryoku)</strong> – ability.<br>Only 'ability' fits the meaning of something being prioritized over experience. Other options like age, appetite, and family do not logically match the sentence context.</p>"
+      }
+    },
+{
+      "question": "プロジェクトの（　　　）を出す会議が開かれた。",
+      "options": ["1. 提案", "2. 退職", "3. 散歩", "4. 応援"],
+      "answer": "1. 提案",
+      "hint": "<p><ruby>提案<rt>ていあん</rt></ruby> (teian) – proposal<br><ruby>会議<rt>かいぎ</rt></ruby> (kaigi) – meeting</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> 『提案』 means 'proposal' and fits with the context of a meeting to submit ideas.</p><ul><li>1. 提案 – ✅ proposal</li><li>2. 退職 – resignation</li><li>3. 散歩 – walk</li><li>4. 応援 – support, cheering</li></ul><p><strong>English Translation:</strong> A meeting was held to present project proposals.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 1. 提案 (teian)<br>'Proposal' fits best in the context of what is submitted in a project meeting.</p>"
+      }
+    },
+    {
+      "question": "上司に仕事の（　　　）を報告した。",
+      "options": ["1. 成績", "2. 理想", "3. 気温", "4. 進捗"],
+      "answer": "4. 進捗",
+      "hint": "<p><ruby>進捗<rt>しんちょく</rt></ruby> (shinchoku) – progress<br><ruby>報告<rt>ほうこく</rt></ruby> (hōkoku) – report</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> 『進捗』 means 'progress' and is the most appropriate for reporting to a boss.</p><ul><li>1. 成績 – grades, results</li><li>2. 理想 – ideal</li><li>3. 気温 – temperature</li><li>4. 進捗 – ✅ progress</li></ul><p><strong>English Translation:</strong> I reported the progress of the work to my boss.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 4. 進捗 (shinchoku)<br>In a work setting, 'progress' is the most relevant report to give.</p>"
+      }
+    },
+    {
+      "question": "新しい社員の（　　　）を担当しています。",
+      "options": ["1. 購入", "2. 教育", "3. 睡眠", "4. 給料"],
+      "answer": "2. 教育",
+      "hint": "<p><ruby>教育<rt>きょういく</rt></ruby> (kyōiku) – education, training<br><ruby>担当<rt>たんとう</rt></ruby> (tantō) – in charge</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> 『教育』 means 'training' or 'education' and is typically handled for new employees.</p><ul><li>1. 購入 – purchase</li><li>2. 教育 – ✅ training, education</li><li>3. 睡眠 – sleep</li><li>4. 給料 – salary</li></ul><p><strong>English Translation:</strong> I am in charge of training the new employee.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 2. 教育 (kyōiku)<br>'Training' is necessary for new employees and thus the correct answer.</p>"
+      }
+    },
+    {
+      "question": "取引先との（　　　）はとても大切です。",
+      "options": ["1. 騒音", "2. 汚染", "3. 信頼関係", "4. 家事"],
+      "answer": "3. 信頼関係",
+      "hint": "<p><ruby>信頼関係<rt>しんらいかんけい</rt></ruby> (shinraikankei) – trust relationship<br><ruby>取引先<rt>とりひきさき</rt></ruby> (torihikisaki) – business partner</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> 『信頼関係』 means 'relationship of trust' which is crucial in business dealings.</p><ul><li>1. 騒音 – noise</li><li>2. 汚染 – pollution</li><li>3. 信頼関係 – ✅ trust relationship</li><li>4. 家事 – housework</li></ul><p><strong>English Translation:</strong> A trust-based relationship with business partners is very important.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 3. 信頼関係 (shinraikankei)<br>In business, trust is key – '信頼関係' is the only answer that makes sense here.</p>"
+      }
+    }
+  ]
+}

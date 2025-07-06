@@ -1,0 +1,65 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "契約書の内容を（  ）上で、署名をお願いします。",
+        "options": [
+          "1. 熟読した",
+          "2. 押し付けた",
+          "3. 書き換えた",
+          "4. 着目した"
+        ],
+        "answer": "1. 熟読した",
+        "hint": "<p>契約書（けいやくしょ, keiyakusho）- contract<br>内容（ないよう, naiyou）- contents<br>署名（しょめい, shomei）- signature</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! :</strong> 熟読した（じゅくどくした, jukudoku shita）- after carefully reading</p><ul><li>押し付けた（おしつけた, oshitsuketa）- forced upon</li><li>書き換えた（かきかえた, kakikaeta）- rewrote</li><li>着目した（ちゃくもくした, chakumoku shita）- focused on</li></ul><p><strong>English Translation:</strong> After carefully reading the contract, please sign.</p>",
+          "incorrect": "<p><strong>Answer:</strong> 熟読した（じゅくどくした, jukudoku shita）- after carefully reading</p><ul><li>押し付けた（おしつけた, oshitsuketa）- forced upon</li><li>書き換えた（かきかえた, kakikaeta）- rewrote</li><li>着目した（ちゃくもくした, chakumoku shita）- focused on</li></ul><p><strong>English Translation:</strong> After carefully reading the contract, please sign.</p>"
+        }
+      },
+      {
+        "question": "こちらのミスでご迷惑を（  ）ことを深くお詫び申し上げます。",
+        "options": [
+          "1. おかけした",
+          "2. おしきった",
+          "3. おさえた",
+          "4. おしきせた"
+        ],
+        "answer": "1. おかけした",
+        "hint": "<p>迷惑（めいわく, meiwaku）- trouble<br>詫び（わび, wabi）- apology</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! :</strong> おかけした（おかけした, okake shita）- caused (trouble)</p><ul><li>おしきった（おしきった, oshikitta）- pushed through</li><li>おさえた（おさえた, osaeta）- restrained</li><li>おしきせた（おしきせた, oshikiseta）- forced upon</li></ul><p><strong>English Translation:</strong> We deeply apologize for the inconvenience we have caused.</p>",
+          "incorrect": "<p><strong>Answer:</strong> おかけした（おかけした, okake shita）- caused (trouble)</p><ul><li>おしきった（おしきった, oshikitta）- pushed through</li><li>おさえた（おさえた, osaeta）- restrained</li><li>おしきせた（おしきせた, oshikiseta）- forced upon</li></ul><p><strong>English Translation:</strong> We deeply apologize for the inconvenience we have caused.</p>"
+        }
+      },
+      {
+        "question": "本件については、関係部署との（  ）の上、決定いたします。",
+        "options": [
+          "1. 協議",
+          "2. 営業",
+          "3. 裁量",
+          "4. 担当"
+        ],
+        "answer": "1. 協議",
+        "hint": "<p>関係部署（かんけいぶしょ, kankeibusho）- relevant departments<br>決定（けってい, kettei）- decision</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! :</strong> 協議（きょうぎ, kyougi）- consultation; discussion</p><ul><li>営業（えいぎょう, eigyou）- sales</li><li>裁量（さいりょう, sairyou）- discretion</li><li>担当（たんとう, tantou）- person in charge</li></ul><p><strong>English Translation:</strong> Regarding this matter, we will make a decision after consulting with the relevant departments.</p>",
+          "incorrect": "<p><strong>Answer:</strong> 協議（きょうぎ, kyougi）- consultation; discussion</p><ul><li>営業（えいぎょう, eigyou）- sales</li><li>裁量（さいりょう, sairyou）- discretion</li><li>担当（たんとう, tantou）- person in charge</li></ul><p><strong>English Translation:</strong> Regarding this matter, we will make a decision after consulting with the relevant departments.</p>"
+        }
+      },
+      {
+        "question": "商品の不良に関しまして、全額返金にて（  ）させていただきます。",
+        "options": [
+          "1. 対応",
+          "2. 反映",
+          "3. 訴訟",
+          "4. 加担"
+        ],
+        "answer": "1. 対応",
+        "hint": "<p>不良（ふりょう, furyou）- defect<br>返金（へんきん, henkin）- refund</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! :</strong> 対応（たいおう, taiou）- response; handling</p><ul><li>反映（はんえい, hanei）- reflection</li><li>訴訟（そしょう, soshou）- lawsuit</li><li>加担（かたん, katan）- assistance (usually in wrongdoing)</li></ul><p><strong>English Translation:</strong> Regarding the defective product, we will handle it with a full refund.</p>",
+          "incorrect": "<p><strong>Answer:</strong> 対応（たいおう, taiou）- response; handling</p><ul><li>反映（はんえい, hanei）- reflection</li><li>訴訟（そしょう, soshou）- lawsuit</li><li>加担（かたん, katan）- assistance (usually in wrongdoing)</li></ul><p><strong>English Translation:</strong> Regarding the defective product, we will handle it with a full refund.</p>"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,81 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "会議の開始時間は状況に（  ）変更される場合があります。",
+        "options": [
+          "4. つれて",
+          "2. たって",
+          "3. ふまえて",
+          "1. そなえて"
+        ],
+        "answer": "4. つれて",
+        "hint": "<p>開始時間（かいしじかん, kaishi jikan）- start time<br>状況（じょうきょう, joukyou）- situation</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! :</strong> つれて（つれて, tsurete）- as; in proportion to</p><ul><li>たって（たって, tatte）- even if (rare usage here)</li><li>ふまえて（ふまえて, fumaete）- based on</li><li>そなえて（そなえて, sonaete）- in preparation for</li></ul><p><strong>English Translation:</strong> The meeting start time may change according to the situation.</p>",
+          "incorrect": "<p><strong>Answer:</strong> つれて（つれて, tsurete）- as; in proportion to</p><ul><li>たって（たって, tatte）- even if (rare usage here)</li><li>ふまえて（ふまえて, fumaete）- based on</li><li>そなえて（そなえて, sonaete）- in preparation for</li></ul><p><strong>English Translation:</strong> The meeting start time may change according to the situation.</p>"
+        }
+      },
+      {
+        "question": "上司からの指示に（  ）対応することが求められる。",
+        "options": [
+          "2. 即して",
+          "1. 添えて",
+          "3. 凝らして",
+          "4. 押して"
+        ],
+        "answer": "2. 即して",
+        "hint": "<p>指示（しじ, shiji）- instruction<br>対応（たいおう, taiou）- response</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! :</strong> 即して（そくして, sokushite）- in accordance with</p><ul><li>添えて（そえて, soete）- to add</li><li>凝らして（こらして, korashite）- to elaborate</li><li>押して（おして, oshite）- to push</li></ul><p><strong>English Translation:</strong> It is required to respond in accordance with the instructions from your boss.</p>",
+          "incorrect": "<p><strong>Answer:</strong> 即して（そくして, sokushite）- in accordance with</p><ul><li>添えて（そえて, soete）- to add</li><li>凝らして（こらして, korashite）- to elaborate</li><li>押して（おして, oshite）- to push</li></ul><p><strong>English Translation:</strong> It is required to respond in accordance with the instructions from your boss.</p>"
+        }
+      },
+      {
+        "question": "コンビニの商品は期限が近いものから（  ）されます。",
+        "options": [
+          "1. 優先的に",
+          "2. 主観的に",
+          "3. 断然",
+          "4. 潜在的に"
+        ],
+        "answer": "1. 優先的に",
+        "hint": "<p>期限（きげん, kigen）- expiration date<br>優先的（ゆうせんてき, yuusenteki）- preferentially</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! :</strong> 優先的に（ゆうせんてきに, yuusenteki ni）- preferentially</p><ul><li>主観的に（しゅかんてきに, shukanteki ni）- subjectively</li><li>断然（だんぜん, danzen）- by far (not fitting here)</li><li>潜在的に（せんざいてきに, senzai teki ni）- potentially</li></ul><p><strong>English Translation:</strong> Items nearing expiration at convenience stores are prioritized for sale.</p>",
+          "incorrect": "<p><strong>Answer:</strong> 優先的に（ゆうせんてきに, yuusenteki ni）- preferentially</p><ul><li>主観的に（しゅかんてきに, shukanteki ni）- subjectively</li><li>断然（だんぜん, danzen）- by far (not fitting here)</li><li>潜在的に（せんざいてきに, senzai teki ni）- potentially</li></ul><p><strong>English Translation:</strong> Items nearing expiration at convenience stores are prioritized for sale.</p>"
+        }
+      },
+      {
+        "question": "資料に不備がある場合は、担当者に（  ）ください。",
+        "options": [
+          "1. 問い合わせて",
+          "2. 押し寄せて",
+          "3. 見放して",
+          "4. 追い越して"
+        ],
+        "answer": "1. 問い合わせて",
+        "hint": "<p>資料（しりょう, shiryou）- documents<br>担当者（たんとうしゃ, tantousha）- person in charge</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! :</strong> 問い合わせて（といあわせて, toiawasete）- inquire</p><ul><li>押し寄せて（おしよせて, oshiyosete）- to surge</li><li>見放して（みはなして, mihanashite）- to abandon</li><li>追い越して（おいこして, oikoshite）- to overtake</li></ul><p><strong>English Translation:</strong> If there are deficiencies in the documents, please inquire with the person in charge.</p>",
+          "incorrect": "<p><strong>Answer:</strong> 問い合わせて（といあわせて, toiawasete）- inquire</p><ul><li>押し寄せて（おしよせて, oshiyosete）- to surge</li><li>見放して（みはなして, mihanashite）- to abandon</li><li>追い越して（おいこして, oikoshite）- to overtake</li></ul><p><strong>English Translation:</strong> If there are deficiencies in the documents, please inquire with the person in charge.</p>"
+        }
+      },
+      {
+        "question": "お客様の声を（  ）サービス改善につなげます。",
+        "options": [
+          "3. 活かして",
+          "2. 抱えて",
+          "1. 閉ざして",
+          "4. 交えて"
+        ],
+        "answer": "3. 活かして",
+        "hint": "<p>サービス改善（サービスかいぜん, saabisu kaizen）- service improvement</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! :</strong> 活かして（いかして, ikashite）- to utilize</p><ul><li>抱えて（かかえて, kakaete）- to hold; to carry</li><li>閉ざして（とざして, tozashite）- to close off</li><li>交えて（まじえて, majiete）- to mix</li></ul><p><strong>English Translation:</strong> We will utilize customer feedback to improve our service.</p>",
+          "incorrect": "<p><strong>Answer:</strong> 活かして（いかして, ikashite）- to utilize</p><ul><li>抱えて（かかえて, kakaete）- to hold; to carry</li><li>閉ざして（とざして, tozashite）- to close off</li><li>交えて（まじえて, majiete）- to mix</li></ul><p><strong>English Translation:</strong> We will utilize customer feedback to improve our service.</p>"
+        }
+      }
+    ]
+  }
+  

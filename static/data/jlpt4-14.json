@@ -1,0 +1,45 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "A: この（＿）、とても重いですね。\nB: 中にパソコンが3台も入ってますから。",
+      "options": ["1. かばん", "2. いす", "3. 電話", "4. 本"],
+      "answer": "1. かばん",
+      "hint": "<p>鞄（かばん, bag）<br>重い（おもい, heavy）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「かばん（bag）」はパソコンなどの物を入れて持ち運ぶものです。</p><ul><li>かばん – bag (かばん, kaban)</li><li>いす – chair (いす, isu)</li><li>電話 – telephone (でんわ, denwa)</li><li>本 – book (ほん, hon)</li></ul><p><strong>Sentence meaning:</strong> A: This bag is really heavy. B: That’s because it has three laptops inside.</p>",
+        "incorrect": "<p><strong>Answer:</strong> かばん（かばん, kaban） - bag<br><ul><li>かばん – bag</li><li>いす – chair</li><li>電話 – telephone</li><li>本 – book</li></ul><p><strong>Sentence meaning:</strong> A: This bag is really heavy. B: That’s because it has three laptops inside.</p>"
+      }
+    },
+    {
+      "question": "A: この（＿）、おいしいですね。\nB: ありがとう。イチゴから作りました。",
+      "options": ["1. ジャム", "2. パン", "3. サラダ", "4. おかゆ"],
+      "answer": "1. ジャム",
+      "hint": "<p>甘い（あまい, sweet）、イチゴ（いちご, strawberry）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「ジャム（jam）」はイチゴなどの果物から作る甘い食品です。</p><ul><li>ジャム – jam (じゃむ, jamu)</li><li>パン – bread (ぱん, pan)</li><li>サラダ – salad (さらだ, sarada)</li><li>おかゆ – rice porridge (おかゆ, okayu)</li></ul><p><strong>Sentence meaning:</strong> A: This jam is delicious. B: Thanks! I made it from strawberries.</p>",
+        "incorrect": "<p><strong>Answer:</strong> ジャム（じゃむ, jamu） - jam<br><ul><li>ジャム – jam</li><li>パン – bread</li><li>サラダ – salad</li><li>おかゆ – rice porridge</li></ul><p><strong>Sentence meaning:</strong> A: This jam is delicious. B: Thanks! I made it from strawberries.</p>"
+      }
+    },
+    {
+      "question": "A: 毎朝、（＿）を読みますか？\nB: いいえ、テレビでニュースを見ます。",
+      "options": ["1. 新聞", "2. 雑誌", "3. 漫画", "4. 手紙"],
+      "answer": "1. 新聞",
+      "hint": "<p>新聞（しんぶん, newspaper）、読む（よむ, read）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「新聞（しんぶん）」はニュースを読む媒体です。</p><ul><li>新聞 – newspaper (しんぶん, shinbun)</li><li>雑誌 – magazine (ざっし, zasshi)</li><li>漫画 – comic book (まんが, manga)</li><li>手紙 – letter (てがみ, tegami)</li></ul><p><strong>Sentence meaning:</strong> A: Do you read the newspaper every morning? B: No, I watch the news on TV.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 新聞（しんぶん, shinbun） - newspaper<br><ul><li>新聞 – newspaper</li><li>雑誌 – magazine</li><li>漫画 – comic book</li><li>手紙 – letter</li></ul><p><strong>Sentence meaning:</strong> A: Do you read the newspaper every morning? B: No, I watch the news on TV.</p>"
+      }
+    },
+    {
+      "question": "A: 週末、（＿）に行って写真をとりたいんです。\nB: ああ、「明治神宮」がおすすめですよ。",
+      "options": ["1. 神社", "2. デパート", "3. 公園", "4. プール"],
+      "answer": "1. 神社",
+      "hint": "<p>神社（じんじゃ, shrine）、写真（しゃしん, photo）、週末（しゅうまつ, weekend）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「神社（じんじゃ）」は「明治神宮」のような伝統的・宗教的な場所です。</p><ul><li>神社 – shrine (じんじゃ, jinja)</li><li>デパート – department store (でぱーと, depāto)</li><li>公園 – park (こうえん, kōen)</li><li>プール – pool (ぷーる, pūru)</li></ul><p><strong>Sentence meaning:</strong> A: I want to go to a shrine this weekend and take pictures. B: I recommend Meiji Jingu!</p>",
+        "incorrect": "<p><strong>Answer:</strong> 神社（じんじゃ, jinja） - shrine<br><ul><li>神社 – shrine</li><li>デパート – department store</li><li>公園 – park</li><li>プール – pool</li></ul><p><strong>Sentence meaning:</strong> A: I want to go to a shrine this weekend and take pictures. B: I recommend Meiji Jingu!</p>"
+      }
+    }
+  ]
+}

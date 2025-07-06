@@ -1,0 +1,45 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "山本さんが社長の車で（＿）のが目撃され、特別待遇だと話題に…",
+      "options": ["1. 帰ってきた", "2. 洗車した", "3. 修理した", "4. 売った"],
+      "answer": "1. 帰ってきた",
+      "hint": "<p><ruby>目撃<rt>もくげき</rt></ruby>され (mokugeki sare) - to be seen<br><ruby>特別待遇<rt>とくべつたいぐう</rt></ruby> (tokubetsu taiguu) - special treatment</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『帰ってきた (かえってきた, kaette kita)』 means 'returned.' Being seen returning in the president's car implies special treatment.</p><ul><li>1. 帰ってきた – returned (かえってきた, kaette kita)</li><li>2. 洗車した – washed the car (せんしゃした, sensha shita)</li><li>3. 修理した – repaired (しゅうりした, shuuri shita)</li><li>4. 売った – sold (うった, utta)</li></ul><p><strong>English Sentence:</strong> Yamamoto was seen returning in the president’s car, raising talk of favoritism.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 帰ってきた (かえってきた, kaette kita) - returned<br><ul><li>1. 帰ってきた – implies favor or trust</li><li>2. 洗車した – no reason to suspect favoritism</li><li>3. 修理した – doesn't match 'rumor' context</li><li>4. 売った – illogical unless he owns the car</li></ul><p><strong>English Sentence:</strong> Yamamoto was seen returning in the president’s car, raising talk of favoritism.</p>"
+      }
+    },
+    {
+      "question": "社内で（＿）カップルがいるらしいと、みんながこっそり話しています。",
+      "options": ["1. 秘密の", "2. 有名な", "3. 理想的な", "4. 国際的な"],
+      "answer": "1. 秘密の",
+      "hint": "<p><ruby>秘密<rt>ひみつ</rt></ruby> (himitsu) - secret<br><ruby>社内<rt>しゃない</rt></ruby> (shanai) - in the company</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『秘密の (ひみつの, himitsu no)』 means 'secret.' The sentence implies the relationship is not public.</p><ul><li>1. 秘密の – secret (ひみつの, himitsu no)</li><li>2. 有名な – famous (ゆうめいな, yuumei na)</li><li>3. 理想的な – ideal (りそうてきな, risouteki na)</li><li>4. 国際的な – international (こくさいてきな, kokusaiteki na)</li></ul><p><strong>English Sentence:</strong> People are secretly talking about a secret couple in the company.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 秘密の (ひみつの, himitsu no) - secret<br><ul><li>1. 秘密の – fits the context of 'whispers' and secrecy</li><li>2. 有名な – contradicts the 'secretly talking'</li><li>3. 理想的な – irrelevant to secrecy</li><li>4. 国際的な – doesn’t imply secrecy</li></ul><p><strong>English Sentence:</strong> People are secretly talking about a secret couple in the company.</p>"
+      }
+    },
+    {
+      "question": "飛行機に乗る前に、必ず（＿）を受け取ってください。",
+      "options": ["1. 搭乗券", "2. 切手", "3. レシート", "4. 名刺"],
+      "answer": "1. 搭乗券",
+      "hint": "<p><ruby>搭乗券<rt>とうじょうけん</rt></ruby> (toujouken) - boarding pass<br><ruby>受け取る<rt>うけとる</rt></ruby> (uketoru) - to receive</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『搭乗券 (とうじょうけん, toujouken)』 means 'boarding pass.' Required before flying.</p><ul><li>1. 搭乗券 – boarding pass (とうじょうけん, toujouken)</li><li>2. 切手 – stamp (きって, kitte)</li><li>3. レシート – receipt (reshiito)</li><li>4. 名刺 – business card (めいし, meishi)</li></ul><p><strong>English Sentence:</strong> Be sure to receive your boarding pass before boarding the plane.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 搭乗券 (とうじょうけん, toujouken) - boarding pass<br><ul><li>1. 搭乗券 – correct document for flight boarding</li><li>2. 切手 – not needed for flights</li><li>3. レシート – unrelated to air travel</li><li>4. 名刺 – business-related, irrelevant here</li></ul><p><strong>English Sentence:</strong> Be sure to receive your boarding pass before boarding the plane.</p>"
+      }
+    },
+    {
+      "question": "空港でスーツケースが（＿）ので、係員に相談しました。",
+      "options": ["1. 軽かった", "2. 壊れた", "3. 安かった", "4. 小さかった"],
+      "answer": "2. 壊れた",
+      "hint": "<p><ruby>壊れる<rt>こわれる</rt></ruby> (kowareru) - to break<br><ruby>係員<rt>かかりいん</rt></ruby> (kakariin) - staff member</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『壊れた (こわれた, kowareta)』 means 'got broken' or 'damaged.' It justifies talking to airport staff.</p><ul><li>1. 軽かった – was light (かるかった, karukatta)</li><li>2. 壊れた – was broken (こわれた, kowareta)</li><li>3. 安かった – was cheap (やすかった, yasukatta)</li><li>4. 小さかった – was small (ちいさかった, chiisakatta)</li></ul><p><strong>English Sentence:</strong> My suitcase was broken at the airport, so I asked the staff for help.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 壊れた (こわれた, kowareta) - broken<br><ul><li>1. 軽かった – weight isn’t a problem</li><li>2. 壊れた – damage requires staff assistance</li><li>3. 安かった – price isn’t a problem</li><li>4. 小さかった – may be inconvenient but not a reason to consult staff</li></ul><p><strong>English Sentence:</strong> My suitcase was broken at the airport, so I asked the staff for help.</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "駅までバスで行って、それから電車に（＿）ください。",
+        "options": ["1. 乗って", "2. 降りて", "3. 運んで", "4. 飛んで"],
+        "answer": "1. 乗って",
+        "hint": "<p><strong>～てください</strong> - polite request<br>駅(えき)、電車(でんしゃ)</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「乗ってください」 means \"please get on.\"<ul><li>降りて - get off</li><li>運んで - carry</li><li>飛んで - fly</li></ul></p><p>English: Please go to the station by bus, then get on the train.</p>",
+          "incorrect": "<p><strong>Incorrect</strong><br>The correct answer is <strong>乗って</strong>.<br>「電車に乗る」 is the correct expression for taking a train.</p>"
+        }
+      },
+      {
+        "question": "この料理は熱いので、（＿）食べてください。",
+        "options": ["1. ゆっくり", "2. すぐに", "3. 一緒に", "4. たくさん"],
+        "answer": "1. ゆっくり",
+        "hint": "<p><strong>Adverb + verb</strong> - manner of action<br>料理(りょうり)、熱い、食べる</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「ゆっくり食べてください」 means \"please eat slowly.\"<ul><li>すぐに - immediately</li><li>一緒に - together</li><li>たくさん - a lot</li></ul></p>",
+          "incorrect": "<p><strong>Incorrect</strong><br>The correct answer is <strong>ゆっくり</strong>, which makes sense when food is hot.</p>"
+        }
+      },
+      {
+        "question": "宿題が（＿）前に、テレビを見ないでください。",
+        "options": ["1. 終わる", "2. 始まる", "3. 忘れる", "4. 探す"],
+        "answer": "1. 終わる",
+        "hint": "<p><strong>Verb (dictionary form) + 前に</strong> - before doing...<br>宿題(しゅくだい)、見る</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「終わる前に」 means \"before finishing.\"<ul><li>始まる - begin</li><li>忘れる - forget</li><li>探す - search</li></ul></p><p>English: Don’t watch TV before finishing your homework.</p>",
+          "incorrect": "<p><strong>Incorrect</strong><br>The correct answer is <strong>終わる</strong>. It fits logically with doing something before the task is done.</p>"
+        }
+      }
+    ]
+  }
+  

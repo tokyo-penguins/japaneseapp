@@ -1,0 +1,45 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "会議の（＿）を全員にメールで送りました。",
+      "options": ["1. 議題", "2. 料理", "3. 荷物", "4. 音楽"],
+      "answer": "1. 議題",
+      "hint": "<p>会議(かいぎ, meeting)、全員(ぜんいん, everyone)、議題(ぎだい, agenda)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>議題（ぎだい, gidai）</strong> means 'agenda'.</p><ul><li>議題 – agenda (ぎだい, gidai)</li><li>料理 – food/cuisine (りょうり, ryouri)</li><li>荷物 – luggage (にもつ, nimotsu)</li><li>音楽 – music (おんがく, ongaku)</li></ul><p><strong>Sentence meaning:</strong> I sent the meeting agenda to everyone by email.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 議題（ぎだい, gidai） - agenda<br><ul><li>議題 – agenda</li><li>料理 – food/cuisine</li><li>荷物 – luggage</li><li>音楽 – music</li></ul><p><strong>Sentence meaning:</strong> I sent the meeting agenda to everyone by email.</p>"
+      }
+    },
+    {
+      "question": "この書類は（＿）までに提出しなければなりません。",
+      "options": ["3. 締切", "2. 開始", "1. 誕生日", "4. 休暇"],
+      "answer": "3. 締切",
+      "hint": "<p>提出(ていしゅつ, submission)、締切(しめきり, deadline)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>締切（しめきり, shimekiri）</strong> means 'deadline'.</p><ul><li>締切 – deadline (しめきり, shimekiri)</li><li>開始 – start (かいし, kaishi)</li><li>誕生日 – birthday (たんじょうび, tanjoubi)</li><li>休暇 – vacation/holiday (きゅうか, kyuuka)</li></ul><p><strong>Sentence meaning:</strong> This document must be submitted by the deadline.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 締切（しめきり, shimekiri） - deadline<br><ul><li>締切 – deadline</li><li>開始 – start</li><li>誕生日 – birthday</li><li>休暇 – vacation</li></ul><p><strong>Sentence meaning:</strong> This document must be submitted by the deadline.</p>"
+      }
+    },
+    {
+      "question": "システムが（＿）しまったので、再起動が必要です。",
+      "options": ["4. フリーズ", "2. 完成", "3. 開通", "1. 増加"],
+      "answer": "4. フリーズ",
+      "hint": "<p>再起動(さいきどう, restart)、～てしまう (unintended result)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>フリーズ（ふりーず, furiizu）</strong> means 'froze' (system stopped working).</p><ul><li>フリーズ – freeze (ふりーず, furiizu)</li><li>完成 – completion (かんせい, kansei)</li><li>開通 – opening/activation (かいつう, kaitsuu)</li><li>増加 – increase (ぞうか, zouka)</li></ul><p><strong>Sentence meaning:</strong> The system froze, so a restart is needed.</p>",
+        "incorrect": "<p><strong>Answer:</strong> フリーズ（ふりーず, furiizu） - freeze<br><ul><li>フリーズ – freeze</li><li>完成 – completion</li><li>開通 – opening</li><li>増加 – increase</li></ul><p><strong>Sentence meaning:</strong> The system froze, so a restart is needed.</p>"
+      }
+    },
+    {
+      "question": "新しいプロジェクトの（＿）が決まりました。",
+      "options": ["2. リーダー", "1. 天気", "3. 色", "4. 味"],
+      "answer": "2. リーダー",
+      "hint": "<p>決まる(きまる, to be decided)、プロジェクト</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>リーダー（りーだー, riidaa）</strong> means 'leader'.</p><ul><li>リーダー – leader (りーだー, riidaa)</li><li>天気 – weather (てんき, tenki)</li><li>色 – color (いろ, iro)</li><li>味 – taste/flavor (あじ, aji)</li></ul><p><strong>Sentence meaning:</strong> The leader of the new project has been decided.</p>",
+        "incorrect": "<p><strong>Answer:</strong> リーダー（りーだー, riidaa） - leader<br><ul><li>リーダー – leader</li><li>天気 – weather</li><li>色 – color</li><li>味 – taste</li></ul><p><strong>Sentence meaning:</strong> The leader of the new project has been decided.</p>"
+      }
+    }
+  ]
+}

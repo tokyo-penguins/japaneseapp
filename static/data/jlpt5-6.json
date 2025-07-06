@@ -1,0 +1,36 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "にほんご（＿）べんきょうします。",
+        "options": ["1. が", "2. を", "3. で", "4. に"],
+        "answer": "2. を",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～をべんきょうします</strong> - to study (something)</p><p><strong>にほんご</strong> - Japanese language</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「にほんご<strong>を</strong>べんきょうします」 means \"I study Japanese.\"</p>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>を</strong>.</p><ul><li><strong>が</strong> - marks subject, not correct here</li><li><strong>で</strong> - place marker</li><li><strong>に</strong> - direction/time marker</li></ul>"
+        }
+      },
+      {
+        "question": "日曜日（＿）山へ行きます。",
+        "options": ["1. を", "2. が", "3. に", "4. で"],
+        "answer": "3. に",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～に行きます</strong> - go to (place) or on (day)</p><p><strong>日曜日</strong> - Sunday</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「日曜日<strong>に</strong>山へ行きます」 means \"I will go to the mountains on Sunday.\"</p>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>に</strong>.</p><ul><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker</li><li><strong>で</strong> - place of action, not time</li></ul>"
+        }
+      },
+      {
+        "question": "このカレー（＿）とてもからいです。",
+        "options": ["1. は", "2. と", "3. を", "4. に"],
+        "answer": "1. は",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～は～です</strong> - describing something as a topic</p><p><strong>からい</strong> - spicy</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「このカレー<strong>は</strong>とてもからいです」 means \"This curry is very spicy.\"</p>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>は</strong>.</p><ul><li><strong>と</strong> - with</li><li><strong>を</strong> - object marker, not used here</li><li><strong>に</strong> - not suitable for this sentence</li></ul>"
+        }
+      }
+    ]
+  }
+  

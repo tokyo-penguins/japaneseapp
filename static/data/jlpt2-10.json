@@ -1,0 +1,55 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "彼は周囲に気を使いすぎて、つい本音を（＿）ことが多い。",
+      "options": ["1. 隠す", "2. 見せる", "3. 曝け出す", "4. 語る"],
+      "answer": "1. 隠す",
+      "hint": "<p><ruby>周囲<rt>しゅうい</rt></ruby> (shuui) - surroundings<br><ruby>本音<rt>ほんね</rt></ruby> (honne) - true feelings</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> <ruby>隠す<rt>かくす</rt></ruby> (kakusu) - to hide one’s true feelings</p><ul><li><ruby>見せる<rt>みせる</rt></ruby> (miseru) - to show</li><li><ruby>曝け出す<rt>さらけだす</rt></ruby> (sarakedasu) - to expose openly</li><li><ruby>語る<rt>かたる</rt></ruby> (kataru) - to talk in detail</li></ul><p>He is too considerate of others and often hides his true feelings.</p>",
+        "incorrect": "<p><strong>Answer:</strong> <ruby>隠す<rt>かくす</rt></ruby> (kakusu) - to hide one’s true feelings</p><ul><li><ruby>見せる<rt>みせる</rt></ruby> (miseru) - to show</li><li><ruby>曝け出す<rt>さらけだす</rt></ruby> (sarakedasu) - to expose openly</li><li><ruby>語る<rt>かたる</rt></ruby> (kataru) - to talk in detail</li></ul><p>He is too considerate of others and often hides his true feelings.</p>"
+      }
+    },
+    {
+      "question": "この提案にはいくつか（＿）があるため、もう少し検討が必要だ。",
+      "options": ["1. 長所", "2. 改善", "3. 問題点", "4. 解決策"],
+      "answer": "3. 問題点",
+      "hint": "<p><ruby>提案<rt>ていあん</rt></ruby> (teian) - proposal<br><ruby>検討<rt>けんとう</rt></ruby> (kentou) - consideration</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> <ruby>問題点<rt>もんだいてん</rt></ruby> (mondaiten) - problems/issues</p><ul><li><ruby>長所<rt>ちょうしょ</rt></ruby> (chousho) - strengths</li><li><ruby>改善<rt>かいぜん</rt></ruby> (kaizen) - improvements</li><li><ruby>解決策<rt>かいけつさく</rt></ruby> (kaiketsusaku) - solutions</li></ul><p>This proposal has some problems and needs further consideration.</p>",
+        "incorrect": "<p><strong>Answer:</strong> <ruby>問題点<rt>もんだいてん</rt></ruby> (mondaiten) - problems/issues</p><ul><li><ruby>長所<rt>ちょうしょ</rt></ruby> (chousho) - strengths</li><li><ruby>改善<rt>かいぜん</rt></ruby> (kaizen) - improvements</li><li><ruby>解決策<rt>かいけつさく</rt></ruby> (kaiketsusaku) - solutions</li></ul><p>This proposal has some problems and needs further consideration.</p>"
+      }
+    },
+    {
+      "question": "彼の発言は部長の意見と（＿）していたため、場の空気が悪くなった。",
+      "options": ["1. 一致", "2. 対立", "3. 賛成", "4. 応援"],
+      "answer": "2. 対立",
+      "hint": "<p><ruby>発言<rt>はつげん</rt></ruby> (hatsugen) - statement<br><ruby>場の空気<rt>ばのくうき</rt></ruby> (ba no kuuki) - atmosphere</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> <ruby>対立<rt>たいりつ</rt></ruby> (tairitsu) - conflict/opposition</p><ul><li><ruby>一致<rt>いっち</rt></ruby> (icchi) - agreement</li><li><ruby>賛成<rt>さんせい</rt></ruby> (sansei) - approval</li><li><ruby>応援<rt>おうえん</rt></ruby> (ouen) - support</li></ul><p>His statement clashed with the boss’s opinion, worsening the atmosphere.</p>",
+        "incorrect": "<p><strong>Answer:</strong> <ruby>対立<rt>たいりつ</rt></ruby> (tairitsu) - conflict/opposition</p><ul><li><ruby>一致<rt>いっち</rt></ruby> (icchi) - agreement</li><li><ruby>賛成<rt>さんせい</rt></ruby> (sansei) - approval</li><li><ruby>応援<rt>おうえん</rt></ruby> (ouen) - support</li></ul><p>His statement clashed with the boss’s opinion, worsening the atmosphere.</p>"
+      }
+    },
+    {
+      "question": "チャンスを（＿）ためには、準備を怠らないことが大切だ。",
+      "options": ["1. 離す", "2. 逃す", "3. 掴む", "4. 折る"],
+      "answer": "3. 掴む",
+      "hint": "<p><ruby>準備<rt>じゅんび</rt></ruby> (junbi) - preparation<br><ruby>怠る<rt>おこたる</rt></ruby> (okotaru) - to neglect</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> <ruby>掴む<rt>つかむ</rt></ruby> (tsukamu) - to grab/seize</p><ul><li><ruby>離す<rt>はなす</rt></ruby> (hanasu) - to release</li><li><ruby>逃す<rt>のがす</rt></ruby> (nogasu) - to miss (a chance)</li><li><ruby>折る<rt>おる</rt></ruby> (oru) - to break</li></ul><p>To seize a chance, it’s important not to neglect preparation.</p>",
+        "incorrect": "<p><strong>Answer:</strong> <ruby>掴む<rt>つかむ</rt></ruby> (tsukamu) - to grab/seize</p><ul><li><ruby>離す<rt>はなす</rt></ruby> (hanasu) - to release</li><li><ruby>逃す<rt>のがす</rt></ruby> (nogasu) - to miss (a chance)</li><li><ruby>折る<rt>おる</rt></ruby> (oru) - to break</li></ul><p>To seize a chance, it’s important not to neglect preparation.</p>"
+      }
+    },
+    {
+      "question": "彼は大企業を（＿）して、自分の会社を立ち上げた。",
+      "options": ["1. 転職", "2. 起業", "3. 辞職", "4. 解雇"],
+      "answer": "3. 辞職",
+      "hint": "<p><ruby>大企業<rt>だいきぎょう</rt></ruby> (daikigyou) - large company<br><ruby>立ち上げる<rt>たちあげる</rt></ruby> (tachiageru) - to start (a business)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> <ruby>辞職<rt>じしょく</rt></ruby> (jishoku) - resignation</p><ul><li><ruby>転職<rt>てんしょく</rt></ruby> (tenshoku) - job change</li><li><ruby>起業<rt>きぎょう</rt></ruby> (kigyou) - entrepreneurship (noun, not an action here)</li><li><ruby>解雇<rt>かいこ</rt></ruby> (kaiko) - dismissal</li></ul><p>He resigned from a large company to start his own business.</p>",
+        "incorrect": "<p><strong>Answer:</strong> <ruby>辞職<rt>じしょく</rt></ruby> (jishoku) - resignation</p><ul><li><ruby>転職<rt>てんしょく</rt></ruby> (tenshoku) - job change</li><li><ruby>起業<rt>きぎょう</rt></ruby> (kigyou) - entrepreneurship (noun)</li><li><ruby>解雇<rt>かいこ</rt></ruby> (kaiko) - dismissal</li></ul><p>He resigned from a large company to start his own business.</p>"
+      }
+    }
+  ]
+}

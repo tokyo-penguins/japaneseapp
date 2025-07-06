@@ -1,0 +1,36 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "この　映画（＿）　おもしろいですね。",
+        "options": ["1. は", "2. を", "3. が", "4. に"],
+        "answer": "1. は",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～は</strong> - topic marker</p><p><strong>おもしろい</strong> - interesting/funny</p><p><strong>映画（えいが）</strong> - movie</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「このえいが<strong>は</strong>おもしろい」 means \"This movie is interesting.\"</p><ul><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker, but topic is preferred here</li><li><strong>に</strong> - indirect target, not suitable here</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>は</strong>.</p><ul><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker, but topic is preferred here</li><li><strong>に</strong> - indirect target, not suitable here</li></ul>"
+        }
+      },
+      {
+        "question": "田中さん（＿）　電話を　かけました。",
+        "options": ["1. に", "2. を", "3. が", "4. と"],
+        "answer": "1. に",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～に 電話をかける</strong> - to call someone</p><p><strong>田中さん</strong> - Tanaka-san (person)</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「田中さん<strong>に</strong>電話をかけました」 means \"I called Mr./Ms. Tanaka.\"</p><ul><li><strong>を</strong> - marks the object, but person is not object here</li><li><strong>が</strong> - subject marker</li><li><strong>と</strong> - with</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>に</strong>.</p><ul><li><strong>を</strong> - marks the object, but person is not object here</li><li><strong>が</strong> - subject marker</li><li><strong>と</strong> - with</li></ul>"
+        }
+      },
+      {
+        "question": "うちの　近く（＿）　大きい　こうえんが　あります。",
+        "options": ["1. に", "2. で", "3. を", "4. の"],
+        "answer": "1. に",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～に あります</strong> - something exists at a place</p><p><strong>近く</strong> - nearby/near</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「近く<strong>に</strong>あります」 means \"There is (something) near (somewhere).\"</p><ul><li><strong>で</strong> - action location, but あります is not an action</li><li><strong>を</strong> - object marker</li><li><strong>の</strong> - possession or connection</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>に</strong>.</p><ul><li><strong>で</strong> - action location, but あります is not an action</li><li><strong>を</strong> - object marker</li><li><strong>の</strong> - possession or connection</li></ul>"
+        }
+      }
+    ]
+  }
+  

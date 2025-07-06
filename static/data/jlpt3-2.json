@@ -1,0 +1,35 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "会議中にスマホが（＿）ように、サイレントモードにしました。",
+        "options": ["1. 鳴らない", "2. 光らない", "3. 壊れない", "4. 落とさない"],
+        "answer": "1. 鳴らない",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～ように</strong> - \"in order to\"</p><p>Vocabulary: 会議中(かいぎちゅう)、サイレントモード</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「鳴らない」 means \"won't ring.\"</p><ul><li>光らない - won't light up</li><li>壊れない - won't break</li><li>落とさない - won't drop</li></ul><p><strong>English Translation:</strong> I set my phone to silent mode so it won't ring during the meeting.</p>",
+          "incorrect": "<p><strong>Answer:</strong> 鳴らない</p><p>「鳴らない」 means \"won't ring.\"</p><ul><li>光らない - won't light up</li><li>壊れない - won't break</li><li>落とさない - won't drop</li></ul><p><strong>English Translation:</strong> I set my phone to silent mode so it won't ring during the meeting.</p>"
+        }
+      },
+      {
+        "question": "このアプリは地図が（＿）ので、道に迷いません。",
+        "options": ["1. 古い", "2. 詳しい", "3. 狭い", "4. 軽い"],
+        "answer": "2. 詳しい",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～ので</strong> - reason (neutral)</p><p>Vocabulary: 地図(ちず)、迷う(まよう)</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「詳しい」 means \"detailed.\"</p><ul><li>古い(ふるい) - old</li><li>狭い(せまい) - narrow</li><li>軽い(かるい) - light</li></ul><p><strong>English Translation:</strong> This app has detailed maps, so I don't get lost.</p>",
+          "incorrect": "<p><strong>Answer:</strong> 詳しい</p><p>「詳しい」 means \"detailed.\"</p><ul><li>古い(ふるい) - old</li><li>狭い(せまい) - narrow</li><li>軽い(かるい) - light</li></ul><p><strong>English Translation:</strong> This app has detailed maps, so I don't get lost.</p>"
+        }
+      },
+      {
+        "question": "海外旅行に行く時は、必ずパスポートの（＿）を確認しましょう。",
+        "options": ["1. 有効期限", "2. 色", "3. 重さ", "4. 材質"],
+        "answer": "1. 有効期限",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～時は</strong> - \"when...\"</p><p>Vocabulary: 海外旅行(かいがいりょこう)、パスポート</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「有効期限」 means \"expiration date.\"</p><ul><li>色(いろ) - color</li><li>重さ(おもさ) - weight</li><li>材質(ざいしつ) - material</li></ul><p><strong>English Translation:</strong> When traveling abroad, always check your passport's expiration date.</p>",
+          "incorrect": "<p><strong>Answer:</strong> 有効期限</p><p>「有効期限」 means \"expiration date.\"</p><ul><li>色(いろ) - color</li><li>重さ(おもさ) - weight</li><li>材質(ざいしつ) - material</li></ul><p><strong>English Translation:</strong> When traveling abroad, always check your passport's expiration date.</p>"
+        }
+      }
+    ]
+  }

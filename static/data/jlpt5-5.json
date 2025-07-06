@@ -1,0 +1,36 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "たなかさん（＿）犬は　とてもかわいいです。",
+        "options": ["1. の", "2. が", "3. を", "4. は"],
+        "answer": "1. の",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>AのB</strong> - B that belongs to A (possessive)</p><p><strong>犬（いぬ）</strong> - dog</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「たなかさん<strong>の</strong>いぬはかわいいです」 means \"Tanaka's dog is very cute.\"</p>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>の</strong>.</p><ul><li><strong>が</strong> - subject marker</li><li><strong>を</strong> - object marker</li><li><strong>は</strong> - topic marker, needs to come after \"犬\" here</li></ul>"
+        }
+      },
+      {
+        "question": "きのう　こうえん（＿）さんぽしました。",
+        "options": ["1. に", "2. で", "3. を", "4. が"],
+        "answer": "2. で",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～でさんぽします</strong> - to take a walk at/in (place)</p><p><strong>こうえん</strong> - park</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「こうえん<strong>で</strong>さんぽしました」 means \"I took a walk in the park.\"</p>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>で</strong>.</p><ul><li><strong>に</strong> - direction/time, not place of action here</li><li><strong>を</strong> - object marker, not used here</li><li><strong>が</strong> - subject marker</li></ul>"
+        }
+      },
+      {
+        "question": "かいしゃ（＿）はたらいています。",
+        "options": ["1. を", "2. に", "3. が", "4. で"],
+        "answer": "4. で",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～で働く</strong> - to work at (place)</p><p><strong>かいしゃ</strong> - company</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「かいしゃ<strong>で</strong>はたらいています」 means \"I work at a company.\"</p>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>で</strong>.</p><ul><li><strong>を</strong> - object marker</li><li><strong>に</strong> - direction/time, not used with \"work\"</li><li><strong>が</strong> - subject marker</li></ul>"
+        }
+      }
+    ]
+  }
+  

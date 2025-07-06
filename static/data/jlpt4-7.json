@@ -1,0 +1,36 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "会議の議事録を作成するので、内容をペンで（＿）してください。",
+        "options": ["1. 録音", "2. メモ", "3. 撮影", "4. 印刷"],
+        "answer": "2. メモ",
+        "hint": "<p>～ので - reason (neutral)<br>会議(かいぎ)、議事録(ぎじろく)、作成(さくせい)</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「メモ」 means \"take notes.\"<ul><li>録音 - record (audio)</li><li>撮影 - film</li><li>印刷 - print</li></ul></p>",
+          "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>メモ</strong> (note-taking). Audio or video doesn't fit this context.</p>"
+        }
+      },
+      {
+        "question": "この書類に（＿）漏れがあるので、もう一度確認してください。",
+        "options": ["1. 記入", "2. 誤字", "3. 汚れ", "4. 破れ"],
+        "answer": "1. 記入",
+        "hint": "<p>～ので - reason (neutral)<br>書類(しょるい)、確認(かくにん)</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「記入漏れ」 means \"missing entry.\"<ul><li>誤字 - typo</li><li>汚れ - stain</li><li>破れ - tear</li></ul></p>",
+          "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>記入</strong> (entry). A typo or stain would be different types of mistakes.</p>"
+        }
+      },
+      {
+        "question": "来週の出張のため、ホテルの（＿）を確保しておきました。",
+        "options": ["1. 予約", "2. 契約", "3. 利用", "4. 確認"],
+        "answer": "1. 予約",
+        "hint": "<p>～ため - purpose<br>出張(しゅっちょう)、ホテル(hotel)</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「予約」 means \"reservation.\"<ul><li>契約 - contract</li><li>利用 - use</li><li>確認 - confirmation</li></ul></p>",
+          "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>予約</strong> (reservation). The others don’t fit the context of hotel booking.</p>"
+        }
+      }
+    ]
+  }
+  

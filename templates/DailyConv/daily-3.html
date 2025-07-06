@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convenience Store</title>
+    <style>
+        body {
+            font-family: 'Noto Sans JP', Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f9f5f0;
+            background-image: url("{{ url_for('static', filename='images/tpbg.png') }}");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+        }
+        .quiz-container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        .question-section {
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px dashed #8e6c88;
+        }
+        .question-section:last-child {
+            border-bottom: none;
+        }
+        .question-number {
+            font-weight: bold;
+            color: #8e6c88;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .english-sentence {
+            font-size: 1.1em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .dialect-image {
+            max-width: 100%;
+            height: auto;
+            max-height: 300px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border: 3px solid #8e6c88;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .option {
+            display: block;
+            margin: 12px auto;
+            padding: 12px;
+            width: 90%;
+            cursor: pointer;
+            background-color: #f1f1f1;
+            border: none;
+            border-radius: 5px;
+            transition: all 0.3s;
+            text-align: left;
+            font-size: 1em;
+        }
+        .option:hover {
+            background-color: #e0e0e0;
+            transform: translateX(5px);
+        }
+        .correct { 
+            background-color: #8e6c88;
+            color: white;
+            font-weight: bold;
+        }
+        .incorrect { 
+            background-color: #f44336;
+            color: white;
+        }
+        .feedback {
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            display: none;
+            animation: fadeIn 0.5s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .correct-feedback {
+            background-color: rgba(142, 108, 136, 0.1);
+            border-left: 4px solid #8e6c88;
+        }
+        .incorrect-feedback {
+            background-color: rgba(244, 67, 54, 0.1);
+            border-left: 4px solid #f44336;
+        }
+        .explanation {
+            font-size: 0.9em;
+            margin-top: 10px;
+            color: #555;
+            font-style: italic;
+        }
+        .final-button {
+            display: block;
+            margin: 30px auto 10px;
+            padding: 15px 30px;
+            background-color: #ff6b6b;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .final-button:hover {
+            background-color: #ff5252;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        }
+        .translation {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        .menu-btn {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            background-color: #6c7b8b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            z-index: 100;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button class="menu-btn" onclick="window.location.href='/dailyconv'">← Main Menu</button>
+    <div class="quiz-container">
+
+        <!-- Question 1 -->
+<div class="question-section">
+    <div class="question-number">Question 1 of 10</div>
+    <div class="english-sentence">"Next customer, please."</div>
+    <img src="{{ url_for('static', filename='images/next.png') }}" alt="Next customer" class="dialect-image">
+    <div class="options">
+        <button class="option" onclick="checkAnswer(this, '1. <ruby>次<rt>つぎ</rt></ruby>の<ruby>方<rt>かた</rt></ruby>どうぞ。', 1)">1. <ruby>次<rt>つぎ</rt></ruby>の<ruby>方<rt>かた</rt></ruby>どうぞ。</button>
+        <button class="option" onclick="checkAnswer(this, '2. どなたですか？', 1)">2. どなたですか？</button>
+        <button class="option" onclick="checkAnswer(this, '3. どこ行きますか？', 1)">3. どこ行きますか？</button>
+        <button class="option" onclick="checkAnswer(this, '4. また来てね。', 1)">4. また来てね。</button>
+    </div>
+    <div class="feedback correct-feedback" id="correct-feedback-1">
+        Correct! <strong>「<ruby>次<rt>つぎ</rt></ruby>の<ruby>方<rt>かた</rt></ruby>どうぞ。」</strong> is how a cashier calls the next customer.
+        <div class="explanation">This is a polite phrase often used in stores to indicate the next customer can come forward.</div>
+    </div>
+    <div class="feedback incorrect-feedback" id="incorrect-feedback-1">
+        Incorrect! The correct answer is <strong>「<ruby>次<rt>つぎ</rt></ruby>の<ruby>方<rt>かた</rt></ruby>どうぞ。」</strong>.
+        <div class="explanation">This phrase politely tells the next person in line that it’s their turn.</div>
+    </div>
+</div>
+
+<!-- Question 2 -->
+<div class="question-section">
+    <div class="question-number">Question 2 of 10</div>
+    <div class="english-sentence">"Do you need a bag?"</div>
+    <img src="{{ url_for('static', filename='images/bag.png') }}" alt="Bag needed" class="dialect-image">
+    <div class="options">
+        <button class="option" onclick="checkAnswer(this, '1. この<ruby>商品<rt>しょうひん</rt></ruby>は<ruby>無料<rt>むりょう</rt></ruby>です。', 2)">1. この<ruby>商品<rt>しょうひん</rt></ruby>は<ruby>無料<rt>むりょう</rt></ruby>です。</button>
+        <button class="option" onclick="checkAnswer(this, '2. <ruby>箸<rt>はし</rt></ruby>はありますか？', 2)">2. <ruby>箸<rt>はし</rt></ruby>はありますか？</button>
+        <button class="option" onclick="checkAnswer(this, '3. お<ruby>水<rt>みず</rt></ruby>はどうですか？', 2)">3. お<ruby>水<rt>みず</rt></ruby>はどうですか？</button>
+        <button class="option" onclick="checkAnswer(this, '4. <ruby>袋<rt>ふくろ</rt></ruby>は<ruby>要<rt>い</rt></ruby>りますか？', 2)">4. <ruby>袋<rt>ふくろ</rt></ruby>は<ruby>要<rt>い</rt></ruby>りますか？</button>
+    </div>
+    <div class="feedback correct-feedback" id="correct-feedback-2">
+        Correct! <strong>「<ruby>袋<rt>ふくろ</rt></ruby>は<ruby>要<rt>い</rt></ruby>りますか？」</strong> is the standard way to ask if a customer wants a bag.
+        <div class="explanation">Since plastic bags are no longer free in Japan, cashiers ask if customers need one before charging.</div>
+    </div>
+    <div class="feedback incorrect-feedback" id="incorrect-feedback-2">
+        Incorrect! The correct answer is <strong>「<ruby>袋<rt>ふくろ</rt></ruby>は<ruby>要<rt>い</rt></ruby>りますか？」</strong>.
+        <div class="explanation">This phrase is essential in modern convenience stores due to environmental policies.</div>
+    </div>
+</div>
+
+<!-- Question 3 -->
+<div class="question-section">
+    <div class="question-number">Question 3 of 10</div>
+    <div class="english-sentence">"Would you like this heated up?"</div>
+    <img src="{{ url_for('static', filename='images/heatup.png') }}" alt="Microwave food" class="dialect-image">
+    <div class="options">
+        <button class="option" onclick="checkAnswer(this, '1. <ruby>捨<rt>す</rt></ruby>ててもいいですか？', 3)">1. <ruby>捨<rt>す</rt></ruby>ててもいいですか？</button>
+        <button class="option" onclick="checkAnswer(this, '2. <ruby>冷<rt>つめ</rt></ruby>たいですか？', 3)">2. <ruby>冷<rt>つめ</rt></ruby>たいですか？</button>
+        <button class="option" onclick="checkAnswer(this, '3. <ruby>温<rt>あたた</rt></ruby>めますか？', 3)">3. <ruby>温<rt>あたた</rt></ruby>めますか？</button>
+        <button class="option" onclick="checkAnswer(this, '4. <ruby>味<rt>あじ</rt></ruby>はどうですか？', 3)">4. <ruby>味<rt>あじ</rt></ruby>はどうですか？</button>
+    </div>
+    <div class="feedback correct-feedback" id="correct-feedback-3">
+        Correct! <strong>「<ruby>温<rt>あたた</rt></ruby>めますか？」</strong> is the standard phrase when offering to microwave food.
+        <div class="explanation">This is a service commonly offered in Japanese convenience stores when buying bentos or hot snacks.</div>
+    </div>
+    <div class="feedback incorrect-feedback" id="incorrect-feedback-3">
+        Incorrect! The correct answer is <strong>「<ruby>温<rt>あたた</rt></ruby>めますか？」</strong>.
+        <div class="explanation">Used when the staff checks whether to warm food using the microwave.</div>
+    </div>
+</div>
+<!-- Question 4 -->
+<div class="question-section">
+    <div class="question-number">Question 4 of 10</div>
+    <div class="english-sentence">"Are you 20 or older?" (For age-restricted items)</div>
+    <img src="{{ url_for('static', filename='images/agecheck.png') }}" alt="Age check" class="dialect-image">
+    <div class="options">
+      <button class="option" onclick="checkAnswer(this, '1. <ruby>高校生<rt>こうこうせい</rt></ruby>ですか？', 4)">1. <ruby>高校生<rt>こうこうせい</rt></ruby>ですか？</button>
+      <button class="option" onclick="checkAnswer(this, '2. 中学生ですか？', 4)">2. 中学生ですか？</button>
+      <button class="option" onclick="checkAnswer(this, '3. 子供ですか？', 4)">3. 子供ですか？</button>
+      <button class="option" onclick="checkAnswer(this, '4. <ruby>二十歳<rt>はたち</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>ですか？', 4)">4. <ruby>二十歳<rt>はたち</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>ですか？</button>
+    </div>
+    <div class="feedback correct-feedback" id="correct-feedback-4">
+      Correct! <strong>「<ruby>二十歳<rt>はたち</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>ですか？」</strong> is used to confirm age legally when buying alcohol or cigarettes.
+      <div class="explanation">Convenience stores are required to confirm that customers are 20 or older for age-restricted purchases.</div>
+    </div>
+    <div class="feedback incorrect-feedback" id="incorrect-feedback-4">
+      Incorrect! The correct answer is <strong>「<ruby>二十歳<rt>はたち</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>ですか？」</strong>.
+      <div class="explanation">Used as part of legal compliance for tobacco, alcohol, and some services in Japan.</div>
+    </div>
+  </div>
+  
+  <!-- Question 5 -->
+  <div class="question-section">
+    <div class="question-number">Question 5 of 10</div>
+    <div class="english-sentence">"How would you like to pay?"</div>
+    <img src="{{ url_for('static', filename='images/payment.png') }}" alt="Payment method" class="dialect-image">
+    <div class="options">
+      <button class="option" onclick="checkAnswer(this, '1. お<ruby>会計<rt>かいけい</rt></ruby>はどうなさいますか？', 5)">1. お<ruby>会計<rt>かいけい</rt></ruby>はどうなさいますか？</button>
+      <button class="option" onclick="checkAnswer(this, '2. お<ruby>釣<rt>つり</rt></ruby>りはありますか？', 5)">2. お<ruby>釣<rt>つり</rt></ruby>りはありますか？</button>
+      <button class="option" onclick="checkAnswer(this, '3. お<ruby>金<rt>かね</rt></ruby>がありません。', 5)">3. お<ruby>金<rt>かね</rt></ruby>がありません。</button>
+      <button class="option" onclick="checkAnswer(this, '4. <ruby>何歳<rt>なんさい</rt></ruby>ですか？', 5)">4. <ruby>何歳<rt>なんさい</rt></ruby>ですか？</button>
+    </div>
+    <div class="feedback correct-feedback" id="correct-feedback-5">
+      Correct! <strong>「お<ruby>会計<rt>かいけい</rt></ruby>はどうなさいますか？」</strong> is a formal way to ask about the customer's payment method.
+      <div class="explanation">Cashiers often use this phrase when asking whether to pay by cash, card, or e-money.</div>
+    </div>
+    <div class="feedback incorrect-feedback" id="incorrect-feedback-5">
+      Incorrect! The correct answer is <strong>「お<ruby>会計<rt>かいけい</rt></ruby>はどうなさいますか？」</strong>.
+      <div class="explanation">It's a polite question commonly heard at convenience store counters.</div>
+    </div>
+  </div>
+  
+  <!-- Question 6 -->
+  <div class="question-section">
+    <div class="question-number">Question 6 of 10</div>
+    <div class="english-sentence">"Do you have a point card?"</div>
+    <img src="{{ url_for('static', filename='images/pointcard.png') }}" alt="Point card" class="dialect-image">
+    <div class="options">
+      <button class="option" onclick="checkAnswer(this, '1. <ruby>何番目<rt>なんばんめ</rt></ruby>ですか？', 6)">1. <ruby>何番目<rt>なんばんめ</rt></ruby>ですか？</button>
+      <button class="option" onclick="checkAnswer(this, '2. ポイントカードをください。', 6)">2. ポイントカードをください。</button>
+      <button class="option" onclick="checkAnswer(this, '3. お<ruby>金<rt>かね</rt></ruby>がいります。', 6)">3. お<ruby>金<rt>かね</rt></ruby>がいります。</button>
+      <button class="option" onclick="checkAnswer(this, '4. <ruby>ポイントカード></ruby>はお<ruby>持<rt>も</rt></ruby>ちですか？', 6)">4. <ruby>ポイントカード</ruby>はお<ruby>持<rt>も</rt></ruby>ちですか？</button>
+    </div>
+    <div class="feedback correct-feedback" id="correct-feedback-6">
+      Correct! <strong>「<ruby>ポイントカード<rt>ぽいんとかーど</rt></ruby>はお<ruby>持<rt>も</rt></ruby>ちですか？」</strong> is a standard phrase when asking for loyalty cards.
+      <div class="explanation">Most stores offer point systems, and this phrase checks if the customer wants to collect points.</div>
+    </div>
+    <div class="feedback incorrect-feedback" id="incorrect-feedback-6">
+      Incorrect! The correct answer is <strong>「<ruby>ポイントカード<rt>ぽいんとかーど</rt></ruby>はお<ruby>持<rt>も</rt></ruby>ちですか？」</strong>.
+      <div class="explanation">Often asked at checkout to apply points or discounts.</div>
+    </div>
+  </div>
+  
+  <!-- Question 7 -->
+  <div class="question-section">
+    <div class="question-number">Question 7 of 10</div>
+    <div class="english-sentence">"Please feel free to use the restroom."</div>
+    <img src="{{ url_for('static', filename='images/toilet.png') }}" alt="Restroom" class="dialect-image">
+    <div class="options">
+      <button class="option" onclick="checkAnswer(this, '1. トイレはありません。', 7)">1. トイレはありません。</button>
+      <button class="option" onclick="checkAnswer(this, '2. <ruby>トイレ<rt>といれ</rt></ruby>はご<ruby>自由<rt>じゆう</rt></ruby>にお<ruby>使<rt>つか</rt></ruby>いください。', 7)">2. <ruby>トイレ<rt>といれ</rt></ruby>はご<ruby>自由<rt>じゆう</rt></ruby>にお<ruby>使<rt>つか</rt></ruby>いください。</button>
+      <button class="option" onclick="checkAnswer(this, '3. トイレは<ruby>有料<rt>ゆうりょう</rt></ruby>です。', 7)">3. トイレは<ruby>有料<rt>ゆうりょう</rt></ruby>です。</button>
+      <button class="option" onclick="checkAnswer(this, '4. トイレには<ruby>入<rt>はい</rt></ruby>らないでください。', 7)">4. トイレには<ruby>入<rt>はい</rt></ruby>らないでください。</button>
+    </div>
+    <div class="feedback correct-feedback" id="correct-feedback-7">
+      Correct! <strong>「<ruby>トイレ<rt>といれ</rt></ruby>はご<ruby>自由<rt>じゆう</rt></ruby>にお<ruby>使<rt>つか</rt></ruby>いください。」</strong>
+      <div class="explanation">Very common and courteous phrase offered in convenience stores with open facilities.</div>
+    </div>
+    <div class="feedback incorrect-feedback" id="incorrect-feedback-7">
+      Incorrect! The correct answer is <strong>「<ruby>トイレ<rt>といれ</rt></ruby>はご<ruby>自由<rt>じゆう</rt></ruby>にお<ruby>使<rt>つか</rt></ruby>いください。」</strong>.
+      <div class="explanation">Encouraging customers to use the toilet freely without restriction is a part of Japanese omotenashi (hospitality).</div>
+    </div>
+  </div>
+  <!-- Question 8 -->
+<div class="question-section">
+    <div class="question-number">Question 8 of 10</div>
+    <div class="english-sentence">"Cash or card, please."</div>
+    <img src="{{ url_for('static', filename='images/cashcard.png') }}" alt="Cash or card" class="dialect-image">
+    <div class="options">
+      <button class="option" onclick="checkAnswer(this, '1. <ruby>現金<rt>げんきん</rt></ruby>か<ruby>カード<rt></rt></ruby>でお<ruby>願<rt>ねが</rt></ruby>いします。', 8)">1. <ruby>現金<rt>げんきん</rt></ruby>か<ruby>カード</ruby>でお<ruby>願<rt>ねが</rt></ruby>いします。</button>
+      <button class="option" onclick="checkAnswer(this, '2. お<ruby>水<rt>みず</rt></ruby>かお<ruby>茶<rt>ちゃ</rt></ruby>でお<ruby>願<rt>ねが</rt></ruby>いします。', 8)">2. お<ruby>水<rt>みず</rt></ruby>かお<ruby>茶<rt>ちゃ</rt></ruby>でお<ruby>願<rt>ねが</rt></ruby>いします。</button>
+      <button class="option" onclick="checkAnswer(this, '3. ポイントで<ruby>払<rt>はら</rt></ruby>います。', 8)">3. ポイントで<ruby>払<rt>はら</rt></ruby>います。</button>
+      <button class="option" onclick="checkAnswer(this, '4. クレジットは<ruby>使<rt>つか</rt></ruby>えません。', 8)">4. クレジットは<ruby>使<rt>つか</rt></ruby>えません。</button>
+    </div>
+    <div class="feedback correct-feedback" id="correct-feedback-8">
+      Correct! <strong>「<ruby>現金<rt>げんきん</rt></ruby>か<ruby>カード</ruby>でお<ruby>願<rt>ねが</rt></ruby>いします。」</strong> is the polite way to ask for a payment method.
+      <div class="explanation">This phrase is often used at the register to clarify how a customer wants to pay.</div>
+    </div>
+    <div class="feedback incorrect-feedback" id="incorrect-feedback-8">
+      Incorrect! The correct answer is <strong>「<ruby>現金<rt>げんきん</rt></ruby>か<ruby>カード</ruby>でお<ruby>願<rt>ねが</rt></ruby>いします。」</strong>.
+      <div class="explanation">Typical language used when giving choices for payment in Japan.</div>
+    </div>
+  </div>
+  
+  <!-- Question 9 -->
+  <div class="question-section">
+    <div class="question-number">Question 9 of 10</div>
+    <div class="english-sentence">"Would you like disposable chopsticks?"</div>
+    <img src="{{ url_for('static', filename='images/chops.png') }}" alt="Chopsticks" class="dialect-image">
+    <div class="options">
+      <button class="option" onclick="checkAnswer(this, '1. <ruby>割箸<rt>わりばし</rt></ruby>はお<ruby>付<rt>つ</rt></ruby>けしますか？', 9)">1. <ruby>割箸<rt>わりばし</rt></ruby>はお<ruby>付<rt>つ</rt></ruby>けしますか？</button>
+      <button class="option" onclick="checkAnswer(this, '2. <ruby>箸<rt>はし</rt></ruby>を<ruby>買<rt>か</rt></ruby>ってください。', 9)">2. <ruby>箸<rt>はし</rt></ruby>を<ruby>買<rt>か</rt></ruby>ってください。</button>
+      <button class="option" onclick="checkAnswer(this, '3. お<ruby>弁当<rt>べんとう</rt></ruby>はありません。', 9)">3. お<ruby>弁当<rt>べんとう</rt></ruby>はありません。</button>
+      <button class="option" onclick="checkAnswer(this, '4. <ruby>食<rt>た</rt></ruby>べられません。', 9)">4. <ruby>食<rt>た</rt></ruby>べられません。</button>
+    </div>
+    <div class="feedback correct-feedback" id="correct-feedback-9">
+      Correct! <strong>「<ruby>割箸<rt>わりばし</rt></ruby>はお<ruby>付<rt>つ</rt></ruby>けしますか？」</strong> is how you ask if a customer wants chopsticks.
+      <div class="explanation">Convenience store staff often ask this when a meal is purchased, especially bento or noodles.</div>
+    </div>
+    <div class="feedback incorrect-feedback" id="incorrect-feedback-9">
+      Incorrect! The correct answer is <strong>「<ruby>割箸<rt>わりばし</rt></ruby>はお<ruby>付<rt>つ</rt></ruby>けしますか？」</strong>.
+      <div class="explanation">It’s part of customer service in Japan to offer utensils for takeaway food.</div>
+    </div>
+  </div>
+  
+  <!-- Question 10 -->
+  <div class="question-section">
+    <div class="question-number">Question 10 of 10</div>
+    <div class="english-sentence">"Thank you very much! Please come again."</div>
+    <img src="{{ url_for('static', filename='images/thankyou.png') }}" alt="Thank you" class="dialect-image">
+    <div class="options">
+      <button class="option" onclick="checkAnswer(this, '1. <ruby>返金<rt>へんきん</rt></ruby>できません。', 10)">1. <ruby>返金<rt>へんきん</rt></ruby>できません。</button>
+      <button class="option" onclick="checkAnswer(this, '2. もう<ruby>来<rt>こ</rt></ruby>ないでください。', 10)">2. もう<ruby>来<rt>こ</rt></ruby>ないでください。</button>
+      <button class="option" onclick="checkAnswer(this, '3. また<ruby>文句<rt>もんく</rt></ruby>ですか？', 10)">3. また<ruby>文句<rt>もんく</rt></ruby>ですか？</button>
+      <button class="option" onclick="checkAnswer(this, '4. ありがとうございました。またお<ruby>越<rt>こ</rt></ruby>しください。', 10)">4. ありがとうございました。またお<ruby>越<rt>こ</rt></ruby>しください。</button>
+    </div>
+    <div class="feedback correct-feedback" id="correct-feedback-10">
+      Correct! <strong>「ありがとうございました。またお<ruby>越<rt>こ</rt></ruby>しください。」</strong> is a standard farewell in retail.
+      <div class="explanation">This is a very polite and typical expression used in stores, especially when thanking customers.</div>
+    </div>
+    <div class="feedback incorrect-feedback" id="incorrect-feedback-10">
+      Incorrect! The correct answer is <strong>「ありがとうございました。またお<ruby>越<rt>こ</rt></ruby>しください。」</strong>.
+      <div class="explanation">Stores often use this to express gratitude and invite customers to return.</div>
+    </div>
+  </div>
+    </div>  
+
+    <script>
+        let answeredQuestions = 0;
+        const totalQuestions = 10;
+
+        function checkAnswer(btn, selectedOption, questionNum) {
+            const correctAnswers = [
+                "1. <ruby>次<rt>つぎ</rt></ruby>の<ruby>方<rt>かた</rt></ruby>どうぞ。",
+                "4. <ruby>袋<rt>ふくろ</rt></ruby>は<ruby>要<rt>い</rt></ruby>りますか？",
+                "3. <ruby>温<rt>あたた</rt></ruby>めますか？",
+                "4. <ruby>二十歳<rt>はたち</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>ですか？",
+                "1. お<ruby>会計<rt>かいけい</rt></ruby>はどうなさいますか？",
+                "4. <ruby>ポイントカード></ruby>はお<ruby>持<rt>も</rt></ruby>ちですか？",
+                "2. <ruby>トイレ<rt>といれ</rt></ruby>はご<ruby>自由<rt>じゆう</rt></ruby>にお<ruby>使<rt>つか</rt></ruby>いください。",
+                "1. <ruby>現金<rt>げんきん</rt></ruby>か<ruby>カード<rt></rt></ruby>でお<ruby>願<rt>ねが</rt></ruby>いします。",
+                "1. <ruby>割箸<rt>わりばし</rt></ruby>はお<ruby>付<rt>つ</rt></ruby>けしますか？",
+                "4. ありがとうございました。またお<ruby>越<rt>こ</rt></ruby>しください。"
+
+            ];
+            
+            const isCorrect = (selectedOption === correctAnswers[questionNum - 1]);
+            
+            // Disable all options in this question
+            const questionSection = btn.closest('.question-section');
+            questionSection.querySelectorAll('.option').forEach(option => {
+                option.disabled = true;
+            });
+            
+            if (isCorrect) {
+               btn.classList.add("correct");
+               questionSection.querySelector(`#correct-feedback-${questionNum}`).style.display = 'block';
+               triggerConfetti();  
+            } else {
+                btn.classList.add("incorrect");
+                // Highlight correct answer
+                questionSection.querySelectorAll('.option').forEach(option => {
+                    if (option.textContent.includes(correctAnswers[questionNum - 1])) {
+                        option.classList.add("correct");
+                    }
+                });
+                questionSection.querySelector(`#incorrect-feedback-${questionNum}`).style.display = 'block';
+            }
+            
+            answeredQuestions++;
+            if (answeredQuestions === totalQuestions) {
+                setTimeout(() => {
+                    document.getElementById('final-section').style.display = 'block';
+                    // Smooth scroll to the button
+                    document.getElementById('final-section').scrollIntoView({ behavior: 'smooth' });
+                }, 500);
+            }
+        }
+        function triggerConfetti() {
+    // Use a unique instance or multiple bursts for stronger effect
+    confetti({
+        particleCount: 80,
+        spread: 100,
+        origin: { y: 0.5 },
+        zIndex: 9999
+    });
+    
+    // Optional: multiple bursts for a more lively effect
+    setTimeout(() => {
+        confetti({
+            particleCount: 60,
+            spread: 80,
+            origin: { y: 0.6 },
+            zIndex: 9999
+        });
+    }, 150);
+}
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Slang Quiz</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ffdde1, #ee9ca7);
+            font-family: 'Comic Sans MS', 'Noto Sans JP', cursive;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        .quiz-container {
+            background: white;
+            width: 80%;
+            border: 5px solid black;
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 400px;
+            text-align: center;
+            box-shadow: 0 0 30px rgba(0,0,0,0.5);
+            position: relative;
+            margin: 20px 0;
+        }
+
+        .speech-bubble {
+            position: absolute;
+            top: -40px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: white;
+            border: 3px solid black;
+            border-radius: 20px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            box-shadow: 5px 5px 0 black;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .option {
+            background: #f9f871;
+            width: 90%;
+            border: 3px solid black;
+            border-radius: 15px;
+            padding: 10px;
+            margin: 10px 0;
+            cursor: pointer;
+            transition: transform 0.2s;
+            font-size: 18px;
+            box-shadow: 3px 3px 0 black;
+        }
+
+        .option:hover {
+            transform: scale(1.05);
+            background: #ffb6b9;
+        }
+
+        .correct { background-color: #4CAF50; color: white; }
+        .incorrect { background-color: #f44336; color: white; }
+
+        .quiz-image {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 3px 3px 0 black;
+        }
+
+        .result {
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 20px;
+            color: #d92027;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 400px;
+            margin-top: 20px;
+        }
+
+        .nav-button {
+            background: #f9f871;
+            border: 3px solid black;
+            border-radius: 15px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 18px;
+            box-shadow: 3px 3px 0 black;
+            text-decoration: none;
+            color: black;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        .nav-button:hover {
+            background: #ffb6b9;
+            transform: scale(1.05);
+        }
+
+        .next-button {
+            display: none;
+        }
+
+        @keyframes popIn {
+            0% { transform: scale(0); opacity: 0; }
+            50% { transform: scale(1.2); opacity: 1; }
+            70% { transform: scale(0.9); }
+            100% { transform: scale(1); }
+        }
+
+        #completionPopup {
+            display: none;
+            width: 80%;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #fff9c4;
+            border: 5px solid #fdd835;
+            border-radius: 25px;
+            padding: 30px;
+            text-align: center;
+            z-index: 9999;
+            box-shadow: 5px 5px 0 black;
+            animation: popIn 0.5s ease-out;
+        }
+
+        #completionPopup h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #e65100;
+        }
+
+        #completionPopup a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background: #f9f871;
+            border: 3px solid black;
+            border-radius: 15px;
+            font-size: 18px;
+            color: black;
+            text-decoration: none;
+            box-shadow: 3px 3px 0 black;
+            transition: all 0.3s ease;
+        }
+
+        #completionPopup a:hover {
+            background: #ffb6b9;
+            transform: scale(1.05);
+        }
+         /* ✅ Yesボタンだけ赤く */
+.red-button {
+    background: #ed473b !important;
+    color: white;
+}
+.yellow-button {
+    background: #42be5d !important;
+    color: white;
+}
+/* ✅ Nextボタンだけ緑に */
+.green-button {
+    background: #4CAF50 !important;
+    color: white;
+}
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="speech-bubble" id="question-counter">Question 1/2</div>
+        <h2 id="question-text"></h2>
+        <img src="" alt="Quiz Image" class="quiz-image" id="quiz-image">
+        <div id="options"></div>
+        <div id="result" class="result"></div>
+    </div>
+
+    <div class="button-container">
+        <a href="{{ url_for('slang_home') }}" class="nav-button">Back Home</a>
+        <button class="nav-button next-button green-button" id="nextButton" onclick="nextQuestion()">Next</button>
+    </div>
+
+    <!-- 🎉 Completion Popup -->
+    <div id="completionPopup">
+        <h2>🎉 You have done all!</h2>
+        <a href="{{ url_for('slang_home') }}">Quiz List</a>
+        <a href="{{ url_for('home') }}">Main Menu</a>
+    </div>
+    <div id="tryAgainPopup" style="display:none; position: fixed; top: 50%; left: 50%;
+    transform: translate(-50%, -50%); background: #fffbea; border: 4px solid black;
+    border-radius: 20px; padding: 25px; text-align: center; z-index: 9999; box-shadow: 4px 4px 0 black;">
+    <h2 style="margin-bottom: 15px;">❌ Incorrect... Try again?</h2>
+    <button onclick="resetCurrentQuestion()" class="nav-button red-button" style="margin: 8px;">Yes</button>
+    <a href="{{ url_for('slang_home') }}" class="nav-button yellow-button" style="margin: 3px;">Main Menu</a>
+
+</div>
+    <script>
+        const baseImagePath = "{{ url_for('static', filename='images') }}";
+        const quizData = [
+
+        {
+        question: "What does <br>「ggrks」 mean?",
+        image: `${baseImagePath}/ggrks.png`,
+        options: [
+            { text: "Thanks for checking Google", correct: false },
+            { text: "Google it, idiot", correct: true },
+            { text: "Google Chrome bug", correct: false },
+            { text: "Good luck", correct: false }
+        ],
+        explanation: "ggrks = ググレカス (ググレ;Google it, カス;you idiot)."
+    },
+    {
+        question: "What does <br>「乙」 mean in slang?",
+        image: `${baseImagePath}/otsu.png`,
+        options: [
+            { text: "Congratulations", correct: false },
+            { text: "Nice to meet you", correct: false },
+            { text: "Well done", correct: true },
+            { text: "Hurry up", correct: false }
+        ],
+        explanation: "乙 = Short for お疲れ様(Otsukaresama), often used sarcastically or condescendingly like 'good job (not really)' "
+    },
+    {
+        question: "What does <br>「www」 mean online?",
+        image: `${baseImagePath}/www.png`,
+        options: [
+            { text: "Web World Wide", correct: false },
+            { text: "LOL", correct: true },
+            { text: "Weird Whispering Words", correct: false },
+            { text: "Who, What, When", correct: false }
+        ],
+        explanation: "www = laughing (like 'lol'). Comes from 'warau' (笑う). The more 'w's, the funnier it is! "
+    },
+    {
+        question: "What does <br>「タヒぬ」 mean?",
+        image: `${baseImagePath}/tahinu.png`,
+        options: [
+            { text: "I’m dead", correct: true },
+            { text: "Let’s dance", correct: false },
+            { text: "Party all night", correct: false },
+            { text: "No way", correct: false }
+        ],
+        explanation: "タヒぬ = A twisted way to write 死ぬ (to die), often used in memes or exaggeration like 'I’m dead (lol)'"
+    },
+    {
+        question: "What is the meaning of <br>「パリピ」?",
+        image: `${baseImagePath}/paripi.png`,
+        options: [
+            { text: "Pizza lover", correct: false },
+            { text: "Parisian person", correct: false },
+            { text: "Police patrol", correct: false },
+            { text: "Party people", correct: true }
+        ],
+        explanation: "パリピ = Short for 'party people' Someone who loves to go clubbing or have fun!"
+    },
+    {
+        question: "What does <br>「ぴえん」 express?",
+        image: `${baseImagePath}/pien.png`,
+        options: [
+            { text: "Anger", correct: false },
+            { text: "Crying or sadness", correct: true },
+            { text: "Love confession", correct: false },
+            { text: "Embarrassment", correct: false }
+        ],
+        explanation: "ぴえん = Crying sound, Often used when something sad."
+    }
+];
+
+        let currentQuestionIndex = 0;
+
+        function loadQuestion() {
+            const q = quizData[currentQuestionIndex];
+            document.getElementById('question-counter').textContent = `Question ${currentQuestionIndex + 1} / ${quizData.length}`;
+            document.getElementById('question-text').innerHTML = q.question;
+            document.getElementById('quiz-image').src = q.image;
+
+            const optionsContainer = document.getElementById('options');
+            optionsContainer.innerHTML = '';
+            q.options.forEach((opt) => {
+                const btn = document.createElement('div');
+                btn.className = 'option';
+                btn.textContent = opt.text;
+                btn.onclick = () => checkAnswer(btn, opt.correct, q.explanation);
+                optionsContainer.appendChild(btn);
+            });
+
+            document.getElementById('result').textContent = '';
+            document.getElementById('nextButton').style.display = 'none';
+        }
+
+        function checkAnswer(element, isCorrect, explanation) {
+    const result = document.getElementById('result');
+    const options = document.querySelectorAll('.option');
+    options.forEach(opt => opt.style.pointerEvents = 'none');
+
+    if (isCorrect) {
+        result.textContent = 'Correct! 🎉 ' + explanation;
+        result.style.color = '#00b894';
+        element.classList.add('correct');
+        document.getElementById('nextButton').style.display = 'inline-block';
+        showFabulousConfetti();
+
+        setTimeout(() => {
+            document.getElementById('nextButton').scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 300);
+    } else {
+        result.textContent = 'Incorrect... ' + explanation;
+        result.style.color = '#d63031';
+        element.classList.add('incorrect');
+        options.forEach(opt => {
+            if (opt.textContent === quizData[currentQuestionIndex].options.find(o => o.correct).text) {
+                opt.classList.add('correct');
+            }
+        });
+        setTimeout(() => {
+            document.getElementById('tryAgainPopup').style.display = 'block';
+        }, 300);
+    } 
+}
+
+        function nextQuestion() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < quizData.length) {
+                loadQuestion();
+            } else {
+                document.querySelector('.quiz-container').style.display = 'none';
+                document.querySelector('.button-container').style.display = 'none';
+                document.getElementById('completionPopup').style.display = 'block';
+            }
+        }
+
+        window.onload = loadQuestion;
+        function showFabulousConfetti() {
+    // 左側から
+    confetti({
+        particleCount: 50,
+        angle: 60,
+        spread: 80,
+        origin: { x: 0 },
+        colors: ['#ff0000', '#ff7700', '#ffff00']
+    });
+
+    // 右側から
+    confetti({
+        particleCount: 50,
+        angle: 120,
+        spread: 80,
+        origin: { x: 1 },
+        colors: ['#00ff00', '#00ffff', '#0000ff']
+    });
+
+    // 真ん中
+    confetti({
+        particleCount: 100,
+        spread: 120,
+        origin: { y: 0.4 },
+        colors: ['#ff0000', '#ffff00', '#00ff00', '#00ffff', '#0000ff', '#ff00ff'],
+        shapes: ['circle', 'square'],
+        scalar: 1.5
+    });
+
+    // 星とハート
+    confetti({
+        particleCount: 20,
+        spread: 50,
+        origin: { y: 0.6 },
+        shapes: ['star'],
+        colors: ['#ffff00', '#ff7700', '#ff0000'],
+        scalar: 2
+    });
+}
+function resetCurrentQuestion() {
+    document.getElementById('tryAgainPopup').style.display = 'none';
+    const options = document.querySelectorAll('.option');
+    options.forEach(opt => {
+        opt.classList.remove('correct', 'incorrect');
+        opt.style.pointerEvents = 'auto';
+    });
+    document.getElementById('result').textContent = '';
+}
+    </script>
+</body>
+</html>

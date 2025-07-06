@@ -1,0 +1,58 @@
+{
+    "type": "type2",
+    "title": "JLPT N3 Word Reordering Quiz",
+    "questions": [
+        {
+            "options": [
+              { "word": "慣れてきた", "furigana": "な", "romaji": "narete kita", "meaning": "gotten used to" },
+              { "word": "生活に", "furigana": "せいかつ", "romaji": "seikatsu ni", "meaning": "to life/living" },
+              { "word": "最近", "furigana": "さいきん", "romaji": "saikin", "meaning": "recently" },
+              { "word": "つい", "furigana": "", "romaji": "tsui", "meaning": "just" }
+            ],
+            "answer": ["つい", "最近", "生活に", "慣れてきた"],
+            "fixedPart": "、日本の",
+            "full": "つい最近、日本の生活に慣れてきた。",
+            "translation": "Recently, I’ve gotten used to life in Japan.",
+            "possiblePositions": [3]
+          },
+          {
+            "options": [
+              { "word": "だんだん", "furigana": "", "romaji": "dandan", "meaning": "gradually" },
+              { "word": "考えれば", "furigana": "かんが", "romaji": "kangaereba", "meaning": "if I think about it" },
+              { "word": "意味が", "furigana": "いみ", "romaji": "imi ga", "meaning": "meaning" },
+              { "word": "わかってくる", "furigana": "", "romaji": "wakatte kuru", "meaning": "starts to make sense" }
+            ],
+            "answer": ["考えれば", "だんだん", "意味が", "わかってくる"],
+            "fixedPart": "何度も",
+            "full": "何度も考えればだんだん意味がわかってくる。",
+            "translation": "If you think about it multiple times, the meaning gradually becomes clear.",
+            "possiblePositions": [1]
+          },
+          {
+            "options": [
+             { "word": "努力でも", "furigana": "どりょく", "romaji": "doryoku demo", "meaning": "effort" },
+              { "word": "小さな", "furigana": "ちい", "romaji": "chiisana", "meaning": "small" },
+              { "word": "たとえ", "furigana": "", "romaji": "tatoe", "meaning": "even if" },
+              { "word": "続けることが大事だ", "furigana": "", "romaji": "tsuzukeru koto ga daiji da", "meaning": "continuing is important" }
+            ],
+            "answer": ["たとえ", "小さな", "努力でも", "続けることが大事だ"],
+            "fixedPart": "毎日",
+            "full": "たとえ小さな努力でも毎日続けることが大事だ。",
+            "translation": "Even small efforts are important if you continue them every day.",
+            "possiblePositions": [4]
+          },
+          {
+            "options": [
+              { "word": "行きたくなる", "furigana": "い", "romaji": "ikitakunaru", "meaning": "feel like going" },
+              { "word": "場所に", "furigana": "ばしょ", "romaji": "keshiki o", "meaning": "places" },
+              { "word": "写真で", "furigana": "しゃしん", "romaji": "shashin de", "meaning": "through photos" },
+              { "word": "見ただけで", "furigana": "み", "romaji": "mita dake de", "meaning": "just by seeing" }
+            ],
+            "answer": ["写真で", "見ただけで", "場所に", "行きたくなる"],
+            "fixedPart": "その",
+            "full": "写真で見ただけでその場所に行きたくなる。",
+            "translation": "Just by seeing that scenery in photos, I feel like going there.",
+            "possiblePositions": [3]
+          }
+    ]
+}

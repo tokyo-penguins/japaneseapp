@@ -1,0 +1,45 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "天気が悪い（ ）、ピクニックは中止になった。",
+      "options": ["1. ために", "2. のに", "3. ものの", "4. せいで"],
+      "answer": "4. せいで",
+      "hint": "<p><ruby>天気<rt>てんき</rt></ruby> – weather<br><ruby>中止<rt>ちゅうし</rt></ruby> – cancellation<br><em>Romaji:</em> tenki, chuushi</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> <br><strong>せいで</strong> means 'because of' (used for negative causes). The sentence means 'Because of the bad weather, the picnic was cancelled.'</p><br><strong>Option Explanations:</strong><br>1.ために (tameni): for the sake of<br>2. のに (noni): although<br>3. ものの (monono): even though<br>4.せいで (seide): ✅ because of (negative)</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong> The correct answer is <strong>4. せいで</strong> – because of (negative cause).<br><br><strong>Option Explanations:</strong><br>1.ために(tameni): for the sake of<br>2. のに(noni): although<br>3.ものの (monono): even though<br>4. せいで(seide): ✅ because of (negative)</p>"
+      }
+    },
+    {
+      "question": "この問題は頭を（ ）考える必要がある。",
+      "options": ["1. ひねって", "2. はさんで", "3. なでて", "4. ふって"],
+      "answer": "1. ひねって",
+      "hint": "<p><ruby>考える<rt>かんがえる</rt></ruby> – to think<br><ruby>必要<rt>ひつよう</rt></ruby> – necessary<br><em>Romaji:</em> kangaeru, hitsuyou</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> <br><strong>頭をひねる</strong> means 'to think hard'. It’s often used when facing a difficult problem.</p><br><strong>Option Explanations:</strong><br>1. ひねって(hineru): ✅ twist / think hard<br>2. はさんで(hasamu): pinch<br>3.なでて (naderu): stroke<br>4.ふって(furu): shake</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong> The correct answer is <strong>1. ひねって</strong> – to twist / think hard.<br><br><strong>Option Explanations:</strong><br>1.ひねって (hineru): ✅ twist / think hard<br>2. はさんで(hasamu): pinch<br>3.なでて(naderu): stroke<br>4.ふって(furu): shake</p>"
+      }
+    },
+    {
+      "question": "彼女は口が（ ）から、秘密は絶対に守られる。",
+      "options": ["1. かたい", "2. うるさい", "3. あまい", "4. くさい"],
+      "answer": "1. かたい",
+      "hint": "<p><ruby>秘密<rt>ひみつ</rt></ruby> – secret<br><ruby>守る<rt>まもる</rt></ruby> – to protect<br><em>Romaji:</em> himitsu, mamoru</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> <br><strong>口がかたい</strong> means 'tight-lipped' or good at keeping secrets.</p><br><strong>Option Explanations:</strong><br>1. かたい (katai): ✅ tight-lipped<br>2.うるさい (urusai): noisy<br>3. あまい (amai): sweet, lenient<br>4.くさい (kusai): smelly</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong> The correct answer is <strong>1. かたい</strong> – tight-lipped.<br><br><strong>Option Explanations:</strong><br>1. かたい (katai): ✅ tight-lipped<br>2.うるさい(urusai): noisy<br>3. あまい (amai): sweet, lenient<br>4. くさい (kusai): smelly</p>"
+      }
+    },
+    {
+      "question": "環境問題に（ ）を持つ人が増えてきた。",
+      "options": ["1. 関心", "2. 反省", "3. 回復", "4. 訓練"],
+      "answer": "1. 関心",
+      "hint": "<p><ruby>環境問題<rt>かんきょうもんだい</rt></ruby> – environmental issues<br><ruby>増える<rt>ふえる</rt></ruby> – to increase<br><em>Romaji:</em> kankyou mondai, fueru</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> <br><strong>関心</strong> means 'interest'. The sentence means 'More people are showing interest in environmental issues.'</p><br><strong>Option Explanations:</strong><br>1. <ruby>関心<rt>かんしん</rt></ruby> (kanshin): ✅ interest<br>2. <ruby>反省<rt>はんせい</rt></ruby> (hansei): reflection<br>3. <ruby>回復<rt>かいふく</rt></ruby> (kaifuku): recovery<br>4. <ruby>訓練<rt>くんれん</rt></ruby> (kunren): training</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong> The correct answer is <strong>1. 関心</strong> – interest.<br><br><strong>Option Explanations:</strong><br>1. <ruby>関心<rt>かんしん</rt></ruby> (kanshin): ✅ interest<br>2. <ruby>反省<rt>はんせい</rt></ruby> (hansei): reflection<br>3. <ruby>回復<rt>かいふく</rt></ruby> (kaifuku): recovery<br>4. <ruby>訓練<rt>くんれん</rt></ruby> (kunren): training</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Type 2</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/quiz_type2.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+  <h1 id="quiz-title">JLPT Word Reordering</h1>
+  <div class="question-number" id="question-number"></div>
+  <div class="quiz-container">
+    <div class="sentence" id="sentence-container"></div>
+    <div class="options" id="options-container"></div>
+    <div class="button-container">
+      <button id="final-btn">Final Answer</button>
+      <button id="next-btn" style="display:none">Next</button>
+    </div>
+    <button id="menu-btn">Back to Main Menu</button>
+    <div class="feedback" id="feedback"></div>
+    <div class="explanations" id="explanations"></div>
+    <div class="translation" id="translation"></div>
+  </div>
+
+  <!-- Incorrect Answer Modal -->
+  <div id="incorrect-popup">
+    <p>Your answer is Incorrect!</p>
+    <button id="try-again-btn">Try Again</button>
+    <button id="back-menu-btn">Main Menu</button>
+  </div>
+
+  <script>
+  const questions = {{ questions|tojson|safe if questions is defined else '[]' }};
+  const quizLevel = "{{ quizLevel }}";
+  const quizNum = {{ quizNum }};
+  const quiz_id = "{{ quiz_id }}";
+  console.log("埋め込みquestionsデータ:", questions);
+</script>
+      <script src="{{ url_for('static', filename='js/quiz_type2_logic.js') }}"></script>
+      
+</body>
+</html>

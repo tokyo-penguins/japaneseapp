@@ -1,0 +1,48 @@
+{
+    "type": "type2",
+    "title": "JLPT N5 Word Reordering Quiz",
+    "questions": [
+        {
+            "sentence": "___ ___ ___ ___ はしります。",
+            "options": [
+              { "word": "と", "furigana": "", "romaji": "にち", "meaning": "with" },
+              { "word": "は", "furigana": "", "romaji": "de", "meaning": "am/is/are" },
+              { "word": "ともだち", "furigana": "", "romaji": "mai", "meaning": "friends" },
+              { "word": "わたし", "furigana": "", "romaji": "watashiwa", "meaning": "I" }
+            ],
+            "answer": ["わたし", "は", "ともだち", "と"],
+            "full": "わたし は ともだち と はしります。",
+            "translation": "I run with my friends.",
+            "fixedPart": "はしります。",
+            "possiblePositions": [5]
+          },
+          {
+            "sentence": "___ ___ ___ ___ つくりました。",
+            "options": [
+              { "word": "きのう", "furigana": "", "romaji": "kinou", "meaning": "yesterday" },
+              { "word": "ばん", "furigana": "", "romaji": "ban", "meaning": "night" },
+              { "word": "を", "furigana": "", "romaji": "wo", "meaning": "object marker" },
+              { "word": "ごはん", "furigana": "", "romaji": "gohan", "meaning": "food" }
+            ],
+            "answer": ["きのう", "ばん", "ごはん", "を"],
+            "full": "きのう ばん ごはん を つくりました。",
+            "translation": "I made dinner yesterday.",
+            "fixedPart": "つくりました。",
+            "possiblePositions": [5]
+          },
+          {
+            "sentence": "___ ___ ___ ___ かいました。",
+            "options": [
+              { "word": "新しい", "furigana": "あたら", "romaji": "atarashii", "meaning": "new" },
+              { "word": "車", "furigana": "くるま", "romaji": "kuruma", "meaning": "car" },
+              { "word": "を", "furigana": "", "romaji": "wo", "meaning": "object marker" },
+              { "word": "わたしは", "furigana": "", "romaji": "watashiwa", "meaning": "I" }
+            ],
+            "answer": ["わたしは", "新しい", "車", "を"],
+            "full": "わたしは 新しい 車 を かいました。",
+            "translation": "I bought a new car.",
+            "fixedPart": "かいました。",
+            "possiblePositions": [5]
+          }
+    ]
+}

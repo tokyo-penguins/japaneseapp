@@ -1,0 +1,80 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "この本は図書館で（＿）ことができます。",
+      "options": [
+        "1. 借りる",
+        "2. 遊ぶ",
+        "3. 飲む",
+        "4. 話す"
+      ],
+      "answer": "1. 借りる",
+      "hint": "<p><ruby>図書館<rt>としょかん</rt></ruby> (toshokan) - library<br><ruby>借<rt>か</rt></ruby>りる (kariru) - to borrow</p>",
+      "explanation": {
+        "correct": "<p><strong>✅ Correct!</strong><br><ruby>借りる<rt>かりる</rt></ruby> means 'to borrow'. You can borrow books at a library.</p><ul><li><ruby>借りる<rt>かりる</rt></ruby> (kariru): to borrow</li><li><ruby>遊ぶ<rt>あそぶ</rt></ruby> (asobu): to play</li><li><ruby>飲む<rt>のむ</rt></ruby> (nomu): to drink</li><li><ruby>話す<rt>はなす</rt></ruby> (hanasu): to talk</li></ul><p><strong>Sentence meaning:</strong> You can borrow this book at the library.</p>",
+        "incorrect": "<p><strong>❌ Incorrect.</strong><br>The correct answer is <ruby>借りる<rt>かりる</rt></ruby> (kariru): to borrow.</p><ul><li><ruby>借りる<rt>かりる</rt></ruby>: to borrow</li><li><ruby>遊ぶ<rt>あそぶ</rt></ruby>: to play</li><li><ruby>飲む<rt>のむ</rt></ruby>: to drink</li><li><ruby>話す<rt>はなす</rt></ruby>: to talk</li></ul><p><strong>Sentence meaning:</strong> You can borrow this book at the library.</p>"
+      }
+    },
+    {
+      "question": "昨日、友だちと映画を（＿）ました。",
+      "options": [
+        "3. 見",
+        "2. 書き",
+        "1. 飛び",
+        "4. 立ち"
+      ],
+      "answer": "3. 見",
+      "hint": "<p><ruby>映画<rt>えいが</rt></ruby> (eiga) - movie<br><ruby>見<rt>み</rt></ruby>る (miru) - to watch</p>",
+      "explanation": {
+        "correct": "<p><strong>✅ Correct!</strong><br><ruby>見<rt>み</rt></ruby>る means 'to watch'. Watching a movie fits this context.</p><ul><li><ruby>見<rt>み</rt></ruby> (miru): to watch</li><li><ruby>書き<rt>かき</rt></ruby> (kaku): to write</li><li><ruby>飛び<rt>とび</rt></ruby> (tobu): to fly</li><li><ruby>立ち<rt>たち</rt></ruby> (tatsu): to stand</li></ul><p><strong>Sentence meaning:</strong> I watched a movie with my friend yesterday.</p>",
+        "incorrect": "<p><strong>❌ Incorrect.</strong><br>The correct answer is <ruby>見<rt>み</rt></ruby> (miru): to watch.</p><ul><li><ruby>見<rt>み</rt></ruby>: to watch</li><li><ruby>書き<rt>かき</rt></ruby>: to write</li><li><ruby>飛び<rt>とび</rt></ruby>: to fly</li><li><ruby>立ち<rt>たち</rt></ruby>: to stand</li></ul><p><strong>Sentence meaning:</strong> I watched a movie with my friend yesterday.</p>"
+      }
+    },
+    {
+      "question": "このボタンを（＿）と、ドアが開きます。",
+      "options": [
+        "4. 押す",
+        "1. 書く",
+        "2. 着る",
+        "3. 歩く"
+      ],
+      "answer": "4. 押す",
+      "hint": "<p><ruby>押<rt>お</rt></ruby>す (osu) - to push<br><ruby>開<rt>あ</rt></ruby>く (hiraku) - to open</p>",
+      "explanation": {
+        "correct": "<p><strong>✅ Correct!</strong><br><ruby>押す<rt>おす</rt></ruby> means 'to push'. Pushing a button opens the door.</p><ul><li><ruby>押す<rt>おす</rt></ruby>: to push</li><li><ruby>書く<rt>かく</rt></ruby>: to write</li><li><ruby>着る<rt>きる</rt></ruby>: to wear</li><li><ruby>歩く<rt>あるく</rt></ruby>: to walk</li></ul><p><strong>Sentence meaning:</strong> If you push this button, the door will open.</p>",
+        "incorrect": "<p><strong>❌ Incorrect.</strong><br>The correct answer is <ruby>押す<rt>おす</rt></ruby> (osu): to push.</p><ul><li><ruby>押す<rt>おす</rt></ruby>: to push</li><li><ruby>書く<rt>かく</rt></ruby>: to write</li><li><ruby>着る<rt>きる</rt></ruby>: to wear</li><li><ruby>歩く<rt>あるく</rt></ruby>: to walk</li></ul><p><strong>Sentence meaning:</strong> If you push this button, the door will open.</p>"
+      }
+    },
+    {
+      "question": "明日は雨が（＿）そうです。",
+      "options": [
+        "2. 降り",
+        "1. 曇り",
+        "3. 飛び",
+        "4. 寝"
+      ],
+      "answer": "2. 降り",
+      "hint": "<p><ruby>降<rt>ふ</rt></ruby>る (furu) - to fall (rain, snow)</p>",
+      "explanation": {
+        "correct": "<p><strong>✅ Correct!</strong><br><ruby>降り<rt>ふり</rt></ruby> is used for rain or snow falling. This sentence predicts rain.</p><ul><li><ruby>降り<rt>ふり</rt></ruby>: falling (of rain/snow)</li><li><ruby>曇り<rt>くもり</rt></ruby>: cloudy</li><li><ruby>飛び<rt>とび</rt></ruby>: flying</li><li><ruby>寝<rt>ね</rt></ruby>: sleeping</li></ul><p><strong>Sentence meaning:</strong> It looks like it will rain tomorrow.</p>",
+        "incorrect": "<p><strong>❌ Incorrect.</strong><br>The correct answer is <ruby>降り<rt>ふり</rt></ruby> (furi): falling (of rain/snow).</p><ul><li><ruby>降り<rt>ふり</rt></ruby>: falling (of rain/snow)</li><li><ruby>曇り<rt>くもり</rt></ruby>: cloudy</li><li><ruby>飛び<rt>とび</rt></ruby>: flying</li><li><ruby>寝<rt>ね</rt></ruby>: sleeping</li></ul><p><strong>Sentence meaning:</strong> It looks like it will rain tomorrow.</p>"
+      }
+    },
+    {
+      "question": "私は毎日７時に（＿）ます。",
+      "options": [
+        "3. 起き",
+        "1. 書き",
+        "2. 寝",
+        "4. 飲み"
+      ],
+      "answer": "3. 起き",
+      "hint": "<p><ruby>起<rt>お</rt></ruby>きる (okiru) - to wake up<br><ruby>毎日<rt>まいにち</rt></ruby> (mainichi) - every day</p>",
+      "explanation": {
+        "correct": "<p><strong>✅ Correct!</strong><br><ruby>起き<rt>おき</rt></ruby>る means 'to wake up'. This matches with a time of day.</p><ul><li><ruby>起き<rt>おき</rt></ruby>: to wake up</li><li><ruby>書き<rt>かき</rt></ruby>: to write</li><li><ruby>寝<rt>ね</rt></ruby>: to sleep</li><li><ruby>飲み<rt>のみ</rt></ruby>: to drink</li></ul><p><strong>Sentence meaning:</strong> I wake up at 7 o’clock every day.</p>",
+        "incorrect": "<p><strong>❌ Incorrect.</strong><br>The correct answer is <ruby>起き<rt>おき</rt></ruby> (oki): to wake up.</p><ul><li><ruby>起き<rt>おき</rt></ruby>: to wake up</li><li><ruby>書き<rt>かき</rt></ruby>: to write</li><li><ruby>寝<rt>ね</rt></ruby>: to sleep</li><li><ruby>飲み<rt>のみ</rt></ruby>: to drink</li></ul><p><strong>Sentence meaning:</strong> I wake up at 7 o’clock every day.</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "景気回復の兆しが見えてきたとはいえ、まだまだ（  ）状況だ。",
+      "options": ["1. 予断を許さない", "2. 雲行きがいい", "3. 有頂天な", "4. 手ごたえのある"],
+      "answer": "1. 予断を許さない",
+      "hint": "<p>景気（けいき, keiki）- economic condition<br>兆し（きざし, kizashi）- sign</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 予断を許さない（よだんをゆるさない）– unpredictable; precarious</p><ul><li>雲行きがいい – weather looks good (figuratively: situation looks favorable)</li><li>有頂天な – elated</li><li>手ごたえのある – rewarding</li></ul><p><strong>Translation:</strong> Although signs of economic recovery are visible, the situation remains unpredictable.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 予断を許さない – unpredictable</p><ul><li>雲行きがいい – favorable weather</li><li>有頂天な – elated</li><li>手ごたえのある – rewarding</li></ul><p><strong>Translation:</strong> Although signs of economic recovery are visible, the situation remains unpredictable.</p>"
+      }
+    },
+    {
+      "question": "彼の意見は、長年の経験に（  ）している。",
+      "options": ["1. 裏打ち", "2. 拒絶", "3. 妨害", "4. 執着"],
+      "answer": "1. 裏打ち",
+      "hint": "<p>経験（けいけん, keiken）- experience<br>意見（いけん, iken）- opinion</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 裏打ちする（うらうち）– to support, to back up</p><ul><li>拒絶 – rejection</li><li>妨害 – obstruction</li><li>執着 – obsession</li></ul><p><strong>Translation:</strong> His opinion is supported by many years of experience.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 裏打ち – backing, support</p><ul><li>拒絶 – rejection</li><li>妨害 – obstruction</li><li>執着 – obsession</li></ul><p><strong>Translation:</strong> His opinion is supported by many years of experience.</p>"
+      }
+    },
+    {
+      "question": "どんな困難な状況でも、彼は（  ）態度を崩さなかった。",
+      "options": ["1. 冷静な", "2. 無謀な", "3. 粗末な", "4. 野蛮な"],
+      "answer": "1. 冷静な",
+      "hint": "<p>困難（こんなん, konnan）- difficulty<br>態度（たいど, taido）- attitude</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 冷静な（れいせいな）– calm</p><ul><li>無謀な – reckless</li><li>粗末な – crude, shabby</li><li>野蛮な – barbaric</li></ul><p><strong>Translation:</strong> No matter the hardship, he remained calm.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 冷静な – calm</p><ul><li>無謀な – reckless</li><li>粗末な – crude</li><li>野蛮な – barbaric</li></ul><p><strong>Translation:</strong> No matter the hardship, he remained calm.</p>"
+      }
+    },
+    {
+      "question": "その話は信ぴょう性に（  ）。",
+      "options": ["1. 欠ける", "2. 及ぶ", "3. 際立つ", "4. 寄与する"],
+      "answer": "1. 欠ける",
+      "hint": "<p>信ぴょう性（しんぴょうせい, shinpyousei）- credibility</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 欠ける（かける）– to lack</p><ul><li>及ぶ – to reach</li><li>際立つ – to stand out</li><li>寄与する – to contribute</li></ul><p><strong>Translation:</strong> That story lacks credibility.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 欠ける – to lack</p><ul><li>及ぶ – to reach</li><li>際立つ – to stand out</li><li>寄与する – to contribute</li></ul><p><strong>Translation:</strong> That story lacks credibility.</p>"
+      }
+    },
+    {
+      "question": "新商品が発売されたが、売れ行きは（  ）。",
+      "options": ["1. 芳しくない", "2. 華々しい", "3. 快調な", "4. 急伸する"],
+      "answer": "1. 芳しくない",
+      "hint": "<p>売れ行き（うれゆき, ureyuki）- sales<br>発売（はつばい, hatsubai）- release</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 芳しくない（かんばしくない）– not favorable</p><ul><li>華々しい – brilliant</li><li>快調な – smooth-running</li><li>急伸する – to surge</li></ul><p><strong>Translation:</strong> The product was launched, but sales were not good.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 芳しくない – not favorable</p><ul><li>華々しい – brilliant</li><li>快調な – smooth-running</li><li>急伸する – to surge</li></ul><p><strong>Translation:</strong> The product was launched, but sales were not good.</p>"
+      }
+    },
+    {
+      "question": "彼の不適切な発言は会議の雰囲気を（  ）させた。",
+      "options": ["1. 白け", "2. 落ち着け", "3. 引き立て", "4. 盛り上げ"],
+      "answer": "1. 白け",
+      "hint": "<p>会議（かいぎ, kaigi）- meeting<br>雰囲気（ふんいき, fun'iki）- atmosphere</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 白ける（しらける）– to dampen the mood</p><ul><li>落ち着ける – to calm</li><li>引き立てる – to promote</li><li>盛り上げる – to liven up</li></ul><p><strong>Translation:</strong> His inappropriate comment ruined the mood of the meeting.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 白ける – to ruin the mood</p><ul><li>落ち着ける – to calm</li><li>引き立てる – to promote</li><li>盛り上げる – to liven up</li></ul><p><strong>Translation:</strong> His inappropriate comment ruined the mood of the meeting.</p>"
+      }
+    },
+    {
+      "question": "この件に関しては、社内での（  ）が求められる。",
+      "options": ["1. 合意", "2. 防衛", "3. 模倣", "4. 治療"],
+      "answer": "1. 合意",
+      "hint": "<p>件（けん, ken）- matter<br>求める（もとめる, motomeru）- to require</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 合意（ごうい）– consensus, agreement</p><ul><li>防衛 – defense</li><li>模倣 – imitation</li><li>治療 – treatment</li></ul><p><strong>Translation:</strong> Regarding this matter, internal agreement is required.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 合意 – consensus</p><ul><li>防衛 – defense</li><li>模倣 – imitation</li><li>治療 – treatment</li></ul><p><strong>Translation:</strong> Regarding this matter, internal agreement is required.</p>"
+      }
+    }
+  ]
+}

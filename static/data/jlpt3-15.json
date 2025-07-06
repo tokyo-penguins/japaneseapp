@@ -1,0 +1,45 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "雨が（　　　）から、出かけるのをやめました。",
+      "options": ["1. 降って", "2. 降る", "3. 降れば", "4. 降った"],
+      "answer": "4. 降った",
+      "hint": "<p><ruby>雨<rt>あめ</rt></ruby> (ame) – rain<br><ruby>降った<rt>ふった</rt></ruby> (futta) – it rained</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> 『降った』 is the past tense of 'to rain'. This expresses the reason why the person did not go out.</p><ul><li>1. 降って – te-form, used for connection</li><li>2. 降る – dictionary form (present/future)</li><li>3. 降れば – conditional 'if it rains'</li><li>4. 降った – ✅ past form, 'it rained'</li></ul><p><strong>English Translation:</strong> Because it rained, I decided not to go out.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 4. 降った (futta) – it rained<br>Only the past tense makes logical sense with the reason for not going out.</p>"
+      }
+    },
+    {
+      "question": "母は（　　　）ながら料理をしています。",
+      "options": ["1. うたい", "2. うたって", "3. うたう", "4. うたいます"],
+      "answer": "1. うたい",
+      "hint": "<p><ruby>母<rt>はは</rt></ruby> (haha) – mother<br><ruby>料理<rt>りょうり</rt></ruby> (ryouri) – cooking<br>ながら – while doing</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> 『うたいながら』 follows the grammar pattern: verb stem + ながら.</p><ul><li>1. うたい – ✅ stem form, 'singing'</li><li>2. うたって – te-form, incorrect here</li><li>3. うたう – dictionary form, not used with ながら</li><li>4. うたいます – polite form, not grammatical here</li></ul><p><strong>English Translation:</strong> My mother is cooking while singing.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 1. うたい (utai) – verb stem<br>Only verb stems are used before 'ながら'.</p>"
+      }
+    },
+    {
+      "question": "もうすぐ夏休みが（　　　）ね。",
+      "options": ["1. 始めます", "2. 始まり", "3. 始まって", "4. 始まります"],
+      "answer": "4. 始まります",
+      "hint": "<p><ruby>夏休み<rt>なつやすみ</rt></ruby> (natsuyasumi) – summer vacation<br><ruby>始まる<rt>はじまる</rt></ruby> (hajimaru) – to begin (intransitive)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> 『始まります』 is the polite present tense of the intransitive verb 'to begin.'</p><ul><li>1. 始めます – transitive, 'to begin something'</li><li>2. 始まり – noun/stem form</li><li>3. 始まって – te-form</li><li>4. 始まります – ✅ correct polite present form</li></ul><p><strong>English Translation:</strong> Summer vacation will begin soon, right?</p>",
+        "incorrect": "<p><strong>Answer:</strong> 4. 始まります (hajimarimasu)<br>This is the only correct present-tense form for 'something starting'.</p>"
+      }
+    },
+    {
+      "question": "新しい仕事に（　　　）から、毎日が楽しいです。",
+      "options": ["1. 慣れる", "2. 慣れない", "3. 慣れて", "4. 慣れます"],
+      "answer": "3. 慣れて",
+      "hint": "<p><ruby>慣れて<rt>なれて</rt></ruby> (narete) – got used to<br>から – since / because</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong> 『慣れてから』 means 'since getting used to (something)'.</p><ul><li>1. 慣れる – dictionary form</li><li>2. 慣れない – not get used to</li><li>3. 慣れて – ✅ te-form + から = since</li><li>4. 慣れます – polite present, not matching 'から'</li></ul><p><strong>English Translation:</strong> Since I got used to my new job, every day is fun.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 3. 慣れて (narete)<br>'Verb te-form + から' is the correct way to say 'since doing X.'</p>"
+      }
+    }
+  ]
+}

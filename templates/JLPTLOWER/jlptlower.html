@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JLPT5~3 Quiz</title>
+    <style>
+body {
+  background-image: url("{{ url_for('static', filename='images/i.png') }}");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  font-family: 'Comic Sans MS', 'Noto Sans JP', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quiz-container {
+  background: #fff8dc;
+  border: 5px solid black;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 90%;
+  box-shadow: 6px 6px 0 #000;
+  position: relative;
+  z-index: 1;
+}
+
+.question-counter {
+  font-weight: bold;
+  color: #ff4444;
+  font-size: 1.2em;
+  text-shadow: 1px 1px white;
+  margin-bottom: 10px;
+}
+
+.option {
+  background-color: #ffefc3;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 12px;
+  margin: 8px 0;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 3px 3px 0 black;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.option:hover {
+  transform: scale(1.05);
+  background-color: #ffe28a;
+}
+
+.correct {
+  background-color: #4CAF50 !important;
+  color: white;
+}
+
+.incorrect {
+  background-color: #f44336 !important;
+  color: white;
+}
+
+.next-btn, #back-btn {
+  border: 3px solid black;
+  border-radius: 12px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Comic Sans MS', cursive;
+  box-shadow: 3px 3px 0 black;
+  transition: transform 0.2s;
+  position: fixed;
+  z-index: 100;
+}
+
+.next-btn {
+  background-color: #4CAF50;
+  color: white;
+  right: 20px;
+  bottom: 20px;
+  display: none; /* 初期は非表示にしてJSで表示 */
+}
+
+#back-btn {
+  background-color: #2196F3;
+  color: white;
+  left: 20px;
+  bottom: 20px;
+}
+
+/* スマホ用レスポンシブ */
+@media (max-width: 768px) {
+  .quiz-container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .option {
+    font-size: 14px;
+  }
+
+  .next-btn, #back-btn {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+}
+#question-img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="question-counter" id="question-counter">Question 1 of 10</div>
+        <p id="question"></p>
+        <img id="question-img" src="" alt="Question Image">
+        <div id="options"></div>
+        <div class="buttons-container">
+            <button onclick="nextQuestion()" class="next-btn">Next</button>
+            <button id="back-btn" onclick="window.location.href='/home#jlptlo'">Back to Main Menu</button>
+        </div>
+        <div id="ghibli-results" class="ghibli-results" style="display:none;">
+            <div class="ghibli-clouds"></div>
+            <h2 class="ghibli-title">Your Quiz Results</h2>
+            <div class="ghibli-character" id="ghibli-char">🐉</div>
+            <div class="ghibli-score" id="ghibli-score">0/10</div>
+            <div class="ghibli-message" id="ghibli-message"></div>
+            
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+        {
+                question: "1. これは（＿）です。",
+                options: ["1. 犬", "2. 猫", "3. 車", "4. 花"],
+                answer: "2. 猫",
+                image: "{{ url_for('static', filename='images/cat.png') }}",
+                imageStyle: "width: 200px; height: 200px;"
+            },
+            {
+                question: "2. きのうスーパーでみず（＿）買いました。",
+                options: ["1. と","2. を", "3. も", "4. が"],
+                answer: "2. を",
+                image: "{{ url_for('static', filename='images/water.png') }}",
+                imageStyle: "width: 200px; height: 200px;"
+            },
+            {
+                question: "3. このレストランのパンは（＿）おいしいです。",
+                options: ["1. とても", "2. あまり", "3. たくさん", "4. だけど"],
+                answer: "1. とても",
+                image: "{{ url_for('static', filename='images/bread.png') }}",
+                imageStyle: "width: 200px; height: 200px;"
+            },
+            {
+                question: "4. 電気を（＿）まま、出かけました。",
+                options: ["1. つける", "2. つけて", "3. つけた", "4. つけている"],
+                answer: "3. つけた",
+                image: "{{ url_for('static', filename='images/lights.png') }}",
+                imageStyle: "width: 200px; height: 200px;"
+            },
+            {
+                question: "5. わたしは病気（＿）学校をやすんだ。",
+                options: ["1. で", "2. に", "3. を", "4. から"],
+                answer: "1. で",
+                image: "{{ url_for('static', filename='images/sick.png') }}",
+                imageStyle: "width: 200px; height: 200px;"
+            },
+            {
+                question: "6. 明日は雨が（＿）らしいです。",
+                options: ["1. 降る", "2. 降って", "3. 降った", "4. 降り"],
+                answer: "1. 降る",
+                image: "{{ url_for('static', filename='images/rain.png') }}",
+                imageStyle: "width: 200px; height: 200px;"
+            },
+            {
+                question: "7. この問題は子供（＿）むずかしい。",
+                options: ["1. にとって", "2. によって", "3. について", "4. に対して"],
+                answer: "1. にとって",
+                image: "{{ url_for('static', filename='images/difficult.png') }}",
+                imageStyle: "width: 200px; height: 200px;"
+            },
+            {
+                question: "8. コロナ流行の影響に（＿）、レストランは休業した。",
+                options: ["1. だけど", "2. なので", "3. しかし", "4. よって"],
+                answer: "4. よって",
+                image: "{{ url_for('static', filename='images/covid.png') }}",
+                imageStyle: "width: 200px; height: 200px;"
+            },
+            {
+                question: "9. オリンピックは４年（＿）に、開催される。",
+                options: ["1. だけ", "2. ほど", "3. ごと", "4. また"],
+                answer: "3. ごと",
+                image: "{{ url_for('static', filename='images/olympic.png') }}",
+                imageStyle: "width: 200px; height: 200px;"
+            },
+            {
+                question: "10. 一瞬（＿）を失いかけた",
+                options: ["1. 書斎", "2. 意識", "3. 商業", "4. 修理"],
+                answer: "2. 意識",
+                image: "{{ url_for('static', filename='images/life.png') }}",
+                imageStyle: "width: 200px; height: 200px;"
+            },
+        ];
+
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+        let wrongAnswersCount = 0;
+        let selected = false;
+        
+        function loadQuestion() {
+            selected = false; // Reset selected status for new question
+            const questionData = questions[currentQuestionIndex];
+            document.getElementById("question").innerText = questionData.question;
+            
+            // Update question counter
+            document.getElementById("question-counter").innerText = 
+                `Question ${currentQuestionIndex + 1} of ${questions.length}`;
+            
+            const imgElement = document.getElementById("question-img");
+            imgElement.src = questionData.image;
+            imgElement.style = questionData.imageStyle || ""; 
+            
+            let optionsHtml = "";
+            questionData.options.forEach(option => {
+                optionsHtml += `<button class='option' onclick='checkAnswer(this, "${option}")'>${option}</button>`;
+            });
+            document.getElementById("options").innerHTML = optionsHtml;
+        }
+        document.querySelector('.next-btn').style.display = 'block';
+
+        function checkAnswer(btn, selectedOption) {
+            selected = true; // Mark that an answer has been selected
+            const correctAnswer = questions[currentQuestionIndex].answer;
+            if (selectedOption === correctAnswer) {
+                btn.classList.add("correct");
+                score++;
+                showCracker();
+                triggerConfetti();
+            } else {
+                wrongAnswersCount = Math.min(wrongAnswersCount + 1, 10); // Max 10 thumbs
+                btn.classList.add("incorrect");
+                showBooingHands();
+                
+                // Highlight correct answer
+                document.querySelectorAll(".option").forEach(button => {
+                    if (button.textContent === correctAnswer) {
+                        button.classList.add("correct");
+                    }
+                });
+            }
+            document.querySelectorAll(".option").forEach(button => button.disabled = true);
+        }
+
+        function showCracker() {
+            const cracker = document.createElement('img');
+            cracker.className = 'cracker-pop';
+            document.body.appendChild(cracker);
+            
+            setTimeout(() => {
+                cracker.remove();
+            }, 1500);
+        }
+
+        function showBooingHands() {
+            const container = document.createElement('div');
+            container.className = 'booing-container';
+            document.body.appendChild(container);
+            
+            for (let i = 0; i < wrongAnswersCount; i++) {
+                setTimeout(() => {
+                    const hands = document.createElement('div');
+                    hands.className = 'booing-hands';
+                    hands.innerHTML = '👎';
+                    // Random horizontal offset from center
+                    hands.style.left = `calc(50% + ${(Math.random() * 200 - 100)}px)`;
+                    container.appendChild(hands);
+                    
+                    setTimeout(() => {
+                        hands.remove();
+                    }, 2000);
+                }, i * 150); // Stagger appearance
+            }
+            
+            setTimeout(() => {
+                container.remove();
+            }, wrongAnswersCount * 150 + 2000);
+        }
+
+        function triggerConfetti() {
+            confetti({
+                particleCount: 100,
+                spread: 70,
+                origin: { y: 0.6 }
+            });
+        }
+
+        function nextQuestion() {
+            if (!selected) {
+                alert("Please select an answer before continuing!");
+                return;
+            }
+            
+            currentQuestionIndex++;
+            
+            if (currentQuestionIndex < questions.length) {
+                loadQuestion();
+            } else {
+                showFinalResults();
+                document.querySelector('.next-btn').style.display = 'none';
+                document.getElementById('question-counter').style.display = 'none';
+            }
+        }
+
+        function showFinalResults() {
+    const ghibliResults = document.getElementById('ghibli-results');
+    const ghibliScore = document.getElementById('ghibli-score');
+    const ghibliMessage = document.getElementById('ghibli-message');
+    const ghibliChar = document.getElementById('ghibli-char');
+
+    ghibliResults.style.display = 'block';
+    ghibliScore.textContent = `${score}/10`;
+
+    if (score === 10) {
+        ghibliChar.textContent = '🐉';
+        ghibliMessage.textContent = 'Perfect! You mastered everything!';
+    } else if (score >= 7) {
+        ghibliChar.textContent = '🦊';
+        ghibliMessage.textContent = 'Well done! You\'re almost a master!';
+    } else if (score >= 4) {
+        ghibliChar.textContent = '🐞';
+        ghibliMessage.textContent = 'Great progress! Keep learning!';
+    } else if (score >= 1) {
+        ghibliChar.textContent = '🌱';
+        ghibliMessage.textContent = 'Everyone starts somewhere. Let\'s grow together!';
+    } else {
+        ghibliChar.textContent = '🌧️';
+        ghibliMessage.textContent = 'No worries, fresh start awaits!';
+    }
+}
+ 
+        window.onload = loadQuestion;
+    </script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "過去のデータに基づいて、将来の動向を（  ）する。",
+      "options": ["1. 予測", "2. 誘導", "3. 防止", "4. 抑圧"],
+      "answer": "1. 予測",
+      "hint": "<p><ruby>基<rt>もと</rt></ruby>づく (motozuku) – to be based on<br><ruby>動向<rt>どうこう</rt></ruby> (doukou) – trend</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>予測<rt>よそく</rt></ruby> (yosoku) means prediction or forecast.<br><br><strong>Option Explanations:</strong><br>1. <ruby>予測<rt>よそく</rt></ruby> (yosoku): ✅ prediction<br>2. <ruby>誘導<rt>ゆうどう</rt></ruby> (yuudou): guidance<br>3. <ruby>防止<rt>ぼうし</rt></ruby> (boushi): prevention<br>4. <ruby>抑圧<rt>よくあつ</rt></ruby> (yokuatsu): oppression<br><br><strong>Sentence meaning:</strong> Predict future trends based on past data.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>予測<rt>よそく</rt></ruby></strong> – prediction.<br><br><strong>Option Explanations:</strong><br>1. <ruby>予測<rt>よそく</rt></ruby> (yosoku): ✅ prediction<br>2. <ruby>誘導<rt>ゆうどう</rt></ruby> (yuudou): guidance<br>3. <ruby>防止<rt>ぼうし</rt></ruby> (boushi): prevention<br>4. <ruby>抑圧<rt>よくあつ</rt></ruby> (yokuatsu): oppression</p>"
+      }
+    },
+    {
+      "question": "この制度には多くの（  ）が寄せられている。",
+      "options": ["1. 批判", "2. 加工", "3. 融資", "4. 過剰"],
+      "answer": "1. 批判",
+      "hint": "<p><ruby>制度<rt>せいど</rt></ruby> (seido) – system<br><ruby>寄<rt>よ</rt></ruby>せる (yoseru) – to send/submit</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>批判<rt>ひはん</rt></ruby> (hihan) means criticism or disapproval.<br><br><strong>Option Explanations:</strong><br>1. <ruby>批判<rt>ひはん</rt></ruby> (hihan): ✅ criticism<br>2. <ruby>加工<rt>かこう</rt></ruby> (kakou): processing<br>3. <ruby>融資<rt>ゆうし</rt></ruby> (yuushi): loan<br>4. <ruby>過剰<rt>かじょう</rt></ruby> (kajou): excess<br><br><strong>Sentence meaning:</strong> This system has received a lot of criticism.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>批判<rt>ひはん</rt></ruby></strong> – criticism.<br><br><strong>Option Explanations:</strong><br>1. <ruby>批判<rt>ひはん</rt></ruby> (hihan): ✅ criticism<br>2. <ruby>加工<rt>かこう</rt></ruby> (kakou): processing<br>3. <ruby>融資<rt>ゆうし</rt></ruby> (yuushi): loan<br>4. <ruby>過剰<rt>かじょう</rt></ruby> (kajou): excess</p>"
+      }
+    },
+    {
+      "question": "新入社員には業務の流れを（  ）に教える必要がある。",
+      "options": ["1. 順を追って", "2. 手を抜いて", "3. 骨を折って", "4. 音を立てて"],
+      "answer": "1. 順を追って",
+      "hint": "<p><ruby>業務<rt>ぎょうむ</rt></ruby> (gyoumu) – business operation<br><ruby>流<rt>なが</rt></ruby>れ (nagare) – flow</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>順を追って<rt>じゅんをおって</rt></ruby> (jun o otte) means step by step or in order.<br><br><strong>Option Explanations:</strong><br>1. 順を追って (jun o otte): ✅ step by step<br>2. <ruby>手を抜いて<rt>てをぬいて</rt></ruby> (te o nuite): cutting corners<br>3. <ruby>骨を折って<rt>ほねをおって</rt></ruby> (hone o otte): taking pains<br>4. <ruby>音を立てて<rt>おとをたてて</rt></ruby> (oto o tatete): making noise<br><br><strong>Sentence meaning:</strong> It’s necessary to teach new employees the workflow step by step.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. 順を追って</strong> – step by step.<br><br><strong>Option Explanations:</strong><br>1. 順を追って (jun o otte): ✅ step by step<br>2. <ruby>手を抜いて<rt>てをぬいて</rt></ruby> (te o nuite): cutting corners<br>3. <ruby>骨を折って<rt>ほねをおって</rt></ruby> (hone o otte): making great effort<br>4. <ruby>音を立てて<rt>おとをたてて</rt></ruby> (oto o tatete): making noise</p>"
+      }
+    },
+    {
+      "question": "災害時には迅速な対応が（  ）される。",
+      "options": ["1. 要求", "2. 制御", "3. 逆転", "4. 操縦"],
+      "answer": "1. 要求",
+      "hint": "<p><ruby>災害<rt>さいがい</rt></ruby> (saigai) – disaster<br><ruby>迅速<rt>じんそく</rt></ruby> (jinsoku) – swift<br><ruby>対応<rt>たいおう</rt></ruby> (taiou) – response</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>要求<rt>ようきゅう</rt></ruby> (youkyuu) means demand or request, often in urgent situations.<br><br><strong>Option Explanations:</strong><br>1. <ruby>要求<rt>ようきゅう</rt></ruby> (youkyuu): ✅ demand<br>2. <ruby>制御<rt>せいぎょ</rt></ruby> (seigyo): control<br>3. <ruby>逆転<rt>ぎゃくてん</rt></ruby> (gyakuten): reversal<br>4. <ruby>操縦<rt>そうじゅう</rt></ruby> (soujuu): operation (of machinery or aircraft)<br><br><strong>Sentence meaning:</strong> Quick responses are demanded in times of disaster.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>要求<rt>ようきゅう</rt></ruby></strong> – demand.<br><br><strong>Option Explanations:</strong><br>1. <ruby>要求<rt>ようきゅう</rt></ruby> (youkyuu): ✅ demand<br>2. <ruby>制御<rt>せいぎょ</rt></ruby> (seigyo): control<br>3. <ruby>逆転<rt>ぎゃくてん</rt></ruby> (gyakuten): reversal<br>4. <ruby>操縦<rt>そうじゅう</rt></ruby> (soujuu): operation</p>"
+      }
+    },
+    {
+      "question": "彼は人前では感情を（  ）するタイプだ。",
+      "options": ["1. 抑制", "2. 解放", "3. 増幅", "4. 治療"],
+      "answer": "1. 抑制",
+      "hint": "<p><ruby>感情<rt>かんじょう</rt></ruby> (kanjou) – emotion<br><ruby>人前<rt>ひとまえ</rt></ruby> (hitomae) – in front of others</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>抑制<rt>よくせい</rt></ruby> (yokusei) means suppression or restraint, especially of emotions or behavior.<br><br><strong>Option Explanations:</strong><br>1. <ruby>抑制<rt>よくせい</rt></ruby> (yokusei): ✅ suppression<br>2. <ruby>解放<rt>かいほう</rt></ruby> (kaihou): release<br>3. <ruby>増幅<rt>ぞうふく</rt></ruby> (zoufuku): amplification<br>4. <ruby>治療<rt>ちりょう</rt></ruby> (chiryou): treatment<br><br><strong>Sentence meaning:</strong> He tends to suppress his emotions when in front of others.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>抑制<rt>よくせい</rt></ruby></strong> – suppression.<br><br><strong>Option Explanations:</strong><br>1. <ruby>抑制<rt>よくせい</rt></ruby> (yokusei): ✅ suppression<br>2. <ruby>解放<rt>かいほう</rt></ruby> (kaihou): release<br>3. <ruby>増幅<rt>ぞうふく</rt></ruby> (zoufuku): amplification<br>4. <ruby>治療<rt>ちりょう</rt></ruby> (chiryou): treatment</p>"
+      }
+    },
+    {
+      "question": "この制度の導入には多くの（  ）があった。",
+      "options": ["1. 障害", "2. 滑走", "3. 発熱", "4. 拡張"],
+      "answer": "1. 障害",
+      "hint": "<p><ruby>制度<rt>せいど</rt></ruby> (seido) – system<br><ruby>導入<rt>どうにゅう</rt></ruby> (dounyuu) – introduction<br><ruby>障害<rt>しょうがい</rt></ruby> (shougai) – obstacle</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>障害<rt>しょうがい</rt></ruby> (shougai) means obstacle or hindrance.<br><br><strong>Option Explanations:</strong><br>1. <ruby>障害<rt>しょうがい</rt></ruby> (shougai): ✅ obstacle<br>2. <ruby>滑走<rt>かっそう</rt></ruby> (kassou): takeoff, gliding<br>3. <ruby>発熱<rt>はつねつ</rt></ruby> (hatsunetsu): fever<br>4. <ruby>拡張<rt>かくちょう</rt></ruby> (kakuchou): expansion<br><br><strong>Sentence meaning:</strong> The introduction of this system faced many obstacles.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>障害<rt>しょうがい</rt></ruby></strong> – obstacle.<br><br><strong>Option Explanations:</strong><br>1. <ruby>障害<rt>しょうがい</rt></ruby> (shougai): ✅ obstacle<br>2. <ruby>滑走<rt>かっそう</rt></ruby> (kassou): takeoff<br>3. <ruby>発熱<rt>はつねつ</rt></ruby> (hatsunetsu): fever<br>4. <ruby>拡張<rt>かくちょう</rt></ruby> (kakuchou): expansion</p>"
+      }
+    },
+    {
+      "question": "部下の失敗を責めるのではなく、（  ）するのが上司の役割だ。",
+      "options": ["1. 指導", "2. 批難", "3. 追放", "4. 弁解"],
+      "answer": "1. 指導",
+      "hint": "<p><ruby>部下<rt>ぶか</rt></ruby> (buka) – subordinate<br><ruby>上司<rt>じょうし</rt></ruby> (joushi) – superior<br><ruby>指導<rt>しどう</rt></ruby> (shidou) – guidance</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>指導<rt>しどう</rt></ruby> (shidou) means guidance, coaching, or leadership.<br><br><strong>Option Explanations:</strong><br>1. <ruby>指導<rt>しどう</rt></ruby> (shidou): ✅ guidance<br>2. <ruby>批難<rt>ひなん</rt></ruby> (hinan): criticism<br>3. <ruby>追放<rt>ついほう</rt></ruby> (tsuihou): expulsion, exile<br>4. <ruby>弁解<rt>べんかい</rt></ruby> (benkai): excuse, justification<br><br><strong>Sentence meaning:</strong> Rather than blaming a subordinate for failure, it is a boss’s role to guide them.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>指導<rt>しどう</rt></ruby></strong> – guidance.<br><br><strong>Option Explanations:</strong><br>1. <ruby>指導<rt>しどう</rt></ruby> (shidou): ✅ guidance<br>2. <ruby>批難<rt>ひなん</rt></ruby> (hinan): criticism<br>3. <ruby>追放<rt>ついほう</rt></ruby> (tsuihou): exile<br>4. <ruby>弁解<rt>べんかい</rt></ruby> (benkai): excuse</p>"
+      }
+    }
+  ]
+}

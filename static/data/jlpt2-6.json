@@ -1,0 +1,65 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "彼は試験の結果に（＿）を落としていた。",
+      "options": [
+        "1. 肩",
+        "2. 声",
+        "3. 心",
+        "4. 額"
+      ],
+      "answer": "1. 肩",
+      "hint": "<p><ruby>試<rt>し</rt></ruby><ruby>験<rt>けん</rt></ruby> (shiken) - exam<br><ruby>結<rt>けっ</rt></ruby><ruby>果<rt>か</rt></ruby> (kekka) - result</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> <ruby>肩<rt>かた</rt></ruby>を<ruby>落<rt>お</rt></ruby>とす (kata wo otosu) - to be discouraged</p><ul><li><ruby>声<rt>こえ</rt></ruby> (koe) - voice</li><li><ruby>心<rt>こころ</rt></ruby> (kokoro) - heart</li><li><ruby>額<rt>ひたい</rt></ruby> (hitai) - forehead</li></ul><p><strong>English Translation:</strong> He was discouraged by the exam results.</p>",
+        "incorrect": "<p><strong>Answer:</strong> <ruby>肩<rt>かた</rt></ruby>を<ruby>落<rt>お</rt></ruby>とす (kata wo otosu) - to be discouraged</p><ul><li><ruby>声<rt>こえ</rt></ruby> (koe) - voice</li><li><ruby>心<rt>こころ</rt></ruby> (kokoro) - heart</li><li><ruby>額<rt>ひたい</rt></ruby> (hitai) - forehead</li></ul><p><strong>English Translation:</strong> He was discouraged by the exam results.</p>"
+      }
+    },
+    {
+      "question": "彼女は父親に頭が（＿）ない。",
+      "options": [
+        "1. 高くて",
+        "2. 回らなくて",
+        "3. 上がらなくて",
+        "4. 冴えなくて"
+      ],
+      "answer": "3. 上がらなくて",
+      "hint": "<p><ruby>父<rt>ちち</rt></ruby><ruby>親<rt>おや</rt></ruby> (chichioya) - father</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> <ruby>頭<rt>あたま</rt></ruby>が<ruby>上<rt>あ</rt></ruby>がらない (atama ga agaranai) - can't stand up to someone</p><ul><li><ruby>高<rt>たか</rt></ruby>くて (takakute) - high</li><li><ruby>回<rt>まわ</rt></ruby>らなくて (mawaranakute) - can’t rotate</li><li><ruby>冴<rt>さ</rt></ruby>えなくて (saenakute) - dull</li></ul><p><strong>English Translation:</strong> She can't stand up to her father.</p>",
+        "incorrect": "<p><strong>Answer:</strong> <ruby>頭<rt>あたま</rt></ruby>が<ruby>上<rt>あ</rt></ruby>がらない (atama ga agaranai) - can't stand up to someone</p><ul><li><ruby>高<rt>たか</rt></ruby>くて (takakute) - high</li><li><ruby>回<rt>まわ</rt></ruby>らなくて (mawaranakute) - can’t rotate</li><li><ruby>冴<rt>さ</rt></ruby>えなくて (saenakute) - dull</li></ul><p><strong>English Translation:</strong> She can't stand up to her father.</p>"
+      }
+    },
+    {
+      "question": "新しいルールが今月から（＿）された。",
+      "options": [
+        "1. 実施",
+        "2. 計算",
+        "3. 比較",
+        "4. 応援"
+      ],
+      "answer": "1. 実施",
+      "hint": "<p><ruby>今<rt>こん</rt></ruby><ruby>月<rt>げつ</rt></ruby> (kongetsu) - this month<br><ruby>実<rt>じっ</rt></ruby><ruby>施<rt>し</rt></ruby> (jisshi) - implementation</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> <ruby>実施<rt>じっし</rt></ruby> (jisshi) - implementation</p><ul><li><ruby>計算<rt>けいさん</rt></ruby> (keisan) - calculation</li><li><ruby>比較<rt>ひかく</rt></ruby> (hikaku) - comparison</li><li><ruby>応援<rt>おうえん</rt></ruby> (ouen) - support</li></ul><p><strong>English Translation:</strong> The new rule was implemented starting this month.</p>",
+        "incorrect": "<p><strong>Answer:</strong> <ruby>実施<rt>じっし</rt></ruby> (jisshi) - implementation</p><ul><li><ruby>計算<rt>けいさん</rt></ruby> (keisan) - calculation</li><li><ruby>比較<rt>ひかく</rt></ruby> (hikaku) - comparison</li><li><ruby>応援<rt>おうえん</rt></ruby> (ouen) - support</li></ul><p><strong>English Translation:</strong> The new rule was implemented starting this month.</p>"
+      }
+    },
+    {
+      "question": "彼の行動には（＿）がなかった。",
+      "options": [
+        "1. 意図",
+        "2. 事情",
+        "3. 状況",
+        "4. 表現"
+      ],
+      "answer": "1. 意図",
+      "hint": "<p><ruby>行<rt>こう</rt></ruby><ruby>動<rt>どう</rt></ruby> (koudou) - action</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> <ruby>意図<rt>いと</rt></ruby> (ito) - intention</p><ul><li><ruby>事情<rt>じじょう</rt></ruby> (jijou) - circumstances</li><li><ruby>状況<rt>じょうきょう</rt></ruby> (joukyou) - situation</li><li><ruby>表現<rt>ひょうげん</rt></ruby> (hyougen) - expression</li></ul><p><strong>English Translation:</strong> His actions lacked intention.</p>",
+        "incorrect": "<p><strong>Answer:</strong> <ruby>意図<rt>いと</rt></ruby> (ito) - intention</p><ul><li><ruby>事情<rt>じじょう</rt></ruby> (jijou) - circumstances</li><li><ruby>状況<rt>じょうきょう</rt></ruby> (joukyou) - situation</li><li><ruby>表現<rt>ひょうげん</rt></ruby> (hyougen) - expression</li></ul><p><strong>English Translation:</strong> His actions lacked intention.</p>"
+      }
+    }
+  ]
+}

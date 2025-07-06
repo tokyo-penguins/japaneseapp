@@ -1,0 +1,48 @@
+{
+  "type": "type2",
+  "title": "JLPT N1 Word Reordering Quiz",
+  "questions": [
+      {
+        "options": [
+          { "word": "警鐘を", "furigana": "", "romaji": "kikensei wo", "meaning": "alarm, warning" },
+          { "word": "十分に", "furigana": "", "romaji": "juubun ni", "meaning": "sufficiently" },
+          { "word": "認識して", "furigana": "", "romaji": "ninshiki shite", "meaning": "recognized" },
+          { "word": "専門家は", "furigana": "", "romaji": "senmonka wa", "meaning": "the expert" },
+          { "word": "鳴らした", "furigana": "", "romaji": "kikensei wo", "meaning": "to ring" }
+          
+        ],
+        "answer": ["専門家は", "十分に", "認識して","警鐘を", "鳴らした"],
+        "fixedPart": "危険性を",
+        "full": "専門家は危険性を十分に認識して警鐘を鳴らした",
+        "translation": "Recognizing the danger sufficiently, the expert sounded the alarm.",
+        "possiblePositions": [2]
+      },
+      {
+        "options": [
+          { "word": "見直す", "furigana": "", "romaji": "minaosu", "meaning": "to reexamine" },
+          { "word": "必要が", "furigana": "", "romaji": "hitsuyou ga", "meaning": "necessity" },
+          { "word": "ある", "furigana": "", "romaji": "aru", "meaning": "exists" },
+          { "word": "制度を", "furigana": "", "romaji": "seido wo", "meaning": "system" },
+          { "word": "政府は", "furigana": "", "romaji": "seifu wa", "meaning": "the government" }
+        ],
+        "answer": ["政府は", "制度を", "見直す", "必要が", "ある"],
+        "fixedPart": "現在の",
+        "full": "政府は現在の制度を見直す必要がある。",
+        "translation": "The government needs to reexamine the current system.",
+        "possiblePositions": [2]
+      },
+      {
+        "options": [
+          { "word": "増加している", "furigana": "", "romaji": "zouka shite iru", "meaning": "increasing" },
+          { "word": "著しく", "furigana": "", "romaji": "ichijirushiku", "meaning": "remarkably" },
+          { "word": "高齢者が", "furigana": "", "romaji": "koureisha ga", "meaning": "elderly people" },
+          { "word": "日本", "furigana": "", "romaji": "nihon de wa", "meaning": "in Japan" }
+        ],
+        "answer": ["日本", "高齢者が", "著しく", "増加している"],
+        "fixedPart": "社会において",
+        "full": "日本社会において高齢者が著しく増加している。",
+        "translation": "In Japan, the proportion of elderly people is remarkably increasing in society.",
+        "possiblePositions": [2]
+      }
+    ]
+  }

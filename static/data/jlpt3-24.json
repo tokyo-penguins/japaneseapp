@@ -1,0 +1,95 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "彼の趣味は（＿）をひくことです。",
+      "options": ["1. ピアノ", "3. 料理", "2. 魚", "4. 写真"],
+      "answer": "1. ピアノ",
+      "hint": "<p><ruby>ピアノ</ruby> – piano<br><ruby>趣味<rt>しゅみ</rt></ruby> – hobby<br><em>Romaji:</em> piano, shumi</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>Option Explanations:</strong><br>1. ピアノ (piano): ✅ correct – 'ひく' (to play) is used with musical instruments like the piano.<br>2. <ruby>魚<rt>さかな</rt></ruby> (sakana): fish – not played, but caught or eaten<br>3. <ruby>料理<rt>りょうり</rt></ruby> (ryōri): cooking – 'する' is the typical verb, not 'ひく'<br>4. <ruby>写真<rt>しゃしん</rt></ruby> (shashin): photo – usually 'take' (とる), not 'play'<br><br><strong>English Translation:</strong> His hobby is playing the piano.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. ピアノ</strong> – piano.<br><br><strong>Option Explanations:</strong><br>1. ピアノ (piano): ✅ correct – 'ひく' is used for musical instruments<br>2. <ruby>魚<rt>さかな</rt></ruby> (sakana): fish – unrelated to 'play'<br>3. <ruby>料理<rt>りょうり</rt></ruby> (ryōri): cooking – verb mismatch<br>4. <ruby>写真<rt>しゃしん</rt></ruby> (shashin): photo – unrelated verb<br><br><strong>English Translation:</strong> His hobby is playing the piano.</p>"
+      }
+    },
+    {
+      "question": "休みの日はよく（＿）を撮っています。",
+      "options": ["3. 写真", "2. 机", "1. 漢字", "4. 電車"],
+      "answer": "3. 写真",
+      "hint": "<p><ruby>写真<rt>しゃしん</rt></ruby> – photo<br><ruby>休み<rt>やすみ</rt></ruby> – day off<br><em>Romaji:</em> shashin, yasumi</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>Option Explanations:</strong><br>1. <ruby>漢字<rt>かんじ</rt></ruby> (kanji): characters – usually written or studied, not taken<br>2. <ruby>机<rt>つくえ</rt></ruby> (tsukue): desk – not something you 'take'<br>3. <ruby>写真<rt>しゃしん</rt></ruby> (shashin): ✅ photo – correct, commonly 'taken' (撮る)<br>4. <ruby>電車<rt>でんしゃ</rt></ruby> (densha): train – usually ridden or boarded<br><br><strong>English Translation:</strong> On my days off, I often take pictures.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>3. 写真</strong> – photo.<br><br><strong>Option Explanations:</strong><br>1. <ruby>漢字<rt>かんじ</rt></ruby> (kanji): written or learned<br>2. <ruby>机<rt>つくえ</rt></ruby> (tsukue): desk – not relevant<br>3. <ruby>写真<rt>しゃしん</rt></ruby> (shashin): ✅ photo – typically taken<br>4. <ruby>電車<rt>でんしゃ</rt></ruby> (densha): train – not taken in this context<br><br><strong>English Translation:</strong> On my days off, I often take pictures.</p>"
+      }
+    },
+    {
+      "question": "読書が好きなので毎月新しい（＿）を買います。",
+      "options": ["4. 本", "3. 音楽", "1. 野菜", "2. 地図"],
+      "answer": "4. 本",
+      "hint": "<p><ruby>本<rt>ほん</rt></ruby> – book<br><ruby>毎月<rt>まいつき</rt></ruby> – every month<br><em>Romaji:</em> hon, maitsuki</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>Option Explanations:</strong><br>1. <ruby>野菜<rt>やさい</rt></ruby> (yasai): vegetables – unrelated to reading<br>2. <ruby>地図<rt>ちず</rt></ruby> (chizu): map – usually not bought monthly<br>3. <ruby>音楽<rt>おんがく</rt></ruby> (ongaku): music – usually listened to, not read<br>4. <ruby>本<rt>ほん</rt></ruby> (hon): ✅ book – related to reading and regularly bought by book lovers<br><br><strong>English Translation:</strong> Because I like reading, I buy a new book every month.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>4. 本</strong> – book.<br><br><strong>Option Explanations:</strong><br>1. <ruby>野菜<rt>やさい</rt></ruby> (yasai): vegetables<br>2. <ruby>地図<rt>ちず</rt></ruby> (chizu): map<br>3. <ruby>音楽<rt>おんがく</rt></ruby> (ongaku): music<br>4. <ruby>本<rt>ほん</rt></ruby> (hon): ✅ book – fits context<br><br><strong>English Translation:</strong> Because I like reading, I buy a new book every month.</p>"
+      }
+    },
+    {
+      "question": "旅行の前にインターネットで（＿）を調べました。",
+      "options": ["2. 観光地", "1. 英語", "3. 掃除機", "4. 電話番号"],
+      "answer": "2. 観光地",
+      "hint": "<p><ruby>観光地<rt>かんこうち</rt></ruby> – tourist spot<br><ruby>調べる<rt>しらべる</rt></ruby> – to search<br><em>Romaji:</em> kankouchi, shiraberu</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>Option Explanations:</strong><br>1. <ruby>英語<rt>えいご</rt></ruby> (eigo): English – not relevant unless studying<br>2. <ruby>観光地<rt>かんこうち</rt></ruby> (kankōchi): ✅ tourist spot – fits perfectly<br>3. <ruby>掃除機<rt>そうじき</rt></ruby> (sōjiki): vacuum cleaner – unrelated<br>4. <ruby>電話番号<rt>でんわばんごう</rt></ruby> (denwabangō): phone number – not the main thing researched before travel<br><br><strong>English Translation:</strong> I looked up tourist spots on the internet before the trip.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>2. 観光地</strong> – tourist spot.<br><br><strong>Option Explanations:</strong><br>1. <ruby>英語<rt>えいご</rt></ruby> (eigo): English<br>2. <ruby>観光地<rt>かんこうち</rt></ruby> (kankōchi): ✅ sightseeing place<br>3. <ruby>掃除機<rt>そうじき</rt></ruby> (sōjiki): vacuum<br>4. <ruby>電話番号<rt>でんわばんごう</rt></ruby> (denwabangō): phone number<br><br><strong>English Translation:</strong> I looked up tourist spots on the internet before the trip.</p>"
+      }
+    },
+    {
+      "question": "彼は暇なときによく（＿）をしています。",
+      "options": ["1. ゲーム", "2. 運転", "3. 掃除", "4. 仕事"],
+      "answer": "1. ゲーム",
+      "hint": "<p><ruby>暇<rt>ひま</rt></ruby> – free time<br><ruby>ゲーム</ruby> – game<br><em>Romaji:</em> hima, geemu</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>Option Explanations:</strong><br>1. ゲーム (geemu): ✅ game – a common leisure activity<br>2. <ruby>運転<rt>うんてん</rt></ruby> (unten): driving – more of a task<br>3. <ruby>掃除<rt>そうじ</rt></ruby> (sōji): cleaning – chore, not typically done for fun<br>4. <ruby>仕事<rt>しごと</rt></ruby> (shigoto): work – not a free-time activity<br><br><strong>English Translation:</strong> He often plays games when he has free time.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. ゲーム</strong> – game.<br><br><strong>Option Explanations:</strong><br>1. ゲーム (geemu): ✅ game – leisure<br>2. <ruby>運転<rt>うんてん</rt></ruby> (unten): driving<br>3. <ruby>掃除<rt>そうじ</rt></ruby> (sōji): cleaning<br>4. <ruby>仕事<rt>しごと</rt></ruby> (shigoto): work<br><br><strong>English Translation:</strong> He often plays games when he has free time.</p>"
+      }
+    },
+    {
+      "question": "おばあさんの趣味は花を（＿）ことです。",
+      "options": ["4. 育てる", "2. 切る", "3. 数える", "1. 燃やす"],
+      "answer": "4. 育てる",
+      "hint": "<p><ruby>育<rt>そだ</rt></ruby>てる – to raise/grow<br><ruby>花<rt>はな</rt></ruby> – flower<br><em>Romaji:</em> sodateru, hana</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>Option Explanations:</strong><br>1. <ruby>燃<rt>も</rt></ruby>やす (moyasu): to burn – not a hobby<br>2. <ruby>切<rt>き</rt></ruby>る (kiru): to cut – not the main idea of nurturing<br>3. <ruby>数<rt>かぞ</rt></ruby>える (kazoeru): to count – unrelated<br>4. <ruby>育<rt>そだ</rt></ruby>てる (sodateru): ✅ to grow/raise – fits perfectly with gardening hobby<br><br><strong>English Translation:</strong> Grandma’s hobby is growing flowers.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>4. 育てる</strong> – to grow/raise.<br><br><strong>Option Explanations:</strong><br>1. <ruby>燃やす</ruby> (moyasu): to burn – not related<br>2. <ruby>切る</ruby> (kiru): to cut – possible for flowers, but not about nurturing<br>3. <ruby>数える</ruby> (kazoeru): to count – unrelated<br>4. <ruby>育てる</ruby> (sodateru): ✅ correct – associated with gardening<br><br><strong>English Translation:</strong> Grandma’s hobby is growing flowers.</p>"
+      }
+    },
+    {
+      "question": "時間があるときはよく（＿）をします。",
+      "options": ["2. 手芸", "1. 予約", "3. 運転免許", "4. 通訳"],
+      "answer": "2. 手芸",
+      "hint": "<p><ruby>手芸<rt>しゅげい</rt></ruby> – handicraft<br><ruby>時間<rt>じかん</rt></ruby> – time<br><em>Romaji:</em> shugei, jikan</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>Option Explanations:</strong><br>1. <ruby>予約<rt>よやく</rt></ruby> (yoyaku): reservation – typically made, not done<br>2. <ruby>手芸<rt>しゅげい</rt></ruby> (shugei): ✅ handicrafts – suitable as a hobby<br>3. <ruby>運転免許<rt>うんてんめんきょ</rt></ruby> (untenmenkyo): driver’s license – obtained, not “done”<br>4. <ruby>通訳<rt>つうやく</rt></ruby> (tsūyaku): interpretation – profession or task, not a common hobby<br><br><strong>English Translation:</strong> When I have time, I often do handicrafts.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>2. 手芸</strong> – handicrafts.<br><br><strong>Option Explanations:</strong><br>1. <ruby>予約</ruby> (yoyaku): reservation – not a leisure activity<br>2. <ruby>手芸</ruby> (shugei): ✅ hobby done in spare time<br>3. <ruby>運転免許</ruby> (untenmenkyo): driver’s license<br>4. <ruby>通訳</ruby> (tsūyaku): interpretation – not a hobby<br><br><strong>English Translation:</strong> When I have time, I often do handicrafts.</p>"
+      }
+    },
+    {
+      "question": "夏休みの間にギターを（＿）ようになりました。",
+      "options": ["1. 弾ける", "3. 読める", "2. 聞ける", "4. 書ける"],
+      "answer": "1. 弾ける",
+      "hint": "<p><ruby>弾<rt>ひ</rt></ruby>ける – to be able to play<br><ruby>夏休み<rt>なつやすみ</rt></ruby> – summer vacation<br><em>Romaji:</em> hikeru, natsuyasumi</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>Option Explanations:</strong><br>1. <ruby>弾ける</ruby> (hikeru): ✅ to be able to play – used for instruments like guitar<br>2. <ruby>聞ける<rt>き</rt></ruby> (kikeru): to be able to hear – passive, not an action<br>3. <ruby>読める<rt>よ</rt></ruby> (yomeru): to be able to read – doesn't fit context<br>4. <ruby>書ける<rt>か</rt></ruby> (kakeru): to be able to write – unrelated<br><br><strong>English Translation:</strong> During summer vacation, I became able to play the guitar.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. 弾ける</strong> – to be able to play.<br><br><strong>Option Explanations:</strong><br>1. <ruby>弾ける</ruby> (hikeru): ✅ related to musical instruments<br>2. <ruby>聞ける</ruby> (kikeru): to hear – passive<br>3. <ruby>読める</ruby> (yomeru): to read – not musical<br>4. <ruby>書ける</ruby> (kakeru): to write – unrelated<br><br><strong>English Translation:</strong> During summer vacation, I became able to play the guitar.</p>"
+      }
+    },
+    {
+      "question": "最近は外国語を（＿）のが楽しくなってきました。",
+      "options": ["4. 学ぶ", "2. 洗う", "3. 遊ぶ", "1. 飲む"],
+      "answer": "4. 学ぶ",
+      "hint": "<p><ruby>学<rt>まな</rt></ruby>ぶ – to learn<br><ruby>外国語<rt>がいこくご</rt></ruby> – foreign language<br><em>Romaji:</em> manabu, gaikokugo</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><strong>Option Explanations:</strong><br>1. <ruby>飲む<rt>の</rt></ruby> (nomu): to drink – not appropriate<br>2. <ruby>洗う<rt>あら</rt></ruby> (arau): to wash – unrelated<br>3. <ruby>遊ぶ<rt>あそ</rt></ruby> (asobu): to play – not logical with language<br>4. <ruby>学ぶ<rt>まな</rt></ruby> (manabu): ✅ to study – fits perfectly<br><br><strong>English Translation:</strong> Recently, learning foreign languages has become fun for me.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>4. 学ぶ</strong> – to study.<br><br><strong>Option Explanations:</strong><br>1. <ruby>飲む</ruby> (nomu): to drink – illogical<br>2. <ruby>洗う</ruby> (arau): to wash – wrong verb<br>3. <ruby>遊ぶ</ruby> (asobu): to play – not related<br>4. <ruby>学ぶ</ruby> (manabu): ✅ appropriate for learning<br><br><strong>English Translation:</strong> Recently, learning foreign languages has become fun for me.</p>"
+      }
+    }
+  ]
+}

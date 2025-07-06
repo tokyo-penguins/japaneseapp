@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Learning Platform - TokyoPenguins</title>
+    <style>
+        :root {
+            --black: #1d1d1f;
+            --white: #f5f5f7;
+            --primary: #06c;
+            --primary-hover: #2997ff;
+            --gray: #86868b;
+            --light-gray: #d2d2d7;
+            --section-padding: 80px 0;
+            --max-width: 980px;
+            --border-radius: 18px;
+            --box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            --required-color: #ff3b30;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--black);
+            background-color: var(--white);
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        /* Navigation */
+        header {
+            background-color: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 44px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 22px;
+        }
+        
+        .logo {
+            font-size: 21px;
+            font-weight: 600;
+            color: var(--black);
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+        
+        .nav-links a {
+            color: var(--black);
+            font-size: 14px;
+            font-weight: 400;
+            opacity: 0.8;
+            transition: var(--transition);
+        }
+        
+        .nav-links a:hover {
+            opacity: 1;
+        }
+        
+        /* Hero Section with Video Background */
+        .hero-wrapper {
+            position: relative;
+            height: calc(100vh - 44px); /* Subtract header height */
+            min-height: 600px;
+            max-height: 1200px;
+            overflow: hidden;
+        }
+        
+        .hero-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        
+        .hero {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 22px;
+            position: relative;
+            color: white;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+            z-index: -1;
+        }
+        
+        .hero h1 {
+            margin-bottom: 10px;
+            font-size: 56px;
+            line-height: 1.07143;
+        }
+        
+        .hero p {
+            font-size: 24px;
+            max-width: 600px;
+            margin: 0 auto 30px;
+            color: rgba(255, 255, 255, 0.9);
+        }
+        
+        /* Buttons */
+        .button {
+            display: inline-block;
+            padding: 12px 22px;
+            border-radius: 30px;
+            font-size: 17px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        
+        .button-primary {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+        }
+        
+        .button-primary:hover {
+            background-color: var(--primary-hover);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: var(--box-shadow);
+        }
+        
+        .button-secondary {
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+            margin-left: 10px;
+        }
+        
+        .button-secondary:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            transform: translateY(-2px);
+            box-shadow: var(--box-shadow);
+        }
+        
+        /* Sections */
+        section {
+            padding: var(--section-padding);
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+            padding: 0 22px;
+        }
+        
+        .section-header h2 {
+            font-size: 40px;
+            line-height: 1.1;
+            margin-bottom: 10px;
+        }
+        
+        .section-header p {
+            font-size: 21px;
+            color: var(--gray);
+        }
+        
+        /* Cards */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 0 22px;
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--box-shadow);
+            transition: var(--transition);
+        }
+        
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+        
+        .card-image {
+            height: 200px;
+            background-color: var(--light-gray);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gray);
+            font-size: 24px;
+            font-weight: 500;
+        }
+        
+        .card-content {
+            padding: 30px;
+        }
+        
+        .card h3 {
+            font-size: 24px;
+            line-height: 1.16667;
+            margin-bottom: 10px;
+        }
+        
+        .card p {
+            font-size: 17px;
+            color: var(--gray);
+            margin-bottom: 20px;
+        }
+        
+        .card a {
+            color: var(--primary);
+            font-weight: 500;
+        }
+        
+        /* Promo Banner */
+        .promo-banner {
+            background: linear-gradient(135deg, #0071e3 0%, #2997ff 100%);
+            color: white;
+            text-align: center;
+            padding: 60px 22px;
+            margin: 80px 0;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            
+        }
+        
+        .promo-banner h2 {
+            margin-bottom: 15px;
+            color: white;
+        }
+        
+        .promo-banner p {
+            color: rgba(255, 255, 255, 0.8);
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+        
+        /* Contact Form */
+        .contact-form {
+            background-color: white;
+            border-radius: var(--border-radius);
+            padding: 50px;
+            box-shadow: var(--box-shadow);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: var(--black);
+        }
+        
+        .required-field::after {
+            content: "*";
+            color: var(--required-color);
+            margin-left: 4px;
+        }
+        
+        input, textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid var(--light-gray);
+            border-radius: 8px;
+            font-size: 16px;
+            transition: var(--transition);
+        }
+        
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(0, 102, 204, 0.2);
+        }
+        
+        textarea {
+            height: 150px;
+            resize: vertical;
+        }
+        
+        .checkbox-group {
+            margin: 25px 0;
+        }
+        
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+            font-weight: normal;
+            color: var(--gray);
+        }
+        
+        .checkbox-label input {
+            width: auto;
+            margin-right: 10px;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--black);
+            color: var(--white);
+            padding: 60px 0 30px;
+        }
+        
+        .footer-content {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 30px;
+            padding: 0 22px;
+        }
+        
+        .footer-column h3 {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: var(--gray);
+        }
+        
+        .footer-column ul {
+            list-style: none;
+        }
+        
+        .footer-column li {
+            margin-bottom: 12px;
+        }
+        
+        .footer-column a {
+            color: var(--white);
+            opacity: 0.8;
+            font-size: 14px;
+        }
+        
+        .footer-column a:hover {
+            opacity: 1;
+            text-decoration: underline;
+        }
+        
+        .copyright {
+            max-width: var(--max-width);
+            margin: 60px auto 0;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 12px;
+            color: var(--gray);
+            text-align: center;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            :root {
+                --section-padding: 60px 0;
+            }
+            
+            h1 {
+                font-size: 40px;
+            }
+            
+            .hero h1 {
+                font-size: 48px;
+            }
+            
+            h2 {
+                font-size: 32px;
+            }
+            
+            .hero-wrapper {
+                min-height: 500px;
+            }
+            
+            .hero p {
+                font-size: 20px;
+            }
+            
+            .button-secondary {
+                display: block;
+                margin: 15px auto 0;
+                width: fit-content;
+            }
+            
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .contact-form {
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">TokyoPenguins</div>
+            <div class="nav-links">
+                <a href="#materials">Learning Materials</a>
+                <a href="#unlimited">Premium</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Hero Section with Video Background -->
+    <div class="hero-wrapper">
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="vi.mov" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+        <section class="hero">
+            <h1>Master Japanese</h1>
+            <p>Learn Japanese in craziest & funniest ways🇯🇵</p>
+            <div>
+                <a href="#materials" class="button button-primary">Start for Free</a>
+                <a href="#unlimited" class="button button-secondary">Try Premium</a>
+            </div>
+        </section>
+    </div>
+    
+    <section id="materials">
+        <div class="section-header">
+            <h2>Free Learning Materials</h2>
+            <p>Resources for all levels from beginner to advanced</p>
+        </div>
+        
+        <div class="card-grid">
+            <div class="card">
+                <div class="card-image" id="jlpt5-section">
+                    <img src="penpen.png" alt="JLPT N5" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>N5 Beginner Level</h3>
+                    <p>First steps in Japanese. Master basic vocabulary.</p>
+                    <a href="../JLPT5for free/jlpt5.html">Start Learning →</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-image" id="jlpt4-section">
+                    <img src="d.png" alt="JLPT N4" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>N4 Elementary Level</h3>
+                    <p>Essential words for daily conversation.</p>
+                    <a href="../JLPT4for free/jlpt4.html">Start Learning →</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-image" id="jlpt3-section">
+                    <img src="pand.png" alt="JLPT N3" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>N3 Intermidiate Level</h3>
+                    <p>Intermediate level words and expressions.</p>
+                    <a href="../JLPT3for free/jlpt3.html">Start Learning →</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-image" id="jlpt2-section">
+                    <img src="li.jpg" alt="JLPT N2" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>N2 Upper-Intermediate Level</h3>
+                    <p>Learn more natural Japanese expressions.</p>
+                    <a href="../JLPT2for free/jlpt2.html">Start Learning →</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-image" id="jlpt1-section">
+                    <img src="gori1.png" alt="JLPT N1" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>N1 Advanced Level</h3>
+                    <p>Advanced vocabulary and expressions.</p>
+                    <a href="../JLPT1for free/jlpt1.html">Start Learning →</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-image">
+                    <img src="b.png" alt="DailyConversation" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>Daily Conversation</h3>
+                    <p>Practical phrases for everyday use.</p>
+                    <a href="../DailyConversation/daily-conversation.html">Start Learning →</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-image">
+                    <img src="o.png" alt="Osaka" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>Osaka Dialect</h3>
+                    <p>Learn the unique Kansai dialect.</p>
+                    <a href="../Osaka/osaka-dialect.html">Start Learning →</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="i.png" alt="JLPT2~1 TEST" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>JLPT3~5 FREE TEST</h3>
+                    <p>Try your Japanese skills!</p>
+                    <a href="../JLPT LOWER TEST/jlptlower.html">Start Learning →</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="p.png" alt="JLPT2~1 TEST" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>JLPT2~1 FREE TEST</h3>
+                    <p>Wanna try the hardest Japanese Quiz?</p>
+                    <a href="../JLPT UPPER TEST/jlptupper.html">Start Learning →</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="" alt="Japanese slangs" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>Japanese slangs</h3>
+                    <p>Wanna know the weird Japanese slags?</p>
+                    <a href="../Japanese slangs/japasla.html">Start Learning →</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    <div class="promo-banner" id="unlimited">
+        <h2>TokyoPenguins Unlimited</h2>
+        <p>Access all materials and take your Japanese to the next level</p>
+        <a href="../Premium/paid.html" class="button button-primary">Subscribe Now</a>
+    </div>
+    
+    <section>
+        <div class="section-header">
+            <h2>Premium Membership Benefits</h2>
+            <p>Special learning experience with Unlimited membership</p>
+        </div>
+        
+        <div class="card-grid">
+            <div class="card">
+                <div class="card-image">
+                    <img src="allmate.png" alt="All Materials" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>All Materials</h3>
+                    <p>Unlimited access to all levels from N5 to N1</p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-image">
+                    <img src="pb.png" alt="Specialized Courses" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>Specialized Courses</h3>
+                    <p>Business Japanese, Keigo, and more</p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-image">
+                    <img src="goriex.png" alt="Monthly Exclusive Benefits" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>Monthly Exclusive Benefits</h3>
+                    <p>Any benefitial Info about Japan such as language secret's, travel tips, hidden recommended places in Japan...!🇯🇵✨</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="TPexpress.png" alt="Express Access to Our Team" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <h3>Express Access to Our Team</h3>
+                    <p>Any inquiries or questions about Japanese will be given TOP priority</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="section-header">
+            <h2>Contact Us</h2>
+            <p>Feel free to contact us with any questions or requests</p>
+        </div>
+        
+        <div class="contact-form">
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="first-name" class="required-field">First Name</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="last-name" class="required-field">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email" class="required-field">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message" class="required-field">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="newsletter">
+                        Yes, I would like to receive information about special events, newsletters and program updates
+                    </label>
+                </div>
+                
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="terms" required>
+                        I have read and agree to the Terms of Use and Privacy Policy
+                    </label>
+                </div>
+                
+                <button type="submit" class="button button-primary" style="width: 100%;">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Materials</h3>
+                <ul>
+                    <li><a href="#materials">Free Materials</a></li>
+                    <li><a href="#unlimited">Premium Materials</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Education</h3>
+                <ul>
+                    <li><a href="#">For Students</a></li>
+                    <li><a href="#">For Teachers</a></li>
+                    <li><a href="#">For Schools</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>TokyoPenguins</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            Copyright © 2025 TokyoPenguins. All rights reserved.
+            <br>
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Legal</a> | <a href="#">Site Map</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,65 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "卒業論文は今週中に（＿）しなければならない。",
+      "options": ["1. 提出", "2. 配達", "3. 収集", "4. 配布"],
+      "answer": "1. 提出",
+      "hint": "<p>卒業論文（そつぎょうろんぶん, sotsugyouronbun）<br>提出（ていしゅつ, teishutsu）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 提出 - ていしゅつ (teishutsu) - submission</p><ul><li>配達 - はいたつ (haitatsu) - delivery</li><li>収集 - しゅうしゅう (shuushuu) - collection</li><li>配布 - はいふ (haifu) - distribution</li></ul><p><strong>Sentence meaning:</strong> The graduation thesis must be submitted within this week.</p>",
+        "incorrect": "<p><strong>Answer :</strong> 提出 - ていしゅつ (teishutsu) - submission</p><ul><li>配達 - delivery</li><li>収集 - collection</li><li>配布 - distribution</li></ul>"
+      }
+    },
+    {
+      "question": "大学では自分の（＿）で授業を選ぶことができます。",
+      "options": ["1. 意志", "2. 強制", "3. 命令", "4. 義務"],
+      "answer": "1. 意志",
+      "hint": "<p>意志（いし, ishi）<br>授業（じゅぎょう, jugyou）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 意志 - いし (ishi) - will/volition</p><ul><li>強制 - きょうせい (kyousei) - compulsion</li><li>命令 - めいれい (meirei) - order</li><li>義務 - ぎむ (gimu) - obligation</li></ul><p><strong>Sentence meaning:</strong> At university, you can choose classes based on your own will.</p>",
+        "incorrect": "<p><strong>Answer :</strong> 意志 - いし (ishi) - will</p><ul><li>強制 - compulsion</li><li>命令 - order</li><li>義務 - obligation</li></ul>"
+      }
+    },
+    {
+      "question": "大学の入学式には、両親も（＿）する予定だ。",
+      "options": ["1. 参加", "2. 出演", "3. 通勤", "4. 出荷"],
+      "answer": "1. 参加",
+      "hint": "<p>入学式（にゅうがくしき, nyuugakushiki）<br>参加（さんか, sanka）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 参加 - さんか (sanka) - participation</p><ul><li>出演 - しゅつえん (shutsuen) - performance (on stage)</li><li>通勤 - つうきん (tsuukin) - commuting</li><li>出荷 - しゅっか (shukka) - shipment</li></ul><p><strong>Sentence meaning:</strong> My parents also plan to attend the university entrance ceremony.</p>",
+        "incorrect": "<p><strong>Answer :</strong> 参加 - さんか (sanka) - participation</p><ul><li>出演 - performance</li><li>通勤 - commuting</li><li>出荷 - shipment</li></ul>"
+      }
+    },
+    {
+      "question": "ゼミの教授は、学生に（＿）な視点を持つように指導している。",
+      "options": ["1. 批判的", "2. 感情的", "3. 自動的", "4. 物理的"],
+      "answer": "1. 批判的",
+      "hint": "<p>教授（きょうじゅ, kyouju）<br>批判的（ひはんてき, hihanteki）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 批判的 - ひはんてき (hihanteki) - critical (thinking)</p><ul><li>感情的 - かんじょうてき (kanjouteki) - emotional</li><li>自動的 - じどうてき (jidouteki) - automatic</li><li>物理的 - ぶつりてき (butsuriteki) - physical</li></ul><p><strong>Sentence meaning:</strong> The seminar professor encourages students to have a critical point of view.</p>",
+        "incorrect": "<p><strong>Answer :</strong> 批判的 - ひはんてき (hihanteki) - critical</p><ul><li>感情的 - emotional</li><li>自動的 - automatic</li><li>物理的 - physical</li></ul>"
+      }
+    },
+    {
+      "question": "彼女は大学の成績が良く、（＿）の候補にもなっている。",
+      "options": ["1. 奨学金", "2. 運転免許", "3. 社会保険", "4. 通訳"],
+      "answer": "1. 奨学金",
+      "hint": "<p>成績（せいせき, seiseki）<br>奨学金（しょうがくきん, shougakukin）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 奨学金 - しょうがくきん (shougakukin) - scholarship</p><ul><li>運転免許 - うんてんめんきょ (untenmenkyo) - driver’s license</li><li>社会保険 - しゃかいほけん (shakaihoken) - social insurance</li><li>通訳 - つうやく (tsuuyaku) - interpreter</li></ul><p><strong>Sentence meaning:</strong> Her grades are good enough to be considered for a scholarship.</p>",
+        "incorrect": "<p><strong>Answer :</strong> 奨学金 - しょうがくきん (shougakukin) - scholarship</p><ul><li>運転免許 - driver’s license</li><li>社会保険 - social insurance</li><li>通訳 - interpreter</li></ul>"
+      }
+    },
+    {
+      "question": "この大学は、外国人留学生の（＿）がとても手厚い。",
+      "options": ["1. 支援", "2. 批判", "3. 避難", "4. 提案"],
+      "answer": "1. 支援",
+      "hint": "<p>留学生（りゅうがくせい, ryuugakusei）<br>支援（しえん, shien）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 支援 - しえん (shien) - support</p><ul><li>批判 - ひはん (hihan) - criticism</li><li>避難 - ひなん (hinan) - evacuation</li><li>提案 - ていあん (teian) - proposal</li></ul><p><strong>Sentence meaning:</strong> This university provides very strong support for international students.</p>",
+        "incorrect": "<p><strong>Answer :</strong> 支援 - しえん (shien) - support</p><ul><li>批判 - criticism</li><li>避難 - evacuation</li><li>提案 - proposal</li></ul>"
+      }
+    }
+  ]
+}

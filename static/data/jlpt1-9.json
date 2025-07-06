@@ -1,0 +1,80 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "その話は信憑性に（  ）ところがある。",
+        "options": [
+          "2. 欠ける",
+          "1. 浮かれる",
+          "3. 逃れる",
+          "4. なびく"
+        ],
+        "answer": "2. 欠ける",
+        "hint": "<p>信憑性（しんぴょうせい, shinpyousei）- credibility<br>欠ける（かける, kakeru）- to lack</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! :</strong> 欠ける（かける, kakeru）- to lack</p><ul><li>浮かれる（うかれる, ukareru）- to be festive; to be carried away</li><li>逃れる（のがれる, nogareru）- to escape</li><li>なびく（なびく, nabiku）- to flutter; to be swayed</li></ul><p><strong>English Translation:</strong> That story has questionable credibility.</p>",
+          "incorrect": "<p><strong>Answer:</strong> 欠ける（かける, kakeru）- to lack</p><ul><li>浮かれる（うかれる, ukareru）- to be festive; to be carried away</li><li>逃れる（のがれる, nogareru）- to escape</li><li>なびく（なびく, nabiku）- to flutter; to be swayed</li></ul><p><strong>English Translation:</strong> That story has questionable credibility.</p>"
+        }
+      },
+      {
+        "question": "彼女は努力の（  ）夢を叶えた。",
+        "options": [
+          "1. 末に",
+          "2. かたわら",
+          "3. わきで",
+          "4. ながらに"
+        ],
+        "answer": "1. 末に",
+        "hint": "<p>努力（どりょく, doryoku）- effort<br>夢（ゆめ, yume）- dream<br>叶える（かなえる, kanaeru）- to fulfill</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! :</strong> 末に（すえに, sue ni）- after much (effort); finally</p><ul><li>かたわら（かたわら, katawara）- beside; while</li><li>わきで（わきで, wakide）- on the sidelines</li><li>ながらに（ながらに, nagara ni）- while (doing something)</li></ul><p><strong>English Translation:</strong> She finally fulfilled her dream after much effort.</p>",
+          "incorrect": "<p><strong>Answer:</strong> 末に（すえに, sue ni）- after much (effort); finally</p><ul><li>かたわら（かたわら, katawara）- beside; while</li><li>わきで（わきで, wakide）- on the sidelines</li><li>ながらに（ながらに, nagara ni）- while (doing something)</li></ul><p><strong>English Translation:</strong> She finally fulfilled her dream after much effort.</p>"
+        }
+      },
+      {
+        "question": "この件に関しては、上司の許可を（  ）進めてください。",
+        "options": [
+          "4. 得てから",
+          "2. 備えてから",
+          "3. 引きずってから",
+          "1. 張り切ってから"
+        ],
+        "answer": "4. 得てから",
+        "hint": "<p>件（けん, ken）- matter<br>許可（きょか, kyoka）- permission<br>進める（すすめる, susumeru）- to proceed</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! :</strong> 得てから（えてから, ete kara）- after obtaining</p><ul><li>備えてから（そなえてから, sonaete kara）- after preparing</li><li>引きずってから（ひきずってから, hikizutte kara）- after dragging along</li><li>張り切ってから（はりきってから, harikitte kara）- after being highly motivated</li></ul><p><strong>English Translation:</strong> Please proceed after obtaining your supervisor’s permission.</p>",
+          "incorrect": "<p><strong>Answer:</strong> 得てから（えてから, ete kara）- after obtaining</p><ul><li>備えてから（そなえてから, sonaete kara）- after preparing</li><li>引きずってから（ひきずってから, hikizutte kara）- after dragging along</li><li>張り切ってから（はりきってから, harikitte kara）- after being highly motivated</li></ul><p><strong>English Translation:</strong> Please proceed after obtaining your supervisor’s permission.</p>"
+        }
+      },
+      {
+        "question": "ご注文の商品は（  ）、こちらでお待ちください。",
+        "options": [
+          "3. 準備が整い次第",
+          "2. 気が済み次第",
+          "1. 根回し次第",
+          "4. すり替え次第"
+        ],
+        "answer": "3. 準備が整い次第",
+        "hint": "<p>注文（ちゅうもん, chuumon）- order<br>準備（じゅんび, junbi）- preparation</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! :</strong> 準備が整い次第（じゅんびがととのいしだい, junbi ga totonoi shidai）- as soon as preparation is complete</p><ul><li>気が済み次第（きがすみしだい, ki ga sumi shidai）- as soon as one feels satisfied</li><li>根回し次第（ねまわししだい, nemawashi shidai）- depending on prior arrangements</li><li>すり替え次第（すりかえしだい, surikae shidai）- depending on replacement</li></ul><p><strong>English Translation:</strong> As soon as your order is ready, please wait here.</p>",
+          "incorrect": "<p><strong>Answer:</strong> 準備が整い次第（じゅんびがととのいしだい, junbi ga totonoi shidai）- as soon as preparation is complete</p><ul><li>気が済み次第（きがすみしだい, ki ga sumi shidai）- as soon as one feels satisfied</li><li>根回し次第（ねまわししだい, nemawashi shidai）- depending on prior arrangements</li><li>すり替え次第（すりかえしだい, surikae shidai）- depending on replacement</li></ul><p><strong>English Translation:</strong> As soon as your order is ready, please wait here.</p>"
+        }
+      },
+      {
+        "question": "会議の議事録は、（  ）提出してください。",
+        "options": [
+          "1. 至急",
+          "2. 粗末",
+          "3. 過敏",
+          "4. 密接"
+        ],
+        "answer": "1. 至急",
+        "hint": "<p>会議（かいぎ, kaigi）- meeting<br>議事録（ぎじろく, gijiroku）- minutes (of a meeting)<br>提出（ていしゅつ, teishutsu）- submission</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! :</strong> 至急（しきゅう, shikyuu）- immediately; urgently</p><ul><li>粗末（そまつ, somatsu）- crude; shabby</li><li>過敏（かびん, kabin）- oversensitive</li><li>密接（みっせつ, missetsu）- close (relationship)</li></ul><p><strong>English Translation:</strong> Please submit the minutes urgently.</p>",
+          "incorrect": "<p><strong>Answer:</strong> 至急（しきゅう, shikyuu）- immediately; urgently</p><ul><li>粗末（そまつ, somatsu）- crude; shabby</li><li>過敏（かびん, kabin）- oversensitive</li><li>密接（みっせつ, missetsu）- close (relationship)</li></ul><p><strong>English Translation:</strong> Please submit the minutes urgently.</p>"
+        }
+      }
+    ]
+  }

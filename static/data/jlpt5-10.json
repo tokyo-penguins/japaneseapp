@@ -1,0 +1,36 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "これは　わたし（＿）　かさです。",
+        "options": ["1. の", "2. が", "3. に", "4. を"],
+        "answer": "1. の",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～の</strong> - indicates possession</p><p><strong>かさ</strong> - umbrella</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「わたし<strong>の</strong>かさ」 means \"my umbrella.\"</p><ul><li><strong>が</strong> - subject marker</li><li><strong>に</strong> - target/direction marker</li><li><strong>を</strong> - object marker</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>の</strong>.</p><ul><li><strong>が</strong> - subject marker</li><li><strong>に</strong> - target/direction marker</li><li><strong>を</strong> - object marker</li></ul>"
+        }
+      },
+      {
+        "question": "にほんごの　授業（＿）　まいにち　あります。",
+        "options": ["1. が", "2. を", "3. に", "4. で"],
+        "answer": "1. が",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～が あります</strong> - there is/are (non-living things like events, classes)</p><p><strong>授業（じゅぎょう）</strong> - class</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「じゅぎょう<strong>が</strong>あります」 means \"There is a class.\"</p><ul><li><strong>を</strong> - direct object marker (not for \"あります\")</li><li><strong>に</strong> - location/time marker</li><li><strong>で</strong> - action location marker</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>が</strong>.</p><ul><li><strong>を</strong> - direct object marker (not for \"あります\")</li><li><strong>に</strong> - location/time marker</li><li><strong>で</strong> - action location marker</li></ul>"
+        }
+      },
+      {
+        "question": "スーパー（＿）　たまごを　かいました。",
+        "options": ["1. で", "2. に", "3. を", "4. と"],
+        "answer": "1. で",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～で</strong> - indicates location of an action</p><p><strong>かいました</strong> - bought</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「スーパー<strong>で</strong>たまごをかいました」 means \"I bought eggs at the supermarket.\"</p><ul><li><strong>に</strong> - location of existence or destination</li><li><strong>を</strong> - direct object marker</li><li><strong>と</strong> - means \"with\"</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>で</strong>.</p><ul><li><strong>に</strong> - location of existence or destination</li><li><strong>を</strong> - direct object marker</li><li><strong>と</strong> - means \"with\"</li></ul>"
+        }
+      }
+    ]
+  }
+  

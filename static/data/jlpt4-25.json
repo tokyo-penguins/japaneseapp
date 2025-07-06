@@ -1,0 +1,55 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "夏休みに友達と海で（＿）をしました。",
+      "options": ["3. 水泳", "1. 掃除", "2. 計算", "4. 発表"],
+      "answer": "3. 水泳",
+      "hint": "<p><ruby>水泳<rt>すいえい</rt></ruby> (suiei) - swimming<br><ruby>海<rt>うみ</rt></ruby> (umi) - ocean</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『<ruby>水泳<rt>すいえい</rt></ruby>』 (suiei) means 'swimming.' It is a common activity during summer vacation, especially at the beach.</p><ul><li><ruby>掃除<rt>そうじ</rt></ruby> – cleaning</li><li><ruby>計算<rt>けいさん</rt></ruby> – calculation</li><li><ruby>発表<rt>はっぴょう</rt></ruby> – presentation</li></ul><p><strong>Sentence meaning:</strong> I went swimming with my friends at the beach during summer vacation.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>3. <ruby>水泳<rt>すいえい</rt></ruby></strong> (suiei), which means 'swimming.'</p><ul><li><ruby>掃除<rt>そうじ</rt></ruby> – cleaning</li><li><ruby>計算<rt>けいさん</rt></ruby> – calculation</li><li><ruby>発表<rt>はっぴょう</rt></ruby> – presentation</li></ul><p>This sentence describes a typical summer beach activity: swimming.</p>"
+      }
+    },
+    {
+      "question": "毎朝、駅まで自転車で（＿）います。",
+      "options": ["2. 通って", "3. 泳いで", "4. 飾って", "1. 掃除して"],
+      "answer": "2. 通って",
+      "hint": "<p><ruby>通<rt>かよ</rt></ruby>う (kayou) - to commute<br><ruby>駅<rt>えき</rt></ruby> (eki) - station</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『<ruby>通<rt>かよ</rt></ruby>って』 (kayotte) means 'commuting.' It is commonly used when regularly going to a place like school or work.</p><ul><li><ruby>掃除<rt>そうじ</rt></ruby>して – cleaning</li><li><ruby>泳<rt>およ</rt></ruby>いで – swimming</li><li><ruby>飾<rt>かざ</rt></ruby>って – decorating</li></ul><p><strong>Sentence meaning:</strong> I commute to the station every morning by bicycle.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>2. <ruby>通<rt>かよ</rt></ruby>って</strong> (kayotte), meaning 'to commute.'</p><ul><li><ruby>掃除<rt>そうじ</rt></ruby>して – cleaning</li><li><ruby>泳<rt>およ</rt></ruby>いで – swimming</li><li><ruby>飾<rt>かざ</rt></ruby>って – decorating</li></ul><p>This sentence describes a daily activity: commuting by bicycle to the station.</p>"
+      }
+    },
+    {
+      "question": "台風のため、飛行機が（＿）になりました。",
+      "options": ["1. 欠航", "4. 開店", "3. 出発", "2. 到着"],
+      "answer": "1. 欠航",
+      "hint": "<p><ruby>欠航<rt>けっこう</rt></ruby> (kekkou) - flight cancellation<br><ruby>台風<rt>たいふう</rt></ruby> (taifuu) - typhoon</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『<ruby>欠航<rt>けっこう</rt></ruby>』 (kekkou) means 'flight cancellation.' Flights are often cancelled due to typhoons or bad weather.</p><ul><li><ruby>開店<rt>かいてん</rt></ruby> – opening a store</li><li><ruby>出発<rt>しゅっぱつ</rt></ruby> – departure</li><li><ruby>到着<rt>とうちゃく</rt></ruby> – arrival</li></ul><p><strong>Sentence meaning:</strong> The flight was canceled because of the typhoon.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>欠航<rt>けっこう</rt></ruby></strong> (kekkou), which means 'flight cancellation.'</p><ul><li><ruby>開店<rt>かいてん</rt></ruby> – opening a store</li><li><ruby>出発<rt>しゅっぱつ</rt></ruby> – departure</li><li><ruby>到着<rt>とうちゃく</rt></ruby> – arrival</li></ul><p>The flight was canceled due to the typhoon.</p>"
+      }
+    },
+    {
+      "question": "図書館では大きな声で（＿）はいけません。",
+      "options": ["3. 話して", "1. 書いて", "2. 読んで", "4. 聞いて"],
+      "answer": "3. 話して",
+      "hint": "<p><ruby>話<rt>はな</rt></ruby>す (hanasu) - to speak/talk<br><ruby>図書館<rt>としょかん</rt></ruby> (toshokan) - library</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『<ruby>話<rt>はな</rt></ruby>して』 (hanashite) means 'to talk.' Loud talking is not allowed in a library to keep it quiet.</p><ul><li><ruby>書<rt>か</rt></ruby>いて – writing</li><li><ruby>読<rt>よ</rt></ruby>んで – reading</li><li><ruby>聞<rt>き</rt></ruby>いて – listening</li></ul><p><strong>Sentence meaning:</strong> You must not talk loudly in the library.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>3. <ruby>話<rt>はな</rt></ruby>して</strong> (hanashite), which means 'to speak or talk.'</p><ul><li><ruby>書<rt>か</rt></ruby>いて – writing</li><li><ruby>読<rt>よ</rt></ruby>んで – reading</li><li><ruby>聞<rt>き</rt></ruby>いて – listening</li></ul><p>The library is a quiet place, so talking is not allowed.</p>"
+      }
+    },
+    {
+      "question": "試験の結果が（＿）されたので、掲示板を見ました。",
+      "options": ["2. 発表", "4. 説明", "1. 変更", "3. 開始"],
+      "answer": "2. 発表",
+      "hint": "<p><ruby>発表<rt>はっぴょう</rt></ruby> (happyou) - announcement<br><ruby>結果<rt>けっか</rt></ruby> (kekka) - result</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>『<ruby>発表<rt>はっぴょう</rt></ruby>』 (happyou) means 'announcement.' Exam results are often posted publicly.</p><ul><li><ruby>変更<rt>へんこう</rt></ruby> – change</li><li><ruby>開始<rt>かいし</rt></ruby> – start</li><li><ruby>説明<rt>せつめい</rt></ruby> – explanation</li></ul><p><strong>Sentence meaning:</strong> The exam results were announced, so I checked the bulletin board.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>2. <ruby>発表<rt>はっぴょう</rt></ruby></strong> (happyou), which means 'announcement.'</p><ul><li><ruby>変更<rt>へんこう</rt></ruby> – change</li><li><ruby>開始<rt>かいし</rt></ruby> – start</li><li><ruby>説明<rt>せつめい</rt></ruby> – explanation</li></ul><p>This sentence explains that the speaker looked at the notice board because the results were announced.</p>"
+      }
+    }
+  ]
+}

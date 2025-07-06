@@ -1,0 +1,46 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "わたしは　日本語（＿）　べんきょうしています。",
+        "options": ["1. を", "2. に", "3. が", "4. と"],
+        "answer": "1. を",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～をべんきょうします</strong> - to study (something)</p><p><strong>日本語</strong> - Japanese language</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「日本語<strong>を</strong>べんきょうしています」 means \"I am studying Japanese.\"</p><ul><li><strong>に</strong> - indicates direction or purpose, not object</li><li><strong>が</strong> - marks the subject</li><li><strong>と</strong> - means \"with\" or \"and\"</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>を</strong>.</p><ul><li><strong>に</strong> - indicates direction or purpose, not object</li><li><strong>が</strong> - marks the subject</li><li><strong>と</strong> - means \"with\" or \"and\"</li></ul>"
+        }
+      },
+      {
+        "question": "スーパー（＿）　たまごを　かいました。",
+        "options": ["1. で", "2. に", "3. を", "4. と"],
+        "answer": "1. で",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～で</strong> - indicates location of an action</p><p><strong>かいました</strong> - bought</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「スーパー<strong>で</strong>たまごをかいました」 means \"I bought eggs at the supermarket.\"</p><ul><li><strong>に</strong> - location of existence or destination</li><li><strong>を</strong> - direct object marker</li><li><strong>と</strong> - means \"with\"</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>で</strong>.</p><ul><li><strong>に</strong> - location of existence or destination</li><li><strong>を</strong> - direct object marker</li><li><strong>と</strong> - means \"with\"</li></ul>"
+        }
+      },
+      {
+        "question": "きのう　新しい　くつ（＿）　買いました。",
+        "options": ["1. を", "2. が", "3. に", "4. へ"],
+        "answer": "1. を",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～を買いました</strong> - bought (something)</p><p><strong>新しいくつ</strong> - new shoes</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「くつ<strong>を</strong>買いました」 means \"I bought shoes.\"</p><ul><li><strong>が</strong> - subject marker</li><li><strong>に</strong> - indicates target or destination</li><li><strong>へ</strong> - direction marker</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>を</strong>.</p><ul><li><strong>が</strong> - subject marker</li><li><strong>に</strong> - indicates target or destination</li><li><strong>へ</strong> - direction marker</li></ul>"
+        }
+      },
+      {
+        "question": "この　えいが（＿）　おもしろいですね。",
+        "options": ["1. は", "2. を", "3. が", "4. に"],
+        "answer": "1. は",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～は</strong> - topic marker</p><p><strong>おもしろい</strong> - interesting/funny</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「このえいが<strong>は</strong>おもしろい」 means \"This movie is interesting.\"</p><ul><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker, but topic is preferred here</li><li><strong>に</strong> - indirect target, not suitable here</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>は</strong>.</p><ul><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker, but topic is preferred here</li><li><strong>に</strong> - indirect target, not suitable here</li></ul>"
+        }
+      }
+    ]
+  }
+  

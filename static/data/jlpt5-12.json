@@ -1,0 +1,56 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "たなかさんは　へや（＿）　入ります。",
+        "options": ["1. に", "2. を", "3. が", "4. と"],
+        "answer": "1. に",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～に 入ります</strong> - to enter (a place)</p><p><strong>へや</strong> - room</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「へや<strong>に</strong>入ります」 means \"enter the room.\"</p><ul><li><strong>を</strong> - not used with \"入る\" (though commonly misunderstood)</li><li><strong>が</strong> - subject marker</li><li><strong>と</strong> - \"with\", not suitable here</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>に</strong>.</p><ul><li><strong>を</strong> - not used with \"入る\" (though commonly misunderstood)</li><li><strong>が</strong> - subject marker</li><li><strong>と</strong> - \"with\", not suitable here</li></ul>"
+        }
+      },
+      {
+        "question": "駅（＿）　人が　たくさん　います。",
+        "options": ["1. に", "2. を", "3. が", "4. で"],
+        "answer": "1. に",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～に</strong> - indicates the place where an action/state happens</p><p><strong>駅</strong> - station</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「駅<strong>に</strong>人がいます」 means \"There are people at the station.\"</p><ul><li><strong>で</strong> - is used to indicate the place where you do something</li><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>に</strong>.</p><ul><li><strong>で</strong> - is used to indicate the place where you do something</li><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker</li></ul>"
+        }
+      },
+      {
+        "question": "毎朝　六時（＿）　おきます。",
+        "options": ["1. に", "2. で", "3. を", "4. が"],
+        "answer": "1. に",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～に</strong> - indicates time when something happens</p><p><strong>六時</strong> - six o’clock</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「六時<strong>に</strong>おきます」 means \"I wake up at six.\"</p><ul><li><strong>で</strong> - place marker</li><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>に</strong>.</p><ul><li><strong>で</strong> - place marker</li><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker</li></ul>"
+        }
+      },
+      {
+        "question": "日曜日は　母と　スーパー（＿）　行きます。",
+        "options": ["1. に", "2. で", "3. を", "4. が"],
+        "answer": "1. に",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～に 行きます</strong> - to go to a place</p><p><strong>スーパー</strong> - supermarket</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「スーパー<strong>に</strong>行きます」 means \"go to the supermarket.\"</p><ul><li><strong>で</strong> - place of action, not destination</li><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>に</strong>.</p><ul><li><strong>で</strong> - place of action, not destination</li><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker</li></ul>"
+        }
+      },
+      {
+        "question": "かばんの　中（＿）　本が　あります。",
+        "options": ["1. に", "2. を", "3. が", "4. と"],
+        "answer": "1. に",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～に あります</strong> - shows where something exists (non-living)</p><p><strong>中</strong> - inside</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「中<strong>に</strong>あります」 means \"There is (something) inside.\"</p><ul><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker</li><li><strong>と</strong> - \"and\" or \"with\"</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>に</strong>.</p><ul><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker</li><li><strong>と</strong> - \"and\" or \"with\"</li></ul>"
+        }
+      }
+    ]
+  }
+  

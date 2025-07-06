@@ -1,0 +1,56 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "ここ（＿）　しゃしんを　とっても　いいですか？",
+        "options": ["1. で", "2. に", "3. を", "4. が"],
+        "answer": "1. で",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～で</strong> - place where an action occurs</p><p><strong>しゃしんをとる</strong> - take a picture</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「ここ<strong>で</strong>しゃしんをとってもいいですか」 means \"Can I take a picture here?\"</p><ul><li><strong>に</strong> - direction/time</li><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>で</strong>.</p><ul><li><strong>に</strong> - direction/time</li><li><strong>を</strong> - object marker</li><li><strong>が</strong> - subject marker</li></ul>"
+        }
+      },
+      {
+        "question": "私は　昨日　新しい　かさ（＿）　買いました。",
+        "options": ["1. を", "2. に", "3. が", "4. で"],
+        "answer": "1. を",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～を 買う</strong> - to buy something</p><p><strong>かさ</strong> - umbrella</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「かさ<strong>を</strong>買いました」 means \"I bought an umbrella.\"</p><ul><li><strong>に</strong> - not suitable for direct object</li><li><strong>が</strong> - subject marker</li><li><strong>で</strong> - location of action</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>を</strong>.</p><ul><li><strong>に</strong> - not suitable for direct object</li><li><strong>が</strong> - subject marker</li><li><strong>で</strong> - location of action</li></ul>"
+        }
+      },
+      {
+        "question": "私は　にく（＿）　たべません。",
+        "options": ["1. を", "2. が", "3. は", "4. に"],
+        "answer": "1. を",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～を たべる</strong> - to eat something</p><p><strong>にく</strong> - meat</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「にく<strong>を</strong>たべません」 means \"I do not eat meat.\"</p><ul><li><strong>が</strong> - subject marker</li><li><strong>は</strong> - topic marker</li><li><strong>に</strong> - indirect marker</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>を</strong>.</p><ul><li><strong>が</strong> - subject marker</li><li><strong>は</strong> - topic marker</li><li><strong>に</strong> - indirect marker</li></ul>"
+        }
+      },
+      {
+        "question": "きのう　ともだちと　えいが（＿）　見ました。",
+        "options": ["1. を", "2. に", "3. で", "4. が"],
+        "answer": "1. を",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～を 見る</strong> - to watch something</p><p><strong>えいが</strong> - movie</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「えいが<strong>を</strong>見ました」 means \"I watched a movie.\"</p><ul><li><strong>に</strong> - direction/time</li><li><strong>で</strong> - place of action</li><li><strong>が</strong> - subject marker</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>を</strong>.</p><ul><li><strong>に</strong> - direction/time</li><li><strong>で</strong> - place of action</li><li><strong>が</strong> - subject marker</li></ul>"
+        }
+      },
+      {
+        "question": "田中さんは　英語（＿）　上手です。",
+        "options": ["1. が", "2. を", "3. は", "4. に"],
+        "answer": "1. が",
+        "hint": "<p><strong>Grammar Help:</strong></p><p><strong>～が 上手</strong> - good at something (for others)</p><p><strong>英語</strong> - English</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong></p><p>「英語<strong>が</strong>上手です」 means \"He is good at English.\"</p><ul><li><strong>を</strong> - object marker</li><li><strong>は</strong> - topic marker (less natural here)</li><li><strong>に</strong> - direction/target</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong></p><p>The correct answer is <strong>が</strong>.</p><ul><li><strong>を</strong> - object marker</li><li><strong>は</strong> - topic marker (less natural here)</li><li><strong>に</strong> - direction/target</li></ul>"
+        }
+      }
+    ]
+  }
+  

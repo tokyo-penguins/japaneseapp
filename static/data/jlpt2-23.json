@@ -1,0 +1,89 @@
+{
+  "type": "type2",
+  "title": "JLPT N2 Word Reordering Quiz – Abstract Concepts",
+  "questions": [
+    {
+      "options": [
+        { "word": "最も", "furigana": "もっとも", "romaji": "mottomo", "meaning": "most" },
+        { "word": "重要な", "furigana": "じゅうよう", "romaji": "juuyou na", "meaning": "important" },
+        { "word": "人間関係を", "furigana": "にんげんかんけい", "romaji": "ningen kankei ni wo", "meaning": "human relationships" },
+        { "word": "信頼が", "furigana": "しんらい", "romaji": "shinrai ga", "meaning": "trust" },
+        { "word": "要素だ", "furigana": "ようそ", "romaji": "youso da", "meaning": "factor" }
+      ],
+      "answer": ["人間関係を", "信頼が", "最も", "重要な", "要素だ"],
+      "fixedPart": "長く続けるために、",
+      "full": "人間関係を長く続けるために、信頼が最も重要な要素だ。",
+      "translation": "Trust is the most important factor in human relationships for them to last long.",
+      "possiblePositions": [2]
+    },
+    {
+      "options": [
+        { "word": "文化によって", "furigana": "ぶんか", "romaji": "bunka ni yotte", "meaning": "depending on culture" },
+        { "word": "正義の", "furigana": "せいぎ", "romaji": "seigi no", "meaning": "justice" },
+        { "word": "時代、", "furigana": "じだい", "romaji": "jidai", "meaning": "era and" },
+        { "word": "意味は", "furigana": "いみ", "romaji": "imi wa", "meaning": "the meaning" },
+        { "word": "変わる", "furigana": "か", "romaji": "kawaru", "meaning": "varies" }
+      ],
+      "answer": ["正義の", "意味は", "時代、", "文化によって", "変わる"],
+      "fixedPart": "人々の価値観や、",
+      "full": "正義の意味は人々の価値観や、時代、文化によって変わる。",
+      "translation": "The meaning of justice changes with people's values, depending on the era and culture.",
+      "possiblePositions": [3]
+    },
+    {
+      "options": [
+        { "word": "価値ある", "furigana": "かち", "romaji": "kachi aru", "meaning": "valuable" },
+        { "word": "失敗から", "furigana": "しっぱい", "romaji": "shippai kara", "meaning": "from failure" },
+        { "word": "経験は", "furigana": "けいけん", "romaji": "keiken wa", "meaning": "experiences" },
+        { "word": "得られる", "furigana": "え", "romaji": "erareru", "meaning": "can be obtained" },
+        { "word": "ことが多い", "furigana": "", "romaji": "koto ga ooi", "meaning": "often" }
+      ],
+      "answer": ["価値ある", "経験は", "失敗から", "得られる", "ことが多い"],
+      "fixedPart": "成功だけではなく、",
+      "full": "価値ある経験は成功だけではなく、失敗から得られることが多い。",
+      "translation": "Valuable experiences are often gained not only from success but also from failure.",
+      "possiblePositions": [3]
+    },
+    {
+      "options": [
+        { "word": "伴う", "furigana": "ともな", "romaji": "tomonau", "meaning": "comes with" },
+        { "word": "責任が", "furigana": "せきにん", "romaji": "sekinin ga", "meaning": "responsibility" },
+        { "word": "自由には", "furigana": "じゆう", "romaji": "jiyuu ni wa", "meaning": "with freedom" },
+        { "word": "ものだ", "furigana": "", "romaji": "mono da", "meaning": "is something that" }
+      ],
+      "answer": ["自由には", "責任が", "伴う", "ものだ"],
+      "fixedPart": "社会で生きる以上、",
+      "full": "社会で生きる以上、自由には責任が伴うものだ。",
+      "translation": "Freedom always comes with responsibility, especially as long as we live in society.",
+      "possiblePositions": [1]
+    },
+    {
+      "options": [
+         { "word": "異なる", "furigana": "ことな", "romaji": "kotonaru", "meaning": "differ" },
+        { "word": "人によって", "furigana": "", "romaji": "hito ni yotte", "meaning": "depending on the person" },
+         { "word": "価値観は", "furigana": "かちかん", "romaji": "kachikan wa", "meaning": "values" },
+        { "word": "必要だ。", "furigana": "", "romaji": "hitsuyouda", "meaning": "it's important" },
+        { "word": "前提が", "furigana": "ぜんてい", "romaji": "zentei ga", "meaning": "assumption" }
+      ],
+      "answer": ["価値観は", "人によって", "異なる", "前提が","必要だ。"],
+      "fixedPart": "という",
+      "full": "価値観は人によって異なるという、前提が必要だ。",
+      "translation": "It's important to assume that values differ from person to person.",
+      "possiblePositions": [4]
+    },
+    {
+      "options": [
+        { "word": "ことが", "furigana": "", "romaji": "koto ga", "meaning": "that" },
+        { "word": "教育によって", "furigana": "きょういく", "romaji": "kyouiku ni yotte", "meaning": "by education" },
+        { "word": "道徳は", "furigana": "どうとく", "romaji": "doutoku wa", "meaning": "morality" },
+        { "word": "育てられる", "furigana": "そだ", "romaji": "sodaterareru", "meaning": "is nurtured" },
+        { "word": "多い", "furigana": "おお", "romaji": "ooi", "meaning": "many" }
+      ],
+      "answer": ["道徳は", "教育によって", "育てられる", "ことが", "多い"],
+      "fixedPart": "家庭環境だけでなく、",
+      "full": "道徳は家庭環境だけでなく、教育によって育てられることが多い。",
+      "translation": "Morality is often nurtured not only by the home environment but also by education.",
+      "possiblePositions": [2]
+    }
+  ]
+}

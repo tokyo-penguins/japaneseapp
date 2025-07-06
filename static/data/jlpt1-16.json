@@ -1,0 +1,105 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "彼の発言は多くの人の感情を（  ）した。",
+      "options": ["1. 逆なで", "2. こつこつ", "3. まごまご", "4. うとうと"],
+      "answer": "1. 逆なで",
+      "hint": "<p><ruby>発言<rt>はつげん</rt></ruby> (hatsugen) – statement<br><ruby>感情<rt>かんじょう</rt></ruby> (kanjou) – emotion</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>逆なで<rt>さかなで</rt></ruby> (sakanade) means to rub someone the wrong way or to offend.<br><br><strong>Option Explanations:</strong><br>1. <ruby>逆なで<rt>さかなで</rt></ruby> (sakanade): ✅ to offend, irritate<br>2. こつこつ (kotsu kotsu): steadily<br>3. まごまご (mago mago): confusedly<br>4. うとうと (utouto): dozing off<br><br><strong>Sentence meaning:</strong> His statement offended many people.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>逆なで<rt>さかなで</rt></ruby></strong> – to offend.<br><br><strong>Option Explanations:</strong><br>1. <ruby>逆なで<rt>さかなで</rt></ruby> (sakanade): ✅ to offend<br>2. こつこつ (kotsu kotsu): steadily<br>3. まごまご (mago mago): confusedly<br>4. うとうと (utouto): dozing off</p>"
+      }
+    },
+    {
+      "question": "彼の論理は一見正しいようだが、よく考えると（  ）が合わない。",
+      "options": ["1. つじつま", "2. しがらみ", "3. なりゆき", "4. いきさつ"],
+      "answer": "1. つじつま",
+      "hint": "<p><ruby>論理<rt>ろんり</rt></ruby> (ronri) – logic<br><ruby>正しい<rt>ただしい</rt></ruby> (tadashii) – correct</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>つじつま</ruby> (tsujitsuma) means consistency or logical coherence.<br><br><strong>Option Explanations:</strong><br>1. つじつま (tsujitsuma): ✅ consistency<br>2. <ruby>しがらみ</ruby> (shigarami): emotional tie<br>3. <ruby>なりゆき</ruby> (nariyuki): course of events<br>4. <ruby>いきさつ</ruby> (ikisatsu): sequence of events<br><br><strong>Sentence meaning:</strong> His logic seems right at first, but there are inconsistencies upon closer inspection.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. つじつま</strong> – consistency.<br><br><strong>Option Explanations:</strong><br>1. つじつま (tsujitsuma): ✅ consistency<br>2. しがらみ (shigarami): emotional tie<br>3. なりゆき (nariyuki): course of events<br>4. いきさつ (ikisatsu): sequence of events</p>"
+      }
+    },
+    {
+      "question": "この地域では電車が一時間に一本という（  ）状態が続いている。",
+      "options": ["1. 不便な", "2. 円滑な", "3. 快適な", "4. 危篤な"],
+      "answer": "1. 不便な",
+      "hint": "<p><ruby>地域<rt>ちいき</rt></ruby> (chiiki) – area<br><ruby>状態<rt>じょうたい</rt></ruby> (joutai) – condition</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>不便<rt>ふべん</rt></ruby> (fuben) means inconvenient or not easily accessible.<br><br><strong>Option Explanations:</strong><br>1. <ruby>不便な<rt>ふべんな</rt></ruby> (fuben na): ✅ inconvenient<br>2. <ruby>円滑な<rt>えんかつな</rt></ruby> (enkatsu na): smooth<br>3. <ruby>快適な<rt>かいてきな</rt></ruby> (kaiteki na): comfortable<br>4. <ruby>危篤な<rt>きとくな</rt></ruby> (kitoku na): critical (medical)<br><br><strong>Sentence meaning:</strong> In this area, only one train per hour runs, making it very inconvenient.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>不便な<rt>ふべんな</rt></ruby></strong> – inconvenient.<br><br><strong>Option Explanations:</strong><br>1. <ruby>不便な<rt>ふべんな</rt></ruby> (fuben na): ✅ inconvenient<br>2. <ruby>円滑な<rt>えんかつな</rt></ruby> (enkatsu na): smooth<br>3. <ruby>快適な<rt>かいてきな</rt></ruby> (kaiteki na): comfortable<br>4. <ruby>危篤な<rt>きとくな</rt></ruby> (kitoku na): critical</p>"
+      }
+    },
+    {
+      "question": "その理論は現実とは（  ）している。",
+      "options": ["1. かけはなれ", "2. まぎれ", "3. すれちがい", "4. つきはなれ"],
+      "answer": "1. かけはなれ",
+      "hint": "<p><ruby>理論<rt>りろん</rt></ruby> (riron) – theory<br><ruby>現実<rt>げんじつ</rt></ruby> (genjitsu) – reality</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>かけ離れる<rt>かけはなれる</rt></ruby> (kakehanareru) means to be very different or disconnected.<br><br><strong>Option Explanations:</strong><br>1. かけはなれ (kakehanare): ✅ to diverge significantly<br>2. まぎれ (magire): to be mixed up<br>3. すれちがい (surechigai): to miss (in passing)<br>4. つきはなれ (tsukihanare): to push away<br><br><strong>Sentence meaning:</strong> That theory is far removed from reality.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. かけはなれ</strong> – far apart.<br><br><strong>Option Explanations:</strong><br>1. かけはなれ (kakehanare): ✅ diverged<br>2. まぎれ (magire): confusion<br>3. すれちがい (surechigai): passing without meeting<br>4. つきはなれ (tsukihanare): to push away</p>"
+      }
+    },
+    {
+      "question": "会議での彼の説明は、（  ）を得ていて非常に説得力があった。",
+      "options": ["1. 的を", "2. 駄目を", "3. 勝ちを", "4. 手を"],
+      "answer": "1. 的を",
+      "hint": "<p>的を得る（まとをえる）– to be to the point<br>説得力（せっとくりょく, settokuryoku）– persuasive power</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 的を得る – to hit the mark</p><ul><li>駄目を得る – meaningless</li><li>勝ちを得る – to win</li><li>手を得る – unnatural phrase</li></ul><p><strong>Translation:</strong> His explanation in the meeting hit the mark and was very persuasive.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 的を得る – to be to the point</p><ul><li>駄目を得る – not an idiom</li><li>勝ちを得る – to win</li><li>手を得る – unnatural</li></ul><p><strong>Translation:</strong> His explanation in the meeting hit the mark and was very persuasive.</p>"
+      }
+    },
+    {
+      "question": "その研究成果は世界的に高く（  ）されている。",
+      "options": ["1. 評価", "2. 抑圧", "3. 振興", "4. 衰退"],
+      "answer": "1. 評価",
+      "hint": "<p>研究成果（けんきゅうせいか, kenkyuu seika）– research results<br>世界的に（せかいてきに, sekaiteki ni）– globally</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 評価（ひょうか）– evaluation, recognition</p><ul><li>抑圧 – oppression</li><li>振興 – promotion (e.g., of culture)</li><li>衰退 – decline</li></ul><p><strong>Translation:</strong> The research results are highly regarded worldwide.</p>",
+        "incorrect": "<p><strong>Answer:</strong> 評価 – recognition</p><ul><li>抑圧 – oppression</li><li>振興 – promotion</li><li>衰退 – decline</li></ul><p><strong>Translation:</strong> The research results are highly regarded worldwide.</p>"
+      }
+    },
+    {
+      "question": "新しい制度が社会に（  ）するまでには時間がかかる。",
+      "options": ["1. 定着", "2. 埋没", "3. 沈没", "4. 降伏"],
+      "answer": "1. 定着",
+      "hint": "<p><ruby>制度<rt>せいど</rt></ruby> (seido) – system<br><ruby>社会<rt>しゃかい</rt></ruby> (shakai) – society<br><ruby>定着<rt>ていちゃく</rt></ruby> (teichaku) – taking root, becoming established</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>定着<rt>ていちゃく</rt></ruby> (teichaku) means to take root or become well established in society or practice.<br><br><strong>Option Explanations:</strong><br>1. <ruby>定着<rt>ていちゃく</rt></ruby> (teichaku): ✅ becoming established<br>2. <ruby>埋没<rt>まいぼつ</rt></ruby> (maibotsu): being buried<br>3. <ruby>沈没<rt>ちんぼつ</rt></ruby> (chinbotsu): sinking<br>4. <ruby>降伏<rt>こうふく</rt></ruby> (koufuku): surrender<br><br><strong>Sentence meaning:</strong> It takes time for a new system to become established in society.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>定着<rt>ていちゃく</rt></ruby></strong> – becoming established.<br><br><strong>Option Explanations:</strong><br>1. <ruby>定着<rt>ていちゃく</rt></ruby> (teichaku): ✅ taking root<br>2. <ruby>埋没<rt>まいぼつ</rt></ruby> (maibotsu): buried<br>3. <ruby>沈没<rt>ちんぼつ</rt></ruby> (chinbotsu): sinking<br>4. <ruby>降伏<rt>こうふく</rt></ruby> (koufuku): surrender</p>"
+      }
+    },
+    {
+      "question": "その事件の真相は（  ）闇に包まれている。",
+      "options": ["1. いまだ", "2. いましも", "3. かならず", "4. とっくに"],
+      "answer": "1. いまだ",
+      "hint": "<p><ruby>真相<rt>しんそう</rt></ruby> (shinsou) – truth<br><ruby>闇<rt>やみ</rt></ruby> (yami) – darkness<br><ruby>いまだ</ruby> (imada) – still (not)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>いまだ</ruby> (imada) means 'still (not)' and is often used in formal expressions.<br><br><strong>Option Explanations:</strong><br>1. いまだ (imada): ✅ still (not)<br>2. いましも (imashimo): just now<br>3. <ruby>必ず<rt>かならず</rt></ruby> (kanarazu): certainly<br>4. とっくに (tokkuni): long ago<br><br><strong>Sentence meaning:</strong> The truth of the incident is still shrouded in darkness.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. いまだ</strong> – still (not).<br><br><strong>Option Explanations:</strong><br>1. いまだ (imada): ✅ still (not)<br>2. いましも (imashimo): just now<br>3. <ruby>必ず<rt>かならず</rt></ruby> (kanarazu): certainly<br>4. とっくに (tokkuni): long ago</p>"
+      }
+    },
+    {
+      "question": "この改革は社会全体に（  ）影響を与えるだろう。",
+      "options": ["1. 多大な", "2. 細やかな", "3. 緩やかな", "4. 軽やかな"],
+      "answer": "1. 多大な",
+      "hint": "<p><ruby>改革<rt>かいかく</rt></ruby> (kaikaku) – reform<br><ruby>影響<rt>えいきょう</rt></ruby> (eikyou) – influence<br><ruby>多大<rt>ただい</rt></ruby> (tadai) – great, enormous</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>多大な<rt>ただいな</rt></ruby> (tadai na) means significant or enormous.<br><br><strong>Option Explanations:</strong><br>1. <ruby>多大な<rt>ただいな</rt></ruby> (tadai na): ✅ great/enormous<br>2. <ruby>細やかな<rt>こまやかな</rt></ruby> (komayaka na): detailed, delicate<br>3. <ruby>緩やかな<rt>ゆるやかな</rt></ruby> (yuruyaka na): gentle<br>4. <ruby>軽やかな<rt>かろやかな</rt></ruby> (karoyaka na): light<br><br><strong>Sentence meaning:</strong> This reform will have a significant impact on the entire society.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>多大な<rt>ただいな</rt></ruby></strong> – great.<br><br><strong>Option Explanations:</strong><br>1. <ruby>多大な<rt>ただいな</rt></ruby> (tadai na): ✅ enormous<br>2. <ruby>細やかな<rt>こまやかな</rt></ruby> (komayaka na): delicate<br>3. <ruby>緩やかな<rt>ゆるやかな</rt></ruby> (yuruyaka na): gentle<br>4. <ruby>軽やかな<rt>かろやかな</rt></ruby> (karoyaka na): light</p>"
+      }
+    },
+    {
+      "question": "問題を早急に（  ）しないと、状況が悪化する恐れがある。",
+      "options": ["1. 対処", "2. 対談", "3. 対比", "4. 対抗"],
+      "answer": "1. 対処",
+      "hint": "<p><ruby>早急<rt>さっきゅう</rt></ruby> (sakkyuu) – urgent<br><ruby>状況<rt>じょうきょう</rt></ruby> (joukyou) – situation<br><ruby>対処<rt>たいしょ</rt></ruby> (taisho) – dealing with, handling</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br><ruby>対処<rt>たいしょ</rt></ruby> (taisho) means to handle or address a problem appropriately.<br><br><strong>Option Explanations:</strong><br>1. <ruby>対処<rt>たいしょ</rt></ruby> (taisho): ✅ handling<br>2. <ruby>対談<rt>たいだん</rt></ruby> (taidan): dialogue<br>3. <ruby>対比<rt>たいひ</rt></ruby> (taihi): comparison<br>4. <ruby>対抗<rt>たいこう</rt></ruby> (taikou): opposition<br><br><strong>Sentence meaning:</strong> If the problem is not dealt with quickly, the situation may get worse.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>1. <ruby>対処<rt>たいしょ</rt></ruby></strong> – handling.<br><br><strong>Option Explanations:</strong><br>1. <ruby>対処<rt>たいしょ</rt></ruby> (taisho): ✅ handling<br>2. <ruby>対談<rt>たいだん</rt></ruby> (taidan): dialogue<br>3. <ruby>対比<rt>たいひ</rt></ruby> (taihi): comparison<br>4. <ruby>対抗<rt>たいこう</rt></ruby> (taikou): opposition</p>"
+      }
+    }
+  ]
+}

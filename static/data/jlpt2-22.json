@@ -1,0 +1,45 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "医師は患者の（＿）に基づいて、適切な治療を行った。",
+      "options": ["4. 診断", "3. 健康", "1. 運動", "2. 検査"],
+      "answer": "4. 診断",
+      "hint": "<p>患者（かんじゃ, kanja） - patient<br>診断（しんだん, shindan） - diagnosis</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 診断（しんだん, shindan） - diagnosis</p><ul><li>運動（うんどう, undou） - exercise</li><li>検査（けんさ, kensa） - test/examination</li><li>健康（けんこう, kenkou） - health</li></ul><p><strong>Sentence meaning:</strong> The doctor gave appropriate treatment based on the diagnosis of the patient.</p>",
+        "incorrect": "<p><strong>Answer :</strong> 診断（しんだん, shindan） - diagnosis</p><ul><li>運動 - exercise</li><li>検査 - test</li><li>健康 - health</li></ul>"
+      }
+    },
+    {
+      "question": "この薬には、眠気という副作用が（＿）ことがあります。",
+      "options": ["2. 現れる", "3. 防ぐ", "1. 減らす", "4. 続く"],
+      "answer": "2. 現れる",
+      "hint": "<p>副作用（ふくさよう, fukusayou） - side effect<br>眠気（ねむけ, nemuke） - drowsiness</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 現れる（あらわれる, arawareru） - to appear</p><ul><li>減らす（へらす, herasu） - to reduce</li><li>防ぐ（ふせぐ, fusegu） - to prevent</li><li>続く（つづく, tsuzuku） - to continue</li></ul><p><strong>Sentence meaning:</strong> This medicine may cause drowsiness as a side effect.</p>",
+        "incorrect": "<p><strong>Answer :</strong> 現れる（あらわれる, arawareru） - to appear</p><ul><li>減らす - to reduce</li><li>防ぐ - to prevent</li><li>続く - to continue</li></ul>"
+      }
+    },
+    {
+      "question": "体調が悪いので、今日は病院で（＿）を受けようと思います。",
+      "options": ["3. 診察", "1. 入院", "2. 処方", "4. 注射"],
+      "answer": "3. 診察",
+      "hint": "<p>体調（たいちょう, taichou） - physical condition<br>診察（しんさつ, shinsatsu） - medical consultation</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 診察（しんさつ, shinsatsu） - medical examination</p><ul><li>入院（にゅういん, nyuuin） - hospitalization</li><li>処方（しょほう, shoho） - prescription</li><li>注射（ちゅうしゃ, chuusha） - injection</li></ul><p><strong>Sentence meaning:</strong> I'm feeling unwell, so I plan to get a medical consultation at the hospital today.</p>",
+        "incorrect": "<p><strong>Answer :</strong> 診察（しんさつ, shinsatsu） - medical consultation</p><ul><li>入院 - hospitalization</li><li>処方 - prescription</li><li>注射 - injection</li></ul>"
+      }
+    },
+    {
+      "question": "新しいワクチンの（＿）が現在進められている。",
+      "options": ["4. 開発", "2. 発見", "1. 応用", "3. 分析"],
+      "answer": "4. 開発",
+      "hint": "<p>開発（かいはつ, kaihatsu） - development<br>ワクチン - vaccine</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> 開発（かいはつ, kaihatsu） - development</p><ul><li>応用（おうよう, ouyou） - application</li><li>発見（はっけん, hakken） - discovery</li><li>分析（ぶんせき, bunseki） - analysis</li></ul><p><strong>Sentence meaning:</strong> The development of a new vaccine is currently underway.</p>",
+        "incorrect": "<p><strong>Answer :</strong> 開発（かいはつ, kaihatsu） - development</p><ul><li>応用 - application</li><li>発見 - discovery</li><li>分析 - analysis</li></ul>"
+      }
+    }
+  ]
+}

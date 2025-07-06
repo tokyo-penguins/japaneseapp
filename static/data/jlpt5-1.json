@@ -1,0 +1,36 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "わたし（＿）がくせいです。",
+        "options": ["1. は", "2. が", "3. を", "4. に"],
+        "answer": "1. は",
+        "hint": "<p><strong>Grammar Help:</strong><br>～は - topic marker<br>がくせい - student<br>[topic] + は + [description]</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「わたしはがくせいです」 means \"I am a student.\"</p><ul><li><strong>が</strong> - subject marker, but not used for introducing a topic</li><li><strong>を</strong> - object marker</li><li><strong>に</strong> - location/time marker</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>は</strong>.<br><ul><li><strong>が</strong> - subject marker, but not used for introducing a topic</li><li><strong>を</strong> - object marker</li><li><strong>に</strong> - location/time marker</li></ul></p>"
+        }
+      },
+      {
+        "question": "これは（＿）ですか？",
+        "options": ["1. いぬ", "2. いぬを", "3. いぬが", "4. いぬの"],
+        "answer": "1. いぬ",
+        "hint": "<p><strong>Grammar Help:</strong><br>これは〇〇ですか？ - Is this 〇〇?<br>Use the noun directly.</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「これはいぬですか？」 means \"Is this a dog?\"</p><ul><li><strong>いぬを</strong> - object form, unnecessary here</li><li><strong>いぬが</strong> - makes the sentence ungrammatical here</li><li><strong>いぬの</strong> - possessive, means \"dog's\"</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>いぬ</strong>.<br><ul><li><strong>いぬを</strong> - object form, unnecessary here</li><li><strong>いぬが</strong> - makes the sentence ungrammatical here</li><li><strong>いぬの</strong> - possessive, means \"dog's\"</li></ul></p>"
+        }
+      },
+      {
+        "question": "おちゃを（＿）。",
+        "options": ["1. のみます", "2. たべます", "3. ききます", "4. みます"],
+        "answer": "1. のみます",
+        "hint": "<p><strong>Grammar Help:</strong><br>～を + verb - action on object<br>おちゃ - tea</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「おちゃをのみます」 means \"I drink tea.\"</p><ul><li><strong>たべます</strong> - \"eat\", not used with tea</li><li><strong>ききます</strong> - \"listen\", not suitable</li><li><strong>みます</strong> - \"see/watch\"</li></ul>",
+          "incorrect": "<p><strong>Incorrect Answer</strong><br>The correct answer is <strong>のみます</strong>.<br><ul><li><strong>たべます</strong> - \"eat\", not used with tea</li><li><strong>ききます</strong> - \"listen\", not suitable</li><li><strong>みます</strong> - \"see/watch\"</li></ul></p>"
+        }
+      }
+    ]
+  }
+  

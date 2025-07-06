@@ -1,0 +1,75 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "すみません、昨日の授業を（＿）ので、ノートを貸してください。",
+      "options": ["1. 休んだ", "2. 終わった", "3. 始めた", "4. 遅れた"],
+      "answer": "1. 休んだ",
+      "hint": "<p><ruby>授業<rt>じゅぎょう</rt></ruby> (jugyou) - class<br><ruby>貸す<rt>かす</rt></ruby> (kasu) - to lend</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong><br>『休んだ』 (やすんだ, yasunda) means 'was absent.' It's the only option that logically explains the need to borrow notes.</p><ul><li>1. 休んだ – was absent (やすんだ, yasunda)</li><li>2. 終わった – ended (おわった, owatta)</li><li>3. 始めた – started (はじめた, hajimeta)</li><li>4. 遅れた – was late (おくれた, okureta)</li></ul><p><strong>English Sentence:</strong> Sorry, I missed yesterday’s class, so can I borrow your notebook?</p>",
+        "incorrect": "<p><strong>Answer:</strong> 休んだ (やすんだ, yasunda) – was absent<br>Only this option explains why they didn't take notes themselves.</p>"
+      }
+    },
+    {
+      "question": "店長：今日は（＿）から、残業をお願いできる？",
+      "options": ["1. 暇", "2. 忙しい", "3. 楽しい", "4. つまらない"],
+      "answer": "2. 忙しい",
+      "hint": "<p><ruby>残業<rt>ざんぎょう</rt></ruby> (zangyou) - overtime<br><ruby>お願い<rt>おねがい</rt></ruby> (onegai) - request</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!</strong><br>『忙しい』 (いそがしい, isogashii) means 'busy.' That’s the reason the manager is asking for help with overtime.</p><ul><li>1. 暇 – free / not busy (ひま, hima)</li><li>2. 忙しい – busy (いそがしい, isogashii)</li><li>3. 楽しい – fun (たのしい, tanoshii)</li><li>4. つまらない – boring (つまらない, tsumaranai)</li></ul><p><strong>English Sentence:</strong> Manager: Since it’s busy today, can I ask you to work overtime?</p>",
+        "incorrect": "<p><strong>Answer:</strong> 忙しい (いそがしい, isogashii) – busy<br>Only this option gives a reasonable explanation for asking someone to work extra hours.</p>"
+      }
+    },
+    {
+      "question": "この橋は3年前に（＿）ました。",
+      "options": ["1. 建てられ", "3. 泳がれ", "4. 呼ばれ", "2. 話され"],
+      "answer": "1. 建てられ",
+      "hint": "<p><ruby>建<rt>た</rt></ruby>てる (to build), <ruby>橋<rt>はし</rt></ruby> (bridge)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>建てられた (たてられた, taterareta) is the passive form of 'build', meaning 'was built'. It's used for structures like bridges.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>建てられ</strong> (たてられ, taterare). It means 'was built'. Bridges and buildings are built, so the passive form is appropriate here.</p>"
+      }
+    },
+    {
+      "question": "教科書は毎回授業に（＿）きてください。",
+      "options": ["4. 持って", "1. 閉じて", "3. 読んで", "2. 捨てて"],
+      "answer": "4. 持って",
+      "hint": "<p><ruby>持<rt>も</rt></ruby>つ (to bring/carry), <ruby>教科書<rt>きょうかしょ</rt></ruby> (textbook)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>持ってくる (もってくる, mottekuru) means 'bring with you'. You are asked to bring the textbook to class.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>持って</strong> (もって, motte). It is the te-form of 'to bring', used in requests like 'please bring'.</p>"
+      }
+    },
+    {
+      "question": "先生の説明はとても（＿）ので、わかりやすいです。",
+      "options": ["2. 簡単", "4. 複雑", "1. 厳重", "3. 暗い"],
+      "answer": "2. 簡単",
+      "hint": "<p><ruby>簡単<rt>かんたん</rt></ruby> (simple), <ruby>説明<rt>せつめい</rt></ruby> (explanation)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>簡単 (かんたん, kantan) means 'easy/simple'. Simple explanations are easier to understand.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>簡単</strong> (かんたん, kantan). It means 'easy' and fits with 'easy to understand'.</p>"
+      }
+    },
+    {
+      "question": "電車の中でお年寄りに席を（＿）ました。",
+      "options": ["3. 譲り", "1. 呼び", "2. 飾り", "4. 渡り"],
+      "answer": "3. 譲り",
+      "hint": "<p><ruby>譲<rt>ゆず</rt></ruby>る (to give up), <ruby>席<rt>せき</rt></ruby> (seat)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>譲り (ゆずり, yuzuri) comes from 'to give up (a seat)'. It's a polite and considerate action toward the elderly.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>譲り</strong> (ゆずり, yuzuri). It means to give your seat to someone else, especially in public transport.</p>"
+      }
+    },
+    {
+      "question": "彼は運動が得意で、特にサッカーが（＿）です。",
+      "options": ["1. 上手", "2. 安全", "3. 無理", "4. 退屈"],
+      "answer": "1. 上手",
+      "hint": "<p><ruby>上手<rt>じょうず</rt></ruby> (good at), <ruby>運動<rt>うんどう</rt></ruby> (sports)</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>上手 (じょうず, jouzu) means 'skilled' or 'good at'. It fits with being good at soccer or other sports.</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>上手</strong> (じょうず, jouzu). It's used to describe someone who is good at something, such as sports.</p>"
+      }
+    }
+  ]
+}

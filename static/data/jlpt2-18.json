@@ -1,0 +1,104 @@
+{
+  "type": "type2",
+  "title": "JLPT N2 Word Reordering Quiz",
+  "questions": [
+    {
+      "options": [
+        { "word": "強く", "furigana": "", "romaji": "tsuyoku", "meaning": "strongly" },
+        { "word": "彼の意見に", "furigana": "", "romaji": "kare no iken ni", "meaning": "with his opinion" },
+        { "word": "人が", "furigana": "ひと", "romaji": "hito ga", "meaning": "people" },
+        { "word": "反対する", "furigana": "はんたい", "romaji": "hantai suru", "meaning": "oppose" },
+        { "word": "多かった", "furigana": "おお", "romaji": "ookatta", "meaning": "were many" }
+      ],
+      "answer": ["彼の意見に", "強く", "反対する", "人が", "多かった"],
+      "fixedPart": "会議では、",
+      "full": "会議では、彼の意見に強く反対する人が多かった。",
+      "translation": "In the meeting, many people strongly opposed his opinion.",
+      "possiblePositions": [1]
+    },
+    {
+      "options": [
+        { "word": "上司に", "furigana": "じょうし", "romaji": "joushi ni", "meaning": "to the boss" },
+        { "word": "謝らなければ", "furigana": "あやま", "romaji": "ayamaranakereba", "meaning": "must apologize" },
+        { "word": "遅刻したことを", "furigana": "ちこく", "romaji": "chikoku shita koto wo", "meaning": "being late" },
+        { "word": "ならない", "furigana": "", "romaji": "naranai", "meaning": "must" },
+        { "word": "彼は", "furigana": "", "romaji": "kare wa", "meaning": "he" }
+      ],
+      "answer": ["彼は", "遅刻したことを", "上司に", "謝らなければ", "ならない"],
+      "fixedPart": "昨日のミーティングに",
+      "full": "彼は遅刻したことを昨日のミーティングに上司に謝らなければならない。",
+      "translation": "He must apologize to the boss for being late to yesterday's meeting.",
+      "possiblePositions": [2]
+    },
+    {
+      "options": [
+         { "word": "詳しく", "furigana": "くわ", "romaji": "kuwashiku", "meaning": "in detail" },
+        { "word": "環境問題について", "furigana": "", "romaji": "kankyou mondai ni tsuite", "meaning": "about environmental issues" },
+        { "word": "学生が", "furigana": "がくせい", "romaji": "gakusei ga", "meaning": "student" },
+        { "word": "研究している", "furigana": "けんきゅう", "romaji": "kenkyuu shite iru", "meaning": "researching" },
+        { "word": "何人もいる。", "furigana": "なんにん", "romaji": "nannin mo iru", "meaning": "there are many several people" }
+      ],
+      "answer": ["環境問題について", "詳しく", "研究している", "学生が", "何人もいる。"],
+      "fixedPart": "大学のゼミには、",
+      "full": "大学のゼミには、環境問題について詳しく研究している学生が何人もいる。",
+      "translation": "In the university seminar, there are several students researching environmental issues in detail.",
+      "possiblePositions": [1]
+    },
+    {
+      "options": [
+        { "word": "いかなかった", "furigana": "", "romaji": "ikanakatta", "meaning": "did not work" },
+        { "word": "試して", "furigana": "ため", "romaji": "tameshite", "meaning": "try" },
+        { "word": "新しい方法を", "furigana": "", "romaji": "atarashii houhou wo", "meaning": "a new method" },
+        { "word": "うまく", "furigana": "", "romaji": "umaku", "meaning": "well" }
+      ],
+      "answer": ["新しい方法を", "試して", "うまく", "いかなかった"],
+      "fixedPart": "みたが、",
+      "full": "新しい方法を試してみたが、うまくいかなかった。",
+      "translation": "I tried a new method, but it didn't work well.",
+      "possiblePositions": [3]
+    },
+    {
+      "options": [
+         { "word": "提出した", "furigana": "ていしゅつ", "romaji": "teishutsu shita", "meaning": "submitted" },
+        { "word": "役所に", "furigana": "やくしょ", "romaji": "yakusho ni", "meaning": "to the city office" },
+        { "word": "申請書を", "furigana": "しんせいしょ", "romaji": "shinseisho wo", "meaning": "application form" },
+        { "word": "正しく", "furigana": "ただ", "romaji": "tadashiku", "meaning": "correctly" },
+        { "word": "記入し、", "furigana": "きにゅう", "romaji": "kiniuu shi", "meaning": "fill out" }
+
+      ],
+      "answer": ["申請書を", "正しく", "記入し、", "役所に", "提出した"],
+      "fixedPart": "必要な書類をそろえて、",
+      "full": "申請書を正しく記入し、必要な書類をそろえて、役所に提出した。",
+      "translation": "I filled out the application form correctly and submitted it to the city office with the required documents.",
+      "possiblePositions": [4]
+    },
+    {
+      "options": [
+        { "word": "ことは", "furigana": "", "romaji": "koto wa", "meaning": "to do" },
+        { "word": "働かせる", "furigana": "はたら", "romaji": "hatarakaseru", "meaning": "make work" },
+        { "word": "無理に", "furigana": "むり", "romaji": "muri ni", "meaning": "forcefully" },
+        { "word": "問題だと", "furigana": "もんだい", "romaji": "mondai da to", "meaning": "is a problem" },
+        { "word": "考えられている", "furigana": "", "romaji": "kangaerarete iru", "meaning": "is considered" }
+      ],
+      "answer": ["無理に", "働かせる", "ことは", "問題だと", "考えられている"],
+      "fixedPart": "最近の労働環境では、",
+      "full": "最近の労働環境では、無理に働かせることは問題だと考えられている。",
+      "translation": "In the current work environment, making someone work forcefully is considered a problem.",
+      "possiblePositions": [1]
+    },
+    {
+      "options": [
+        { "word": "進めた", "furigana": "すす", "romaji": "susumeta", "meaning": "proceeded" },
+        { "word": "会議の", "furigana": "かいぎ", "romaji": "kaigi no", "meaning": "for the meeting" },
+        { "word": "資料を", "furigana": "しりょう", "romaji": "shiryou wo", "meaning": "materials" },
+        { "word": "コピーして", "furigana": "", "romaji": "kopii shite", "meaning": "copy" },
+        { "word": "準備を", "furigana": "じゅんび", "romaji": "junbi wo", "meaning": "preparation" }
+      ],
+      "answer": ["会議の", "資料を", "コピーして", "準備を", "進めた"],
+      "fixedPart": "朝早くから、",
+      "full": "会議の資料をコピーして朝早くから、準備を進めた。",
+      "translation": "I copied the meeting materials and began preparing from early in the morning.",
+      "possiblePositions": [4]
+    }
+  ]
+}

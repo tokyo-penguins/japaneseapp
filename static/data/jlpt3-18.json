@@ -1,0 +1,60 @@
+{
+  "type": "type2",
+  "title": "JLPT N3 Word Reordering Quiz - School Theme",
+  "questions": [
+    {
+      "options": [
+        { "word": "生徒たちは", "furigana": "せいと", "romaji": "seito-tachi wa", "meaning": "the students" },
+        { "word": "掃除を", "furigana": "そうじ", "romaji": "souji wo", "meaning": "cleaning" },
+        { "word": "一生懸命", "furigana": "いっしょうけんめい", "romaji": "isshoukenmei", "meaning": "diligently" },
+        { "word": "教室の", "furigana": "きょうしつ", "romaji": "kyoushitsu no", "meaning": "the classroom's" },
+        { "word": "していた", "furigana": "", "romaji": "shiteita", "meaning": "were doing" }
+      ],
+      "answer": ["生徒たちは", "教室の", "掃除を", "一生懸命", "していた"],
+      "fixedPart": "放課後、",
+      "full": "生徒たちは教室の掃除を放課後、一生懸命していた。",
+      "translation": "The students were diligently cleaning the classroom after school.",
+      "possiblePositions": [4]
+    },
+    {
+      "options": [
+        { "word": "新しい", "furigana": "", "romaji": "atarashii", "meaning": "new" },
+        { "word": "教科書が", "furigana": "きょうかしょ", "romaji": "kyoukasho ga", "meaning": "textbooks" },
+        { "word": "配られた", "furigana": "くば", "romaji": "kubarareta", "meaning": "were distributed" },
+        { "word": "生徒たちに", "furigana": "せいと", "romaji": "seito-tachi ni", "meaning": "to the students" },
+        { "word": "今日", "furigana": "きょう", "romaji": "kyou", "meaning": "today" }
+      ],
+      "answer": ["今日", "新しい", "教科書が", "生徒たちに", "配られた"],
+      "fixedPart": "授業の前に、",
+      "full": "今日新しい教科書が授業の前に、生徒たちに配られた。",
+      "translation": "New textbooks were distributed to the students today before class.",
+      "possiblePositions": [4]
+    },
+    {
+      "options": [
+        { "word": "参加した", "furigana": "さんか", "romaji": "sanka shita", "meaning": "participated" },
+        { "word": "多くの学生", "furigana": "がくせい", "romaji": "ooku no gakusei", "meaning": "many students" },
+        { "word": "文化祭に", "furigana": "ぶんかさい", "romaji": "bunkasai ni", "meaning": "in the school festival" },
+        { "word": "昨日、", "furigana": "きのう", "romaji": "kinou", "meaning": "yesterday" }
+      ],
+      "answer": ["昨日、", "多くの学生", "文化祭に", "参加した"],
+      "fixedPart": "が",
+      "full": "昨日、多くの学生が文化祭に参加した。",
+      "translation": "Many students happily participated in the school festival yesterday, as a result of their preparation.",
+      "possiblePositions": [3]
+    },
+    {
+      "options": [
+        { "word": "教室では", "furigana": "きょうしつ", "romaji": "kyoushitsu de wa", "meaning": "in the classroom" },
+        { "word": "静かに", "furigana": "しず", "romaji": "shizuka ni", "meaning": "quietly" },
+        { "word": "話すように", "furigana": "はな", "romaji": "hanasu you ni", "meaning": "speak softly" },
+        { "word": "言いました", "furigana": "い", "romaji": "iimashita", "meaning": "said" }
+      ],
+      "answer": ["教室では", "静かに", "話すように", "言いました"],
+      "fixedPart": "授業中のマナーとして、",
+      "full": "教室では授業中のマナーとして、静かに話すように言いました。",
+      "translation": "The teacher said to speak quietly in the classroom as classroom etiquette.",
+      "possiblePositions": [2]
+    }
+  ]
+}

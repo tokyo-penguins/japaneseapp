@@ -1,0 +1,36 @@
+{
+    "type": "type1",
+    "questions": [
+      {
+        "question": "A: あの人、だれ？\nB: さとうさんの（＿）です。",
+        "options": ["1. おかね", "2. 馬鹿", "3. いぬ", "4. いもうと"],
+        "answer": "4. いもうと",
+        "hint": "<p>「〜のいもうと」 = someone’s younger sister. A typical way to introduce family.</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「さとうさんのいもうと」 = Sato-san’s younger sister.<br>Common family reference.</p><ul><li><strong>おかね</strong> - money</li><li><strong>馬鹿（ばか）</strong> - idiot</li><li><strong>いぬ</strong> - dog (possible, but not in this context)</li></ul>",
+          "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>いもうと</strong>.<ul><li><strong>おかね</strong> - money</li><li><strong>馬鹿（ばか）</strong> - idiot</li><li><strong>いぬ</strong> - dog (possible, but not in this context)</li></ul></p>"
+        }
+      },
+      {
+        "question": "A: どこでかさをかったの？\nB: えきの（＿）だよ。",
+        "options": ["1. なか", "2. うえ", "3. みせ", "4. かいしゃ"],
+        "answer": "3. みせ",
+        "hint": "<p>「〜のみせ」 means “the shop at (place)” like 「駅のみせ」 = shop at the station.</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「えきのみせ」 = the station’s store.<br>Perfect match for buying something.</p><ul><li><strong>なか</strong> - inside</li><li><strong>うえ</strong> - above</li><li><strong>かいしゃ</strong> - company (not a place to buy an umbrella)</li></ul>",
+          "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>みせ</strong>.<ul><li><strong>なか</strong> - inside</li><li><strong>うえ</strong> - above</li><li><strong>かいしゃ</strong> - company (not a place to buy an umbrella)</li></ul></p>"
+        }
+      },
+      {
+        "question": "A: しゅくだい、（＿）やった？\nB: うん、もうおわったよ。",
+        "options": ["1. さいこう", "2. ちゃんと", "3. ずっと", "4. ときどき"],
+        "answer": "2. ちゃんと",
+        "hint": "<p>「ちゃんと」 means “properly” or “correctly.” Used when asking if something was done well.</p>",
+        "explanation": {
+          "correct": "<p><strong>Correct! 🎉</strong><br>「ちゃんとやった？」 = Did you do it properly?<br>It emphasizes that the homework was done seriously.</p><ul><li><strong>さいこう</strong> - amazing</li><li><strong>ずっと</strong> - continuously</li><li><strong>ときどき</strong> - sometimes</li></ul>",
+          "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>ちゃんと</strong>.<ul><li><strong>さいこう</strong> - amazing</li><li><strong>ずっと</strong> - continuously</li><li><strong>ときどき</strong> - sometimes</li></ul></p>"
+        }
+      }
+    ]
+  }
+  

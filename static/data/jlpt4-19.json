@@ -1,0 +1,55 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "明日までにこのレポートを（＿）必要があります。",
+      "options": ["2. 提出", "1. 出発", "3. 掃除", "4. 到着"],
+      "answer": "2. 提出",
+      "hint": "<p>提出（ていしゅつ / teishutsu）: submission<br>必要（ひつよう / hitsuyou）: necessity</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>提出（ていしゅつ / teishutsu） means 'submission.' You submit a report to your teacher or boss.<br><strong>Option meanings:</strong><br>1. 出発（しゅっぱつ / shuppatsu）: departure<br>2. 提出（ていしゅつ / teishutsu） ✅: submission<br>3. 掃除（そうじ / souji）: cleaning<br>4. 到着（とうちゃく / touchaku）: arrival</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is 提出（ていしゅつ / teishutsu）.<br>It means submitting something, such as a report.<br><strong>Option meanings:</strong><br>1. 出発: departure<br>2. 提出 ✅: submission<br>3. 掃除: cleaning<br>4. 到着: arrival</p>"
+      }
+    },
+    {
+      "question": "図書館では、静かに（＿）ください。",
+      "options": ["3. して", "2. 遊んで", "4. 飲んで", "1. 歌って"],
+      "answer": "3. して",
+      "hint": "<p>図書館（としょかん / toshokan）: library<br>静か（しずか / shizuka）: quiet</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>静かにする（しずかにする / shizuka ni suru） means 'to be quiet,' which is appropriate in a library.<br><strong>Option meanings:</strong><br>1. 歌って（うたって / utatte）: singing<br>2. 遊んで（あそんで / asonde）: playing<br>3. して ✅（する / suru）: do, behave (quietly)<br>4. 飲んで（のんで / nonde）: drinking</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is して（する / suru）.<br>It matches 'to behave quietly' in a library.<br><strong>Option meanings:</strong><br>1. 歌って: singing<br>2. 遊んで: playing<br>3. して ✅: behave quietly<br>4. 飲んで: drinking</p>"
+      }
+    },
+    {
+      "question": "今朝、財布を家に（＿）きたことに気づきました。",
+      "options": ["1. 忘れて", "2. 探して", "3. 売って", "4. 教えて"],
+      "answer": "1. 忘れて",
+      "hint": "<p>忘れる（わすれる / wasureru）: to forget<br>財布（さいふ / saifu）: wallet</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>忘れて（わすれて / wasurete） means 'forgot.' It fits naturally when you realize you left your wallet at home.<br><strong>Option meanings:</strong><br>1. 忘れて ✅: forgot<br>2. 探して（さがして / sagashite）: searching<br>3. 売って（うって / utte）: selling<br>4. 教えて（おしえて / oshiete）: telling/teaching</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is 忘れて（わすれて / wasurete）.<br><strong>Option meanings:</strong><br>1. 忘れて ✅: forgot<br>2. 探して: searching<br>3. 売って: selling<br>4. 教えて: teaching</p>"
+      }
+    },
+    {
+      "question": "この薬は1日3回（＿）ください。",
+      "options": ["4. 飲んで", "1. 泳いで", "3. 歩いて", "2. 開けて"],
+      "answer": "4. 飲んで",
+      "hint": "<p>薬（くすり / kusuri）: medicine<br>飲む（のむ / nomu）: to drink</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>飲んで（のんで / nonde） is the correct verb for taking medicine orally.<br><strong>Option meanings:</strong><br>1. 泳いで（およいで / oyoide）: swimming<br>2. 開けて（あけて / akete）: opening<br>3. 歩いて（あるいて / aruite）: walking<br>4. 飲んで ✅: taking (medicine)</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is 飲んで（のんで / nonde）.<br><strong>Option meanings:</strong><br>1. 泳いで: swim<br>2. 開けて: open<br>3. 歩いて: walk<br>4. 飲んで ✅: take (medicine)</p>"
+      }
+    },
+    {
+      "question": "電車のドアが開いたので、急いで（＿）ました。",
+      "options": ["2. 乗り", "3. 飛び", "1. 座り", "4. 閉め"],
+      "answer": "2. 乗り",
+      "hint": "<p>乗る（のる / noru）: to ride/get on<br>電車（でんしゃ / densha）: train</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>乗り（のり / nori） fits the context of quickly boarding a train.<br><strong>Option meanings:</strong><br>1. 座り（すわり / suwari）: sitting<br>2. 乗り ✅: boarding<br>3. 飛び（とび / tobi）: jumping<br>4. 閉め（しめ / shime）: closing</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is 乗り（のり / nori）.<br><strong>Option meanings:</strong><br>1. 座り: sitting<br>2. 乗り ✅: getting on<br>3. 飛び: jumping<br>4. 閉め: closing</p>"
+      }
+    }
+  ]
+}

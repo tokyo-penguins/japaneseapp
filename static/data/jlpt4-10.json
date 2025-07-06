@@ -1,0 +1,55 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "朝起きたら、まず顔を（＿）ます。",
+      "options": ["2. 洗い", "1. 書き", "3. 歩き", "4. 飲み"],
+      "answer": "2. 洗い",
+      "hint": "<p>朝（あさ）、起きる（おきる）、顔（かお）、洗う（あらう）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>朝は顔を<ruby>洗<rt>あら</rt></ruby>って目を覚ます人が多いです。<br><strong>Explanation:</strong><br>1. 書き（かき / kaki）- to write, unrelated<br>2. 洗い（あらい / arai）- ✅ correct: to wash<br>3. 歩き（あるき / aruki）- to walk, not typical after waking<br>4. 飲み（のみ / nomi）- to drink, possible but not for face</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>正解は「2. 洗い」です。<br><strong>Explanation:</strong><br>1. 書き - write, doesn't fit<br>2. 洗い - ✅ correct: wash face<br>3. 歩き - unrelated<br>4. 飲み - drink, not for face</p>"
+      }
+    },
+    {
+      "question": "友だちに手紙を（＿）ました。",
+      "options": ["1. 書き", "4. 泳ぎ", "3. 遊び", "2. 閉め"],
+      "answer": "1. 書き",
+      "hint": "<p>手紙（てがみ）、書く（かく）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「手紙を書く」はよく使われる表現です。<br><strong>Explanation:</strong><br>1. 書き（かき / kaki）- ✅ correct: to write<br>2. 閉め（しめ / shime）- to close, not related<br>3. 遊び（あそび / asobi）- to play, doesn’t match<br>4. 泳ぎ（およぎ / oyogi）- to swim, irrelevant</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>正解は「1. 書き」です。<br><strong>Explanation:</strong><br>1. 書き - ✅ correct<br>2. 閉め - to close, unrelated<br>3. 遊び - to play, doesn’t fit<br>4. 泳ぎ - not logical here</p>"
+      }
+    },
+    {
+      "question": "スーパーで果物を（＿）ました。",
+      "options": ["2. 買い", "3. 寝", "1. 読み", "4. 書き"],
+      "answer": "2. 買い",
+      "hint": "<p>スーパー（すーぱー）、果物（くだもの）、買う（かう）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「果物を買う」は日常でよくある行動です。<br><strong>Explanation:</strong><br>1. 読み（よみ / yomi）- to read, unrelated<br>2. 買い（かい / kai）- ✅ correct: to buy<br>3. 寝（ね / ne）- to sleep, not related<br>4. 書き（かき / kaki）- to write, irrelevant here</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>正解は「2. 買い」です。<br><strong>Explanation:</strong><br>1. 読み - to read, doesn’t fit<br>2. 買い - ✅ correct<br>3. 寝 - sleep, not logical<br>4. 書き - write, unrelated</p>"
+      }
+    },
+    {
+      "question": "夜ごはんのあと、テレビを（＿）ました。",
+      "options": ["3. 見", "1. 飲み", "4. 洗い", "2. 泳ぎ"],
+      "answer": "3. 見",
+      "hint": "<p>夜ごはん（よるごはん）、テレビ、見る（みる）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「テレビを見る」はよくある日常の行動です。<br><strong>Explanation:</strong><br>1. 飲み（のみ / nomi）- to drink, not for TV<br>2. 泳ぎ（およぎ / oyogi）- swim, unrelated<br>3. 見（み / mi）- ✅ correct: to watch<br>4. 洗い（あらい / arai）- to wash, doesn’t fit</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>正解は「3. 見」です。<br><strong>Explanation:</strong><br>1. 飲み - drink, doesn’t fit<br>2. 泳ぎ - swim, unrelated<br>3. 見 - ✅ correct<br>4. 洗い - wash, not logical here</p>"
+      }
+    },
+    {
+      "question": "今日は疲れたので、早く（＿）たいです。",
+      "options": ["1. 寝", "4. 飲み", "2. 書き", "3. 行き"],
+      "answer": "1. 寝",
+      "hint": "<p>疲れる（つかれる）、早く（はやく）、寝る（ねる）</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>「寝たい」は疲れたときに自然な表現です。<br><strong>Explanation:</strong><br>1. 寝（ね / ne）- ✅ correct: to sleep<br>2. 書き（かき / kaki）- to write, not fitting<br>3. 行き（いき / iki）- to go, too vague<br>4. 飲み（のみ / nomi）- to drink, unrelated</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>正解は「1. 寝」です。<br><strong>Explanation:</strong><br>1. 寝 - ✅ correct<br>2. 書き - write, doesn’t match<br>3. 行き - go, unclear purpose<br>4. 飲み - drink, doesn't relieve tiredness</p>"
+      }
+    }
+  ]
+}

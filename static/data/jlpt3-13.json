@@ -1,0 +1,32 @@
+{
+    "type": "type2",
+    "title": "JLPT N3 Word Reordering Quiz",
+    "questions": [
+        {
+            "options": [
+              { "word": "とされている。", "furigana": "", "romaji": "to sarete iru", "meaning": "is considered" },
+              { "word": "最も", "furigana": "もっと", "romaji": "mottomo", "meaning": "most" },
+              { "word": "危険", "furigana": "きけん", "romaji": "kiken na", "meaning": "dangerous" },
+              { "word": "この地域は", "furigana": "このちいき", "romaji": "kono chiiki wa", "meaning": "this region" }
+            ],
+            "answer": ["この地域は", "最も", "危険", "とされている。"],
+            "fixedPart": "世界で",
+            "full": "この地域は世界で最も危険なとされている。",
+            "translation": "This region is considered the most dangerous in the world.",
+            "possiblePositions": [1]
+          },
+          {
+            "options": [
+              { "word": "引き受けた", "furigana": "ひきうけた", "romaji": "hikiuketa", "meaning": "undertook" },
+              { "word": "最後まで", "furigana": "さいごまで", "romaji": "saigo made", "meaning": "until the end" },
+              { "word": "この仕事を", "furigana": "このしごとを", "romaji": "kono shigoto o", "meaning": "this job" },
+              { "word": "やり通すつもり", "furigana": "やりとおすつもり", "romaji": "yaritōsu tsumori", "meaning": "intend to carry through" }
+            ],
+            "answer": ["この仕事を", "引き受けた", "最後まで", "やり通すつもり"],
+            "fixedPart": "からには",
+            "full": "この仕事を引き受けたからには、最後までやり通すつもりです。",
+            "translation": "Since I undertook this job, I intend to carry it through to the end.",
+            "possiblePositions": [3]
+          }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "type": "type2",
+    "title": "JLPT N1 Word Reordering Quiz",
+    "questions": [
+        {
+            "options": [
+              { "word": "注目を", "furigana": "", "romaji": "chuumoku wo", "meaning": "attention" },
+              { "word": "集めた", "furigana": "", "romaji": "atsumeta", "meaning": "gathered" },
+              { "word": "新商品が", "furigana": "", "romaji": "shinshouhin ga", "meaning": "new product" },
+              { "word": "オンライン", "furigana": "", "romaji": "onrain", "meaning": "on line" },
+              { "word": "多くの", "furigana": "", "romaji": "ooku no", "meaning": "many" }
+            ],
+            "answer": ["新商品が", "オンライン", "多くの", "注目を", "集めた"],
+            "fixedPart": "市場で",
+            "full": "新商品が市場で発売直後に多くの注目を集めた。",
+            "translation": "The new product gathered a lot of attention on the Internet market",
+            "possiblePositions": [3]
+          },
+          {
+            "options": [
+              { "word": "採択された", "furigana": "", "romaji": "saitaku sareta", "meaning": "was adopted" },
+              { "word": "国際条約が", "furigana": "", "romaji": "kokusai jouyaku ga", "meaning": "international treaty" },
+              { "word": "世界各国", "furigana": "", "romaji": "sekai kakkoku de", "meaning": "in various countries" }
+            ],
+            "answer": ["世界各国", "国際条約が", "採択された"],
+            "fixedPart": "で、気候変動対策として",
+            "full": "世界各国で気候変動対策として国際条約が採択された。",
+            "translation": "An international treaty for environmental protection was adopted by many countries.",
+            "possiblePositions": [2]
+          },
+          {
+            "options": [
+              { "word": "圧倒された", "furigana": "", "romaji": "attou sareta", "meaning": "was overwhelmed" },
+              { "word": "観客は", "furigana": "", "romaji": "kankyaku wa", "meaning": "the audience" },
+              { "word": "演技に", "furigana": "", "romaji": "engi ni", "meaning": "by the performance" },
+              { "word": "圧巻の", "furigana": "", "romaji": "akkan no", "meaning": "spectacular" }
+            ],
+            "answer": ["観客は", "圧巻の", "演技に", "圧倒された"],
+            "fixedPart": "思わず",
+            "full": "観客は思わず圧巻の演技に圧倒された。",
+            "translation": "The audience was unintentionally overwhelmed by the spectacular performance.",
+            "possiblePositions": [2]
+          }
+    ]
+}

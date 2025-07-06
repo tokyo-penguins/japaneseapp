@@ -1,0 +1,50 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "会議での彼の発言は、皆の期待（ ）完全に的外れだった。",
+      "options": [
+        "1. に反して",
+        "2. に沿って",
+        "3. に応じて",
+        "4. を踏まえて"
+      ],
+      "answer": "1. に反して",
+      "hint": "<p>期待（きたい, kitai）- expectation<br>的外れ（まとはずれ, matohazure）- off the mark</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> に反して（にはんして, nihanshite）- contrary to</p><ul><li>に沿って（にそって, nisotte）- along with</li><li>に応じて（におうじて, nioujite）- according to</li><li>を踏まえて（をふまえて, womumaete）- based on</li></ul><p><strong>English Translation:</strong> His remarks at the meeting were completely off the mark, contrary to everyone's expectations.</p>",
+        "incorrect": "<p><strong>Answer:</strong> に反して（にはんして, nihanshite）- contrary to</p><ul><li>に沿って（にそって, nisotte）- along with</li><li>に応じて（におうじて, nioujite）- according to</li><li>を踏まえて（をふまえて, womumaete）- based on</li></ul><p><strong>English Translation:</strong> His remarks at the meeting were completely off the mark, contrary to everyone's expectations.</p>"
+      }
+    },
+    {
+      "question": "急な大雨のため、試合は延期（ ）。",
+      "options": [
+        "1. を余儀なくされた",
+        "2. だらけだった",
+        "3. に及んだ",
+        "4. を禁じ得なかった"
+      ],
+      "answer": "1. を余儀なくされた",
+      "hint": "<p>延期（えんき, enki）- postponement<br>余儀なくされる（よぎなくされる, yoginaku sareru）- forced to</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> を余儀なくされた（をよぎなくされた, o yogi naku sareta）- forced to</p><ul><li>だらけだった（だらけだった, darake datta）- lots of something</li><li>に及んだ（におよんだ, nioyonda）- extended to</li><li>を禁じ得なかった（をきんじえなかった, wo kinjienakatta）- could not suppress (emotion)</li></ul><p><strong>English Translation:</strong> Due to sudden heavy rain, the match was forced to be postponed.</p>",
+        "incorrect": "<p><strong>Answer:</strong> を余儀なくされた（をよぎなくされた, o yogi naku sareta）- forced to</p><ul><li>だらけだった（だらけだった, darake datta）- lots of something</li><li>に及んだ（におよんだ, nioyonda）- extended to</li><li>を禁じ得なかった（をきんじえなかった, wo kinjienakatta）- could not suppress (emotion)</li></ul><p><strong>English Translation:</strong> Due to sudden heavy rain, the match was forced to be postponed.</p>"
+      }
+    },
+    {
+      "question": "社長の突然の退任発表に、社員たちは驚き（ ）。",
+      "options": [
+        "1. を隠せなかった",
+        "2. に至らなかった",
+        "3. に耐えなかった",
+        "4. を任せられた"
+      ],
+      "answer": "1. を隠せなかった",
+      "hint": "<p>退任（たいにん, tainin）- resignation<br>驚き（おどろき, odoroki）- surprise</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! :</strong> を隠せなかった（をかくせなかった, wo kakusenakata）- could not hide</p><ul><li>を隠せなかった（をかくせなかった, wo kakuse nakatta）- could not hide</li><li>に至らなかった（にいたらなかった, ni itara nakatta）- did not reach</li><li>を任せられなかった（をまかせられなかった, wo makaserare nakatta）- could not rely</li></ul><p><strong>English Translation:</strong> Upon hearing the sudden resignation of the president, the employees could not suppress their surprise.</p>",
+        "incorrect": "<p><strong>Answer:</strong> を隠せなかった（をかくせなかった, wo kakusenakata）- could not hide</p><ul><li>を隠せなかった（をかくせなかった, wo kakuse nakatta）- could not hide</li><li>に至らなかった（にいたらなかった, ni itara nakatta）- did not reach</li><li>を任せられなかった（をまかせられなかった, wo makaserare nakatta）- could not rely</li></ul><p><strong>English Translation:</strong> Upon hearing the sudden resignation of the president, the employees could not suppress their surprise.</p>"
+      }
+    }
+  ]
+}

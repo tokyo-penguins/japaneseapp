@@ -1,0 +1,55 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "この地域では森林の（＿）が深刻な問題となっている。",
+      "options": ["1. 設営", "2. 伐採", "3. 採集", "4. 開拓"],
+      "answer": "2. 伐採",
+      "hint": "<p><ruby>森林<rt>しんりん</rt></ruby> (shinrin) - forest<br><ruby>伐採<rt>ばっさい</rt></ruby> (bassai) - logging</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!:</strong> <ruby>伐採<rt>ばっさい</rt></ruby> (bassai) means logging, the act of cutting down trees.</p><ul><li><ruby>設営<rt>せつえい</rt></ruby> (setsuei) - setting up (e.g., a tent)</li><li><ruby>採集<rt>さいしゅう</rt></ruby> (saishuu) - collecting (e.g., samples or herbs)</li><li><ruby>開拓<rt>かいたく</rt></ruby> (kaitaku) - land development or pioneering</li></ul><p><strong>Sentence meaning:</strong> Logging in this region has become a serious problem.</p>",
+        "incorrect": "<p><strong>Answer:</strong> <ruby>伐採<rt>ばっさい</rt></ruby> (bassai) - logging</p><ul><li><ruby>設営<rt>せつえい</rt></ruby> (setsuei) - setting up</li><li><ruby>採集<rt>さいしゅう</rt></ruby> (saishuu) - collecting</li><li><ruby>開拓<rt>かいたく</rt></ruby> (kaitaku) - land development</li></ul><p><strong>Sentence meaning:</strong> Logging in this region has become a serious problem.</p>"
+      }
+    },
+    {
+      "question": "地球温暖化の影響で、極地の氷が（＿）つつある。",
+      "options": ["1. 崩し", "2. 切り", "3. 溶け", "4. 削り"],
+      "answer": "3. 溶け",
+      "hint": "<p><ruby>極地<rt>きょくち</rt></ruby> (kyokuchi) - polar region<br><ruby>溶<rt>と</rt></ruby>ける (tokeru) - to melt</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!:</strong> <ruby>溶<rt>と</rt></ruby>ける (tokeru) means to melt, which is the natural result of warming temperatures.</p><ul><li><ruby>崩<rt>くず</rt></ruby>し (kuzushi) - breaking down or collapsing</li><li><ruby>切<rt>き</rt></ruby>り (kiri) - cutting</li><li><ruby>削<rt>けず</rt></ruby>り (kezuri) - shaving, scraping</li></ul><p><strong>Sentence meaning:</strong> Due to global warming, the polar ice is gradually melting.</p>",
+        "incorrect": "<p><strong>Answer:</strong> <ruby>溶<rt>と</rt></ruby>け (toke) - melting</p><ul><li><ruby>崩<rt>くず</rt></ruby>し - breaking</li><li><ruby>切<rt>き</rt></ruby>り - cutting</li><li><ruby>削<rt>けず</rt></ruby>り - shaving</li></ul><p><strong>Sentence meaning:</strong> Due to global warming, the polar ice is gradually melting.</p>"
+      }
+    },
+    {
+      "question": "再生可能エネルギーの（＿）が国の方針に組み込まれた。",
+      "options": ["1. 破棄", "2. 排出", "3. 導入", "4. 減少"],
+      "answer": "3. 導入",
+      "hint": "<p><ruby>再生可能<rt>さいせいかのう</rt></ruby> (saiseikanou) - renewable<br><ruby>導入<rt>どうにゅう</rt></ruby> (dounyuu) - introduction</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!:</strong> <ruby>導入<rt>どうにゅう</rt></ruby> (dounyuu) means to introduce or implement something.</p><ul><li><ruby>破棄<rt>はき</rt></ruby> (haki) - to discard or nullify</li><li><ruby>排出<rt>はいしゅつ</rt></ruby> (haishutsu) - to emit or discharge</li><li><ruby>減少<rt>げんしょう</rt></ruby> (genshou) - decrease</li></ul><p><strong>Sentence meaning:</strong> The introduction of renewable energy was included in the national policy.</p>",
+        "incorrect": "<p><strong>Answer:</strong> <ruby>導入<rt>どうにゅう</rt></ruby> (dounyuu) - introduction</p><ul><li><ruby>破棄<rt>はき</rt></ruby> - discard</li><li><ruby>排出<rt>はいしゅつ</rt></ruby> - emission</li><li><ruby>減少<rt>げんしょう</rt></ruby> - decrease</li></ul><p><strong>Sentence meaning:</strong> The introduction of renewable energy was included in the national policy.</p>"
+      }
+    },
+    {
+      "question": "環境保護のために、廃棄物の（＿）処理が求められている。",
+      "options": ["1. 徹底", "2. 自然", "3. 適正", "4. 無駄"],
+      "answer": "3. 適正",
+      "hint": "<p><ruby>廃棄物<rt>はいきぶつ</rt></ruby> (haikibutsu) - waste<br><ruby>適正<rt>てきせい</rt></ruby> (tekisei) - appropriate</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!:</strong> <ruby>適正<rt>てきせい</rt></ruby> (tekisei) means appropriate or proper, especially for handling processes.</p><ul><li><ruby>徹底<rt>てってい</rt></ruby> (tettei) - thoroughness</li><li><ruby>自然<rt>しぜん</rt></ruby> (shizen) - nature</li><li><ruby>無駄<rt>むだ</rt></ruby> (muda) - wasteful</li></ul><p><strong>Sentence meaning:</strong> Proper disposal of waste is required to protect the environment.</p>",
+        "incorrect": "<p><strong>Answer:</strong> <ruby>適正<rt>てきせい</rt></ruby> (tekisei) - appropriate</p><ul><li><ruby>徹底<rt>てってい</rt></ruby> - thorough</li><li><ruby>自然<rt>しぜん</rt></ruby> - nature</li><li><ruby>無駄<rt>むだ</rt></ruby> - wasteful</li></ul><p><strong>Sentence meaning:</strong> Proper disposal of waste is required to protect the environment.</p>"
+      }
+    },
+    {
+      "question": "都市部では、（＿）の悪化が市民の健康に影響を与えている。",
+      "options": ["1. 海洋", "2. 地殻", "3. 大気", "4. 山岳"],
+      "answer": "3. 大気",
+      "hint": "<p><ruby>大気<rt>たいき</rt></ruby> (taiki) - atmosphere<br><ruby>悪化<rt>あっか</rt></ruby> (akka) - deterioration</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct!:</strong> <ruby>大気<rt>たいき</rt></ruby> (taiki) means atmosphere, and its deterioration refers to air pollution.</p><ul><li><ruby>海洋<rt>かいよう</rt></ruby> (kaiyou) - ocean</li><li><ruby>地殻<rt>ちかく</rt></ruby> (chikaku) - earth's crust</li><li><ruby>山岳<rt>さんがく</rt></ruby> (sangaku) - mountains</li></ul><p><strong>Sentence meaning:</strong> In urban areas, worsening air quality is affecting people's health.</p>",
+        "incorrect": "<p><strong>Answer:</strong> <ruby>大気<rt>たいき</rt></ruby> (taiki) - atmosphere</p><ul><li><ruby>海洋<rt>かいよう</rt></ruby> - ocean</li><li><ruby>地殻<rt>ちかく</rt></ruby> - earth's crust</li><li><ruby>山岳<rt>さんがく</rt></ruby> - mountains</li></ul><p><strong>Sentence meaning:</strong> In urban areas, worsening air quality is affecting people's health.</p>"
+      }
+    }
+  ]
+}

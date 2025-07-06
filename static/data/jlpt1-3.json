@@ -1,0 +1,45 @@
+{
+  "type": "type2",
+  "title": "JLPT N1 Word Reordering Quiz",
+  "questions": [
+    {
+      "options": [
+        { "word": "結果に", "furigana": "", "romaji": "kekka ni", "meaning": "with the result" },
+        { "word": "決意した", "furigana": "", "romaji": "ketsui shita", "meaning": "has decided" },
+        { "word": "彼は", "furigana": "", "romaji": "kare wa", "meaning": "he" },
+        { "word": "再挑戦を", "furigana": "", "romaji": "saichousen wo", "meaning": "retry" }
+      ],
+      "answer": ["彼は", "結果に", "再挑戦を", "決意した"],
+      "fixedPart": "満足せず",
+      "full": "彼は結果に満足せず再挑戦を決意した。",
+      "translation": "Not satisfied with the result, he decided to try again.",
+      "possiblePositions": [3]
+    },
+    {
+      "options": [
+        { "word": "影響を与えたことは", "furigana": "", "romaji": "eikyou wo ataeta koto wa", "meaning": "influenced" },
+        { "word": "明白だ", "furigana": "", "romaji": "meihaku da", "meaning": "obvious" },
+        { "word": "新しい", "furigana": "", "romaji": "atarashii", "meaning": "new" },
+        { "word": "社会に", "furigana": "", "romaji": "shakai ni", "meaning": "to society" }
+      ],
+      "answer": ["新しい", "社会に", "影響を与えたことは", "明白だ"],
+      "fixedPart": "技術が",
+      "full": "新しい技術が社会に影響を与えたことは明白だ。",
+      "translation": "It is clear that the new technology has influenced society.",
+      "possiblePositions": [2]
+    },
+    {
+      "options": [
+        { "word": "長年", "furigana": "ながねん", "romaji": "naganen", "meaning": "for many years" },
+        { "word": "蓄積した", "furigana": "ちくせき", "romaji": "chikuseki shita", "meaning": "accumulated" },
+        { "word": "知識を", "furigana": "ちしき", "romaji": "chishiki wo", "meaning": "knowledge" },
+        { "word": "彼は", "furigana": "かれ", "romaji": "kare wa", "meaning": "he" }
+      ],
+      "answer": ["彼は", "長年", "蓄積した", "知識を"],
+      "fixedPart": "活かして起業した。",
+      "full": "彼は長年蓄積した知識を活かして起業した。",
+      "translation": "He started a business utilizing the knowledge he had accumulated over many years.",
+      "possiblePositions": [5]
+    }
+  ]
+}

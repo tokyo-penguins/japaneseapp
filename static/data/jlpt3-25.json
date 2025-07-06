@@ -1,0 +1,55 @@
+{
+  "type": "type1",
+  "questions": [
+    {
+      "question": "野菜を（＿）前に、よく洗ってください。",
+      "options": ["2. 切る", "1. 飾る", "3. 書く", "4. 読む"],
+      "answer": "2. 切る",
+      "hint": "<p><ruby>切<rt>き</rt></ruby>る – to cut</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>“<ruby>切<rt>き</rt></ruby>る” means to cut. Before cooking, vegetables are usually washed thoroughly and then cut. This is a basic cooking step.</p><p>Choices:<br>1. 飾る (to decorate)<br>2. 切る (to cut) ✅<br>3. 書く (to write)<br>4. 読む (to read)</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>切る</strong> (to cut). In cooking, it's common to wash and then cut vegetables as part of the preparation process.</p><p>Choices:<br>1. 飾る (to decorate)<br>2. 切る (to cut) ✅<br>3. 書く (to write)<br>4. 読む (to read)</p>"
+      }
+    },
+    {
+      "question": "このスープは少し（＿）が足りないようです。",
+      "options": ["3. 味", "1. 皿", "2. 音", "4. 色"],
+      "answer": "3. 味",
+      "hint": "<p><ruby>味<rt>あじ</rt></ruby> – flavor, taste</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>“<ruby>味<rt>あじ</rt></ruby>” means taste. The sentence says the soup lacks something, and flavor is the logical choice.</p><p>Choices:<br>1. 皿 (plate)<br>2. 音 (sound)<br>3. 味 (flavor) ✅<br>4. 色 (color)</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>味</strong> (flavor). In this sentence, the speaker feels something is missing from the soup—likely its taste.</p><p>Choices:<br>1. 皿 (plate)<br>2. 音 (sound)<br>3. 味 (flavor) ✅<br>4. 色 (color)</p>"
+      }
+    },
+    {
+      "question": "ご飯を（＿）と、ふっくら炊きあがります。",
+      "options": ["4. 水にひたす", "1. 油であげる", "2. 焼く", "3. 冷やす"],
+      "answer": "4. 水にひたす",
+      "hint": "<p><ruby>水<rt>みず</rt></ruby>に<ruby>浸<rt>ひた</rt></ruby>す – to soak in water</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>“<ruby>水<rt>みず</rt></ruby>に<ruby>浸<rt>ひた</rt></ruby>す” means to soak in water. Soaking rice makes it absorb water and cook evenly.</p><p>Choices:<br>1. 油であげる (deep fry)<br>2. 焼く (to bake/grill)<br>3. 冷やす (to cool)<br>4. 水にひたす (to soak) ✅</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>水にひたす</strong> (to soak). Soaking rice before cooking results in a better texture.</p><p>Choices:<br>1. 油であげる (deep fry)<br>2. 焼く (to bake/grill)<br>3. 冷やす (to cool)<br>4. 水にひたす (to soak) ✅</p>"
+      }
+    },
+    {
+      "question": "このレシピには卵を2つ（＿）ことと書いてあります。",
+      "options": ["1. 使う", "2. 遊ぶ", "3. 飾る", "4. 捨てる"],
+      "answer": "1. 使う",
+      "hint": "<p><ruby>使<rt>つか</rt></ruby>う – to use</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>“<ruby>使<rt>つか</rt></ruby>う” means to use. Recipes often specify the number of ingredients needed.</p><p>Choices:<br>1. 使う (to use) ✅<br>2. 遊ぶ (to play)<br>3. 飾る (to decorate)<br>4. 捨てる (to throw away)</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>使う</strong> (to use). In cooking, you follow the recipe’s instructions and use the listed ingredients.</p><p>Choices:<br>1. 使う (to use) ✅<br>2. 遊ぶ (to play)<br>3. 飾る (to decorate)<br>4. 捨てる (to throw away)</p>"
+      }
+    },
+    {
+      "question": "カレーを作るとき、玉ねぎをよく（＿）と甘くなります。",
+      "options": ["2. 炒める", "1. 読む", "3. 消す", "4. 食べる"],
+      "answer": "2. 炒める",
+      "hint": "<p><ruby>炒<rt>いた</rt></ruby>める – to stir-fry</p>",
+      "explanation": {
+        "correct": "<p><strong>Correct! 🎉</strong><br>“<ruby>炒<rt>いた</rt></ruby>める” means to stir-fry. Stir-frying onions brings out their sweetness, especially in curry dishes.</p><p>Choices:<br>1. 読む (to read)<br>2. 炒める (to stir-fry) ✅<br>3. 消す (to turn off)<br>4. 食べる (to eat)</p>",
+        "incorrect": "<p><strong>Incorrect 😢</strong><br>The correct answer is <strong>炒める</strong> (to stir-fry). Cooking onions this way enhances their flavor in curry recipes.</p><p>Choices:<br>1. 読む (to read)<br>2. 炒める (to stir-fry) ✅<br>3. 消す (to turn off)<br>4. 食べる (to eat)</p>"
+      }
+    }
+  ]
+}
